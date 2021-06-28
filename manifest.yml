@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: fun-with-united-stand-data
+  - name: bpm-planning-tutorial
     memory: 64M
     buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
     env:

@@ -1,9 +1,9 @@
 {
-  "short_name": "home",
-  "name": "Tathagata's Homepage",
+  "short_name": "bpm-planning-tutorial",
+  "name": "BPM 2021 Tutorial on Automated Planning and Business Process Management",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "favicon.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }

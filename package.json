@@ -1,9 +1,9 @@
 {
-  "name": "fun-with-united-stand-data",
+  "name": "bpm-planning-tutorial",
   "version": "0.0.0",
   "private": true,
-  "repository": "git@github.ibm.com:Tathagata-Chakraborti1/fun-with-united-stand-data.git",
-  "bugs": "git@github.ibm.com:Tathagata-Chakraborti1/fun-with-united-stand-data/issues",
+  "repository": "git@github.com:Tathagata-Chakraborti/bpm-planning-tutorial.git",
+  "bugs": "git@github.com:Tathagata-Chakraborti/bpm-planning-tutorial/issues",
   "license": "MIT",
   "scripts": {
     "build": "react-scripts build",

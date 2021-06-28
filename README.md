@@ -1,2 +1,1 @@
-### Fun with United Stand Data
-
+### Tutorial on Automated Planning and Business Process Management
