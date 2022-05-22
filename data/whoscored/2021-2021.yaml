@@ -1,0 +1,576 @@
+- date: 2021-08-14
+  match_id: 1549544
+  match_type: HOME
+  opponent: Leeds
+  result: W
+  score:
+  - score: 5
+    team_name: Manchester United
+  - score: 1
+    team_name: Leeds
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549544/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Leeds
+- date: 2021-08-22
+  match_id: 1549556
+  match_type: AWAY
+  opponent: Southampton
+  result: D
+  score:
+  - score: 1
+    team_name: Southampton
+  - score: 1
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549556/PlayerStatistics/England-Premier-League-2021-2022-Southampton-Manchester-United
+- date: 2021-08-29
+  match_id: 1549568
+  match_type: AWAY
+  opponent: Wolverhampton
+  result: W
+  score:
+  - score: 0
+    team_name: Wolverhampton
+  - score: 1
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549568/PlayerStatistics/England-Premier-League-2021-2022-Wolverhampton-Manchester-United
+- date: 2021-09-11
+  match_id: 1549576
+  match_type: HOME
+  opponent: Newcastle
+  result: W
+  score:
+  - score: 4
+    team_name: Manchester United
+  - score: 1
+    team_name: Newcastle
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549576/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Newcastle
+- date: 2021-09-14
+  match_id: 1592161
+  match_type: AWAY
+  opponent: BSC Young Boys
+  result: L
+  score:
+  - score: 2
+    team_name: BSC Young Boys
+  - score: 1
+    team_name: Manchester United
+  tournament: UCL
+  url: https://www.whoscored.com/Matches/1592161/PlayerStatistics/Europe-Champions-League-2021-2022-BSC-Young-Boys-Manchester-United
+- date: 2021-09-19
+  match_id: 1549587
+  match_type: AWAY
+  opponent: West Ham
+  result: W
+  score:
+  - score: 1
+    team_name: West Ham
+  - score: 2
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549587/PlayerStatistics/England-Premier-League-2021-2022-West-Ham-Manchester-United
+- date: 2021-09-22
+  match_id: 1591988
+  match_type: HOME
+  opponent: West Ham
+  result: L
+  score:
+  - score: 0
+    team_name: Manchester United
+  - score: 1
+    team_name: West Ham
+  tournament: EFLC
+  url: https://www.whoscored.com/Matches/1591988/PlayerStatistics/England-League-Cup-2021-2022-Manchester-United-West-Ham
+- date: 2021-09-25
+  match_id: 1549596
+  match_type: HOME
+  opponent: Aston Villa
+  result: L
+  score:
+  - score: 0
+    team_name: Manchester United
+  - score: 1
+    team_name: Aston Villa
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549596/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Aston-Villa
+- date: 2021-09-29
+  match_id: 1592164
+  match_type: HOME
+  opponent: Villarreal
+  result: W
+  score:
+  - score: 2
+    team_name: Manchester United
+  - score: 1
+    team_name: Villarreal
+  tournament: UCL
+  url: https://www.whoscored.com/Matches/1592164/PlayerStatistics/Europe-Champions-League-2021-2022-Manchester-United-Villarreal
+- date: 2021-10-02
+  match_id: 1549605
+  match_type: HOME
+  opponent: Everton
+  result: D
+  score:
+  - score: 1
+    team_name: Manchester United
+  - score: 1
+    team_name: Everton
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549605/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Everton
+- date: 2021-10-16
+  match_id: 1549613
+  match_type: AWAY
+  opponent: Leicester
+  result: L
+  score:
+  - score: 4
+    team_name: Leicester
+  - score: 2
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549613/PlayerStatistics/England-Premier-League-2021-2022-Leicester-Manchester-United
+- date: 2021-10-20
+  match_id: 1592166
+  match_type: HOME
+  opponent: Atalanta
+  result: W
+  score:
+  - score: 3
+    team_name: Manchester United
+  - score: 2
+    team_name: Atalanta
+  tournament: UCL
+  url: https://www.whoscored.com/Matches/1592166/PlayerStatistics/Europe-Champions-League-2021-2022-Manchester-United-Atalanta
+- date: 2021-10-24
+  match_id: 1549626
+  match_type: HOME
+  opponent: Liverpool
+  result: L
+  score:
+  - score: 0
+    team_name: Manchester United
+  - score: 5
+    team_name: Liverpool
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549626/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Liverpool
+- date: 2021-10-30
+  match_id: 1549636
+  match_type: AWAY
+  opponent: Tottenham
+  result: W
+  score:
+  - score: 0
+    team_name: Tottenham
+  - score: 3
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549636/PlayerStatistics/England-Premier-League-2021-2022-Tottenham-Manchester-United
+- date: 2021-11-02
+  match_id: 1592168
+  match_type: AWAY
+  opponent: Atalanta
+  result: D
+  score:
+  - score: 2
+    team_name: Atalanta
+  - score: 2
+    team_name: Manchester United
+  tournament: UCL
+  url: https://www.whoscored.com/Matches/1592168/PlayerStatistics/Europe-Champions-League-2021-2022-Atalanta-Manchester-United
+- date: 2021-11-06
+  match_id: 1549646
+  match_type: HOME
+  opponent: Manchester City
+  result: L
+  score:
+  - score: 0
+    team_name: Manchester United
+  - score: 2
+    team_name: Manchester City
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549646/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Manchester-City
+- date: 2021-11-20
+  match_id: 1549657
+  match_type: AWAY
+  opponent: Watford
+  result: L
+  score:
+  - score: 4
+    team_name: Watford
+  - score: 1
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549657/PlayerStatistics/England-Premier-League-2021-2022-Watford-Manchester-United
+- date: 2021-11-23
+  match_id: 1592169
+  match_type: AWAY
+  opponent: Villarreal
+  result: W
+  score:
+  - score: 0
+    team_name: Villarreal
+  - score: 2
+    team_name: Manchester United
+  tournament: UCL
+  url: https://www.whoscored.com/Matches/1592169/PlayerStatistics/Europe-Champions-League-2021-2022-Villarreal-Manchester-United
+- date: 2021-11-28
+  match_id: 1549663
+  match_type: AWAY
+  opponent: Chelsea
+  result: D
+  score:
+  - score: 1
+    team_name: Chelsea
+  - score: 1
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549663/PlayerStatistics/England-Premier-League-2021-2022-Chelsea-Manchester-United
+- date: 2021-12-02
+  match_id: 1549675
+  match_type: HOME
+  opponent: Arsenal
+  result: W
+  score:
+  - score: 3
+    team_name: Manchester United
+  - score: 2
+    team_name: Arsenal
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549675/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Arsenal
+- date: 2021-12-05
+  match_id: 1549682
+  match_type: HOME
+  opponent: Crystal Palace
+  result: W
+  score:
+  - score: 1
+    team_name: Manchester United
+  - score: 0
+    team_name: Crystal Palace
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549682/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Crystal-Palace
+- date: 2021-12-08
+  match_id: 1592171
+  match_type: HOME
+  opponent: BSC Young Boys
+  result: D
+  score:
+  - score: 1
+    team_name: Manchester United
+  - score: 1
+    team_name: BSC Young Boys
+  tournament: UCL
+  url: https://www.whoscored.com/Matches/1592171/PlayerStatistics/Europe-Champions-League-2021-2022-Manchester-United-BSC-Young-Boys
+- date: 2021-12-11
+  match_id: 1549698
+  match_type: AWAY
+  opponent: Norwich
+  result: W
+  score:
+  - score: 0
+    team_name: Norwich
+  - score: 1
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549698/PlayerStatistics/England-Premier-League-2021-2022-Norwich-Manchester-United
+- date: 2021-12-27
+  match_id: 1549724
+  match_type: AWAY
+  opponent: Newcastle
+  result: D
+  score:
+  - score: 1
+    team_name: Newcastle
+  - score: 1
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549724/PlayerStatistics/England-Premier-League-2021-2022-Newcastle-Manchester-United
+- date: 2021-12-30
+  match_id: 1549737
+  match_type: HOME
+  opponent: Burnley
+  result: W
+  score:
+  - score: 3
+    team_name: Manchester United
+  - score: 1
+    team_name: Burnley
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549737/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Burnley
+- date: 2022-01-03
+  match_id: 1549746
+  match_type: HOME
+  opponent: Wolverhampton
+  result: L
+  score:
+  - score: 0
+    team_name: Manchester United
+  - score: 1
+    team_name: Wolverhampton
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549746/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Wolverhampton
+- date: 2022-01-10
+  match_id: 1603464
+  match_type: HOME
+  opponent: Aston Villa
+  result: W
+  score:
+  - score: 1
+    team_name: Manchester United
+  - score: 0
+    team_name: Aston Villa
+  tournament: FAC
+  url: https://www.whoscored.com/Matches/1603464/PlayerStatistics/England-FA-Cup-2021-2022-Manchester-United-Aston-Villa
+- date: 2022-01-15
+  match_id: 1549749
+  match_type: AWAY
+  opponent: Aston Villa
+  result: D
+  score:
+  - score: 2
+    team_name: Aston Villa
+  - score: 2
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549749/PlayerStatistics/England-Premier-League-2021-2022-Aston-Villa-Manchester-United
+- date: 2022-01-19
+  match_id: 1549700
+  match_type: AWAY
+  opponent: Brentford
+  result: W
+  score:
+  - score: 1
+    team_name: Brentford
+  - score: 3
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549700/PlayerStatistics/England-Premier-League-2021-2022-Brentford-Manchester-United
+- date: 2022-01-22
+  match_id: 1549766
+  match_type: HOME
+  opponent: West Ham
+  result: W
+  score:
+  - score: 1
+    team_name: Manchester United
+  - score: 0
+    team_name: West Ham
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549766/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-West-Ham
+- date: 2022-02-04
+  match_id: 1612058
+  match_type: HOME
+  opponent: Middlesbrough
+  result: L
+  score:
+  - score: 1
+    team_name: Manchester United
+  - score: 1
+    team_name: Middlesbrough
+  tournament: FAC
+  url: https://www.whoscored.com/Matches/1612058/PlayerStatistics/England-FA-Cup-2021-2022-Manchester-United-Middlesbrough
+- date: 2022-02-08
+  match_id: 1549771
+  match_type: AWAY
+  opponent: Burnley
+  result: D
+  score:
+  - score: 1
+    team_name: Burnley
+  - score: 1
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549771/PlayerStatistics/England-Premier-League-2021-2022-Burnley-Manchester-United
+- date: 2022-02-12
+  match_id: 1549784
+  match_type: HOME
+  opponent: Southampton
+  result: D
+  score:
+  - score: 1
+    team_name: Manchester United
+  - score: 1
+    team_name: Southampton
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549784/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Southampton
+- date: 2022-02-15
+  match_id: 1549712
+  match_type: HOME
+  opponent: Brighton
+  result: W
+  score:
+  - score: 2
+    team_name: Manchester United
+  - score: 0
+    team_name: Brighton
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549712/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Brighton
+- date: 2022-02-20
+  match_id: 1549793
+  match_type: AWAY
+  opponent: Leeds
+  result: W
+  score:
+  - score: 2
+    team_name: Leeds
+  - score: 4
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549793/PlayerStatistics/England-Premier-League-2021-2022-Leeds-Manchester-United
+- date: 2022-02-23
+  match_id: 1604557
+  match_type: AWAY
+  opponent: Atletico Madrid
+  result: D
+  score:
+  - score: 1
+    team_name: Atletico Madrid
+  - score: 1
+    team_name: Manchester United
+  tournament: UCL
+  url: https://www.whoscored.com/Matches/1604557/PlayerStatistics/Europe-Champions-League-2021-2022-Atletico-Madrid-Manchester-United
+- date: 2022-02-26
+  match_id: 1549806
+  match_type: HOME
+  opponent: Watford
+  result: D
+  score:
+  - score: 0
+    team_name: Manchester United
+  - score: 0
+    team_name: Watford
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549806/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Watford
+- date: 2022-03-06
+  match_id: 1549813
+  match_type: AWAY
+  opponent: Manchester City
+  result: L
+  score:
+  - score: 4
+    team_name: Manchester City
+  - score: 1
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549813/PlayerStatistics/England-Premier-League-2021-2022-Manchester-City-Manchester-United
+- date: 2022-03-12
+  match_id: 1549826
+  match_type: HOME
+  opponent: Tottenham
+  result: W
+  score:
+  - score: 3
+    team_name: Manchester United
+  - score: 2
+    team_name: Tottenham
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549826/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Tottenham
+- date: 2022-03-15
+  match_id: 1604565
+  match_type: HOME
+  opponent: Atletico Madrid
+  result: L
+  score:
+  - score: 0
+    team_name: Manchester United
+  - score: 1
+    team_name: Atletico Madrid
+  tournament: UCL
+  url: https://www.whoscored.com/Matches/1604565/PlayerStatistics/Europe-Champions-League-2021-2022-Manchester-United-Atletico-Madrid
+- date: 2022-04-02
+  match_id: 1549842
+  match_type: HOME
+  opponent: Leicester
+  result: D
+  score:
+  - score: 1
+    team_name: Manchester United
+  - score: 1
+    team_name: Leicester
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549842/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Leicester
+- date: 2022-04-09
+  match_id: 1549855
+  match_type: AWAY
+  opponent: Everton
+  result: L
+  score:
+  - score: 1
+    team_name: Everton
+  - score: 0
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549855/PlayerStatistics/England-Premier-League-2021-2022-Everton-Manchester-United
+- date: 2022-04-16
+  match_id: 1549865
+  match_type: HOME
+  opponent: Norwich
+  result: W
+  score:
+  - score: 3
+    team_name: Manchester United
+  - score: 2
+    team_name: Norwich
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549865/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Norwich
+- date: 2022-04-19
+  match_id: 1549832
+  match_type: AWAY
+  opponent: Liverpool
+  result: L
+  score:
+  - score: 4
+    team_name: Liverpool
+  - score: 0
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549832/PlayerStatistics/England-Premier-League-2021-2022-Liverpool-Manchester-United
+- date: 2022-04-23
+  match_id: 1549878
+  match_type: AWAY
+  opponent: Arsenal
+  result: L
+  score:
+  - score: 3
+    team_name: Arsenal
+  - score: 1
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549878/PlayerStatistics/England-Premier-League-2021-2022-Arsenal-Manchester-United
+- date: 2022-04-28
+  match_id: 1549905
+  match_type: HOME
+  opponent: Chelsea
+  result: D
+  score:
+  - score: 1
+    team_name: Manchester United
+  - score: 1
+    team_name: Chelsea
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549905/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Chelsea
+- date: 2022-05-02
+  match_id: 1549885
+  match_type: HOME
+  opponent: Brentford
+  result: W
+  score:
+  - score: 3
+    team_name: Manchester United
+  - score: 0
+    team_name: Brentford
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549885/PlayerStatistics/England-Premier-League-2021-2022-Manchester-United-Brentford
+- date: 2022-05-07
+  match_id: 1549896
+  match_type: AWAY
+  opponent: Brighton
+  result: L
+  score:
+  - score: 4
+    team_name: Brighton
+  - score: 0
+    team_name: Manchester United
+  tournament: EPL
+  url: https://www.whoscored.com/Matches/1549896/PlayerStatistics/England-Premier-League-2021-2022-Brighton-Manchester-United
