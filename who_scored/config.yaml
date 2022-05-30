@@ -7,3 +7,6 @@ league: Premier League
 season:
   start: 2021
   end: 2022
+scraper:
+  browser: Chrome
+  timeout: 22

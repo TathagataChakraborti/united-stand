@@ -1,5 +1,6 @@
-from datetime import datetime
-from typing import List, Dict, TypedDict
+from datetime import date
+from typing import List, Union, TypedDict
+from schemas.match_schemas import MatchData
 import enum
 
 
@@ -29,7 +30,7 @@ class ScoreItem(TypedDict):
 class Fixture(TypedDict):
     match_id: int
     url: str
-    date: datetime
+    date: Union[date, str]
     result: Result
     tournament: Tournament
     match_type: MatchType
@@ -37,14 +38,6 @@ class Fixture(TypedDict):
     score: List[ScoreItem]
 
 
-class Season(TypedDict):
-    start: int
-    end: int
-
-
-class Config(TypedDict):
-    team_id: int
-    team_name: str
-    country: str
-    league: str
-    season: Season
+class FixtureData(TypedDict):
+    fixture_list: List[Fixture]
+    season_data: MatchData
