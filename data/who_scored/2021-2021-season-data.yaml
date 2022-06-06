@@ -588,6 +588,7 @@ fixture_list:
   - team_name: Manchester United
     score: 0
 season_data:
+  match_id: 0
   Summary:
     headers:
     - CM
@@ -609,7 +610,7 @@ season_data:
       positions:
       - M(L)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 187.0
@@ -643,7 +644,7 @@ season_data:
       age: 27
       positions:
       - M(CLR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 179.0
@@ -677,7 +678,7 @@ season_data:
       age: 29
       positions:
       - M(CL)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 191.0
@@ -712,7 +713,7 @@ season_data:
       positions:
       - AM(R)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 181.0
@@ -747,7 +748,7 @@ season_data:
       positions:
       - D(R)
       - M(R)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 183.0
@@ -780,7 +781,7 @@ season_data:
       positions:
       - D(C)
       - DMC
-      event: null
+      incident: null
       data:
       - name: CM
         value: 193.0
@@ -815,7 +816,7 @@ season_data:
       positions:
       - D(L)
       - M(L)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 181.0
@@ -849,7 +850,7 @@ season_data:
       age: 29
       positions:
       - M(C)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 169.0
@@ -884,7 +885,7 @@ season_data:
       positions:
       - D(LR)
       - M(R)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 183.0
@@ -914,11 +915,11 @@ season_data:
         value: 1.0
       - name: Rating
         value: 6.86
-    - name: "Rapha\xEBl Varane"
+    - name: Raphaël Varane
       age: 29
       positions:
       - D(C)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 191.0
@@ -952,7 +953,7 @@ season_data:
       age: 22
       positions:
       - AM(CLR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 180.0
@@ -986,7 +987,7 @@ season_data:
       age: 29
       positions:
       - D(C)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 194.0
@@ -1020,7 +1021,7 @@ season_data:
       age: 31
       positions:
       - GK
-      event: null
+      incident: null
       data:
       - name: CM
         value: 192.0
@@ -1053,7 +1054,7 @@ season_data:
       positions:
       - D(CL)
       - M(L)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 185.0
@@ -1087,7 +1088,7 @@ season_data:
       age: 33
       positions:
       - DMC
-      event: null
+      incident: null
       data:
       - name: CM
         value: 194.0
@@ -1121,7 +1122,7 @@ season_data:
       age: 20
       positions:
       - AM(LR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 178.0
@@ -1156,7 +1157,7 @@ season_data:
       positions:
       - AM(LR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 171.0
@@ -1184,11 +1185,11 @@ season_data:
         value: null
       - name: Rating
         value: 6.53
-    - name: "Victor Lindel\xF6f"
+    - name: Victor Lindelöf
       age: 27
       positions:
       - D(CR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 187.0
@@ -1223,7 +1224,7 @@ season_data:
       positions:
       - D(CR)
       - DMC
-      event: null
+      incident: null
       data:
       - name: CM
         value: 180.0
@@ -1258,7 +1259,7 @@ season_data:
       positions:
       - AM(LR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 184.0
@@ -1293,7 +1294,7 @@ season_data:
       positions:
       - AM(CLR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 180.0
@@ -1327,7 +1328,7 @@ season_data:
       age: 34
       positions:
       - AM(CLR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 170.0
@@ -1362,7 +1363,7 @@ season_data:
       positions:
       - AM(LR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 181.0
@@ -1396,7 +1397,7 @@ season_data:
       age: 25
       positions:
       - M(C)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 184.0
@@ -1430,7 +1431,7 @@ season_data:
       age: 28
       positions:
       - D(CR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 187.0
@@ -1465,7 +1466,7 @@ season_data:
       positions:
       - AM(CLR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 175.0
@@ -1499,7 +1500,7 @@ season_data:
       age: 18
       positions:
       - Forward
-      event: null
+      incident: null
       data:
       - name: CM
         value: 170.0
@@ -1533,7 +1534,7 @@ season_data:
       age: 17
       positions:
       - Midfielder
-      event: null
+      incident: null
       data:
       - name: CM
         value: 180.0
@@ -1567,7 +1568,7 @@ season_data:
       age: 19
       positions:
       - Midfielder
-      event: null
+      incident: null
       data:
       - name: CM
         value: 177.0
@@ -1630,7 +1631,7 @@ season_data:
       positions:
       - D(R)
       - M(R)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 183.0
@@ -1663,7 +1664,7 @@ season_data:
       positions:
       - D(LR)
       - M(R)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 183.0
@@ -1698,7 +1699,7 @@ season_data:
       positions:
       - D(L)
       - M(L)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 181.0
@@ -1732,7 +1733,7 @@ season_data:
       age: 29
       positions:
       - M(C)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 169.0
@@ -1767,7 +1768,7 @@ season_data:
       positions:
       - D(C)
       - DMC
-      event: null
+      incident: null
       data:
       - name: CM
         value: 193.0
@@ -1801,7 +1802,7 @@ season_data:
       age: 27
       positions:
       - M(CLR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 179.0
@@ -1835,7 +1836,7 @@ season_data:
       age: 33
       positions:
       - DMC
-      event: null
+      incident: null
       data:
       - name: CM
         value: 194.0
@@ -1865,11 +1866,11 @@ season_data:
         value: null
       - name: Rating
         value: 6.63
-    - name: "Rapha\xEBl Varane"
+    - name: Raphaël Varane
       age: 29
       positions:
       - D(C)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 191.0
@@ -1903,7 +1904,7 @@ season_data:
       age: 28
       positions:
       - D(CR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 187.0
@@ -1938,7 +1939,7 @@ season_data:
       positions:
       - D(CR)
       - DMC
-      event: null
+      incident: null
       data:
       - name: CM
         value: 180.0
@@ -1972,7 +1973,7 @@ season_data:
       age: 20
       positions:
       - AM(LR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 178.0
@@ -2006,7 +2007,7 @@ season_data:
       age: 29
       positions:
       - D(C)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 194.0
@@ -2041,7 +2042,7 @@ season_data:
       positions:
       - D(CL)
       - M(L)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 185.0
@@ -2076,7 +2077,7 @@ season_data:
       positions:
       - AM(LR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 171.0
@@ -2108,7 +2109,7 @@ season_data:
       age: 19
       positions:
       - Midfielder
-      event: null
+      incident: null
       data:
       - name: CM
         value: 177.0
@@ -2142,7 +2143,7 @@ season_data:
       age: 34
       positions:
       - AM(CLR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 170.0
@@ -2177,7 +2178,7 @@ season_data:
       positions:
       - AM(R)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 181.0
@@ -2211,7 +2212,7 @@ season_data:
       age: 25
       positions:
       - M(C)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 184.0
@@ -2245,7 +2246,7 @@ season_data:
       age: 29
       positions:
       - M(CL)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 191.0
@@ -2275,11 +2276,11 @@ season_data:
         value: null
       - name: Rating
         value: 7.0
-    - name: "Victor Lindel\xF6f"
+    - name: Victor Lindelöf
       age: 27
       positions:
       - D(CR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 187.0
@@ -2314,7 +2315,7 @@ season_data:
       positions:
       - AM(CLR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 175.0
@@ -2348,7 +2349,7 @@ season_data:
       age: 22
       positions:
       - AM(CLR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 180.0
@@ -2383,7 +2384,7 @@ season_data:
       positions:
       - M(L)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 187.0
@@ -2418,7 +2419,7 @@ season_data:
       positions:
       - AM(LR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 184.0
@@ -2453,7 +2454,7 @@ season_data:
       positions:
       - AM(CLR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 180.0
@@ -2487,7 +2488,7 @@ season_data:
       age: 17
       positions:
       - Midfielder
-      event: null
+      incident: null
       data:
       - name: CM
         value: 180.0
@@ -2522,7 +2523,7 @@ season_data:
       positions:
       - AM(LR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 181.0
@@ -2556,7 +2557,7 @@ season_data:
       age: 31
       positions:
       - GK
-      event: null
+      incident: null
       data:
       - name: CM
         value: 192.0
@@ -2588,7 +2589,7 @@ season_data:
       age: 18
       positions:
       - Forward
-      event: null
+      incident: null
       data:
       - name: CM
         value: 170.0
@@ -2652,7 +2653,7 @@ season_data:
       positions:
       - M(L)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 187.0
@@ -2688,7 +2689,7 @@ season_data:
       age: 27
       positions:
       - M(CLR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 179.0
@@ -2725,7 +2726,7 @@ season_data:
       positions:
       - AM(R)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 181.0
@@ -2761,7 +2762,7 @@ season_data:
       age: 29
       positions:
       - M(C)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 169.0
@@ -2798,7 +2799,7 @@ season_data:
       positions:
       - AM(CLR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 180.0
@@ -2834,7 +2835,7 @@ season_data:
       age: 22
       positions:
       - AM(CLR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 180.0
@@ -2870,7 +2871,7 @@ season_data:
       age: 20
       positions:
       - AM(LR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 178.0
@@ -2907,7 +2908,7 @@ season_data:
       positions:
       - AM(LR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 184.0
@@ -2944,7 +2945,7 @@ season_data:
       positions:
       - AM(CLR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 175.0
@@ -2981,7 +2982,7 @@ season_data:
       positions:
       - AM(LR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 181.0
@@ -3017,7 +3018,7 @@ season_data:
       age: 25
       positions:
       - M(C)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 184.0
@@ -3053,7 +3054,7 @@ season_data:
       age: 29
       positions:
       - D(C)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 194.0
@@ -3089,7 +3090,7 @@ season_data:
       age: 29
       positions:
       - M(CL)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 191.0
@@ -3121,11 +3122,11 @@ season_data:
         value: 2.1
       - name: Rating
         value: 7.0
-    - name: "Rapha\xEBl Varane"
+    - name: Raphaël Varane
       age: 29
       positions:
       - D(C)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 191.0
@@ -3162,7 +3163,7 @@ season_data:
       positions:
       - D(C)
       - DMC
-      event: null
+      incident: null
       data:
       - name: CM
         value: 193.0
@@ -3199,7 +3200,7 @@ season_data:
       positions:
       - D(R)
       - M(R)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 183.0
@@ -3233,7 +3234,7 @@ season_data:
       age: 17
       positions:
       - Midfielder
-      event: null
+      incident: null
       data:
       - name: CM
         value: 180.0
@@ -3270,7 +3271,7 @@ season_data:
       positions:
       - D(L)
       - M(L)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 181.0
@@ -3307,7 +3308,7 @@ season_data:
       positions:
       - AM(LR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 171.0
@@ -3341,7 +3342,7 @@ season_data:
       age: 31
       positions:
       - GK
-      event: null
+      incident: null
       data:
       - name: CM
         value: 192.0
@@ -3375,7 +3376,7 @@ season_data:
       age: 28
       positions:
       - D(CR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 187.0
@@ -3411,7 +3412,7 @@ season_data:
       age: 19
       positions:
       - Midfielder
-      event: null
+      incident: null
       data:
       - name: CM
         value: 177.0
@@ -3448,7 +3449,7 @@ season_data:
       positions:
       - D(LR)
       - M(R)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 183.0
@@ -3484,7 +3485,7 @@ season_data:
       age: 34
       positions:
       - AM(CLR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 170.0
@@ -3521,7 +3522,7 @@ season_data:
       positions:
       - D(CL)
       - M(L)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 185.0
@@ -3557,7 +3558,7 @@ season_data:
       age: 33
       positions:
       - DMC
-      event: null
+      incident: null
       data:
       - name: CM
         value: 194.0
@@ -3594,7 +3595,7 @@ season_data:
       positions:
       - D(CR)
       - DMC
-      event: null
+      incident: null
       data:
       - name: CM
         value: 180.0
@@ -3630,7 +3631,7 @@ season_data:
       age: 18
       positions:
       - Forward
-      event: null
+      incident: null
       data:
       - name: CM
         value: 170.0
@@ -3662,11 +3663,11 @@ season_data:
         value: null
       - name: Rating
         value: 6.05
-    - name: "Victor Lindel\xF6f"
+    - name: Victor Lindelöf
       age: 27
       positions:
       - D(CR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 187.0
@@ -3730,7 +3731,7 @@ season_data:
       age: 29
       positions:
       - M(CL)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 191.0
@@ -3762,7 +3763,7 @@ season_data:
       age: 27
       positions:
       - M(CLR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 179.0
@@ -3795,7 +3796,7 @@ season_data:
       positions:
       - D(L)
       - M(L)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 181.0
@@ -3827,7 +3828,7 @@ season_data:
       age: 29
       positions:
       - M(C)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 169.0
@@ -3859,7 +3860,7 @@ season_data:
       age: 33
       positions:
       - DMC
-      event: null
+      incident: null
       data:
       - name: CM
         value: 194.0
@@ -3892,7 +3893,7 @@ season_data:
       positions:
       - M(L)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 187.0
@@ -3924,7 +3925,7 @@ season_data:
       age: 22
       positions:
       - AM(CLR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 180.0
@@ -3957,7 +3958,7 @@ season_data:
       positions:
       - D(CL)
       - M(L)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 185.0
@@ -3989,7 +3990,7 @@ season_data:
       age: 20
       positions:
       - AM(LR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 178.0
@@ -4022,7 +4023,7 @@ season_data:
       positions:
       - AM(CLR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 180.0
@@ -4050,11 +4051,11 @@ season_data:
         value: null
       - name: Rating
         value: 6.35
-    - name: "Victor Lindel\xF6f"
+    - name: Victor Lindelöf
       age: 27
       positions:
       - D(CR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 187.0
@@ -4087,7 +4088,7 @@ season_data:
       positions:
       - AM(LR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 184.0
@@ -4120,7 +4121,7 @@ season_data:
       positions:
       - AM(R)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 181.0
@@ -4148,11 +4149,11 @@ season_data:
         value: 0.2
       - name: Rating
         value: 6.98
-    - name: "Rapha\xEBl Varane"
+    - name: Raphaël Varane
       age: 29
       positions:
       - D(C)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 191.0
@@ -4185,7 +4186,7 @@ season_data:
       positions:
       - D(C)
       - DMC
-      event: null
+      incident: null
       data:
       - name: CM
         value: 193.0
@@ -4218,7 +4219,7 @@ season_data:
       positions:
       - D(R)
       - M(R)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 183.0
@@ -4248,7 +4249,7 @@ season_data:
       age: 17
       positions:
       - Midfielder
-      event: null
+      incident: null
       data:
       - name: CM
         value: 180.0
@@ -4281,7 +4282,7 @@ season_data:
       positions:
       - AM(LR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 181.0
@@ -4314,7 +4315,7 @@ season_data:
       positions:
       - AM(LR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 171.0
@@ -4344,7 +4345,7 @@ season_data:
       age: 31
       positions:
       - GK
-      event: null
+      incident: null
       data:
       - name: CM
         value: 192.0
@@ -4374,7 +4375,7 @@ season_data:
       age: 25
       positions:
       - M(C)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 184.0
@@ -4406,7 +4407,7 @@ season_data:
       age: 28
       positions:
       - D(CR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 187.0
@@ -4438,7 +4439,7 @@ season_data:
       age: 19
       positions:
       - Midfielder
-      event: null
+      incident: null
       data:
       - name: CM
         value: 177.0
@@ -4470,7 +4471,7 @@ season_data:
       age: 29
       positions:
       - D(C)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 194.0
@@ -4503,7 +4504,7 @@ season_data:
       positions:
       - AM(CLR)
       - FW
-      event: null
+      incident: null
       data:
       - name: CM
         value: 175.0
@@ -4536,7 +4537,7 @@ season_data:
       positions:
       - D(LR)
       - M(R)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 183.0
@@ -4568,7 +4569,7 @@ season_data:
       age: 34
       positions:
       - AM(CLR)
-      event: null
+      incident: null
       data:
       - name: CM
         value: 170.0
@@ -4601,7 +4602,7 @@ season_data:
       positions:
       - D(CR)
       - DMC
-      event: null
+      incident: null
       data:
       - name: CM
         value: 180.0
@@ -4633,7 +4634,7 @@ season_data:
       age: 18
       positions:
       - Forward
-      event: null
+      incident: null
       data:
       - name: CM
         value: 170.0

@@ -1,32 +1,50 @@
 from typing import List, Dict, Optional, Union, TypedDict
+import bs4.element
 import enum
 
 
-class SubstituteType(enum.Enum):
-    IN: "subbed in"
-    OUT: "subbed out"
+class IncidentType(enum.Enum):
+    SUBON = "subon"
+    SUBOFF = "suboff"
+    GOAL = "goalnormal"
+    OWNGOAL = "goalown"
+    ASSIST = "assist"
+    RED = "redcard"
+    YELLOW = "yellowcard"
+    MOM = "mom"
+
+    @classmethod
+    def parse_incident_type(cls, html_object: bs4.element.ResultSet):
+        object_attributes = list(html_object.attrs.keys())
+
+        for item in cls:
+            if any([item.value in attr_name for attr_name in object_attributes]):
+                return item
+
+        return None
 
 
-class SubstituteTime(TypedDict):
+class IncidentTime(TypedDict):
     minute: int
     second: int
 
 
-class SubstituteEvent(TypedDict):
-    substitue: SubstituteType
-    time: SubstituteTime
+class Incident(TypedDict):
+    incident_type: IncidentType
+    incident_time: IncidentTime
+    attributes: List[str]
 
 
 class DataItem(TypedDict):
     name: str
-    value: Union[str, float, List]
+    value: Union[str, float, List[Union[str, float, Incident]]]
 
 
 class PlayerData(TypedDict):
     name: str
     age: int
     positions: List[str]
-    event: Optional[SubstituteEvent]
+    incident: Optional[Incident]
     data: List[DataItem]
 
 
@@ -42,3 +60,9 @@ class MatchData(TypedDict):
     Defensive: DataTable
     Offensive: DataTable
     Passing: DataTable
+
+
+class ReadConfig(TypedDict):
+    timeout: int
+    selector_link: str
+    table_link: str
