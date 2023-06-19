@@ -4,10 +4,11 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 from datetime import datetime
+from typing import List
 
-from schemas.fixture_schemas import *
-from schemas.match_schemas import *
-from schemas.schemas import *
+from who_scored.schemas.fixture_schemas import Fixture, ScoreItem, MatchType
+from who_scored.schemas.match_schemas import MatchData, ReadConfig
+from who_scored.schemas.schemas import Config
 
 from read_data_table import read_data_table
 

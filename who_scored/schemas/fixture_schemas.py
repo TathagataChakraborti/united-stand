@@ -1,8 +1,9 @@
 from datetime import date
 from typing import List, Union
 from pydantic import BaseModel
-from schemas.match_schemas import MatchData
 from enum import Enum
+
+from who_scored.schemas.match_schemas import MatchData
 
 
 class Result(Enum):

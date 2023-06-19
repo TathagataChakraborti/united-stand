@@ -9,7 +9,8 @@ from selenium.common.exceptions import TimeoutException
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 
-from schemas.match_schemas import *
+from typing import List, Optional
+from who_scored.schemas.match_schemas import Incident, IncidentTime, IncidentType, ReadConfig, MatchData, PlayerData, DataTable, DataItem
 
 
 def read_incident_data(html_objects: List[bs4.element.ResultSet]) -> List[Incident]:

@@ -1,9 +1,9 @@
 from get_fixtures import FixtureManager
 from read_data_table import read_data_table
 
-from schemas.fixture_schemas import Fixture, FixtureData
-from schemas.match_schemas import MatchData, ReadConfig
-from schemas.schemas import Config, Season, ScraperConfig, Browser
+from who_scored.schemas.fixture_schemas import Fixture, FixtureData
+from who_scored.schemas.match_schemas import MatchData, ReadConfig
+from who_scored.schemas.schemas import Config, Season, ScraperConfig, Browser
 from typing import List
 
 import os

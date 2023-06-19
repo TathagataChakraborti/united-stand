@@ -1,0 +1,429 @@
+- name: Cristiano Ronaldo
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - M(L)
+    - FW
+    age: 37
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - M(L)
+    - FW
+    age: 38
+- name: Bruno Fernandes
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - M(CLR)
+    age: 27
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - M(CLR)
+    age: 28
+- name: Paul Pogba
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - M(CL)
+    age: 29
+- name: Mason Greenwood
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - AM(R)
+    - FW
+    age: 20
+- name: Aaron Wan-Bissaka
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - D(R)
+    - M(R)
+    age: 24
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - D(R)
+    - M(R)
+    age: 25
+- name: Scott McTominay
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - D(C)
+    - DMC
+    age: 25
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - D(C)
+    - DMC
+    age: 26
+- name: Alex Telles
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - D(L)
+    - M(L)
+    age: 29
+- name: Fred
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - M(C)
+    age: 29
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - M(C)
+    age: 30
+- name: Diogo Dalot
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - D(LR)
+    - M(R)
+    age: 23
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - D(LR)
+    - M(R)
+    age: 24
+- name: Raphaël Varane
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - D(C)
+    age: 29
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - D(C)
+    age: 30
+- name: Jadon Sancho
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - AM(CLR)
+    age: 22
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - AM(CLR)
+    age: 23
+- name: Harry Maguire
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - D(C)
+    age: 29
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - D(C)
+    age: 30
+- name: David de Gea
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - GK
+    age: 31
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - GK
+    age: 32
+- name: Luke Shaw
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - D(CL)
+    - M(L)
+    age: 26
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - D(CL)
+    - M(L)
+    age: 27
+- name: Nemanja Matic
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - DMC
+    age: 33
+- name: Anthony Elanga
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - AM(LR)
+    age: 20
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - AM(LR)
+    age: 21
+- name: Daniel James
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - AM(LR)
+    - FW
+    age: 24
+- name: Victor Lindelöf
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - D(CR)
+    age: 27
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - D(CR)
+    age: 28
+- name: Phil Jones
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - D(CR)
+    - DMC
+    age: 30
+- name: Edinson Cavani
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - AM(LR)
+    - FW
+    age: 35
+- name: Marcus Rashford
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - AM(CLR)
+    - FW
+    age: 24
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - AM(CLR)
+    - FW
+    age: 25
+- name: Juan Mata
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - AM(CLR)
+    age: 34
+- name: Anthony Martial
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - AM(LR)
+    - FW
+    age: 26
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - AM(LR)
+    - FW
+    age: 27
+- name: Donny van de Beek
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - M(C)
+    age: 25
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - M(C)
+    age: 26
+- name: Eric Bailly
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - D(CR)
+    age: 28
+- name: Jesse Lingard
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - AM(CLR)
+    - FW
+    age: 29
+- name: Shola Shoretire
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - Forward
+    age: 18
+- name: Alejandro Garnacho
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - Midfielder
+    age: 17
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - AM(L)
+    age: 18
+- name: Hannibal Mejbri
+  seasons:
+  - season:
+      start: 2021
+      end: 2022
+    positions:
+    - Midfielder
+    age: 19
+- name: Casemiro
+  seasons:
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - DMC
+    age: 31
+- name: Lisandro Martínez
+  seasons:
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - D(CL)
+    - DMC
+    age: 25
+- name: Antony
+  seasons:
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - AM(R)
+    age: 23
+- name: Christian Eriksen
+  seasons:
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - M(CLR)
+    - FW
+    age: 31
+- name: Marcel Sabitzer
+  seasons:
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - M(CLR)
+    - FW
+    age: 29
+- name: Tyrell Malacia
+  seasons:
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - D(L)
+    age: 23
+- name: Wout Weghorst
+  seasons:
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - FW
+    age: 30
+- name: Facundo Pellistri
+  seasons:
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - AM(R)
+    age: 21
+- name: Kobbie Mainoo
+  seasons:
+  - season:
+      start: 2022
+      end: 2023
+    positions:
+    - Midfielder
+    age: 18
