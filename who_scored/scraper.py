@@ -1,10 +1,10 @@
-from get_fixtures import FixtureManager
-from read_data_table import read_data_table
+from who_scored.get_fixtures import FixtureManager
+from who_scored.read_data_table import read_data_table
 
 from who_scored.schemas.fixture_schemas import Fixture, FixtureData
 from who_scored.schemas.match_schemas import MatchData, ReadConfig
 from who_scored.schemas.schemas import Config, Season, ScraperConfig, Browser
-from typing import List, Optional
+from typing import Optional
 
 import os
 import yaml
@@ -18,7 +18,7 @@ def scrape_fixture(config: Config) -> Optional[FixtureData]:
     start = config.season.start
     end = config.season.end
 
-    fixture_file = f'../data/who_scored/{start}-{end}/{start}-{end}.yaml'
+    fixture_file = f"../data/who_scored/{start}-{end}/{start}-{end}.yaml"
 
     if os.path.isfile(fixture_file):
         with open(fixture_file, "r") as stream:
@@ -27,7 +27,7 @@ def scrape_fixture(config: Config) -> Optional[FixtureData]:
 
             except yaml.YAMLError as exc:
                 print(exc)
-                return None
+                return
 
     else:
         os.makedirs(os.path.dirname(fixture_file), exist_ok=True)
@@ -39,26 +39,30 @@ def scrape_fixture(config: Config) -> Optional[FixtureData]:
         )
 
         with open(fixture_file, "w") as f:
-            yaml.dump(json.loads(fixture_data.json()), f, sort_keys=False, allow_unicode=True)
+            yaml.dump(
+                json.loads(fixture_data.json()), f, sort_keys=False, allow_unicode=True
+            )
             print(f"Wrote fixtures to {fixture_file}")
 
         return fixture_data
 
 
-def scrape_match_data(fixture_data: FixtureData, config: Config, bulk: bool = False) -> None:
-    fixture_list: List[FixtureData] = getattr(fixture_data, "fixture_list")
-
-    for index, fixture in enumerate(fixture_list):
-        print(f"[{index+1}/{len(fixture_list)}] {Fixture.print_score(fixture)}")  # type: ignore
+def scrape_match_data(
+    fixture_data: FixtureData, config: Config, bulk: bool = False
+) -> None:
+    for index, fixture in enumerate(fixture_data.fixture_list):
+        print(f"[{index+1}/{len(fixture_data.fixture_list)}] {Fixture.print_score(fixture)}")
 
         match_type = fixture.match_type.lower()
         match_id = fixture.match_id
 
         season = config.season
-        path_to_data = f'../data/who_scored/{season.start}-{season.end}/match_data/{match_id}.yaml'
+        path_to_data = (
+            f"../data/who_scored/{season.start}-{season.end}/match_data/{match_id}.yaml"
+        )
 
         if os.path.isfile(path_to_data):
-            print(f'{path_to_data} already exists. Skipping.')
+            print(f"{path_to_data} already exists. Skipping.")
             continue
 
         else:
@@ -76,7 +80,12 @@ def scrape_match_data(fixture_data: FixtureData, config: Config, bulk: bool = Fa
             os.makedirs(os.path.dirname(path_to_data), exist_ok=True)
 
             with open(path_to_data, "w") as f:
-                yaml.dump(json.loads(match_data.json()), f, sort_keys=False, allow_unicode=True)
+                yaml.dump(
+                    json.loads(match_data.json()),
+                    f,
+                    sort_keys=False,
+                    allow_unicode=True,
+                )
                 print(f"Wrote match data to {path_to_data}")
 
             if not bulk:
@@ -91,7 +100,9 @@ if __name__ == "__main__":
         country=os.getenv("country"),
         league=os.getenv("league"),
         season=Season(start=os.getenv("season_start"), end=os.getenv("season_end")),
-        scraper=ScraperConfig(browser=Browser.CHROME, timeout=int(os.getenv("timeout"))),
+        scraper=ScraperConfig(
+            browser=Browser.CHROME, timeout=int(os.getenv("timeout"))
+        ),
     )
 
     fixtures: FixtureData = scrape_fixture(config_object)

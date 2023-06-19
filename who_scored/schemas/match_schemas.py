@@ -48,6 +48,7 @@ class PlayerData(BaseModel):
     name: str
     age: int
     positions: List[str]
+    incident: Optional[List[Incident]]
     data: List[DataItem]
 
 

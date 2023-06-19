@@ -10,7 +10,16 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 
 from typing import List, Optional
-from who_scored.schemas.match_schemas import Incident, IncidentTime, IncidentType, ReadConfig, MatchData, PlayerData, DataTable, DataItem
+from who_scored.schemas.match_schemas import (
+    Incident,
+    IncidentTime,
+    IncidentType,
+    ReadConfig,
+    MatchData,
+    PlayerData,
+    DataTable,
+    DataItem,
+)
 
 
 def read_incident_data(html_objects: List[bs4.element.ResultSet]) -> List[Incident]:
@@ -28,7 +37,11 @@ def read_incident_data(html_objects: List[bs4.element.ResultSet]) -> List[Incide
         new_incident = Incident(
             incident_type=incident_type,
             incident_time=incident_time,
-            attributes=[e.split("-")[-1] for e in html_object.attrs.keys() if "data-event-satisfier" in e],
+            attributes=[
+                e.split("-")[-1]
+                for e in html_object.attrs.keys()
+                if "data-event-satisfier" in e
+            ],
         )
 
         if new_incident.incident_type:
@@ -39,7 +52,9 @@ def read_incident_data(html_objects: List[bs4.element.ResultSet]) -> List[Incide
     return list_of_incidents
 
 
-def read_data_table(match_id: int, url: str, driver: Optional[webdriver.Chrome], config: ReadConfig) -> MatchData:
+def read_data_table(
+    match_id: int, url: str, driver: Optional[webdriver.Chrome], config: ReadConfig
+) -> MatchData:
     if not driver:
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
@@ -56,7 +71,9 @@ def read_data_table(match_id: int, url: str, driver: Optional[webdriver.Chrome],
         print(f"==> Reading {item} data...")
 
         try:
-            selector = driver.find_element(by=By.XPATH, value=config.selector_link.format(item.lower()))
+            selector = driver.find_element(
+                by=By.XPATH, value=config.selector_link.format(item.lower())
+            )
         except TimeoutException as e:
             print(f"Timeout in parsing {url}", e)
             selector = None
@@ -66,7 +83,9 @@ def read_data_table(match_id: int, url: str, driver: Optional[webdriver.Chrome],
 
             table_id = config.table_link.format(item.lower())
             _ = WebDriverWait(driver, config.timeout).until(
-                ec.visibility_of_all_elements_located((By.XPATH, f"//div[@id='{table_id}']"))
+                ec.visibility_of_all_elements_located(
+                    (By.XPATH, f"//div[@id='{table_id}']")
+                )
             )
 
             soup = BeautifulSoup(driver.page_source, features="html.parser")
@@ -111,7 +130,10 @@ def read_data_table(match_id: int, url: str, driver: Optional[webdriver.Chrome],
                             data_item = data_item[1].split(")")
                             secondary_data_item = data_item[0].strip()
 
-                            data_item = [float(primary_data_item), float(secondary_data_item)]
+                            data_item = [
+                                float(primary_data_item),
+                                float(secondary_data_item),
+                            ]
 
                         else:
                             data_item = float(data_item)
@@ -125,10 +147,18 @@ def read_data_table(match_id: int, url: str, driver: Optional[webdriver.Chrome],
 
                 assert "Headers do not match data", len(data) == len(headers)
 
-                new_player_data = PlayerData(name=name, age=age, positions=positions, data=data)
+                new_player_data = PlayerData(
+                    name=name,
+                    age=age,
+                    positions=positions,
+                    incident=incident_info,
+                    data=data,
+                )
                 player_data.append(new_player_data)
 
-            keymap = table_of_interest.parent.find("div", attrs={"id": f"{table_id}-column-legend"})
+            keymap = table_of_interest.parent.find(
+                "div", attrs={"id": f"{table_id}-column-legend"}
+            )
             if keymap:
                 keymap = keymap.find("div", attrs={"class": "table-column-legend"})
                 keymap = keymap.find_all("div")

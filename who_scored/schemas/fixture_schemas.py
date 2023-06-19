@@ -56,7 +56,9 @@ class Fixture(BaseModel):
         home = fixture_object.score[0]
         away = fixture_object.score[1]
 
-        return f"{matchday} {home.team_name} {home.score} vs {away.score} {away.team_name}"
+        return (
+            f"{matchday} {home.team_name} {home.score} vs {away.score} {away.team_name}"
+        )
 
 
 class FixtureData(BaseModel):

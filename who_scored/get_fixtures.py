@@ -10,7 +10,7 @@ from who_scored.schemas.fixture_schemas import Fixture, ScoreItem, MatchType
 from who_scored.schemas.match_schemas import MatchData, ReadConfig
 from who_scored.schemas.schemas import Config
 
-from read_data_table import read_data_table
+from who_scored.read_data_table import read_data_table
 
 
 class FixtureManager(object):
@@ -52,7 +52,9 @@ class FixtureManager(object):
         soup = BeautifulSoup(self.driver.page_source, features="html.parser")
         fixture_table = soup.find("div", attrs={"id": "team-fixtures"})
 
-        raw_fixture_list = fixture_table.find_all("div", attrs={"class": "divtable-row"})
+        raw_fixture_list = fixture_table.find_all(
+            "div", attrs={"class": "divtable-row"}
+        )
         parsed_fixture_list = list()
 
         for fixture in raw_fixture_list:
@@ -63,7 +65,9 @@ class FixtureManager(object):
                 result_link = form_fixture.find("a")
 
                 url = result_link["href"].split("/")[-1]
-                url = f"https://www.whoscored.com/Matches/{match_id}/LiveStatistics/{url}"
+                url = (
+                    f"https://www.whoscored.com/Matches/{match_id}/LiveStatistics/{url}"
+                )
 
                 new_date = fixture.find("div", attrs={"class": "date"}).text
                 new_date = datetime.strptime(new_date, "%d-%m-%y").date()
@@ -88,7 +92,10 @@ class FixtureManager(object):
                 score = score.find("a").text.split(":")
                 score = [s.strip().replace("*", "") for s in score]
                 score = [
-                    ScoreItem(team_name=away_team if bool(i) else home_team, score=int(s)) for i, s in enumerate(score)
+                    ScoreItem(
+                        team_name=away_team if bool(i) else home_team, score=int(s)
+                    )
+                    for i, s in enumerate(score)
                 ]
 
                 parsed_fixture_list.append(
