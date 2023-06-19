@@ -1,12 +1,10 @@
 ---
-team_id: 32
-team_name: Manchester United
-short_name: Man Utd
-country: England
-league: Premier League
-season:
-  start: 2021
-  end: 2022
-scraper:
-  browser: Chrome
-  timeout: 22
+team_id: '32'
+team_name: 'Manchester United'
+short_name: 'Man Utd'
+country: 'England'
+league: 'Premier League'
+season_start: '2022'
+season_end: '2023'
+browser: 'Chrome'
+timeout: '22'

@@ -1,0 +1,4419 @@
+fixture_list:
+- match_id: 1640682
+  url: https://www.whoscored.com/Matches/1640682/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Brighton
+  date: '2022-08-07'
+  result: L
+  tournament: EPL
+  match_type: HOME
+  opponent: Brighton
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Brighton
+    score: 2
+- match_id: 1640686
+  url: https://www.whoscored.com/Matches/1640686/LiveStatistics/England-Premier-League-2022-2023-Brentford-Manchester-United
+  date: '2022-08-13'
+  result: L
+  tournament: EPL
+  match_type: AWAY
+  opponent: Brentford
+  score:
+  - team_name: Brentford
+    score: 4
+  - team_name: Manchester United
+    score: 0
+- match_id: 1640700
+  url: https://www.whoscored.com/Matches/1640700/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Liverpool
+  date: '2022-08-22'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Liverpool
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Liverpool
+    score: 1
+- match_id: 1640712
+  url: https://www.whoscored.com/Matches/1640712/LiveStatistics/England-Premier-League-2022-2023-Southampton-Manchester-United
+  date: '2022-08-27'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Southampton
+  score:
+  - team_name: Southampton
+    score: 0
+  - team_name: Manchester United
+    score: 1
+- match_id: 1640718
+  url: https://www.whoscored.com/Matches/1640718/LiveStatistics/England-Premier-League-2022-2023-Leicester-Manchester-United
+  date: '2022-09-01'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Leicester
+  score:
+  - team_name: Leicester
+    score: 0
+  - team_name: Manchester United
+    score: 1
+- match_id: 1640729
+  url: https://www.whoscored.com/Matches/1640729/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Arsenal
+  date: '2022-09-04'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Arsenal
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Arsenal
+    score: 1
+- match_id: 1686248
+  url: https://www.whoscored.com/Matches/1686248/LiveStatistics/Europe-Europa-League-2022-2023-Manchester-United-Real-Sociedad
+  date: '2022-09-08'
+  result: L
+  tournament: UEL
+  match_type: HOME
+  opponent: Real Sociedad
+  score:
+  - team_name: Manchester United
+    score: 0
+  - team_name: Real Sociedad
+    score: 1
+- match_id: 1686250
+  url: https://www.whoscored.com/Matches/1686250/LiveStatistics/Europe-Europa-League-2022-2023-FC-Sheriff-Manchester-United
+  date: '2022-09-15'
+  result: W
+  tournament: UEL
+  match_type: AWAY
+  opponent: FC Sheriff
+  score:
+  - team_name: FC Sheriff
+    score: 0
+  - team_name: Manchester United
+    score: 2
+- match_id: 1640761
+  url: https://www.whoscored.com/Matches/1640761/LiveStatistics/England-Premier-League-2022-2023-Manchester-City-Manchester-United
+  date: '2022-10-02'
+  result: L
+  tournament: EPL
+  match_type: AWAY
+  opponent: Manchester City
+  score:
+  - team_name: Manchester City
+    score: 6
+  - team_name: Manchester United
+    score: 3
+- match_id: 1686253
+  url: https://www.whoscored.com/Matches/1686253/LiveStatistics/Europe-Europa-League-2022-2023-Omonia-Nicosia-Manchester-United
+  date: '2022-10-06'
+  result: W
+  tournament: UEL
+  match_type: AWAY
+  opponent: Omonia Nicosia
+  score:
+  - team_name: Omonia Nicosia
+    score: 2
+  - team_name: Manchester United
+    score: 3
+- match_id: 1640769
+  url: https://www.whoscored.com/Matches/1640769/LiveStatistics/England-Premier-League-2022-2023-Everton-Manchester-United
+  date: '2022-10-09'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Everton
+  score:
+  - team_name: Everton
+    score: 1
+  - team_name: Manchester United
+    score: 2
+- match_id: 1686254
+  url: https://www.whoscored.com/Matches/1686254/LiveStatistics/Europe-Europa-League-2022-2023-Manchester-United-Omonia-Nicosia
+  date: '2022-10-13'
+  result: W
+  tournament: UEL
+  match_type: HOME
+  opponent: Omonia Nicosia
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Omonia Nicosia
+    score: 0
+- match_id: 1640780
+  url: https://www.whoscored.com/Matches/1640780/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Newcastle
+  date: '2022-10-16'
+  result: D
+  tournament: EPL
+  match_type: HOME
+  opponent: Newcastle
+  score:
+  - team_name: Manchester United
+    score: 0
+  - team_name: Newcastle
+    score: 0
+- match_id: 1640793
+  url: https://www.whoscored.com/Matches/1640793/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Tottenham
+  date: '2022-10-19'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Tottenham
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Tottenham
+    score: 0
+- match_id: 1640795
+  url: https://www.whoscored.com/Matches/1640795/LiveStatistics/England-Premier-League-2022-2023-Chelsea-Manchester-United
+  date: '2022-10-22'
+  result: D
+  tournament: EPL
+  match_type: AWAY
+  opponent: Chelsea
+  score:
+  - team_name: Chelsea
+    score: 1
+  - team_name: Manchester United
+    score: 1
+- match_id: 1686256
+  url: https://www.whoscored.com/Matches/1686256/LiveStatistics/Europe-Europa-League-2022-2023-Manchester-United-FC-Sheriff
+  date: '2022-10-27'
+  result: W
+  tournament: UEL
+  match_type: HOME
+  opponent: FC Sheriff
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: FC Sheriff
+    score: 0
+- match_id: 1640812
+  url: https://www.whoscored.com/Matches/1640812/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-West-Ham
+  date: '2022-10-30'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: West Ham
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: West Ham
+    score: 0
+- match_id: 1686258
+  url: https://www.whoscored.com/Matches/1686258/LiveStatistics/Europe-Europa-League-2022-2023-Real-Sociedad-Manchester-United
+  date: '2022-11-03'
+  result: W
+  tournament: UEL
+  match_type: AWAY
+  opponent: Real Sociedad
+  score:
+  - team_name: Real Sociedad
+    score: 0
+  - team_name: Manchester United
+    score: 1
+- match_id: 1640814
+  url: https://www.whoscored.com/Matches/1640814/LiveStatistics/England-Premier-League-2022-2023-Aston-Villa-Manchester-United
+  date: '2022-11-06'
+  result: L
+  tournament: EPL
+  match_type: AWAY
+  opponent: Aston Villa
+  score:
+  - team_name: Aston Villa
+    score: 3
+  - team_name: Manchester United
+    score: 1
+- match_id: 1685971
+  url: https://www.whoscored.com/Matches/1685971/LiveStatistics/England-League-Cup-2022-2023-Manchester-United-Aston-Villa
+  date: '2022-11-10'
+  result: W
+  tournament: EFLC
+  match_type: HOME
+  opponent: Aston Villa
+  score:
+  - team_name: Manchester United
+    score: 4
+  - team_name: Aston Villa
+    score: 2
+- match_id: 1640826
+  url: https://www.whoscored.com/Matches/1640826/LiveStatistics/England-Premier-League-2022-2023-Fulham-Manchester-United
+  date: '2022-11-13'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Fulham
+  score:
+  - team_name: Fulham
+    score: 1
+  - team_name: Manchester United
+    score: 2
+- match_id: 1694570
+  url: https://www.whoscored.com/Matches/1694570/LiveStatistics/England-League-Cup-2022-2023-Manchester-United-Burnley
+  date: '2022-12-21'
+  result: W
+  tournament: EFLC
+  match_type: HOME
+  opponent: Burnley
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Burnley
+    score: 0
+- match_id: 1640842
+  url: https://www.whoscored.com/Matches/1640842/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Nottingham-Forest
+  date: '2022-12-27'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Nottingham Forest
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Nottingham Forest
+    score: 0
+- match_id: 1640853
+  url: https://www.whoscored.com/Matches/1640853/LiveStatistics/England-Premier-League-2022-2023-Wolverhampton-Manchester-United
+  date: '2022-12-31'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Wolverhampton
+  score:
+  - team_name: Wolverhampton
+    score: 0
+  - team_name: Manchester United
+    score: 1
+- match_id: 1640862
+  url: https://www.whoscored.com/Matches/1640862/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Bournemouth
+  date: '2023-01-03'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Bournemouth
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Bournemouth
+    score: 0
+- match_id: 1697115
+  url: https://www.whoscored.com/Matches/1697115/LiveStatistics/England-FA-Cup-2022-2023-Manchester-United-Everton
+  date: '2023-01-06'
+  result: W
+  tournament: FAC
+  match_type: HOME
+  opponent: Everton
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Everton
+    score: 1
+- match_id: 1702330
+  url: https://www.whoscored.com/Matches/1702330/LiveStatistics/England-League-Cup-2022-2023-Manchester-United-Charlton
+  date: '2023-01-10'
+  result: W
+  tournament: EFLC
+  match_type: HOME
+  opponent: Charlton
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Charlton
+    score: 0
+- match_id: 1640869
+  url: https://www.whoscored.com/Matches/1640869/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Manchester-City
+  date: '2023-01-14'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Manchester City
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Manchester City
+    score: 1
+- match_id: 1640736
+  url: https://www.whoscored.com/Matches/1640736/LiveStatistics/England-Premier-League-2022-2023-Crystal-Palace-Manchester-United
+  date: '2023-01-18'
+  result: D
+  tournament: EPL
+  match_type: AWAY
+  opponent: Crystal Palace
+  score:
+  - team_name: Crystal Palace
+    score: 1
+  - team_name: Manchester United
+    score: 1
+- match_id: 1640876
+  url: https://www.whoscored.com/Matches/1640876/LiveStatistics/England-Premier-League-2022-2023-Arsenal-Manchester-United
+  date: '2023-01-22'
+  result: L
+  tournament: EPL
+  match_type: AWAY
+  opponent: Arsenal
+  score:
+  - team_name: Arsenal
+    score: 3
+  - team_name: Manchester United
+    score: 2
+- match_id: 1705687
+  url: https://www.whoscored.com/Matches/1705687/LiveStatistics/England-League-Cup-2022-2023-Nottingham-Forest-Manchester-United
+  date: '2023-01-25'
+  result: W
+  tournament: EFLC
+  match_type: AWAY
+  opponent: Nottingham Forest
+  score:
+  - team_name: Nottingham Forest
+    score: 0
+  - team_name: Manchester United
+    score: 3
+- match_id: 1704918
+  url: https://www.whoscored.com/Matches/1704918/LiveStatistics/England-FA-Cup-2022-2023-Manchester-United-Reading
+  date: '2023-01-28'
+  result: W
+  tournament: FAC
+  match_type: HOME
+  opponent: Reading
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Reading
+    score: 1
+- match_id: 1705689
+  url: https://www.whoscored.com/Matches/1705689/LiveStatistics/England-League-Cup-2022-2023-Manchester-United-Nottingham-Forest
+  date: '2023-02-01'
+  result: W
+  tournament: EFLC
+  match_type: HOME
+  opponent: Nottingham Forest
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Nottingham Forest
+    score: 0
+- match_id: 1640906
+  url: https://www.whoscored.com/Matches/1640906/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Crystal-Palace
+  date: '2023-02-04'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Crystal Palace
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Crystal Palace
+    score: 1
+- match_id: 1640749
+  url: https://www.whoscored.com/Matches/1640749/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Leeds
+  date: '2023-02-08'
+  result: D
+  tournament: EPL
+  match_type: HOME
+  opponent: Leeds
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Leeds
+    score: 2
+- match_id: 1640924
+  url: https://www.whoscored.com/Matches/1640924/LiveStatistics/England-Premier-League-2022-2023-Leeds-Manchester-United
+  date: '2023-02-12'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Leeds
+  score:
+  - team_name: Leeds
+    score: 0
+  - team_name: Manchester United
+    score: 2
+- match_id: 1694383
+  url: https://www.whoscored.com/Matches/1694383/LiveStatistics/Europe-Europa-League-2022-2023-Barcelona-Manchester-United
+  date: '2023-02-16'
+  result: D
+  tournament: UEL
+  match_type: AWAY
+  opponent: Barcelona
+  score:
+  - team_name: Barcelona
+    score: 2
+  - team_name: Manchester United
+    score: 2
+- match_id: 1640946
+  url: https://www.whoscored.com/Matches/1640946/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Leicester
+  date: '2023-02-19'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Leicester
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Leicester
+    score: 0
+- match_id: 1694391
+  url: https://www.whoscored.com/Matches/1694391/LiveStatistics/Europe-Europa-League-2022-2023-Manchester-United-Barcelona
+  date: '2023-02-23'
+  result: W
+  tournament: UEL
+  match_type: HOME
+  opponent: Barcelona
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Barcelona
+    score: 1
+- match_id: 1714938
+  url: https://www.whoscored.com/Matches/1714938/LiveStatistics/England-League-Cup-2022-2023-Manchester-United-Newcastle
+  date: '2023-02-26'
+  result: W
+  tournament: EFLC
+  match_type: HOME
+  opponent: Newcastle
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Newcastle
+    score: 0
+- match_id: 1713647
+  url: https://www.whoscored.com/Matches/1713647/LiveStatistics/England-FA-Cup-2022-2023-Manchester-United-West-Ham
+  date: '2023-03-01'
+  result: W
+  tournament: FAC
+  match_type: HOME
+  opponent: West Ham
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: West Ham
+    score: 1
+- match_id: 1640885
+  url: https://www.whoscored.com/Matches/1640885/LiveStatistics/England-Premier-League-2022-2023-Liverpool-Manchester-United
+  date: '2023-03-05'
+  result: L
+  tournament: EPL
+  match_type: AWAY
+  opponent: Liverpool
+  score:
+  - team_name: Liverpool
+    score: 7
+  - team_name: Manchester United
+    score: 0
+- match_id: 1718201
+  url: https://www.whoscored.com/Matches/1718201/LiveStatistics/Europe-Europa-League-2022-2023-Manchester-United-Real-Betis
+  date: '2023-03-09'
+  result: W
+  tournament: UEL
+  match_type: HOME
+  opponent: Real Betis
+  score:
+  - team_name: Manchester United
+    score: 4
+  - team_name: Real Betis
+    score: 1
+- match_id: 1640907
+  url: https://www.whoscored.com/Matches/1640907/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Southampton
+  date: '2023-03-12'
+  result: D
+  tournament: EPL
+  match_type: HOME
+  opponent: Southampton
+  score:
+  - team_name: Manchester United
+    score: 0
+  - team_name: Southampton
+    score: 0
+- match_id: 1718209
+  url: https://www.whoscored.com/Matches/1718209/LiveStatistics/Europe-Europa-League-2022-2023-Real-Betis-Manchester-United
+  date: '2023-03-16'
+  result: W
+  tournament: UEL
+  match_type: AWAY
+  opponent: Real Betis
+  score:
+  - team_name: Real Betis
+    score: 0
+  - team_name: Manchester United
+    score: 1
+- match_id: 1718584
+  url: https://www.whoscored.com/Matches/1718584/LiveStatistics/England-FA-Cup-2022-2023-Manchester-United-Fulham
+  date: '2023-03-19'
+  result: W
+  tournament: FAC
+  match_type: HOME
+  opponent: Fulham
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Fulham
+    score: 1
+- match_id: 1640949
+  url: https://www.whoscored.com/Matches/1640949/LiveStatistics/England-Premier-League-2022-2023-Newcastle-Manchester-United
+  date: '2023-04-02'
+  result: L
+  tournament: EPL
+  match_type: AWAY
+  opponent: Newcastle
+  score:
+  - team_name: Newcastle
+    score: 2
+  - team_name: Manchester United
+    score: 0
+- match_id: 1640968
+  url: https://www.whoscored.com/Matches/1640968/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Brentford
+  date: '2023-04-05'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Brentford
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Brentford
+    score: 0
+- match_id: 1640967
+  url: https://www.whoscored.com/Matches/1640967/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Everton
+  date: '2023-04-08'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Everton
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Everton
+    score: 0
+- match_id: 1720710
+  url: https://www.whoscored.com/Matches/1720710/LiveStatistics/Europe-Europa-League-2022-2023-Manchester-United-Sevilla
+  date: '2023-04-13'
+  result: D
+  tournament: UEL
+  match_type: HOME
+  opponent: Sevilla
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Sevilla
+    score: 2
+- match_id: 1640979
+  url: https://www.whoscored.com/Matches/1640979/LiveStatistics/England-Premier-League-2022-2023-Nottingham-Forest-Manchester-United
+  date: '2023-04-16'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Nottingham Forest
+  score:
+  - team_name: Nottingham Forest
+    score: 0
+  - team_name: Manchester United
+    score: 2
+- match_id: 1720711
+  url: https://www.whoscored.com/Matches/1720711/LiveStatistics/Europe-Europa-League-2022-2023-Sevilla-Manchester-United
+  date: '2023-04-20'
+  result: L
+  tournament: UEL
+  match_type: AWAY
+  opponent: Sevilla
+  score:
+  - team_name: Sevilla
+    score: 3
+  - team_name: Manchester United
+    score: 0
+- match_id: 1721104
+  url: https://www.whoscored.com/Matches/1721104/LiveStatistics/England-FA-Cup-2022-2023-Brighton-Manchester-United
+  date: '2023-04-23'
+  result: W
+  tournament: FAC
+  match_type: AWAY
+  opponent: Brighton
+  score:
+  - team_name: Brighton
+    score: 0
+  - team_name: Manchester United
+    score: 0
+- match_id: 1641014
+  url: https://www.whoscored.com/Matches/1641014/LiveStatistics/England-Premier-League-2022-2023-Tottenham-Manchester-United
+  date: '2023-04-27'
+  result: D
+  tournament: EPL
+  match_type: AWAY
+  opponent: Tottenham
+  score:
+  - team_name: Tottenham
+    score: 2
+  - team_name: Manchester United
+    score: 2
+- match_id: 1641033
+  url: https://www.whoscored.com/Matches/1641033/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Aston-Villa
+  date: '2023-04-30'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Aston Villa
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Aston Villa
+    score: 0
+- match_id: 1640921
+  url: https://www.whoscored.com/Matches/1640921/LiveStatistics/England-Premier-League-2022-2023-Brighton-Manchester-United
+  date: '2023-05-04'
+  result: L
+  tournament: EPL
+  match_type: AWAY
+  opponent: Brighton
+  score:
+  - team_name: Brighton
+    score: 1
+  - team_name: Manchester United
+    score: 0
+- match_id: 1641043
+  url: https://www.whoscored.com/Matches/1641043/LiveStatistics/England-Premier-League-2022-2023-West-Ham-Manchester-United
+  date: '2023-05-07'
+  result: L
+  tournament: EPL
+  match_type: AWAY
+  opponent: West Ham
+  score:
+  - team_name: West Ham
+    score: 1
+  - team_name: Manchester United
+    score: 0
+- match_id: 1641053
+  url: https://www.whoscored.com/Matches/1641053/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Wolverhampton
+  date: '2023-05-13'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Wolverhampton
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Wolverhampton
+    score: 0
+- match_id: 1640985
+  url: https://www.whoscored.com/Matches/1640985/LiveStatistics/England-Premier-League-2022-2023-Bournemouth-Manchester-United
+  date: '2023-05-20'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Bournemouth
+  score:
+  - team_name: Bournemouth
+    score: 0
+  - team_name: Manchester United
+    score: 1
+- match_id: 1641004
+  url: https://www.whoscored.com/Matches/1641004/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Chelsea
+  date: '2023-05-25'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Chelsea
+  score:
+  - team_name: Manchester United
+    score: 4
+  - team_name: Chelsea
+    score: 1
+- match_id: 1641019
+  url: https://www.whoscored.com/Matches/1641019/LiveStatistics/England-Premier-League-2022-2023-Manchester-United-Fulham
+  date: '2023-05-28'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Fulham
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Fulham
+    score: 1
+- match_id: 1724371
+  url: https://www.whoscored.com/Matches/1724371/LiveStatistics/England-FA-Cup-2022-2023-Manchester-City-Manchester-United
+  date: '2023-06-03'
+  result: L
+  tournament: FAC
+  match_type: AWAY
+  opponent: Manchester City
+  score:
+  - team_name: Manchester City
+    score: 2
+  - team_name: Manchester United
+    score: 1
+season_data:
+  match_id: 0
+  Summary:
+    headers:
+    - CM
+    - KG
+    - Apps
+    - Mins
+    - Goals
+    - Assists
+    - Yel
+    - Red
+    - SpG
+    - PS%
+    - AerialsWon
+    - MotM
+    - Rating
+    player_data:
+    - name: Bruno Fernandes
+      age: 28
+      positions:
+      - M(CLR)
+      incident: null
+      data:
+      - name: CM
+        value: '179.0'
+      - name: KG
+        value: '69.0'
+      - name: Apps
+        value: '37.0'
+      - name: Mins
+        value: '3320.0'
+      - name: Goals
+        value: '8.0'
+      - name: Assists
+        value: '8.0'
+      - name: Yel
+        value: '6.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '2.5'
+      - name: PS%
+        value: '77.7'
+      - name: AerialsWon
+        value: '0.5'
+      - name: MotM
+        value: '6.0'
+      - name: Rating
+        value: '7.44'
+    - name: Casemiro
+      age: 31
+      positions:
+      - DMC
+      incident: null
+      data:
+      - name: CM
+        value: '185.0'
+      - name: KG
+        value: '84.0'
+      - name: Apps
+        value:
+        - '24.0'
+        - '4.0'
+      - name: Mins
+        value: '2126.0'
+      - name: Goals
+        value: '4.0'
+      - name: Assists
+        value: '3.0'
+      - name: Yel
+        value: '7.0'
+      - name: Red
+        value: '2.0'
+      - name: SpG
+        value: '1.2'
+      - name: PS%
+        value: '78.5'
+      - name: AerialsWon
+        value: '2.0'
+      - name: MotM
+        value: '5.0'
+      - name: Rating
+        value: '7.17'
+    - name: Marcus Rashford
+      age: 25
+      positions:
+      - AM(CLR)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '180.0'
+      - name: KG
+        value: '70.0'
+      - name: Apps
+        value:
+        - '32.0'
+        - '3.0'
+      - name: Mins
+        value: '2890.0'
+      - name: Goals
+        value: '17.0'
+      - name: Assists
+        value: '5.0'
+      - name: Yel
+        value: '2.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '3.1'
+      - name: PS%
+        value: '78.7'
+      - name: AerialsWon
+        value: '0.6'
+      - name: MotM
+        value: '6.0'
+      - name: Rating
+        value: '7.08'
+    - name: Diogo Dalot
+      age: 24
+      positions:
+      - D(LR)
+      - M(R)
+      incident: null
+      data:
+      - name: CM
+        value: '183.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '24.0'
+        - '2.0'
+      - name: Mins
+        value: '2155.0'
+      - name: Goals
+        value: '1.0'
+      - name: Assists
+        value: '2.0'
+      - name: Yel
+        value: '6.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '0.8'
+      - name: PS%
+        value: '80.5'
+      - name: AerialsWon
+        value: '1.5'
+      - name: MotM
+        value: '2.0'
+      - name: Rating
+        value: '6.96'
+    - name: Aaron Wan-Bissaka
+      age: 25
+      positions:
+      - D(R)
+      - M(R)
+      incident: null
+      data:
+      - name: CM
+        value: '183.0'
+      - name: KG
+        value: '72.0'
+      - name: Apps
+        value:
+        - '16.0'
+        - '3.0'
+      - name: Mins
+        value: '1436.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: Yel
+        value: '2.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '0.5'
+      - name: PS%
+        value: '83.5'
+      - name: AerialsWon
+        value: '0.7'
+      - name: MotM
+        value: null
+      - name: Rating
+        value: '6.93'
+    - name: Luke Shaw
+      age: 27
+      positions:
+      - D(CL)
+      - M(L)
+      incident: null
+      data:
+      - name: CM
+        value: '185.0'
+      - name: KG
+        value: '75.0'
+      - name: Apps
+        value:
+        - '30.0'
+        - '1.0'
+      - name: Mins
+        value: '2558.0'
+      - name: Goals
+        value: '1.0'
+      - name: Assists
+        value: '2.0'
+      - name: Yel
+        value: '8.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '0.5'
+      - name: PS%
+        value: '86.0'
+      - name: AerialsWon
+        value: '1.5'
+      - name: MotM
+        value: '1.0'
+      - name: Rating
+        value: '6.9'
+    - name: Lisandro Martínez
+      age: 25
+      positions:
+      - D(CL)
+      - DMC
+      incident: null
+      data:
+      - name: CM
+        value: '175.0'
+      - name: KG
+        value: '77.0'
+      - name: Apps
+        value:
+        - '24.0'
+        - '3.0'
+      - name: Mins
+        value: '2117.0'
+      - name: Goals
+        value: '1.0'
+      - name: Assists
+        value: null
+      - name: Yel
+        value: '6.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '0.4'
+      - name: PS%
+        value: '87.3'
+      - name: AerialsWon
+        value: '1.2'
+      - name: MotM
+        value: null
+      - name: Rating
+        value: '6.84'
+    - name: Jadon Sancho
+      age: 23
+      positions:
+      - AM(CLR)
+      incident: null
+      data:
+      - name: CM
+        value: '180.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '21.0'
+        - '5.0'
+      - name: Mins
+        value: '1699.0'
+      - name: Goals
+        value: '6.0'
+      - name: Assists
+        value: '3.0'
+      - name: Yel
+        value: null
+      - name: Red
+        value: null
+      - name: SpG
+        value: '0.8'
+      - name: PS%
+        value: '85.0'
+      - name: AerialsWon
+        value: '0.1'
+      - name: MotM
+        value: null
+      - name: Rating
+        value: '6.82'
+    - name: Antony
+      age: 23
+      positions:
+      - AM(R)
+      incident: null
+      data:
+      - name: CM
+        value: '174.0'
+      - name: KG
+        value: '63.0'
+      - name: Apps
+        value:
+        - '23.0'
+        - '2.0'
+      - name: Mins
+        value: '1819.0'
+      - name: Goals
+        value: '4.0'
+      - name: Assists
+        value: '2.0'
+      - name: Yel
+        value: '5.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '2.9'
+      - name: PS%
+        value: '82.2'
+      - name: AerialsWon
+        value: '0.2'
+      - name: MotM
+        value: '1.0'
+      - name: Rating
+        value: '6.82'
+    - name: Victor Lindelöf
+      age: 28
+      positions:
+      - D(CR)
+      incident: null
+      data:
+      - name: CM
+        value: '187.0'
+      - name: KG
+        value: '80.0'
+      - name: Apps
+        value:
+        - '14.0'
+        - '6.0'
+      - name: Mins
+        value: '1361.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: Yel
+        value: '1.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '0.2'
+      - name: PS%
+        value: '93.2'
+      - name: AerialsWon
+        value: '1.7'
+      - name: MotM
+        value: null
+      - name: Rating
+        value: '6.7'
+    - name: Christian Eriksen
+      age: 31
+      positions:
+      - M(CLR)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '182.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '25.0'
+        - '3.0'
+      - name: Mins
+        value: '2062.0'
+      - name: Goals
+        value: '1.0'
+      - name: Assists
+        value: '8.0'
+      - name: Yel
+        value: '3.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '1.4'
+      - name: PS%
+        value: '84.6'
+      - name: AerialsWon
+        value: '0.3'
+      - name: MotM
+        value: '1.0'
+      - name: Rating
+        value: '6.7'
+    - name: David de Gea
+      age: 32
+      positions:
+      - GK
+      incident: null
+      data:
+      - name: CM
+        value: '192.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value: '38.0'
+      - name: Mins
+        value: '3420.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: Yel
+        value: null
+      - name: Red
+        value: null
+      - name: SpG
+        value: null
+      - name: PS%
+        value: '68.3'
+      - name: AerialsWon
+        value: '0.1'
+      - name: MotM
+        value: '1.0'
+      - name: Rating
+        value: '6.67'
+    - name: Raphaël Varane
+      age: 30
+      positions:
+      - D(C)
+      incident: null
+      data:
+      - name: CM
+        value: '191.0'
+      - name: KG
+        value: '81.0'
+      - name: Apps
+        value:
+        - '22.0'
+        - '2.0'
+      - name: Mins
+        value: '1917.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: Yel
+        value: '1.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '0.3'
+      - name: PS%
+        value: '86.5'
+      - name: AerialsWon
+        value: '1.8'
+      - name: MotM
+        value: null
+      - name: Rating
+        value: '6.64'
+    - name: Marcel Sabitzer
+      age: 29
+      positions:
+      - M(CLR)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '178.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '7.0'
+        - '4.0'
+      - name: Mins
+        value: '628.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: '1.0'
+      - name: Yel
+        value: '1.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '1.0'
+      - name: PS%
+        value: '79.1'
+      - name: AerialsWon
+        value: '1.2'
+      - name: MotM
+        value: null
+      - name: Rating
+        value: '6.64'
+    - name: Tyrell Malacia
+      age: 23
+      positions:
+      - D(L)
+      incident: null
+      data:
+      - name: CM
+        value: '170.0'
+      - name: KG
+        value: '67.0'
+      - name: Apps
+        value:
+        - '14.0'
+        - '8.0'
+      - name: Mins
+        value: '1395.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: Yel
+        value: '6.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '0.2'
+      - name: PS%
+        value: '87.4'
+      - name: AerialsWon
+        value: '0.4'
+      - name: MotM
+        value: null
+      - name: Rating
+        value: '6.64'
+    - name: Anthony Martial
+      age: 27
+      positions:
+      - AM(LR)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '181.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '11.0'
+        - '10.0'
+      - name: Mins
+        value: '980.0'
+      - name: Goals
+        value: '6.0'
+      - name: Assists
+        value: '2.0'
+      - name: Yel
+        value: null
+      - name: Red
+        value: null
+      - name: SpG
+        value: '1.3'
+      - name: PS%
+        value: '81.6'
+      - name: AerialsWon
+        value: '0.5'
+      - name: MotM
+        value: null
+      - name: Rating
+        value: '6.59'
+    - name: Harry Maguire
+      age: 30
+      positions:
+      - D(C)
+      incident: null
+      data:
+      - name: CM
+        value: '194.0'
+      - name: KG
+        value: '90.0'
+      - name: Apps
+        value:
+        - '8.0'
+        - '8.0'
+      - name: Mins
+        value: '762.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: Yel
+        value: '4.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '0.2'
+      - name: PS%
+        value: '85.4'
+      - name: AerialsWon
+        value: '1.6'
+      - name: MotM
+        value: null
+      - name: Rating
+        value: '6.59'
+    - name: Scott McTominay
+      age: 26
+      positions:
+      - D(C)
+      - DMC
+      incident: null
+      data:
+      - name: CM
+        value: '193.0'
+      - name: KG
+        value: '88.0'
+      - name: Apps
+        value:
+        - '10.0'
+        - '14.0'
+      - name: Mins
+        value: '1151.0'
+      - name: Goals
+        value: '1.0'
+      - name: Assists
+        value: null
+      - name: Yel
+        value: '8.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '0.5'
+      - name: PS%
+        value: '82.9'
+      - name: AerialsWon
+        value: '1.4'
+      - name: MotM
+        value: '1.0'
+      - name: Rating
+        value: '6.55'
+    - name: Fred
+      age: 30
+      positions:
+      - M(C)
+      incident: null
+      data:
+      - name: CM
+        value: '169.0'
+      - name: KG
+        value: '64.0'
+      - name: Apps
+        value:
+        - '12.0'
+        - '23.0'
+      - name: Mins
+        value: '1235.0'
+      - name: Goals
+        value: '2.0'
+      - name: Assists
+        value: '2.0'
+      - name: Yel
+        value: '6.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '0.7'
+      - name: PS%
+        value: '80.7'
+      - name: AerialsWon
+        value: '0.3'
+      - name: MotM
+        value: null
+      - name: Rating
+        value: '6.48'
+    - name: Cristiano Ronaldo
+      age: 38
+      positions:
+      - M(L)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '187.0'
+      - name: KG
+        value: '83.0'
+      - name: Apps
+        value:
+        - '4.0'
+        - '6.0'
+      - name: Mins
+        value: '520.0'
+      - name: Goals
+        value: '1.0'
+      - name: Assists
+        value: null
+      - name: Yel
+        value: '2.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '2.5'
+      - name: PS%
+        value: '76.6'
+      - name: AerialsWon
+        value: '1.5'
+      - name: MotM
+        value: '1.0'
+      - name: Rating
+        value: '6.39'
+    - name: Wout Weghorst
+      age: 30
+      positions:
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '197.0'
+      - name: KG
+        value: '84.0'
+      - name: Apps
+        value:
+        - '10.0'
+        - '7.0'
+      - name: Mins
+        value: '797.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: '1.0'
+      - name: Yel
+        value: '1.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '0.8'
+      - name: PS%
+        value: '72.9'
+      - name: AerialsWon
+        value: '0.9'
+      - name: MotM
+        value: null
+      - name: Rating
+        value: '6.38'
+    - name: Alejandro Garnacho
+      age: 18
+      positions:
+      - AM(L)
+      incident: null
+      data:
+      - name: CM
+        value: '180.0'
+      - name: KG
+        value: '80.0'
+      - name: Apps
+        value:
+        - '5.0'
+        - '14.0'
+      - name: Mins
+        value: '563.0'
+      - name: Goals
+        value: '3.0'
+      - name: Assists
+        value: '2.0'
+      - name: Yel
+        value: '3.0'
+      - name: Red
+        value: null
+      - name: SpG
+        value: '1.3'
+      - name: PS%
+        value: '81.1'
+      - name: AerialsWon
+        value: '0.2'
+      - name: MotM
+        value: null
+      - name: Rating
+        value: '6.35'
+    - name: Anthony Elanga
+      age: 21
+      positions:
+      - AM(LR)
+      incident: null
+      data:
+      - name: CM
+        value: '178.0'
+      - name: KG
+        value: '70.0'
+      - name: Apps
+        value:
+        - '5.0'
+        - '11.0'
+      - name: Mins
+        value: '424.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: '1.0'
+      - name: Yel
+        value: null
+      - name: Red
+        value: null
+      - name: SpG
+        value: '0.6'
+      - name: PS%
+        value: '76.0'
+      - name: AerialsWon
+        value: '0.5'
+      - name: MotM
+        value: null
+      - name: Rating
+        value: '6.26'
+    - name: Donny van de Beek
+      age: 26
+      positions:
+      - M(C)
+      incident: null
+      data:
+      - name: CM
+        value: '184.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '2.0'
+        - '5.0'
+      - name: Mins
+        value: '166.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: Yel
+        value: null
+      - name: Red
+        value: null
+      - name: SpG
+        value: '0.3'
+      - name: PS%
+        value: '78.0'
+      - name: AerialsWon
+        value: '0.4'
+      - name: MotM
+        value: null
+      - name: Rating
+        value: '6.18'
+    - name: Facundo Pellistri
+      age: 21
+      positions:
+      - AM(R)
+      incident: null
+      data:
+      - name: CM
+        value: '175.0'
+      - name: KG
+        value: '69.0'
+      - name: Apps
+        value:
+        - '0.0'
+        - '4.0'
+      - name: Mins
+        value: '60.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: Yel
+        value: null
+      - name: Red
+        value: null
+      - name: SpG
+        value: null
+      - name: PS%
+        value: '93.3'
+      - name: AerialsWon
+        value: null
+      - name: MotM
+        value: null
+      - name: Rating
+        value: '6.18'
+    - name: Kobbie Mainoo
+      age: 18
+      positions:
+      - Midfielder
+      incident: null
+      data:
+      - name: CM
+        value: '175.0'
+      - name: KG
+        value: '0.0'
+      - name: Apps
+        value:
+        - '0.0'
+        - '1.0'
+      - name: Mins
+        value: '10.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: Yel
+        value: null
+      - name: Red
+        value: null
+      - name: SpG
+        value: null
+      - name: PS%
+        value: '87.5'
+      - name: AerialsWon
+        value: null
+      - name: MotM
+        value: null
+      - name: Rating
+        value: '6.11'
+    keymap:
+      Mins: Minutes played
+      Goals: Total goals
+      Assists: Total assists
+      Yel: Yellow card
+      Red: Red card
+      SpG: Shots per game
+      PS%: Pass success percentage
+      AerialsWon: Aerial duels won per game
+      MotM: Man of the match
+      CM: Height (in cm)
+      KG: Weight (in kg)
+  Defensive:
+    headers:
+    - CM
+    - KG
+    - Apps
+    - Mins
+    - Tackles
+    - Inter
+    - Fouls
+    - Offsides
+    - Clear
+    - Drb
+    - Blocks
+    - OwnG
+    - Rating
+    player_data:
+    - name: Casemiro
+      age: 31
+      positions:
+      - DMC
+      incident: null
+      data:
+      - name: CM
+        value: '185.0'
+      - name: KG
+        value: '84.0'
+      - name: Apps
+        value:
+        - '24.0'
+        - '4.0'
+      - name: Mins
+        value: '2126.0'
+      - name: Tackles
+        value: '3.2'
+      - name: Inter
+        value: '1.2'
+      - name: Fouls
+        value: '1.7'
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '2.1'
+      - name: Drb
+        value: '1.6'
+      - name: Blocks
+        value: '0.4'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '7.17'
+    - name: Aaron Wan-Bissaka
+      age: 25
+      positions:
+      - D(R)
+      - M(R)
+      incident: null
+      data:
+      - name: CM
+        value: '183.0'
+      - name: KG
+        value: '72.0'
+      - name: Apps
+        value:
+        - '16.0'
+        - '3.0'
+      - name: Mins
+        value: '1436.0'
+      - name: Tackles
+        value: '2.1'
+      - name: Inter
+        value: '1.2'
+      - name: Fouls
+        value: '0.6'
+      - name: Offsides
+        value: '0.3'
+      - name: Clear
+        value: '1.8'
+      - name: Drb
+        value: '0.1'
+      - name: Blocks
+        value: '0.4'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.93'
+    - name: Tyrell Malacia
+      age: 23
+      positions:
+      - D(L)
+      incident: null
+      data:
+      - name: CM
+        value: '170.0'
+      - name: KG
+        value: '67.0'
+      - name: Apps
+        value:
+        - '14.0'
+        - '8.0'
+      - name: Mins
+        value: '1395.0'
+      - name: Tackles
+        value: '2.1'
+      - name: Inter
+        value: '1.1'
+      - name: Fouls
+        value: '1.8'
+      - name: Offsides
+        value: '0.1'
+      - name: Clear
+        value: '2.0'
+      - name: Drb
+        value: '0.5'
+      - name: Blocks
+        value: '0.1'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.64'
+    - name: Diogo Dalot
+      age: 24
+      positions:
+      - D(LR)
+      - M(R)
+      incident: null
+      data:
+      - name: CM
+        value: '183.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '24.0'
+        - '2.0'
+      - name: Mins
+        value: '2155.0'
+      - name: Tackles
+        value: '2.1'
+      - name: Inter
+        value: '1.4'
+      - name: Fouls
+        value: '0.8'
+      - name: Offsides
+        value: '0.1'
+      - name: Clear
+        value: '2.0'
+      - name: Drb
+        value: '0.5'
+      - name: Blocks
+        value: '0.3'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.96'
+    - name: Lisandro Martínez
+      age: 25
+      positions:
+      - D(CL)
+      - DMC
+      incident: null
+      data:
+      - name: CM
+        value: '175.0'
+      - name: KG
+        value: '77.0'
+      - name: Apps
+        value:
+        - '24.0'
+        - '3.0'
+      - name: Mins
+        value: '2117.0'
+      - name: Tackles
+        value: '2.0'
+      - name: Inter
+        value: '1.2'
+      - name: Fouls
+        value: '0.8'
+      - name: Offsides
+        value: '0.4'
+      - name: Clear
+        value: '3.6'
+      - name: Drb
+        value: '0.5'
+      - name: Blocks
+        value: '1.0'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.84'
+    - name: Bruno Fernandes
+      age: 28
+      positions:
+      - M(CLR)
+      incident: null
+      data:
+      - name: CM
+        value: '179.0'
+      - name: KG
+        value: '69.0'
+      - name: Apps
+        value: '37.0'
+      - name: Mins
+        value: '3320.0'
+      - name: Tackles
+        value: '1.8'
+      - name: Inter
+        value: '0.7'
+      - name: Fouls
+        value: '1.1'
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '1.0'
+      - name: Drb
+        value: '1.1'
+      - name: Blocks
+        value: '0.1'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '7.44'
+    - name: Luke Shaw
+      age: 27
+      positions:
+      - D(CL)
+      - M(L)
+      incident: null
+      data:
+      - name: CM
+        value: '185.0'
+      - name: KG
+        value: '75.0'
+      - name: Apps
+        value:
+        - '30.0'
+        - '1.0'
+      - name: Mins
+        value: '2558.0'
+      - name: Tackles
+        value: '1.8'
+      - name: Inter
+        value: '1.2'
+      - name: Fouls
+        value: '1.5'
+      - name: Offsides
+        value: '0.2'
+      - name: Clear
+        value: '1.7'
+      - name: Drb
+        value: '0.5'
+      - name: Blocks
+        value: '0.5'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.9'
+    - name: Fred
+      age: 30
+      positions:
+      - M(C)
+      incident: null
+      data:
+      - name: CM
+        value: '169.0'
+      - name: KG
+        value: '64.0'
+      - name: Apps
+        value:
+        - '12.0'
+        - '23.0'
+      - name: Mins
+        value: '1235.0'
+      - name: Tackles
+        value: '1.3'
+      - name: Inter
+        value: '0.5'
+      - name: Fouls
+        value: '0.9'
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '0.4'
+      - name: Drb
+        value: '0.7'
+      - name: Blocks
+        value: '0.1'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.48'
+    - name: Scott McTominay
+      age: 26
+      positions:
+      - D(C)
+      - DMC
+      incident: null
+      data:
+      - name: CM
+        value: '193.0'
+      - name: KG
+        value: '88.0'
+      - name: Apps
+        value:
+        - '10.0'
+        - '14.0'
+      - name: Mins
+        value: '1151.0'
+      - name: Tackles
+        value: '1.3'
+      - name: Inter
+        value: '0.6'
+      - name: Fouls
+        value: '1.2'
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '1.9'
+      - name: Drb
+        value: '0.4'
+      - name: Blocks
+        value: '0.3'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.55'
+    - name: Victor Lindelöf
+      age: 28
+      positions:
+      - D(CR)
+      incident: null
+      data:
+      - name: CM
+        value: '187.0'
+      - name: KG
+        value: '80.0'
+      - name: Apps
+        value:
+        - '14.0'
+        - '6.0'
+      - name: Mins
+        value: '1361.0'
+      - name: Tackles
+        value: '1.1'
+      - name: Inter
+        value: '1.1'
+      - name: Fouls
+        value: '0.5'
+      - name: Offsides
+        value: '0.4'
+      - name: Clear
+        value: '3.2'
+      - name: Drb
+        value: '0.4'
+      - name: Blocks
+        value: '0.5'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.7'
+    - name: Marcel Sabitzer
+      age: 29
+      positions:
+      - M(CLR)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '178.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '7.0'
+        - '4.0'
+      - name: Mins
+        value: '628.0'
+      - name: Tackles
+        value: '1.1'
+      - name: Inter
+        value: '0.7'
+      - name: Fouls
+        value: '0.7'
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '1.0'
+      - name: Drb
+        value: '0.8'
+      - name: Blocks
+        value: '0.2'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.64'
+    - name: Raphaël Varane
+      age: 30
+      positions:
+      - D(C)
+      incident: null
+      data:
+      - name: CM
+        value: '191.0'
+      - name: KG
+        value: '81.0'
+      - name: Apps
+        value:
+        - '22.0'
+        - '2.0'
+      - name: Mins
+        value: '1917.0'
+      - name: Tackles
+        value: '1.0'
+      - name: Inter
+        value: '0.5'
+      - name: Fouls
+        value: '0.5'
+      - name: Offsides
+        value: '0.3'
+      - name: Clear
+        value: '3.7'
+      - name: Drb
+        value: '0.4'
+      - name: Blocks
+        value: '0.7'
+      - name: OwnG
+        value: '1.0'
+      - name: Rating
+        value: '6.64'
+    - name: Antony
+      age: 23
+      positions:
+      - AM(R)
+      incident: null
+      data:
+      - name: CM
+        value: '174.0'
+      - name: KG
+        value: '63.0'
+      - name: Apps
+        value:
+        - '23.0'
+        - '2.0'
+      - name: Mins
+        value: '1819.0'
+      - name: Tackles
+        value: '0.9'
+      - name: Inter
+        value: '0.4'
+      - name: Fouls
+        value: '0.6'
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '0.1'
+      - name: Drb
+        value: '0.8'
+      - name: Blocks
+        value: null
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.82'
+    - name: Christian Eriksen
+      age: 31
+      positions:
+      - M(CLR)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '182.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '25.0'
+        - '3.0'
+      - name: Mins
+        value: '2062.0'
+      - name: Tackles
+        value: '0.8'
+      - name: Inter
+        value: '0.4'
+      - name: Fouls
+        value: '0.5'
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '0.7'
+      - name: Drb
+        value: '0.8'
+      - name: Blocks
+        value: '0.3'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.7'
+    - name: Wout Weghorst
+      age: 30
+      positions:
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '197.0'
+      - name: KG
+        value: '84.0'
+      - name: Apps
+        value:
+        - '10.0'
+        - '7.0'
+      - name: Mins
+        value: '797.0'
+      - name: Tackles
+        value: '0.6'
+      - name: Inter
+        value: '0.4'
+      - name: Fouls
+        value: '0.8'
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '0.5'
+      - name: Drb
+        value: '0.4'
+      - name: Blocks
+        value: '0.1'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.38'
+    - name: Jadon Sancho
+      age: 23
+      positions:
+      - AM(CLR)
+      incident: null
+      data:
+      - name: CM
+        value: '180.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '21.0'
+        - '5.0'
+      - name: Mins
+        value: '1699.0'
+      - name: Tackles
+        value: '0.6'
+      - name: Inter
+        value: '0.3'
+      - name: Fouls
+        value: '0.3'
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '0.2'
+      - name: Drb
+        value: '0.8'
+      - name: Blocks
+        value: '0.1'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.82'
+    - name: Marcus Rashford
+      age: 25
+      positions:
+      - AM(CLR)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '180.0'
+      - name: KG
+        value: '70.0'
+      - name: Apps
+        value:
+        - '32.0'
+        - '3.0'
+      - name: Mins
+        value: '2890.0'
+      - name: Tackles
+        value: '0.6'
+      - name: Inter
+        value: '0.2'
+      - name: Fouls
+        value: '0.4'
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '0.4'
+      - name: Drb
+        value: '0.4'
+      - name: Blocks
+        value: '0.1'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '7.08'
+    - name: Harry Maguire
+      age: 30
+      positions:
+      - D(C)
+      incident: null
+      data:
+      - name: CM
+        value: '194.0'
+      - name: KG
+        value: '90.0'
+      - name: Apps
+        value:
+        - '8.0'
+        - '8.0'
+      - name: Mins
+        value: '762.0'
+      - name: Tackles
+        value: '0.5'
+      - name: Inter
+        value: '0.8'
+      - name: Fouls
+        value: '0.5'
+      - name: Offsides
+        value: '0.1'
+      - name: Clear
+        value: '2.6'
+      - name: Drb
+        value: '0.1'
+      - name: Blocks
+        value: '0.7'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.59'
+    - name: Alejandro Garnacho
+      age: 18
+      positions:
+      - AM(L)
+      incident: null
+      data:
+      - name: CM
+        value: '180.0'
+      - name: KG
+        value: '80.0'
+      - name: Apps
+        value:
+        - '5.0'
+        - '14.0'
+      - name: Mins
+        value: '563.0'
+      - name: Tackles
+        value: '0.3'
+      - name: Inter
+        value: '0.3'
+      - name: Fouls
+        value: '0.4'
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '0.1'
+      - name: Drb
+        value: '0.5'
+      - name: Blocks
+        value: null
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.35'
+    - name: Facundo Pellistri
+      age: 21
+      positions:
+      - AM(R)
+      incident: null
+      data:
+      - name: CM
+        value: '175.0'
+      - name: KG
+        value: '69.0'
+      - name: Apps
+        value:
+        - '0.0'
+        - '4.0'
+      - name: Mins
+        value: '60.0'
+      - name: Tackles
+        value: '0.3'
+      - name: Inter
+        value: null
+      - name: Fouls
+        value: '0.3'
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '0.3'
+      - name: Drb
+        value: null
+      - name: Blocks
+        value: null
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.18'
+    - name: Anthony Martial
+      age: 27
+      positions:
+      - AM(LR)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '181.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '11.0'
+        - '10.0'
+      - name: Mins
+        value: '980.0'
+      - name: Tackles
+        value: '0.2'
+      - name: Inter
+        value: null
+      - name: Fouls
+        value: '0.4'
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '0.2'
+      - name: Drb
+        value: '0.1'
+      - name: Blocks
+        value: '0.1'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.59'
+    - name: Cristiano Ronaldo
+      age: 38
+      positions:
+      - M(L)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '187.0'
+      - name: KG
+        value: '83.0'
+      - name: Apps
+        value:
+        - '4.0'
+        - '6.0'
+      - name: Mins
+        value: '520.0'
+      - name: Tackles
+        value: '0.2'
+      - name: Inter
+        value: '0.1'
+      - name: Fouls
+        value: '0.7'
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '0.8'
+      - name: Drb
+        value: '0.1'
+      - name: Blocks
+        value: null
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.39'
+    - name: Anthony Elanga
+      age: 21
+      positions:
+      - AM(LR)
+      incident: null
+      data:
+      - name: CM
+        value: '178.0'
+      - name: KG
+        value: '70.0'
+      - name: Apps
+        value:
+        - '5.0'
+        - '11.0'
+      - name: Mins
+        value: '424.0'
+      - name: Tackles
+        value: '0.2'
+      - name: Inter
+        value: '0.1'
+      - name: Fouls
+        value: '0.2'
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '0.2'
+      - name: Drb
+        value: '0.1'
+      - name: Blocks
+        value: null
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.26'
+    - name: David de Gea
+      age: 32
+      positions:
+      - GK
+      incident: null
+      data:
+      - name: CM
+        value: '192.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value: '38.0'
+      - name: Mins
+        value: '3420.0'
+      - name: Tackles
+        value: null
+      - name: Inter
+        value: null
+      - name: Fouls
+        value: null
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '0.7'
+      - name: Drb
+        value: null
+      - name: Blocks
+        value: null
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.67'
+    - name: Donny van de Beek
+      age: 26
+      positions:
+      - M(C)
+      incident: null
+      data:
+      - name: CM
+        value: '184.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '2.0'
+        - '5.0'
+      - name: Mins
+        value: '166.0'
+      - name: Tackles
+        value: null
+      - name: Inter
+        value: '0.1'
+      - name: Fouls
+        value: '0.6'
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: '0.1'
+      - name: Drb
+        value: '0.1'
+      - name: Blocks
+        value: '0.1'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.18'
+    - name: Kobbie Mainoo
+      age: 18
+      positions:
+      - Midfielder
+      incident: null
+      data:
+      - name: CM
+        value: '175.0'
+      - name: KG
+        value: '0.0'
+      - name: Apps
+        value:
+        - '0.0'
+        - '1.0'
+      - name: Mins
+        value: '10.0'
+      - name: Tackles
+        value: null
+      - name: Inter
+        value: null
+      - name: Fouls
+        value: null
+      - name: Offsides
+        value: null
+      - name: Clear
+        value: null
+      - name: Drb
+        value: null
+      - name: Blocks
+        value: '1.0'
+      - name: OwnG
+        value: null
+      - name: Rating
+        value: '6.11'
+    keymap:
+      Mins: Minutes played
+      Tackles: Tackles per game
+      Inter: Interceptions per game
+      Fouls: Fouls per game
+      Offsides: Offside won per game
+      Clear: Clearances per game
+      Drb: Dribbled past per game
+      Blocks: OutfielderBlockPerGame
+      OwnG: Own goals
+      CM: Height (in cm)
+      KG: Weight (in kg)
+  Offensive:
+    headers:
+    - CM
+    - KG
+    - Apps
+    - Mins
+    - Goals
+    - Assists
+    - SpG
+    - KeyP
+    - Drb
+    - Fouled
+    - 'Off'
+    - Disp
+    - UnsTch
+    - Rating
+    player_data:
+    - name: Marcus Rashford
+      age: 25
+      positions:
+      - AM(CLR)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '180.0'
+      - name: KG
+        value: '70.0'
+      - name: Apps
+        value:
+        - '32.0'
+        - '3.0'
+      - name: Mins
+        value: '2890.0'
+      - name: Goals
+        value: '17.0'
+      - name: Assists
+        value: '5.0'
+      - name: SpG
+        value: '3.1'
+      - name: KeyP
+        value: '0.9'
+      - name: Drb
+        value: '1.5'
+      - name: Fouled
+        value: '0.7'
+      - name: 'Off'
+        value: '0.4'
+      - name: Disp
+        value: '1.3'
+      - name: UnsTch
+        value: '2.3'
+      - name: Rating
+        value: '7.08'
+    - name: Bruno Fernandes
+      age: 28
+      positions:
+      - M(CLR)
+      incident: null
+      data:
+      - name: CM
+        value: '179.0'
+      - name: KG
+        value: '69.0'
+      - name: Apps
+        value: '37.0'
+      - name: Mins
+        value: '3320.0'
+      - name: Goals
+        value: '8.0'
+      - name: Assists
+        value: '8.0'
+      - name: SpG
+        value: '2.5'
+      - name: KeyP
+        value: '3.2'
+      - name: Drb
+        value: '0.9'
+      - name: Fouled
+        value: '1.1'
+      - name: 'Off'
+        value: '0.4'
+      - name: Disp
+        value: '1.1'
+      - name: UnsTch
+        value: '1.1'
+      - name: Rating
+        value: '7.44'
+    - name: Anthony Martial
+      age: 27
+      positions:
+      - AM(LR)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '181.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '11.0'
+        - '10.0'
+      - name: Mins
+        value: '980.0'
+      - name: Goals
+        value: '6.0'
+      - name: Assists
+        value: '2.0'
+      - name: SpG
+        value: '1.3'
+      - name: KeyP
+        value: '0.6'
+      - name: Drb
+        value: '0.7'
+      - name: Fouled
+        value: '0.7'
+      - name: 'Off'
+        value: '0.3'
+      - name: Disp
+        value: '1.0'
+      - name: UnsTch
+        value: '1.6'
+      - name: Rating
+        value: '6.59'
+    - name: Jadon Sancho
+      age: 23
+      positions:
+      - AM(CLR)
+      incident: null
+      data:
+      - name: CM
+        value: '180.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '21.0'
+        - '5.0'
+      - name: Mins
+        value: '1699.0'
+      - name: Goals
+        value: '6.0'
+      - name: Assists
+        value: '3.0'
+      - name: SpG
+        value: '0.8'
+      - name: KeyP
+        value: '1.7'
+      - name: Drb
+        value: '1.3'
+      - name: Fouled
+        value: '0.4'
+      - name: 'Off'
+        value: '0.3'
+      - name: Disp
+        value: '0.8'
+      - name: UnsTch
+        value: '1.9'
+      - name: Rating
+        value: '6.82'
+    - name: Antony
+      age: 23
+      positions:
+      - AM(R)
+      incident: null
+      data:
+      - name: CM
+        value: '174.0'
+      - name: KG
+        value: '63.0'
+      - name: Apps
+        value:
+        - '23.0'
+        - '2.0'
+      - name: Mins
+        value: '1819.0'
+      - name: Goals
+        value: '4.0'
+      - name: Assists
+        value: '2.0'
+      - name: SpG
+        value: '2.9'
+      - name: KeyP
+        value: '1.1'
+      - name: Drb
+        value: '1.2'
+      - name: Fouled
+        value: '1.0'
+      - name: 'Off'
+        value: '0.1'
+      - name: Disp
+        value: '0.5'
+      - name: UnsTch
+        value: '1.5'
+      - name: Rating
+        value: '6.82'
+    - name: Casemiro
+      age: 31
+      positions:
+      - DMC
+      incident: null
+      data:
+      - name: CM
+        value: '185.0'
+      - name: KG
+        value: '84.0'
+      - name: Apps
+        value:
+        - '24.0'
+        - '4.0'
+      - name: Mins
+        value: '2126.0'
+      - name: Goals
+        value: '4.0'
+      - name: Assists
+        value: '3.0'
+      - name: SpG
+        value: '1.2'
+      - name: KeyP
+        value: '1.0'
+      - name: Drb
+        value: '0.3'
+      - name: Fouled
+        value: '0.9'
+      - name: 'Off'
+        value: null
+      - name: Disp
+        value: '0.5'
+      - name: UnsTch
+        value: '0.6'
+      - name: Rating
+        value: '7.17'
+    - name: Alejandro Garnacho
+      age: 18
+      positions:
+      - AM(L)
+      incident: null
+      data:
+      - name: CM
+        value: '180.0'
+      - name: KG
+        value: '80.0'
+      - name: Apps
+        value:
+        - '5.0'
+        - '14.0'
+      - name: Mins
+        value: '563.0'
+      - name: Goals
+        value: '3.0'
+      - name: Assists
+        value: '2.0'
+      - name: SpG
+        value: '1.3'
+      - name: KeyP
+        value: '0.2'
+      - name: Drb
+        value: '0.6'
+      - name: Fouled
+        value: '0.4'
+      - name: 'Off'
+        value: '0.2'
+      - name: Disp
+        value: '0.7'
+      - name: UnsTch
+        value: '1.4'
+      - name: Rating
+        value: '6.35'
+    - name: Fred
+      age: 30
+      positions:
+      - M(C)
+      incident: null
+      data:
+      - name: CM
+        value: '169.0'
+      - name: KG
+        value: '64.0'
+      - name: Apps
+        value:
+        - '12.0'
+        - '23.0'
+      - name: Mins
+        value: '1235.0'
+      - name: Goals
+        value: '2.0'
+      - name: Assists
+        value: '2.0'
+      - name: SpG
+        value: '0.7'
+      - name: KeyP
+        value: '0.9'
+      - name: Drb
+        value: '0.3'
+      - name: Fouled
+        value: '0.6'
+      - name: 'Off'
+        value: null
+      - name: Disp
+        value: '0.5'
+      - name: UnsTch
+        value: '0.7'
+      - name: Rating
+        value: '6.48'
+    - name: Christian Eriksen
+      age: 31
+      positions:
+      - M(CLR)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '182.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '25.0'
+        - '3.0'
+      - name: Mins
+        value: '2062.0'
+      - name: Goals
+        value: '1.0'
+      - name: Assists
+        value: '8.0'
+      - name: SpG
+        value: '1.4'
+      - name: KeyP
+        value: '1.3'
+      - name: Drb
+        value: '0.3'
+      - name: Fouled
+        value: '0.4'
+      - name: 'Off'
+        value: '0.1'
+      - name: Disp
+        value: '0.7'
+      - name: UnsTch
+        value: '0.9'
+      - name: Rating
+        value: '6.7'
+    - name: Cristiano Ronaldo
+      age: 38
+      positions:
+      - M(L)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '187.0'
+      - name: KG
+        value: '83.0'
+      - name: Apps
+        value:
+        - '4.0'
+        - '6.0'
+      - name: Mins
+        value: '520.0'
+      - name: Goals
+        value: '1.0'
+      - name: Assists
+        value: null
+      - name: SpG
+        value: '2.5'
+      - name: KeyP
+        value: '0.6'
+      - name: Drb
+        value: '0.4'
+      - name: Fouled
+        value: '0.5'
+      - name: 'Off'
+        value: '0.8'
+      - name: Disp
+        value: '0.3'
+      - name: UnsTch
+        value: '0.7'
+      - name: Rating
+        value: '6.39'
+    - name: Diogo Dalot
+      age: 24
+      positions:
+      - D(LR)
+      - M(R)
+      incident: null
+      data:
+      - name: CM
+        value: '183.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '24.0'
+        - '2.0'
+      - name: Mins
+        value: '2155.0'
+      - name: Goals
+        value: '1.0'
+      - name: Assists
+        value: '2.0'
+      - name: SpG
+        value: '0.8'
+      - name: KeyP
+        value: '1.1'
+      - name: Drb
+        value: '0.8'
+      - name: Fouled
+        value: '0.1'
+      - name: 'Off'
+        value: null
+      - name: Disp
+        value: '0.2'
+      - name: UnsTch
+        value: '0.7'
+      - name: Rating
+        value: '6.96'
+    - name: Lisandro Martínez
+      age: 25
+      positions:
+      - D(CL)
+      - DMC
+      incident: null
+      data:
+      - name: CM
+        value: '175.0'
+      - name: KG
+        value: '77.0'
+      - name: Apps
+        value:
+        - '24.0'
+        - '3.0'
+      - name: Mins
+        value: '2117.0'
+      - name: Goals
+        value: '1.0'
+      - name: Assists
+        value: null
+      - name: SpG
+        value: '0.4'
+      - name: KeyP
+        value: '0.2'
+      - name: Drb
+        value: '0.5'
+      - name: Fouled
+        value: '0.4'
+      - name: 'Off'
+        value: null
+      - name: Disp
+        value: '0.3'
+      - name: UnsTch
+        value: '0.4'
+      - name: Rating
+        value: '6.84'
+    - name: Luke Shaw
+      age: 27
+      positions:
+      - D(CL)
+      - M(L)
+      incident: null
+      data:
+      - name: CM
+        value: '185.0'
+      - name: KG
+        value: '75.0'
+      - name: Apps
+        value:
+        - '30.0'
+        - '1.0'
+      - name: Mins
+        value: '2558.0'
+      - name: Goals
+        value: '1.0'
+      - name: Assists
+        value: '2.0'
+      - name: SpG
+        value: '0.5'
+      - name: KeyP
+        value: '1.1'
+      - name: Drb
+        value: '0.5'
+      - name: Fouled
+        value: '0.9'
+      - name: 'Off'
+        value: null
+      - name: Disp
+        value: '0.3'
+      - name: UnsTch
+        value: '0.8'
+      - name: Rating
+        value: '6.9'
+    - name: Scott McTominay
+      age: 26
+      positions:
+      - D(C)
+      - DMC
+      incident: null
+      data:
+      - name: CM
+        value: '193.0'
+      - name: KG
+        value: '88.0'
+      - name: Apps
+        value:
+        - '10.0'
+        - '14.0'
+      - name: Mins
+        value: '1151.0'
+      - name: Goals
+        value: '1.0'
+      - name: Assists
+        value: null
+      - name: SpG
+        value: '0.5'
+      - name: KeyP
+        value: '0.3'
+      - name: Drb
+        value: '0.5'
+      - name: Fouled
+        value: '0.7'
+      - name: 'Off'
+        value: null
+      - name: Disp
+        value: '0.8'
+      - name: UnsTch
+        value: '1.0'
+      - name: Rating
+        value: '6.55'
+    - name: Aaron Wan-Bissaka
+      age: 25
+      positions:
+      - D(R)
+      - M(R)
+      incident: null
+      data:
+      - name: CM
+        value: '183.0'
+      - name: KG
+        value: '72.0'
+      - name: Apps
+        value:
+        - '16.0'
+        - '3.0'
+      - name: Mins
+        value: '1436.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: SpG
+        value: '0.5'
+      - name: KeyP
+        value: '0.8'
+      - name: Drb
+        value: '0.9'
+      - name: Fouled
+        value: '0.1'
+      - name: 'Off'
+        value: null
+      - name: Disp
+        value: '0.5'
+      - name: UnsTch
+        value: '0.7'
+      - name: Rating
+        value: '6.93'
+    - name: Anthony Elanga
+      age: 21
+      positions:
+      - AM(LR)
+      incident: null
+      data:
+      - name: CM
+        value: '178.0'
+      - name: KG
+        value: '70.0'
+      - name: Apps
+        value:
+        - '5.0'
+        - '11.0'
+      - name: Mins
+        value: '424.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: '1.0'
+      - name: SpG
+        value: '0.6'
+      - name: KeyP
+        value: '0.4'
+      - name: Drb
+        value: '0.3'
+      - name: Fouled
+        value: '0.4'
+      - name: 'Off'
+        value: '0.2'
+      - name: Disp
+        value: '0.4'
+      - name: UnsTch
+        value: '0.8'
+      - name: Rating
+        value: '6.26'
+    - name: David de Gea
+      age: 32
+      positions:
+      - GK
+      incident: null
+      data:
+      - name: CM
+        value: '192.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value: '38.0'
+      - name: Mins
+        value: '3420.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: SpG
+        value: null
+      - name: KeyP
+        value: null
+      - name: Drb
+        value: null
+      - name: Fouled
+        value: '0.1'
+      - name: 'Off'
+        value: null
+      - name: Disp
+        value: null
+      - name: UnsTch
+        value: null
+      - name: Rating
+        value: '6.67'
+    - name: Donny van de Beek
+      age: 26
+      positions:
+      - M(C)
+      incident: null
+      data:
+      - name: CM
+        value: '184.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '2.0'
+        - '5.0'
+      - name: Mins
+        value: '166.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: SpG
+        value: '0.3'
+      - name: KeyP
+        value: '0.4'
+      - name: Drb
+        value: '0.3'
+      - name: Fouled
+        value: '0.3'
+      - name: 'Off'
+        value: '0.1'
+      - name: Disp
+        value: '0.3'
+      - name: UnsTch
+        value: '0.3'
+      - name: Rating
+        value: '6.18'
+    - name: Facundo Pellistri
+      age: 21
+      positions:
+      - AM(R)
+      incident: null
+      data:
+      - name: CM
+        value: '175.0'
+      - name: KG
+        value: '69.0'
+      - name: Apps
+        value:
+        - '0.0'
+        - '4.0'
+      - name: Mins
+        value: '60.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: SpG
+        value: null
+      - name: KeyP
+        value: null
+      - name: Drb
+        value: '0.5'
+      - name: Fouled
+        value: '0.5'
+      - name: 'Off'
+        value: null
+      - name: Disp
+        value: '0.3'
+      - name: UnsTch
+        value: '0.5'
+      - name: Rating
+        value: '6.18'
+    - name: Harry Maguire
+      age: 30
+      positions:
+      - D(C)
+      incident: null
+      data:
+      - name: CM
+        value: '194.0'
+      - name: KG
+        value: '90.0'
+      - name: Apps
+        value:
+        - '8.0'
+        - '8.0'
+      - name: Mins
+        value: '762.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: SpG
+        value: '0.2'
+      - name: KeyP
+        value: '0.1'
+      - name: Drb
+        value: '0.1'
+      - name: Fouled
+        value: '0.3'
+      - name: 'Off'
+        value: null
+      - name: Disp
+        value: null
+      - name: UnsTch
+        value: '0.1'
+      - name: Rating
+        value: '6.59'
+    - name: Kobbie Mainoo
+      age: 18
+      positions:
+      - Midfielder
+      incident: null
+      data:
+      - name: CM
+        value: '175.0'
+      - name: KG
+        value: '0.0'
+      - name: Apps
+        value:
+        - '0.0'
+        - '1.0'
+      - name: Mins
+        value: '10.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: SpG
+        value: null
+      - name: KeyP
+        value: null
+      - name: Drb
+        value: null
+      - name: Fouled
+        value: null
+      - name: 'Off'
+        value: null
+      - name: Disp
+        value: null
+      - name: UnsTch
+        value: null
+      - name: Rating
+        value: '6.11'
+    - name: Marcel Sabitzer
+      age: 29
+      positions:
+      - M(CLR)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '178.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '7.0'
+        - '4.0'
+      - name: Mins
+        value: '628.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: '1.0'
+      - name: SpG
+        value: '1.0'
+      - name: KeyP
+        value: '0.9'
+      - name: Drb
+        value: '0.1'
+      - name: Fouled
+        value: '0.9'
+      - name: 'Off'
+        value: '0.1'
+      - name: Disp
+        value: '0.5'
+      - name: UnsTch
+        value: '0.8'
+      - name: Rating
+        value: '6.64'
+    - name: Raphaël Varane
+      age: 30
+      positions:
+      - D(C)
+      incident: null
+      data:
+      - name: CM
+        value: '191.0'
+      - name: KG
+        value: '81.0'
+      - name: Apps
+        value:
+        - '22.0'
+        - '2.0'
+      - name: Mins
+        value: '1917.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: SpG
+        value: '0.3'
+      - name: KeyP
+        value: '0.2'
+      - name: Drb
+        value: '0.3'
+      - name: Fouled
+        value: '0.1'
+      - name: 'Off'
+        value: '0.1'
+      - name: Disp
+        value: null
+      - name: UnsTch
+        value: '0.1'
+      - name: Rating
+        value: '6.64'
+    - name: Tyrell Malacia
+      age: 23
+      positions:
+      - D(L)
+      incident: null
+      data:
+      - name: CM
+        value: '170.0'
+      - name: KG
+        value: '67.0'
+      - name: Apps
+        value:
+        - '14.0'
+        - '8.0'
+      - name: Mins
+        value: '1395.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: SpG
+        value: '0.2'
+      - name: KeyP
+        value: '0.4'
+      - name: Drb
+        value: '0.3'
+      - name: Fouled
+        value: '0.6'
+      - name: 'Off'
+        value: '0.1'
+      - name: Disp
+        value: '0.4'
+      - name: UnsTch
+        value: '0.8'
+      - name: Rating
+        value: '6.64'
+    - name: Victor Lindelöf
+      age: 28
+      positions:
+      - D(CR)
+      incident: null
+      data:
+      - name: CM
+        value: '187.0'
+      - name: KG
+        value: '80.0'
+      - name: Apps
+        value:
+        - '14.0'
+        - '6.0'
+      - name: Mins
+        value: '1361.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: null
+      - name: SpG
+        value: '0.2'
+      - name: KeyP
+        value: '0.2'
+      - name: Drb
+        value: '0.1'
+      - name: Fouled
+        value: '0.2'
+      - name: 'Off'
+        value: null
+      - name: Disp
+        value: '0.1'
+      - name: UnsTch
+        value: '0.1'
+      - name: Rating
+        value: '6.7'
+    - name: Wout Weghorst
+      age: 30
+      positions:
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '197.0'
+      - name: KG
+        value: '84.0'
+      - name: Apps
+        value:
+        - '10.0'
+        - '7.0'
+      - name: Mins
+        value: '797.0'
+      - name: Goals
+        value: null
+      - name: Assists
+        value: '1.0'
+      - name: SpG
+        value: '0.8'
+      - name: KeyP
+        value: '0.8'
+      - name: Drb
+        value: '0.2'
+      - name: Fouled
+        value: '0.5'
+      - name: 'Off'
+        value: '0.3'
+      - name: Disp
+        value: '0.7'
+      - name: UnsTch
+        value: '0.9'
+      - name: Rating
+        value: '6.38'
+    keymap:
+      Mins: Minutes played
+      Goals: Total goals
+      Assists: Total assists
+      SpG: Shots per game
+      KeyP: Key passes per game
+      Drb: Dribbles per game
+      Fouled: Fouled per game
+      'Off': Offsides per game
+      Disp: Dispossessed per game
+      UnsTch: Bad control per game
+      CM: Height (in cm)
+      KG: Weight (in kg)
+  Passing:
+    headers:
+    - CM
+    - KG
+    - Apps
+    - Mins
+    - Assists
+    - KeyP
+    - AvgP
+    - PS%
+    - Crosses
+    - LongB
+    - ThrB
+    - Rating
+    player_data:
+    - name: Bruno Fernandes
+      age: 28
+      positions:
+      - M(CLR)
+      incident: null
+      data:
+      - name: CM
+        value: '179.0'
+      - name: KG
+        value: '69.0'
+      - name: Apps
+        value: '37.0'
+      - name: Mins
+        value: '3320.0'
+      - name: Assists
+        value: '8.0'
+      - name: KeyP
+        value: '3.2'
+      - name: AvgP
+        value: '50.1'
+      - name: PS%
+        value: '77.7'
+      - name: Crosses
+        value: '0.9'
+      - name: LongB
+        value: '3.1'
+      - name: ThrB
+        value: '0.6'
+      - name: Rating
+        value: '7.44'
+    - name: Christian Eriksen
+      age: 31
+      positions:
+      - M(CLR)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '182.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '25.0'
+        - '3.0'
+      - name: Mins
+        value: '2062.0'
+      - name: Assists
+        value: '8.0'
+      - name: KeyP
+        value: '1.3'
+      - name: AvgP
+        value: '49.7'
+      - name: PS%
+        value: '84.6'
+      - name: Crosses
+        value: '0.7'
+      - name: LongB
+        value: '2.3'
+      - name: ThrB
+        value: '0.1'
+      - name: Rating
+        value: '6.7'
+    - name: Marcus Rashford
+      age: 25
+      positions:
+      - AM(CLR)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '180.0'
+      - name: KG
+        value: '70.0'
+      - name: Apps
+        value:
+        - '32.0'
+        - '3.0'
+      - name: Mins
+        value: '2890.0'
+      - name: Assists
+        value: '5.0'
+      - name: KeyP
+        value: '0.9'
+      - name: AvgP
+        value: '22.3'
+      - name: PS%
+        value: '78.7'
+      - name: Crosses
+        value: '0.1'
+      - name: LongB
+        value: '0.8'
+      - name: ThrB
+        value: '0.1'
+      - name: Rating
+        value: '7.08'
+    - name: Casemiro
+      age: 31
+      positions:
+      - DMC
+      incident: null
+      data:
+      - name: CM
+        value: '185.0'
+      - name: KG
+        value: '84.0'
+      - name: Apps
+        value:
+        - '24.0'
+        - '4.0'
+      - name: Mins
+        value: '2126.0'
+      - name: Assists
+        value: '3.0'
+      - name: KeyP
+        value: '1.0'
+      - name: AvgP
+        value: '50.4'
+      - name: PS%
+        value: '78.5'
+      - name: Crosses
+        value: '0.1'
+      - name: LongB
+        value: '3.4'
+      - name: ThrB
+        value: '0.3'
+      - name: Rating
+        value: '7.17'
+    - name: Jadon Sancho
+      age: 23
+      positions:
+      - AM(CLR)
+      incident: null
+      data:
+      - name: CM
+        value: '180.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '21.0'
+        - '5.0'
+      - name: Mins
+        value: '1699.0'
+      - name: Assists
+        value: '3.0'
+      - name: KeyP
+        value: '1.7'
+      - name: AvgP
+        value: '28.8'
+      - name: PS%
+        value: '85.0'
+      - name: Crosses
+        value: '0.1'
+      - name: LongB
+        value: '0.4'
+      - name: ThrB
+        value: '0.1'
+      - name: Rating
+        value: '6.82'
+    - name: Alejandro Garnacho
+      age: 18
+      positions:
+      - AM(L)
+      incident: null
+      data:
+      - name: CM
+        value: '180.0'
+      - name: KG
+        value: '80.0'
+      - name: Apps
+        value:
+        - '5.0'
+        - '14.0'
+      - name: Mins
+        value: '563.0'
+      - name: Assists
+        value: '2.0'
+      - name: KeyP
+        value: '0.2'
+      - name: AvgP
+        value: '9.7'
+      - name: PS%
+        value: '81.1'
+      - name: Crosses
+        value: null
+      - name: LongB
+        value: '0.2'
+      - name: ThrB
+        value: null
+      - name: Rating
+        value: '6.35'
+    - name: Anthony Martial
+      age: 27
+      positions:
+      - AM(LR)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '181.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '11.0'
+        - '10.0'
+      - name: Mins
+        value: '980.0'
+      - name: Assists
+        value: '2.0'
+      - name: KeyP
+        value: '0.6'
+      - name: AvgP
+        value: '15.2'
+      - name: PS%
+        value: '81.6'
+      - name: Crosses
+        value: null
+      - name: LongB
+        value: '0.2'
+      - name: ThrB
+        value: '0.1'
+      - name: Rating
+        value: '6.59'
+    - name: Antony
+      age: 23
+      positions:
+      - AM(R)
+      incident: null
+      data:
+      - name: CM
+        value: '174.0'
+      - name: KG
+        value: '63.0'
+      - name: Apps
+        value:
+        - '23.0'
+        - '2.0'
+      - name: Mins
+        value: '1819.0'
+      - name: Assists
+        value: '2.0'
+      - name: KeyP
+        value: '1.1'
+      - name: AvgP
+        value: '31.0'
+      - name: PS%
+        value: '82.2'
+      - name: Crosses
+        value: '0.1'
+      - name: LongB
+        value: '0.7'
+      - name: ThrB
+        value: null
+      - name: Rating
+        value: '6.82'
+    - name: Fred
+      age: 30
+      positions:
+      - M(C)
+      incident: null
+      data:
+      - name: CM
+        value: '169.0'
+      - name: KG
+        value: '64.0'
+      - name: Apps
+        value:
+        - '12.0'
+        - '23.0'
+      - name: Mins
+        value: '1235.0'
+      - name: Assists
+        value: '2.0'
+      - name: KeyP
+        value: '0.9'
+      - name: AvgP
+        value: '21.8'
+      - name: PS%
+        value: '80.7'
+      - name: Crosses
+        value: '0.1'
+      - name: LongB
+        value: '0.9'
+      - name: ThrB
+        value: '0.1'
+      - name: Rating
+        value: '6.48'
+    - name: Diogo Dalot
+      age: 24
+      positions:
+      - D(LR)
+      - M(R)
+      incident: null
+      data:
+      - name: CM
+        value: '183.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '24.0'
+        - '2.0'
+      - name: Mins
+        value: '2155.0'
+      - name: Assists
+        value: '2.0'
+      - name: KeyP
+        value: '1.1'
+      - name: AvgP
+        value: '45.7'
+      - name: PS%
+        value: '80.5'
+      - name: Crosses
+        value: '0.5'
+      - name: LongB
+        value: '2.7'
+      - name: ThrB
+        value: null
+      - name: Rating
+        value: '6.96'
+    - name: Luke Shaw
+      age: 27
+      positions:
+      - D(CL)
+      - M(L)
+      incident: null
+      data:
+      - name: CM
+        value: '185.0'
+      - name: KG
+        value: '75.0'
+      - name: Apps
+        value:
+        - '30.0'
+        - '1.0'
+      - name: Mins
+        value: '2558.0'
+      - name: Assists
+        value: '2.0'
+      - name: KeyP
+        value: '1.1'
+      - name: AvgP
+        value: '58.2'
+      - name: PS%
+        value: '86.0'
+      - name: Crosses
+        value: '0.8'
+      - name: LongB
+        value: '2.0'
+      - name: ThrB
+        value: null
+      - name: Rating
+        value: '6.9'
+    - name: Anthony Elanga
+      age: 21
+      positions:
+      - AM(LR)
+      incident: null
+      data:
+      - name: CM
+        value: '178.0'
+      - name: KG
+        value: '70.0'
+      - name: Apps
+        value:
+        - '5.0'
+        - '11.0'
+      - name: Mins
+        value: '424.0'
+      - name: Assists
+        value: '1.0'
+      - name: KeyP
+        value: '0.4'
+      - name: AvgP
+        value: '7.6'
+      - name: PS%
+        value: '76.0'
+      - name: Crosses
+        value: '0.1'
+      - name: LongB
+        value: '0.1'
+      - name: ThrB
+        value: null
+      - name: Rating
+        value: '6.26'
+    - name: Marcel Sabitzer
+      age: 29
+      positions:
+      - M(CLR)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '178.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '7.0'
+        - '4.0'
+      - name: Mins
+        value: '628.0'
+      - name: Assists
+        value: '1.0'
+      - name: KeyP
+        value: '0.9'
+      - name: AvgP
+        value: '26.9'
+      - name: PS%
+        value: '79.1'
+      - name: Crosses
+        value: '0.1'
+      - name: LongB
+        value: '0.8'
+      - name: ThrB
+        value: '0.2'
+      - name: Rating
+        value: '6.64'
+    - name: Wout Weghorst
+      age: 30
+      positions:
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '197.0'
+      - name: KG
+        value: '84.0'
+      - name: Apps
+        value:
+        - '10.0'
+        - '7.0'
+      - name: Mins
+        value: '797.0'
+      - name: Assists
+        value: '1.0'
+      - name: KeyP
+        value: '0.8'
+      - name: AvgP
+        value: '12.2'
+      - name: PS%
+        value: '72.9'
+      - name: Crosses
+        value: null
+      - name: LongB
+        value: '0.2'
+      - name: ThrB
+        value: '0.2'
+      - name: Rating
+        value: '6.38'
+    - name: Aaron Wan-Bissaka
+      age: 25
+      positions:
+      - D(R)
+      - M(R)
+      incident: null
+      data:
+      - name: CM
+        value: '183.0'
+      - name: KG
+        value: '72.0'
+      - name: Apps
+        value:
+        - '16.0'
+        - '3.0'
+      - name: Mins
+        value: '1436.0'
+      - name: Assists
+        value: null
+      - name: KeyP
+        value: '0.8'
+      - name: AvgP
+        value: '37.1'
+      - name: PS%
+        value: '83.5'
+      - name: Crosses
+        value: '0.2'
+      - name: LongB
+        value: '0.9'
+      - name: ThrB
+        value: '0.1'
+      - name: Rating
+        value: '6.93'
+    - name: Cristiano Ronaldo
+      age: 38
+      positions:
+      - M(L)
+      - FW
+      incident: null
+      data:
+      - name: CM
+        value: '187.0'
+      - name: KG
+        value: '83.0'
+      - name: Apps
+        value:
+        - '4.0'
+        - '6.0'
+      - name: Mins
+        value: '520.0'
+      - name: Assists
+        value: null
+      - name: KeyP
+        value: '0.6'
+      - name: AvgP
+        value: '15.8'
+      - name: PS%
+        value: '76.6'
+      - name: Crosses
+        value: null
+      - name: LongB
+        value: '0.1'
+      - name: ThrB
+        value: null
+      - name: Rating
+        value: '6.39'
+    - name: David de Gea
+      age: 32
+      positions:
+      - GK
+      incident: null
+      data:
+      - name: CM
+        value: '192.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value: '38.0'
+      - name: Mins
+        value: '3420.0'
+      - name: Assists
+        value: null
+      - name: KeyP
+        value: null
+      - name: AvgP
+        value: '28.5'
+      - name: PS%
+        value: '68.3'
+      - name: Crosses
+        value: null
+      - name: LongB
+        value: '4.9'
+      - name: ThrB
+        value: null
+      - name: Rating
+        value: '6.67'
+    - name: Donny van de Beek
+      age: 26
+      positions:
+      - M(C)
+      incident: null
+      data:
+      - name: CM
+        value: '184.0'
+      - name: KG
+        value: '76.0'
+      - name: Apps
+        value:
+        - '2.0'
+        - '5.0'
+      - name: Mins
+        value: '166.0'
+      - name: Assists
+        value: null
+      - name: KeyP
+        value: '0.4'
+      - name: AvgP
+        value: '8.4'
+      - name: PS%
+        value: '78.0'
+      - name: Crosses
+        value: null
+      - name: LongB
+        value: null
+      - name: ThrB
+        value: null
+      - name: Rating
+        value: '6.18'
+    - name: Facundo Pellistri
+      age: 21
+      positions:
+      - AM(R)
+      incident: null
+      data:
+      - name: CM
+        value: '175.0'
+      - name: KG
+        value: '69.0'
+      - name: Apps
+        value:
+        - '0.0'
+        - '4.0'
+      - name: Mins
+        value: '60.0'
+      - name: Assists
+        value: null
+      - name: KeyP
+        value: null
+      - name: AvgP
+        value: '3.8'
+      - name: PS%
+        value: '93.3'
+      - name: Crosses
+        value: null
+      - name: LongB
+        value: null
+      - name: ThrB
+        value: null
+      - name: Rating
+        value: '6.18'
+    - name: Harry Maguire
+      age: 30
+      positions:
+      - D(C)
+      incident: null
+      data:
+      - name: CM
+        value: '194.0'
+      - name: KG
+        value: '90.0'
+      - name: Apps
+        value:
+        - '8.0'
+        - '8.0'
+      - name: Mins
+        value: '762.0'
+      - name: Assists
+        value: null
+      - name: KeyP
+        value: '0.1'
+      - name: AvgP
+        value: '35.9'
+      - name: PS%
+        value: '85.4'
+      - name: Crosses
+        value: null
+      - name: LongB
+        value: '2.3'
+      - name: ThrB
+        value: null
+      - name: Rating
+        value: '6.59'
+    - name: Kobbie Mainoo
+      age: 18
+      positions:
+      - Midfielder
+      incident: null
+      data:
+      - name: CM
+        value: '175.0'
+      - name: KG
+        value: '0.0'
+      - name: Apps
+        value:
+        - '0.0'
+        - '1.0'
+      - name: Mins
+        value: '10.0'
+      - name: Assists
+        value: null
+      - name: KeyP
+        value: null
+      - name: AvgP
+        value: '8.0'
+      - name: PS%
+        value: '87.5'
+      - name: Crosses
+        value: null
+      - name: LongB
+        value: null
+      - name: ThrB
+        value: null
+      - name: Rating
+        value: '6.11'
+    - name: Lisandro Martínez
+      age: 25
+      positions:
+      - D(CL)
+      - DMC
+      incident: null
+      data:
+      - name: CM
+        value: '175.0'
+      - name: KG
+        value: '77.0'
+      - name: Apps
+        value:
+        - '24.0'
+        - '3.0'
+      - name: Mins
+        value: '2117.0'
+      - name: Assists
+        value: null
+      - name: KeyP
+        value: '0.2'
+      - name: AvgP
+        value: '56.2'
+      - name: PS%
+        value: '87.3'
+      - name: Crosses
+        value: null
+      - name: LongB
+        value: '2.5'
+      - name: ThrB
+        value: '0.1'
+      - name: Rating
+        value: '6.84'
+    - name: Raphaël Varane
+      age: 30
+      positions:
+      - D(C)
+      incident: null
+      data:
+      - name: CM
+        value: '191.0'
+      - name: KG
+        value: '81.0'
+      - name: Apps
+        value:
+        - '22.0'
+        - '2.0'
+      - name: Mins
+        value: '1917.0'
+      - name: Assists
+        value: null
+      - name: KeyP
+        value: '0.2'
+      - name: AvgP
+        value: '45.8'
+      - name: PS%
+        value: '86.5'
+      - name: Crosses
+        value: null
+      - name: LongB
+        value: '2.3'
+      - name: ThrB
+        value: null
+      - name: Rating
+        value: '6.64'
+    - name: Scott McTominay
+      age: 26
+      positions:
+      - D(C)
+      - DMC
+      incident: null
+      data:
+      - name: CM
+        value: '193.0'
+      - name: KG
+        value: '88.0'
+      - name: Apps
+        value:
+        - '10.0'
+        - '14.0'
+      - name: Mins
+        value: '1151.0'
+      - name: Assists
+        value: null
+      - name: KeyP
+        value: '0.3'
+      - name: AvgP
+        value: '17.8'
+      - name: PS%
+        value: '82.9'
+      - name: Crosses
+        value: null
+      - name: LongB
+        value: '0.8'
+      - name: ThrB
+        value: '0.1'
+      - name: Rating
+        value: '6.55'
+    - name: Tyrell Malacia
+      age: 23
+      positions:
+      - D(L)
+      incident: null
+      data:
+      - name: CM
+        value: '170.0'
+      - name: KG
+        value: '67.0'
+      - name: Apps
+        value:
+        - '14.0'
+        - '8.0'
+      - name: Mins
+        value: '1395.0'
+      - name: Assists
+        value: null
+      - name: KeyP
+        value: '0.4'
+      - name: AvgP
+        value: '30.4'
+      - name: PS%
+        value: '87.4'
+      - name: Crosses
+        value: '0.1'
+      - name: LongB
+        value: '0.9'
+      - name: ThrB
+        value: null
+      - name: Rating
+        value: '6.64'
+    - name: Victor Lindelöf
+      age: 28
+      positions:
+      - D(CR)
+      incident: null
+      data:
+      - name: CM
+        value: '187.0'
+      - name: KG
+        value: '80.0'
+      - name: Apps
+        value:
+        - '14.0'
+        - '6.0'
+      - name: Mins
+        value: '1361.0'
+      - name: Assists
+        value: null
+      - name: KeyP
+        value: '0.2'
+      - name: AvgP
+        value: '46.4'
+      - name: PS%
+        value: '93.2'
+      - name: Crosses
+        value: null
+      - name: LongB
+        value: '1.3'
+      - name: ThrB
+        value: null
+      - name: Rating
+        value: '6.7'
+    keymap:
+      Mins: Minutes played
+      Assists: Total assists
+      KeyP: Key passes per game
+      AvgP: Passes per game
+      PS%: Pass success percentage
+      Crosses: Crosses per game
+      LongB: Long balls per game
+      ThrB: Through balls per game
+      CM: Height (in cm)
+      KG: Weight (in kg)

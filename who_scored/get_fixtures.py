@@ -15,13 +15,13 @@ from read_data_table import read_data_table
 class FixtureManager(object):
     def __init__(self, config: Config):
 
-        team_id = config["team_id"]
-        country = config["country"]
+        team_id = config.team_id
+        country = config.country
 
-        self.team_name = config["team_name"]
+        self.team_name = config.team_name
         self.url = f"https://www.whoscored.com/Teams/{team_id}/TYPE/{country}-{self.team_name.replace(' ', '-')}"
 
-        self.config = config["scraper"]
+        self.config = config.scraper
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
         self.fixture_list: List[Fixture] = list()
@@ -34,7 +34,7 @@ class FixtureManager(object):
             url=url,
             driver=self.driver,
             config=ReadConfig(
-                timeout=self.config.get("timeout"),
+                timeout=self.config.timeout,
                 selector_link='//a[@href="#team-squad-stats-{}"]',
                 table_link="statistics-table-{}",
             ),

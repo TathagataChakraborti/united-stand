@@ -1,33 +1,44 @@
 from datetime import date
-from typing import List, Union, TypedDict
+from typing import List, Union
+from pydantic import BaseModel
 from schemas.match_schemas import MatchData
-import enum
+from enum import Enum
 
 
-class Result(enum.Enum):
+class Result(Enum):
     WIN = "W"
     DRAW = "D"
     LOSS = "L"
 
+    class Config:
+        use_enum_values = True
 
-class Tournament(enum.Enum):
+
+class Tournament(str, Enum):
     EPL = "EPL"
     UCL = "UCL"
+    UEL = "UEL"
     EFLC = "EFLC"
     FAC = "FAC"
 
+    class Config:
+        use_enum_values = True
 
-class MatchType(enum.Enum):
+
+class MatchType(str, Enum):
     HOME = "HOME"
     AWAY = "AWAY"
 
+    class Config:
+        use_enum_values = True
 
-class ScoreItem(TypedDict):
+
+class ScoreItem(BaseModel):
     team_name: str
     score: int
 
 
-class Fixture(TypedDict):
+class Fixture(BaseModel):
     match_id: int
     url: str
     date: Union[date, str]
@@ -47,6 +58,6 @@ class Fixture(TypedDict):
         return f"{matchday} {home['team_name']} {home['score']} vs {away['score']} {away['team_name']}"
 
 
-class FixtureData(TypedDict):
+class FixtureData(BaseModel):
     fixture_list: List[Fixture]
     season_data: MatchData

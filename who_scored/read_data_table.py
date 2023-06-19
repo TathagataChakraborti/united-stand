@@ -53,7 +53,7 @@ def read_data_table(match_id: int, url: str, driver: Optional[webdriver.Chrome],
 
     for item in data_types:
         try:
-            selector = driver.find_element(by=By.XPATH, value=config.get("selector_link").format(item.lower()))
+            selector = driver.find_element(by=By.XPATH, value=config.selector_link.format(item.lower()))
         except TimeoutException as e:
             print(f"Timeout in parsing {url}", e)
             selector = None
@@ -62,8 +62,8 @@ def read_data_table(match_id: int, url: str, driver: Optional[webdriver.Chrome],
 
             driver.execute_script("arguments[0].click();", selector)
 
-            table_id = config.get("table_link").format(item.lower())
-            _ = WebDriverWait(driver, config.get("timeout", 22)).until(
+            table_id = config.table_link.format(item.lower())
+            _ = WebDriverWait(driver, config.timeout).until(
                 ec.visibility_of_all_elements_located((By.XPATH, f"//div[@id='{table_id}']"))
             )
 

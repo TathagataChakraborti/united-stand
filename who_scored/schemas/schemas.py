@@ -1,25 +1,25 @@
-from typing import List, Union, TypedDict
-import enum
+from pydantic import BaseModel
+from enum import Enum
 
 
-class Season(TypedDict):
-    start: int
-    end: int
-
-
-class Browser(enum.Enum):
+class Browser(Enum):
     CHROME = "Chrome"
     FIREFOX = "Firefox"
     EDGE = "Edge"
     SAFARI = "Safari"
 
 
-class ScraperConfig(TypedDict):
+class Season(BaseModel):
+    start: int
+    end: int
+
+
+class ScraperConfig(BaseModel):
     browser: Browser
     timeout: int
 
 
-class Config(TypedDict):
+class Config(BaseModel):
     team_id: int
     team_name: str
     country: str

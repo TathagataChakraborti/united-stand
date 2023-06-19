@@ -1,9 +1,10 @@
-from typing import List, Dict, Optional, Union, TypedDict
+from typing import List, Dict, Optional, Union
+from pydantic import BaseModel
+from enum import Enum
 import bs4.element
-import enum
 
 
-class IncidentType(enum.Enum):
+class IncidentType(str, Enum):
     SUBON = "subon"
     SUBOFF = "suboff"
     GOAL = "goalnormal"
@@ -12,6 +13,9 @@ class IncidentType(enum.Enum):
     RED = "redcard"
     YELLOW = "yellowcard"
     MOM = "mom"
+
+    class Config:
+        use_enum_values = True
 
     @classmethod
     def parse_incident_type(cls, html_object: bs4.element.ResultSet):
@@ -24,23 +28,23 @@ class IncidentType(enum.Enum):
         return None
 
 
-class IncidentTime(TypedDict):
+class IncidentTime(BaseModel):
     minute: int
     second: int
 
 
-class Incident(TypedDict):
+class Incident(BaseModel):
     incident_type: IncidentType
     incident_time: IncidentTime
     attributes: List[str]
 
 
-class DataItem(TypedDict):
+class DataItem(BaseModel):
     name: str
-    value: Union[str, float, List[Union[str, float, Incident]]]
+    value: Optional[Union[str, float, List[Union[str, float, Incident]]]]
 
 
-class PlayerData(TypedDict):
+class PlayerData(BaseModel):
     name: str
     age: int
     positions: List[str]
@@ -48,13 +52,13 @@ class PlayerData(TypedDict):
     data: List[DataItem]
 
 
-class DataTable(TypedDict):
+class DataTable(BaseModel):
     headers: List[str]
     player_data: List[PlayerData]
     keymap: Dict[str, str]
 
 
-class MatchData(TypedDict):
+class MatchData(BaseModel):
     match_id: int
     Summary: DataTable
     Defensive: DataTable
@@ -62,7 +66,7 @@ class MatchData(TypedDict):
     Passing: DataTable
 
 
-class ReadConfig(TypedDict):
+class ReadConfig(BaseModel):
     timeout: int
     selector_link: str
     table_link: str
