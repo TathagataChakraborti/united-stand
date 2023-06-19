@@ -34,7 +34,7 @@ class IncidentTime(BaseModel):
 
 
 class Incident(BaseModel):
-    incident_type: IncidentType
+    incident_type: Optional[IncidentType]
     incident_time: IncidentTime
     attributes: List[str]
 
@@ -48,7 +48,6 @@ class PlayerData(BaseModel):
     name: str
     age: int
     positions: List[str]
-    incident: Optional[Incident]
     data: List[DataItem]
 
 

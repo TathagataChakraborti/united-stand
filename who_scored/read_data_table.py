@@ -31,8 +31,8 @@ def read_incident_data(html_objects: List[bs4.element.ResultSet]) -> List[Incide
             attributes=[e.split("-")[-1] for e in html_object.attrs.keys() if "data-event-satisfier" in e],
         )
 
-        if new_incident["incident_type"]:
-            new_incident["incident_type"] = new_incident["incident_type"].value
+        if new_incident.incident_type:
+            setattr(new_incident, "incident_type", new_incident.incident_type.value)
 
         list_of_incidents.append(new_incident)
 
@@ -49,10 +49,12 @@ def read_data_table(match_id: int, url: str, driver: Optional[webdriver.Chrome],
     data_types = list(MatchData.__annotations__.keys())
     data_types.remove("match_id")
 
-    match_data: MatchData = dict()
+    match_data = dict()
     match_data["match_id"] = match_id
 
     for item in data_types:
+        print(f"==> Reading {item} data...")
+
         try:
             selector = driver.find_element(by=By.XPATH, value=config.selector_link.format(item.lower()))
         except TimeoutException as e:
@@ -60,7 +62,6 @@ def read_data_table(match_id: int, url: str, driver: Optional[webdriver.Chrome],
             selector = None
 
         if selector is not None:
-
             driver.execute_script("arguments[0].click();", selector)
 
             table_id = config.table_link.format(item.lower())
@@ -124,7 +125,7 @@ def read_data_table(match_id: int, url: str, driver: Optional[webdriver.Chrome],
 
                 assert "Headers do not match data", len(data) == len(headers)
 
-                new_player_data = PlayerData(name=name, age=age, positions=positions, incident=incident_info, data=data)
+                new_player_data = PlayerData(name=name, age=age, positions=positions, data=data)
                 player_data.append(new_player_data)
 
             keymap = table_of_interest.parent.find("div", attrs={"id": f"{table_id}-column-legend"})
@@ -140,7 +141,7 @@ def read_data_table(match_id: int, url: str, driver: Optional[webdriver.Chrome],
                 keymap=keymap,
             )
 
-            match_data[item] = data_table  # type: ignore
-            print(f"==> Reading {item} data...")
+            match_data[item] = data_table
 
+    match_data = MatchData.parse_obj(match_data)
     return match_data
