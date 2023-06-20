@@ -51,7 +51,9 @@ def scrape_match_data(
     fixture_data: FixtureData, config: Config, bulk: bool = False
 ) -> None:
     for index, fixture in enumerate(fixture_data.fixture_list):
-        print(f"[{index+1}/{len(fixture_data.fixture_list)}] {Fixture.print_score(fixture)}")
+        print(
+            f"[{index+1}/{len(fixture_data.fixture_list)}] {Fixture.print_score(fixture)}"
+        )
 
         match_type = fixture.match_type.lower()
         match_id = fixture.match_id
