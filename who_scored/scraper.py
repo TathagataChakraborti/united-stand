@@ -14,6 +14,19 @@ import json
 assert NotImplementedError, os.getenv("browser") == Browser.CHROME.value
 
 
+def get_config() -> Config:
+    return Config(
+        team_id=int(os.getenv("team_id")),
+        team_name=os.getenv("team_name"),
+        country=os.getenv("country"),
+        league=os.getenv("league"),
+        season=Season(start=os.getenv("season_start"), end=os.getenv("season_end")),
+        scraper=ScraperConfig(
+            browser=Browser.CHROME, timeout=int(os.getenv("timeout"))
+        ),
+    )
+
+
 def scrape_fixture(config: Config) -> Optional[FixtureData]:
     start = config.season.start
     end = config.season.end
@@ -96,17 +109,7 @@ def scrape_match_data(
 
 if __name__ == "__main__":
 
-    config_object = Config(
-        team_id=int(os.getenv("team_id")),
-        team_name=os.getenv("team_name"),
-        country=os.getenv("country"),
-        league=os.getenv("league"),
-        season=Season(start=os.getenv("season_start"), end=os.getenv("season_end")),
-        scraper=ScraperConfig(
-            browser=Browser.CHROME, timeout=int(os.getenv("timeout"))
-        ),
-    )
-
+    config_object: Config = get_config()
     fixtures: FixtureData = scrape_fixture(config_object)
 
     if fixtures:

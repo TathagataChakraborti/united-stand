@@ -9,9 +9,13 @@ from selenium.common.exceptions import TimeoutException
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 
-from united_stand.scraper.schemas import Ratings
-from who_scored.schemas.schemas import Season, Browser
 from typing import List, Optional
+from who_scored.schemas.schemas import Season, Browser, Config
+from who_scored.schemas.fixture_schemas import FixtureData
+from who_scored.scraper import get_config
+
+from united_stand.scraper.schemas import Ratings
+from united_stand.scraper.helpers import click_agree_button, get_date_of_match, get_match_id_from_date
 
 import os
 import yaml
@@ -25,18 +29,14 @@ path_to_urls = "../../data/united_stand/ratings_urls.yaml"
 path_to_cached_urls = "../../data/united_stand/cached_urls.yaml"
 
 
+def path_to_ratings_file(season: Season, match_id: int) -> str:
+    return f"../../data/united_stand/{season.start}-{season.end}/{match_id}.yaml"
+
+
 def save_list_of_urls(list_of_urls: List[str], filename: str) -> None:
     with open(filename, "w") as f:
         yaml.dump(list_of_urls, f, sort_keys=False, allow_unicode=True)
         print("Updated cached URLs")
-
-
-def click_agree_button(driver) -> None:
-    agree_button_selector = "//button[contains(@class, 'css-47sehv')]"
-    agree_button = driver.find_element(by=By.XPATH, value=agree_button_selector)
-
-    if agree_button:
-        driver.execute_script("arguments[0].click();", agree_button)
 
 
 def scrape_ratings_urls(url: str) -> List[str]:
@@ -70,6 +70,19 @@ def scrape_ratings(
             print(e)
 
     cached_urls = cached_urls or list()
+    config: Config = get_config()
+    season: Season = config.season
+
+    fixture_file = f"../../data/who_scored/{season.start}-{season.end}/{season.start}-{season.end}.yaml"
+    fixture_data = None
+
+    if os.path.isfile(fixture_file):
+        with open(fixture_file, "r") as stream:
+            try:
+                fixture_data = FixtureData.parse_obj(yaml.safe_load(stream))
+
+            except yaml.YAMLError as exc:
+                raise exc
 
     if not list_of_urls:
         with open(path_to_urls, "r") as stream:
@@ -81,7 +94,7 @@ def scrape_ratings(
     for index, url in enumerate(list_of_urls):
         print(f"[{index + 1}/{len(list_of_urls)}] Reading {url}.")
 
-        if url in list_of_urls:
+        if url in cached_urls:
             print("Already done. Skipping.")
 
         else:
@@ -90,30 +103,21 @@ def scrape_ratings(
             driver.get(url)
             click_agree_button(driver)
 
-            author_class = "article-main__info--author_text"
-            author_object = driver.find_element(by=By.CLASS_NAME, value=author_class)
-            date_object = author_object.find_elements(By.XPATH, "//p")[1]
-            _ = date_object.get_attribute("innerText")
+            date = get_date_of_match(driver)
+            match_id = get_match_id_from_date(date, fixture_data)
 
-            match_id = ""
-            season = Season
-            ratings = Ratings
+            if match_id:
 
-            path_to_data = (
-                f"../../data/united_stand/{season.start}-{season.end}/{match_id}.yaml"
-            )
+                # path_to_data = path_to_ratings_file(season, match_id)
+                # with open(path_to_data, "w") as f:
+                #     yaml.dump(json.loads(ratings.json()), f, sort_keys=False, allow_unicode=True)
+                #     print(f"Wrote ratings to {path_to_data}")
 
-            with open(path_to_data, "w") as f:
-                yaml.dump(
-                    json.loads(ratings.json()), f, sort_keys=False, allow_unicode=True
-                )
-                print(f"Wrote ratings to {path_to_data}")
+                # cached_urls.append(url)
+                # save_list_of_urls(cached_urls, path_to_cached_urls)
 
-            cached_urls.append(url)
-            save_list_of_urls(cached_urls, path_to_cached_urls)
-
-            if not bulk:
-                return
+                if not bulk:
+                    return
 
 
 if __name__ == "__main__":
