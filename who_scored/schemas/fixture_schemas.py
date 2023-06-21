@@ -1,5 +1,5 @@
 from datetime import date
-from typing import List, Union
+from typing import List, Union, Optional
 from pydantic import BaseModel
 from enum import Enum
 
@@ -60,4 +60,4 @@ class Fixture(BaseModel):
 
 class FixtureData(BaseModel):
     fixture_list: List[Fixture]
-    season_data: MatchData
+    season_data: Optional[MatchData] = None

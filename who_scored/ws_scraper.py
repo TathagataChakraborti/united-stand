@@ -48,6 +48,8 @@ def get_config() -> Config:
         scraper=ScraperConfig(
             browser=Browser.CHROME, timeout=int(os.getenv("timeout", 22))
         ),
+        cache=os.getenv("cache"),
+        fixtures_only=os.getenv("fixtures_only") == "true",
     )
 
 
@@ -69,7 +71,9 @@ def scrape_fixture(config: Config) -> Optional[FixtureData]:
         fixture_object = FixtureManager(config)
         fixture_data = FixtureData(
             fixture_list=fixture_object.read_fixtures(),
-            season_data=fixture_object.read_season_data(),
+            season_data=None
+            if config.fixtures_only
+            else fixture_object.read_season_data(),
         )
 
         with open(fixture_file, "w") as f:
@@ -138,5 +142,5 @@ if __name__ == "__main__":
     config_object: Config = get_config()
     fixtures: Optional[FixtureData] = scrape_fixture(config_object)
 
-    if fixtures:
-        scrape_match_data(fixtures, config_object)
+    # if fixtures:
+    #     scrape_match_data(fixtures, config_object)

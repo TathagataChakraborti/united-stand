@@ -1,0 +1,734 @@
+fixture_list:
+- match_id: 1485200
+  url: https://www.whoscored.com/Matches/1485200/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Crystal-Palace
+  date: '2020-09-19'
+  result: L
+  tournament: EPL
+  match_type: HOME
+  opponent: Crystal Palace
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Crystal Palace
+    score: 3
+- match_id: 1501847
+  url: https://www.whoscored.com/Matches/1501847/LiveStatistics/England-League-Cup-2020-2021-Luton-Manchester-United
+  date: '2020-09-22'
+  result: W
+  tournament: EFLC
+  match_type: AWAY
+  opponent: Luton
+  score:
+  - team_name: Luton
+    score: 0
+  - team_name: Manchester United
+    score: 3
+- match_id: 1485204
+  url: https://www.whoscored.com/Matches/1485204/LiveStatistics/England-Premier-League-2020-2021-Brighton-Manchester-United
+  date: '2020-09-26'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Brighton
+  score:
+  - team_name: Brighton
+    score: 2
+  - team_name: Manchester United
+    score: 3
+- match_id: 1507969
+  url: https://www.whoscored.com/Matches/1507969/LiveStatistics/England-League-Cup-2020-2021-Brighton-Manchester-United
+  date: '2020-09-30'
+  result: W
+  tournament: EFLC
+  match_type: AWAY
+  opponent: Brighton
+  score:
+  - team_name: Brighton
+    score: 0
+  - team_name: Manchester United
+    score: 3
+- match_id: 1485220
+  url: https://www.whoscored.com/Matches/1485220/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Tottenham
+  date: '2020-10-04'
+  result: L
+  tournament: EPL
+  match_type: HOME
+  opponent: Tottenham
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Tottenham
+    score: 6
+- match_id: 1485230
+  url: https://www.whoscored.com/Matches/1485230/LiveStatistics/England-Premier-League-2020-2021-Newcastle-United-Manchester-United
+  date: '2020-10-17'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Newcastle United
+  score:
+  - team_name: Newcastle United
+    score: 1
+  - team_name: Manchester United
+    score: 4
+- match_id: 1508922
+  url: https://www.whoscored.com/Matches/1508922/LiveStatistics/Europe-Champions-League-2020-2021-Paris-Saint-Germain-Manchester-United
+  date: '2020-10-20'
+  result: W
+  tournament: UCL
+  match_type: AWAY
+  opponent: Paris Saint-Germain
+  score:
+  - team_name: Paris Saint-Germain
+    score: 1
+  - team_name: Manchester United
+    score: 2
+- match_id: 1485243
+  url: https://www.whoscored.com/Matches/1485243/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Chelsea
+  date: '2020-10-24'
+  result: D
+  tournament: EPL
+  match_type: HOME
+  opponent: Chelsea
+  score:
+  - team_name: Manchester United
+    score: 0
+  - team_name: Chelsea
+    score: 0
+- match_id: 1508924
+  url: https://www.whoscored.com/Matches/1508924/LiveStatistics/Europe-Champions-League-2020-2021-Manchester-United-RB-Leipzig
+  date: '2020-10-28'
+  result: W
+  tournament: UCL
+  match_type: HOME
+  opponent: RB Leipzig
+  score:
+  - team_name: Manchester United
+    score: 5
+  - team_name: RB Leipzig
+    score: 0
+- match_id: 1485261
+  url: https://www.whoscored.com/Matches/1485261/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Arsenal
+  date: '2020-11-01'
+  result: L
+  tournament: EPL
+  match_type: HOME
+  opponent: Arsenal
+  score:
+  - team_name: Manchester United
+    score: 0
+  - team_name: Arsenal
+    score: 1
+- match_id: 1508925
+  url: https://www.whoscored.com/Matches/1508925/LiveStatistics/Europe-Champions-League-2020-2021-Istanbul-Basaksehir-Manchester-United
+  date: '2020-11-04'
+  result: L
+  tournament: UCL
+  match_type: AWAY
+  opponent: Istanbul Basaksehir
+  score:
+  - team_name: Istanbul Basaksehir
+    score: 2
+  - team_name: Manchester United
+    score: 1
+- match_id: 1485279
+  url: https://www.whoscored.com/Matches/1485279/LiveStatistics/England-Premier-League-2020-2021-Everton-Manchester-United
+  date: '2020-11-07'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Everton
+  score:
+  - team_name: Everton
+    score: 1
+  - team_name: Manchester United
+    score: 3
+- match_id: 1485301
+  url: https://www.whoscored.com/Matches/1485301/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-West-Bromwich-Albion
+  date: '2020-11-21'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: West Bromwich Albion
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: West Bromwich Albion
+    score: 0
+- match_id: 1508928
+  url: https://www.whoscored.com/Matches/1508928/LiveStatistics/Europe-Champions-League-2020-2021-Manchester-United-Istanbul-Basaksehir
+  date: '2020-11-24'
+  result: W
+  tournament: UCL
+  match_type: HOME
+  opponent: Istanbul Basaksehir
+  score:
+  - team_name: Manchester United
+    score: 4
+  - team_name: Istanbul Basaksehir
+    score: 1
+- match_id: 1485250
+  url: https://www.whoscored.com/Matches/1485250/LiveStatistics/England-Premier-League-2020-2021-Southampton-Manchester-United
+  date: '2020-11-29'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Southampton
+  score:
+  - team_name: Southampton
+    score: 2
+  - team_name: Manchester United
+    score: 3
+- match_id: 1508930
+  url: https://www.whoscored.com/Matches/1508930/LiveStatistics/Europe-Champions-League-2020-2021-Manchester-United-Paris-Saint-Germain
+  date: '2020-12-02'
+  result: L
+  tournament: UCL
+  match_type: HOME
+  opponent: Paris Saint-Germain
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Paris Saint-Germain
+    score: 3
+- match_id: 1485274
+  url: https://www.whoscored.com/Matches/1485274/LiveStatistics/England-Premier-League-2020-2021-West-Ham-Manchester-United
+  date: '2020-12-05'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: West Ham
+  score:
+  - team_name: West Ham
+    score: 1
+  - team_name: Manchester United
+    score: 3
+- match_id: 1508932
+  url: https://www.whoscored.com/Matches/1508932/LiveStatistics/Europe-Champions-League-2020-2021-RB-Leipzig-Manchester-United
+  date: '2020-12-08'
+  result: L
+  tournament: UCL
+  match_type: AWAY
+  opponent: RB Leipzig
+  score:
+  - team_name: RB Leipzig
+    score: 3
+  - team_name: Manchester United
+    score: 2
+- match_id: 1485288
+  url: https://www.whoscored.com/Matches/1485288/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Manchester-City
+  date: '2020-12-12'
+  result: D
+  tournament: EPL
+  match_type: HOME
+  opponent: Manchester City
+  score:
+  - team_name: Manchester United
+    score: 0
+  - team_name: Manchester City
+    score: 0
+- match_id: 1485306
+  url: https://www.whoscored.com/Matches/1485306/LiveStatistics/England-Premier-League-2020-2021-Sheffield-United-Manchester-United
+  date: '2020-12-17'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Sheffield United
+  score:
+  - team_name: Sheffield United
+    score: 2
+  - team_name: Manchester United
+    score: 3
+- match_id: 1485319
+  url: https://www.whoscored.com/Matches/1485319/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Leeds
+  date: '2020-12-20'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Leeds
+  score:
+  - team_name: Manchester United
+    score: 6
+  - team_name: Leeds
+    score: 2
+- match_id: 1508788
+  url: https://www.whoscored.com/Matches/1508788/LiveStatistics/England-League-Cup-2020-2021-Everton-Manchester-United
+  date: '2020-12-23'
+  result: W
+  tournament: EFLC
+  match_type: AWAY
+  opponent: Everton
+  score:
+  - team_name: Everton
+    score: 0
+  - team_name: Manchester United
+    score: 2
+- match_id: 1485444
+  url: https://www.whoscored.com/Matches/1485444/LiveStatistics/England-Premier-League-2020-2021-Leicester-Manchester-United
+  date: '2020-12-26'
+  result: D
+  tournament: EPL
+  match_type: AWAY
+  opponent: Leicester
+  score:
+  - team_name: Leicester
+    score: 2
+  - team_name: Manchester United
+    score: 2
+- match_id: 1485460
+  url: https://www.whoscored.com/Matches/1485460/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Wolverhampton-Wanderers
+  date: '2020-12-29'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Wolverhampton Wanderers
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Wolverhampton Wanderers
+    score: 0
+- match_id: 1485323
+  url: https://www.whoscored.com/Matches/1485323/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Aston-Villa
+  date: '2021-01-01'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Aston Villa
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Aston Villa
+    score: 1
+- match_id: 1517488
+  url: https://www.whoscored.com/Matches/1517488/LiveStatistics/England-League-Cup-2020-2021-Manchester-United-Manchester-City
+  date: '2021-01-06'
+  result: L
+  tournament: EFLC
+  match_type: HOME
+  opponent: Manchester City
+  score:
+  - team_name: Manchester United
+    score: 0
+  - team_name: Manchester City
+    score: 2
+- match_id: 1515566
+  url: https://www.whoscored.com/Matches/1515566/LiveStatistics/England-FA-Cup-2020-2021-Manchester-United-Watford
+  date: '2021-01-09'
+  result: W
+  tournament: FAC
+  match_type: HOME
+  opponent: Watford
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Watford
+    score: 0
+- match_id: 1485184
+  url: https://www.whoscored.com/Matches/1485184/LiveStatistics/England-Premier-League-2020-2021-Burnley-Manchester-United
+  date: '2021-01-12'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Burnley
+  score:
+  - team_name: Burnley
+    score: 0
+  - team_name: Manchester United
+    score: 1
+- match_id: 1485383
+  url: https://www.whoscored.com/Matches/1485383/LiveStatistics/England-Premier-League-2020-2021-Liverpool-Manchester-United
+  date: '2021-01-17'
+  result: D
+  tournament: EPL
+  match_type: AWAY
+  opponent: Liverpool
+  score:
+  - team_name: Liverpool
+    score: 0
+  - team_name: Manchester United
+    score: 0
+- match_id: 1485344
+  url: https://www.whoscored.com/Matches/1485344/LiveStatistics/England-Premier-League-2020-2021-Fulham-Manchester-United
+  date: '2021-01-20'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Fulham
+  score:
+  - team_name: Fulham
+    score: 1
+  - team_name: Manchester United
+    score: 2
+- match_id: 1519786
+  url: https://www.whoscored.com/Matches/1519786/LiveStatistics/England-FA-Cup-2020-2021-Manchester-United-Liverpool
+  date: '2021-01-24'
+  result: W
+  tournament: FAC
+  match_type: HOME
+  opponent: Liverpool
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Liverpool
+    score: 2
+- match_id: 1485407
+  url: https://www.whoscored.com/Matches/1485407/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Sheffield-United
+  date: '2021-01-27'
+  result: L
+  tournament: EPL
+  match_type: HOME
+  opponent: Sheffield United
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Sheffield United
+    score: 2
+- match_id: 1485428
+  url: https://www.whoscored.com/Matches/1485428/LiveStatistics/England-Premier-League-2020-2021-Arsenal-Manchester-United
+  date: '2021-01-30'
+  result: D
+  tournament: EPL
+  match_type: AWAY
+  opponent: Arsenal
+  score:
+  - team_name: Arsenal
+    score: 0
+  - team_name: Manchester United
+    score: 0
+- match_id: 1485357
+  url: https://www.whoscored.com/Matches/1485357/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Southampton
+  date: '2021-02-02'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Southampton
+  score:
+  - team_name: Manchester United
+    score: 9
+  - team_name: Southampton
+    score: 0
+- match_id: 1485384
+  url: https://www.whoscored.com/Matches/1485384/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Everton
+  date: '2021-02-06'
+  result: D
+  tournament: EPL
+  match_type: HOME
+  opponent: Everton
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Everton
+    score: 3
+- match_id: 1525665
+  url: https://www.whoscored.com/Matches/1525665/LiveStatistics/England-FA-Cup-2020-2021-Manchester-United-West-Ham
+  date: '2021-02-09'
+  result: W
+  tournament: FAC
+  match_type: HOME
+  opponent: West Ham
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: West Ham
+    score: 0
+- match_id: 1485423
+  url: https://www.whoscored.com/Matches/1485423/LiveStatistics/England-Premier-League-2020-2021-West-Bromwich-Albion-Manchester-United
+  date: '2021-02-14'
+  result: D
+  tournament: EPL
+  match_type: AWAY
+  opponent: West Bromwich Albion
+  score:
+  - team_name: West Bromwich Albion
+    score: 1
+  - team_name: Manchester United
+    score: 1
+- match_id: 1516660
+  url: https://www.whoscored.com/Matches/1516660/LiveStatistics/Europe-Europa-League-2020-2021-Real-Sociedad-Manchester-United
+  date: '2021-02-18'
+  result: W
+  tournament: UEL
+  match_type: AWAY
+  opponent: Real Sociedad
+  score:
+  - team_name: Real Sociedad
+    score: 0
+  - team_name: Manchester United
+    score: 4
+- match_id: 1485325
+  url: https://www.whoscored.com/Matches/1485325/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Newcastle-United
+  date: '2021-02-21'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Newcastle United
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Newcastle United
+    score: 1
+- match_id: 1516661
+  url: https://www.whoscored.com/Matches/1516661/LiveStatistics/Europe-Europa-League-2020-2021-Manchester-United-Real-Sociedad
+  date: '2021-02-25'
+  result: D
+  tournament: UEL
+  match_type: HOME
+  opponent: Real Sociedad
+  score:
+  - team_name: Manchester United
+    score: 0
+  - team_name: Real Sociedad
+    score: 0
+- match_id: 1485337
+  url: https://www.whoscored.com/Matches/1485337/LiveStatistics/England-Premier-League-2020-2021-Chelsea-Manchester-United
+  date: '2021-02-28'
+  result: D
+  tournament: EPL
+  match_type: AWAY
+  opponent: Chelsea
+  score:
+  - team_name: Chelsea
+    score: 0
+  - team_name: Manchester United
+    score: 0
+- match_id: 1485433
+  url: https://www.whoscored.com/Matches/1485433/LiveStatistics/England-Premier-League-2020-2021-Crystal-Palace-Manchester-United
+  date: '2021-03-03'
+  result: D
+  tournament: EPL
+  match_type: AWAY
+  opponent: Crystal Palace
+  score:
+  - team_name: Crystal Palace
+    score: 0
+  - team_name: Manchester United
+    score: 0
+- match_id: 1485382
+  url: https://www.whoscored.com/Matches/1485382/LiveStatistics/England-Premier-League-2020-2021-Manchester-City-Manchester-United
+  date: '2021-03-07'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Manchester City
+  score:
+  - team_name: Manchester City
+    score: 0
+  - team_name: Manchester United
+    score: 2
+- match_id: 1531480
+  url: https://www.whoscored.com/Matches/1531480/LiveStatistics/Europe-Europa-League-2020-2021-Manchester-United-AC-Milan
+  date: '2021-03-11'
+  result: D
+  tournament: UEL
+  match_type: HOME
+  opponent: AC Milan
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: AC Milan
+    score: 1
+- match_id: 1485415
+  url: https://www.whoscored.com/Matches/1485415/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-West-Ham
+  date: '2021-03-14'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: West Ham
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: West Ham
+    score: 0
+- match_id: 1531481
+  url: https://www.whoscored.com/Matches/1531481/LiveStatistics/Europe-Europa-League-2020-2021-AC-Milan-Manchester-United
+  date: '2021-03-18'
+  result: W
+  tournament: UEL
+  match_type: AWAY
+  opponent: AC Milan
+  score:
+  - team_name: AC Milan
+    score: 0
+  - team_name: Manchester United
+    score: 1
+- match_id: 1528975
+  url: https://www.whoscored.com/Matches/1528975/LiveStatistics/England-FA-Cup-2020-2021-Leicester-Manchester-United
+  date: '2021-03-21'
+  result: L
+  tournament: FAC
+  match_type: AWAY
+  opponent: Leicester
+  score:
+  - team_name: Leicester
+    score: 3
+  - team_name: Manchester United
+    score: 1
+- match_id: 1485490
+  url: https://www.whoscored.com/Matches/1485490/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Brighton
+  date: '2021-04-04'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Brighton
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Brighton
+    score: 1
+- match_id: 1536182
+  url: https://www.whoscored.com/Matches/1536182/LiveStatistics/Europe-Europa-League-2020-2021-Granada-Manchester-United
+  date: '2021-04-08'
+  result: W
+  tournament: UEL
+  match_type: AWAY
+  opponent: Granada
+  score:
+  - team_name: Granada
+    score: 0
+  - team_name: Manchester United
+    score: 2
+- match_id: 1485512
+  url: https://www.whoscored.com/Matches/1485512/LiveStatistics/England-Premier-League-2020-2021-Tottenham-Manchester-United
+  date: '2021-04-11'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Tottenham
+  score:
+  - team_name: Tottenham
+    score: 1
+  - team_name: Manchester United
+    score: 3
+- match_id: 1536183
+  url: https://www.whoscored.com/Matches/1536183/LiveStatistics/Europe-Europa-League-2020-2021-Manchester-United-Granada
+  date: '2021-04-15'
+  result: W
+  tournament: UEL
+  match_type: HOME
+  opponent: Granada
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Granada
+    score: 0
+- match_id: 1485530
+  url: https://www.whoscored.com/Matches/1485530/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Burnley
+  date: '2021-04-18'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Burnley
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Burnley
+    score: 1
+- match_id: 1485544
+  url: https://www.whoscored.com/Matches/1485544/LiveStatistics/England-Premier-League-2020-2021-Leeds-Manchester-United
+  date: '2021-04-25'
+  result: D
+  tournament: EPL
+  match_type: AWAY
+  opponent: Leeds
+  score:
+  - team_name: Leeds
+    score: 0
+  - team_name: Manchester United
+    score: 0
+- match_id: 1542202
+  url: https://www.whoscored.com/Matches/1542202/LiveStatistics/Europe-Europa-League-2020-2021-Manchester-United-Roma
+  date: '2021-04-29'
+  result: W
+  tournament: UEL
+  match_type: HOME
+  opponent: Roma
+  score:
+  - team_name: Manchester United
+    score: 6
+  - team_name: Roma
+    score: 2
+- match_id: 1542203
+  url: https://www.whoscored.com/Matches/1542203/LiveStatistics/Europe-Europa-League-2020-2021-Roma-Manchester-United
+  date: '2021-05-06'
+  result: L
+  tournament: UEL
+  match_type: AWAY
+  opponent: Roma
+  score:
+  - team_name: Roma
+    score: 3
+  - team_name: Manchester United
+    score: 2
+- match_id: 1485493
+  url: https://www.whoscored.com/Matches/1485493/LiveStatistics/England-Premier-League-2020-2021-Aston-Villa-Manchester-United
+  date: '2021-05-09'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Aston Villa
+  score:
+  - team_name: Aston Villa
+    score: 1
+  - team_name: Manchester United
+    score: 3
+- match_id: 1485517
+  url: https://www.whoscored.com/Matches/1485517/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Leicester
+  date: '2021-05-11'
+  result: L
+  tournament: EPL
+  match_type: HOME
+  opponent: Leicester
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Leicester
+    score: 2
+- match_id: 1485481
+  url: https://www.whoscored.com/Matches/1485481/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Liverpool
+  date: '2021-05-13'
+  result: L
+  tournament: EPL
+  match_type: HOME
+  opponent: Liverpool
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Liverpool
+    score: 4
+- match_id: 1485541
+  url: https://www.whoscored.com/Matches/1485541/LiveStatistics/England-Premier-League-2020-2021-Manchester-United-Fulham
+  date: '2021-05-18'
+  result: D
+  tournament: EPL
+  match_type: HOME
+  opponent: Fulham
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Fulham
+    score: 1
+- match_id: 1485563
+  url: https://www.whoscored.com/Matches/1485563/LiveStatistics/England-Premier-League-2020-2021-Wolverhampton-Wanderers-Manchester-United
+  date: '2021-05-23'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Wolverhampton Wanderers
+  score:
+  - team_name: Wolverhampton Wanderers
+    score: 1
+  - team_name: Manchester United
+    score: 2
+- match_id: 1544100
+  url: https://www.whoscored.com/Matches/1544100/LiveStatistics/Europe-Europa-League-2020-2021-Villarreal-Manchester-United
+  date: '2021-05-26'
+  result: L
+  tournament: UEL
+  match_type: AWAY
+  opponent: Villarreal
+  score:
+  - team_name: Villarreal
+    score: 1
+  - team_name: Manchester United
+    score: 1
+season_data: null

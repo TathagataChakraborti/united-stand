@@ -12,6 +12,8 @@ from who_scored.schemas.schemas import Config
 
 from who_scored.read_data_table import read_data_table
 
+import os
+
 
 class FixtureManager(object):
     def __init__(self, config: Config):
@@ -19,7 +21,7 @@ class FixtureManager(object):
         country = config.country
 
         self.team_name = config.team_name
-        self.url = f"https://www.whoscored.com/Teams/{team_id}/TYPE/{country}-{self.team_name.replace(' ', '-')}"
+        self.url = f"{config.cache}https://www.whoscored.com/Teams/{team_id}/TYPE/{country}-{self.team_name.replace(' ', '-')}"
 
         self.config = config.scraper
         self.driver = webdriver.Chrome(
@@ -36,6 +38,7 @@ class FixtureManager(object):
             url=url,
             driver=self.driver,
             config=ReadConfig(
+                summary_only=os.getenv("summary_only") == "true",
                 timeout=self.config.timeout,
                 selector_link='//a[@href="#team-squad-stats-{}"]',
                 table_link="statistics-table-{}",

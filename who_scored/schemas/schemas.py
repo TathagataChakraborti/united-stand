@@ -26,3 +26,5 @@ class Config(BaseModel):
     league: str
     season: Season
     scraper: ScraperConfig
+    cache: str = ""
+    fixtures_only: bool = False

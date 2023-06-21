@@ -68,8 +68,11 @@ def read_data_table(
     print(f"==> Attempting to read data from {url}")
     driver.get(url)
 
-    data_types = list(MatchData.__annotations__.keys())
-    data_types.remove("match_id")
+    if config.summary_only:
+        data_types = ["Summary"]
+    else:
+        data_types = list(MatchData.__annotations__.keys())
+        data_types.remove("match_id")
 
     match_data = dict()
     match_data["match_id"] = match_id

@@ -65,12 +65,13 @@ class DataTable(BaseModel):
 class MatchData(BaseModel):
     match_id: int
     Summary: DataTable
-    Defensive: DataTable
-    Offensive: DataTable
-    Passing: DataTable
+    Defensive: Optional[DataTable] = None
+    Offensive: Optional[DataTable] = None
+    Passing: Optional[DataTable] = None
 
 
 class ReadConfig(BaseModel):
     timeout: int
     selector_link: str
     table_link: str
+    summary_only: bool = False
