@@ -19,12 +19,14 @@ class MetaData(BaseModel):
     views: int
     likes: int
     shares: int
-    votes: int
 
 
 class Rating(BaseModel):
     name: str
+    substitute: bool
+    position: str
     value: float
+    votes: int
 
 
 class ManagerRating(BaseModel):

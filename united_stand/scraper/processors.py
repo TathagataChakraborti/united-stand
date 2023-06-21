@@ -7,6 +7,14 @@ import os
 import yaml
 
 
+def process_k(raw_string: str) -> int:
+    if raw_string.endswith('k'):
+        raw_string = raw_string[:-1]
+        return int(1000 * float(raw_string))
+    else:
+        return int(raw_string)
+
+
 def generate_player_info() -> None:
     player_infos: List[PlayerInfo] = list()
 
