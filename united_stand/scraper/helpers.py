@@ -1,10 +1,12 @@
+import time
+
 from selenium.webdriver.common.by import By
 from who_scored.schemas.fixture_schemas import FixtureData, Fixture
-from united_stand.scraper.schemas import MetaData
+from united_stand.scraper.schemas import MetaData, ManagerRating, Rating, MoM
 from united_stand.scraper.processors import process_k
 
 from datetime import datetime
-from typing import List, Optional
+from typing import List, Tuple, Optional
 
 
 def get_date_of_match(driver) -> datetime.date:
@@ -80,3 +82,33 @@ def get_meta_data(driver) -> MetaData:
 
     meta_data = MetaData(**obj)
     return meta_data
+
+
+def read_ratings(driver) -> Tuple[ManagerRating, List[Rating]]:
+    pass
+
+
+def read_mom(driver) -> MoM:
+    time.sleep(1.0)
+
+    mom_class = "article-main__content--players_motm"
+    mom_object = driver.find_element(by=By.CLASS_NAME, value=mom_class)
+
+    obj = mom_object.find_element(by=By.CLASS_NAME, value="player-name")
+    name = obj.get_attribute("innerText")
+
+    obj = mom_object.find_element(by=By.CLASS_NAME, value="motm-percentage")
+    percentage = obj.get_attribute("innerText")
+    percentage = int(percentage.replace("%", ""))
+
+    obj = mom_object.find_element(by=By.CLASS_NAME, value="motm-votes")
+    obj = obj.find_element(by=By.XPATH, value="span")
+    votes = process_k(obj.get_attribute("innerText"))
+
+    mom_object = MoM(
+        name=name,
+        percentage=percentage,
+        votes=votes,
+    )
+
+    return mom_object

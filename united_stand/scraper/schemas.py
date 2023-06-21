@@ -37,6 +37,7 @@ class ManagerRating(BaseModel):
 class MoM(BaseModel):
     name: str
     percentage: float
+    votes: int
 
 
 class Ratings(BaseModel):

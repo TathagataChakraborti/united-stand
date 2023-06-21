@@ -1,32 +1,28 @@
-import bs4.element
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as ec
-from selenium.common.exceptions import TimeoutException
 
 from webdriver_manager.chrome import ChromeDriverManager
-from bs4 import BeautifulSoup
 
 from typing import List, Optional
 from who_scored.schemas.schemas import Season, Browser, Config
 from who_scored.schemas.fixture_schemas import FixtureData
 from who_scored.scraper import get_config
 
-from united_stand.scraper.schemas import Ratings, MetaData
+from united_stand.scraper.schemas import Ratings, MetaData, MoM
 from united_stand.scraper.helpers import (
     click_agree_button,
     get_date_of_match,
     get_match_id_from_date,
     get_meta_data,
     get_page_read_ready,
+    read_ratings,
+    read_mom,
 )
 
 import os
 import yaml
 import json
-import time
 
 
 assert NotImplementedError, os.getenv("browser") == Browser.CHROME.value
@@ -36,7 +32,13 @@ path_to_cached_urls = "../../data/united_stand/cached_urls.yaml"
 
 
 def path_to_ratings_file(season: Season, match_id: int) -> str:
-    return f"../../data/united_stand/{season.start}-{season.end}/{match_id}.yaml"
+    path = f"../../data/united_stand/{season.start}-{season.end}/{match_id}"
+
+    if os.path.isfile(path):
+        print('Duplicate detected!')
+        path = f'{path}_alt'
+
+    return f'{path}.yaml'
 
 
 def save_list_of_urls(list_of_urls: List[str], filename: str) -> None:
@@ -116,8 +118,17 @@ def scrape_ratings(
 
             get_page_read_ready(driver)
             meta_data: MetaData = get_meta_data(driver)
+            mom_data: MoM = read_mom(driver)
+            manager_rating, ratings = read_ratings(driver)
 
-            ratings = Ratings(match_id=match_id, meta_data=meta_data)
+            ratings = Ratings(
+                match_id=match_id,
+                meta_data=meta_data,
+                man_of_the_match=mom_data,
+                manager_rating=manager_rating,
+                ratings=ratings,
+            )
+
             path_to_data = path_to_ratings_file(season, match_id)
             with open(path_to_data, "w") as f:
                 yaml.dump(json.loads(ratings.json()), f, sort_keys=False, allow_unicode=True)
