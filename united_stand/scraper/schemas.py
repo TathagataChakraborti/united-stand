@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import List
+from typing import List, Optional
 
 from who_scored.schemas.schemas import Season
 
@@ -23,14 +23,17 @@ class MetaData(BaseModel):
 
 class Rating(BaseModel):
     name: str
-    substitute: bool
-    position: str
-    value: float
     votes: int
+    rating: float
+
+
+class PlayerRating(BaseModel):
+    substitute: Optional[bool]
+    position: str
+    rating: Rating
 
 
 class ManagerRating(BaseModel):
-    name: str
     rating: Rating
 
 
@@ -40,9 +43,9 @@ class MoM(BaseModel):
     votes: int
 
 
-class Ratings(BaseModel):
+class MatchRating(BaseModel):
     match_id: int
     meta_data: MetaData
     man_of_the_match: MoM
     manager_rating: ManagerRating
-    ratings: List[Rating]
+    ratings: List[PlayerRating]

@@ -1,0 +1,111 @@
+match_id: 1641004
+meta_data:
+  views: 9600
+  likes: 104
+  shares: 7
+man_of_the_match:
+  name: CASEMIRO
+  percentage: 86.0
+  votes: 7700
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 7300
+    rating: 7.9
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 7700
+    rating: 6.8
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 7700
+    rating: 7.1
+- substitute: false
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 7700
+    rating: 7.1
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 7700
+    rating: 7.3
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 7700
+    rating: 6.5
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 7700
+    rating: 8.3
+- substitute: false
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 7700
+    rating: 6.1
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 7700
+    rating: 6.5
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 7700
+    rating: 5.9
+- substitute: false
+  position: LW
+  rating:
+    name: JADON SANCHO
+    votes: 7700
+    rating: 6.8
+- substitute: false
+  position: ST
+  rating:
+    name: ANTHONY MARTIAL
+    votes: 7700
+    rating: 6.2
+- substitute: true
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 7700
+    rating: 6.7
+- substitute: true
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 7700
+    rating: 6.2
+- substitute: true
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 7700
+    rating: 6.1
+- substitute: true
+  position: LW
+  rating:
+    name: ALEJANDRO GARNACHO
+    votes: 7700
+    rating: 6.7
+- substitute: true
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 7300
+    rating: 6.0

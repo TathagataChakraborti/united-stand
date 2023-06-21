@@ -1,12 +1,12 @@
-import time
-
 from selenium.webdriver.common.by import By
 from who_scored.schemas.fixture_schemas import FixtureData, Fixture
-from united_stand.scraper.schemas import MetaData, ManagerRating, Rating, MoM
 from united_stand.scraper.processors import process_k
+from united_stand.scraper.schemas import MetaData, PlayerRating, ManagerRating, Rating, MoM
 
 from datetime import datetime
 from typing import List, Tuple, Optional
+
+import time
 
 
 def get_date_of_match(driver) -> datetime.date:
@@ -18,6 +18,22 @@ def get_date_of_match(driver) -> datetime.date:
 
     date = datetime.strptime(date_string, "%d/%m/%Y").date()
     return date
+
+
+def read_obj_by_classname(ref_obj, classname: str) -> str:
+    try:
+        obj = ref_obj.find_element(by=By.CLASS_NAME, value=classname)
+        splits = obj.find_elements(by=By.XPATH, value="span")
+
+        if len(splits):
+            splits = [s.get_attribute("innerText").strip() for s in splits]
+            return ' '.join(splits).strip()
+        else:
+            return obj.get_attribute("innerText").strip()
+
+    except Exception as e:
+        print(e)
+        return ""
 
 
 def get_match_id_from_date(
@@ -84,8 +100,38 @@ def get_meta_data(driver) -> MetaData:
     return meta_data
 
 
-def read_ratings(driver) -> Tuple[ManagerRating, List[Rating]]:
-    pass
+def read_ratings(driver) -> Tuple[ManagerRating, List[PlayerRating]]:
+    time.sleep(1.0)
+
+    player_class = "article-main__content--players_card"
+    player_cards = driver.find_elements(by=By.CLASS_NAME, value=player_class)
+
+    list_of_ratings = list()
+    manager_rating: ManagerRating = None
+
+    for card in player_cards:
+        rating = Rating(
+            name=read_obj_by_classname(card, "player-info__name"),
+            rating=float(read_obj_by_classname(card, "player-info__bottom--score")),
+            votes=process_k(read_obj_by_classname(card, "player-info__bottom--votes_number")),
+        )
+
+        if "black" in card.get_attribute("class"):
+            manager_rating = ManagerRating(
+                rating=rating,
+            )
+
+        else:
+            position = read_obj_by_classname(card, "profile-pic__position")
+            sub = read_obj_by_classname(card, "player-info__sub") == "SUBSTITUTE"
+
+            list_of_ratings.append(PlayerRating(
+                substitute=sub,
+                position=position,
+                rating=rating,
+            ))
+
+    return manager_rating, list_of_ratings
 
 
 def read_mom(driver) -> MoM:
