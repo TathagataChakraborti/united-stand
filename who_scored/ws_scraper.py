@@ -16,6 +16,11 @@ import yaml  # type: ignore
 assert os.getenv("browser") == Browser.CHROME.value, "Support for Chrome only."
 
 
+def determine_bool_value_of_env(name: str) -> bool:
+    raw_string = os.getenv(name, "")
+    return raw_string.lower() == "true"
+
+
 def path_to_fixture_file(season: Season) -> str:
     start = season.start
     end = season.end
@@ -49,7 +54,8 @@ def get_config() -> Config:
             browser=Browser.CHROME, timeout=int(os.getenv("timeout", 22))
         ),
         cache=os.getenv("cache"),
-        fixtures_only=os.getenv("fixtures_only") == "true",
+        fixtures_only=determine_bool_value_of_env("fixtures_only"),
+        summary_only=determine_bool_value_of_env("summary_only"),
     )
 
 
@@ -89,9 +95,15 @@ def scrape_fixture(config: Config) -> Optional[FixtureData]:
 
 
 def scrape_match_data(
-    fixture_data: FixtureData, config: Config, bulk: bool = False
+    fixture_data: FixtureData,
+    config: Config,
+    bulk: bool = False,
+    reverse: bool = False,
 ) -> None:
     fixture_list = fixture_data.fixture_list
+    if reverse:
+        fixture_list.reverse()
+
     for index, fixture in enumerate(fixture_list):
         print(f"[{index+1}/{len(fixture_list)}] {Fixture.print_score(fixture)}")
 
@@ -142,5 +154,10 @@ if __name__ == "__main__":
     config_object: Config = get_config()
     fixtures: Optional[FixtureData] = scrape_fixture(config_object)
 
-    # if fixtures:
-    #     scrape_match_data(fixtures, config_object)
+    if fixtures:
+        scrape_match_data(
+            fixtures,
+            config_object,
+            bulk=determine_bool_value_of_env("read_in_bulk"),
+            reverse=determine_bool_value_of_env("read_in_reverse"),
+        )

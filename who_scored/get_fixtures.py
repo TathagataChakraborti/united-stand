@@ -12,8 +12,6 @@ from who_scored.schemas.schemas import Config
 
 from who_scored.read_data_table import read_data_table
 
-import os
-
 
 class FixtureManager(object):
     def __init__(self, config: Config):
@@ -38,7 +36,7 @@ class FixtureManager(object):
             url=url,
             driver=self.driver,
             config=ReadConfig(
-                summary_only=os.getenv("summary_only") == "true",
+                summary_only=self.config.summary_only,
                 timeout=self.config.timeout,
                 selector_link='//a[@href="#team-squad-stats-{}"]',
                 table_link="statistics-table-{}",

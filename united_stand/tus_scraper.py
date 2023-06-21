@@ -6,7 +6,12 @@ from typing import List, Optional
 
 from who_scored.schemas.schemas import Season, Browser, Config
 from who_scored.schemas.fixture_schemas import FixtureData
-from who_scored.ws_scraper import get_config, path_to_fixture_file, path_to_data
+from who_scored.ws_scraper import (
+    get_config,
+    path_to_fixture_file,
+    path_to_data,
+    determine_bool_value_of_env,
+)
 
 from united_stand.schemas.schemas import MatchRating, MetaData, MoM
 from united_stand.helpers import (
@@ -61,7 +66,9 @@ def scrape_ratings_urls(url: str) -> List[str]:
     return list_of_urls
 
 
-def scrape_ratings(list_of_urls: List[str], bulk: bool = False) -> None:
+def scrape_ratings(
+    list_of_urls: List[str], bulk: bool = False, reverse: bool = False
+) -> None:
     with open(path_to_cached_urls, "r") as stream:
         try:
             cached_urls = yaml.safe_load(stream)
@@ -82,6 +89,9 @@ def scrape_ratings(list_of_urls: List[str], bulk: bool = False) -> None:
 
             except yaml.YAMLError as exc:
                 raise exc
+
+    if reverse:
+        list_of_urls.reverse()
 
     for index, url in enumerate(list_of_urls):
         print(f"[{index + 1}/{len(list_of_urls)}] Reading {url}.")
@@ -148,6 +158,10 @@ if __name__ == "__main__":
     with open(path_to_urls, "r") as s:
         try:
             urls = yaml.safe_load(s)
-            scrape_ratings(urls)
+            scrape_ratings(
+                urls,
+                bulk=determine_bool_value_of_env("read_in_bulk"),
+                reverse=determine_bool_value_of_env("read_in_reverse"),
+            )
         except yaml.YAMLError as err:
             print(err)

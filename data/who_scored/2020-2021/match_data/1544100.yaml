@@ -1,0 +1,3045 @@
+match_id: 1544100
+Summary:
+  headers:
+  - Shots
+  - ShotsOT
+  - KeyPasses
+  - PA%
+  - AerialsWon
+  - Touches
+  - Rating
+  - Key Events
+  player_data:
+  - name: David de Gea
+    age: 32
+    positions:
+    - GK
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '66.7'
+    - name: AerialsWon
+      value: '0.0'
+    - name: Touches
+      value: '30.0'
+    - name: Rating
+      value: '3.58'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 134
+          second: 44
+        attributes:
+        - touches
+        - penaltyshootoutsaved
+  - name: Aaron Wan-Bissaka
+    age: 25
+    positions:
+    - DR
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 122
+        second: 38
+      attributes:
+      - suboff
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '86.4'
+    - name: AerialsWon
+      value: '1.0'
+    - name: Touches
+      value: '95.0'
+    - name: Rating
+      value: '6.68'
+    - name: Key Events
+      value: null
+  - name: Victor Lindelöf
+    age: 28
+    positions:
+    - DC
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '90.3'
+    - name: AerialsWon
+      value: '4.0'
+    - name: Touches
+      value: '129.0'
+    - name: Rating
+      value: '6.88'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 133
+          second: 30
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Eric Bailly
+    age: 29
+    positions:
+    - DC
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 115
+        second: 25
+      attributes:
+      - suboff
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '94.3'
+    - name: AerialsWon
+      value: '4.0'
+    - name: Touches
+      value: '103.0'
+    - name: Rating
+      value: '6.74'
+    - name: Key Events
+      value:
+      - incident_type: yellowcard
+        incident_time:
+          minute: 81
+          second: 56
+        attributes:
+        - yellowcard
+  - name: Luke Shaw
+    age: 27
+    positions:
+    - DL
+    incident: null
+    data:
+    - name: Shots
+      value: '2.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '3.0'
+    - name: PA%
+      value: '84.7'
+    - name: AerialsWon
+      value: '5.0'
+    - name: Touches
+      value: '131.0'
+    - name: Rating
+      value: '7.9'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 130
+          second: 32
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Paul Pogba
+    age: 30
+    positions:
+    - DMC
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 115
+        second: 4
+      attributes:
+      - suboff
+    data:
+    - name: Shots
+      value: '1.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '1.0'
+    - name: PA%
+      value: '85.1'
+    - name: AerialsWon
+      value: '4.0'
+    - name: Touches
+      value: '100.0'
+    - name: Rating
+      value: '6.93'
+    - name: Key Events
+      value: null
+  - name: Scott McTominay
+    age: 26
+    positions:
+    - DMC
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 122
+        second: 21
+      attributes:
+      - suboff
+    data:
+    - name: Shots
+      value: '3.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '1.0'
+    - name: PA%
+      value: '82.8'
+    - name: AerialsWon
+      value: '2.0'
+    - name: Touches
+      value: '92.0'
+    - name: Rating
+      value: '8.18'
+    - name: Key Events
+      value:
+      - incident_type: assist
+        incident_time:
+          minute: 54
+          second: 22
+        attributes:
+        - touches
+        - assist
+        - passforwardzoneaccurate
+        - passaccurate
+        - shortpassaccurate
+        - passkey
+        - bigchancecreated
+        - successfulfinalthirdpasses
+        - keypassshort
+        - keypassother
+        - assistother
+        - passforward
+        - passleft
+        - finalthird
+        - pos
+  - name: Mason Greenwood
+    age: 21
+    positions:
+    - AMR
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 99
+        second: 47
+      attributes:
+      - suboff
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '93.8'
+    - name: AerialsWon
+      value: '0.0'
+    - name: Touches
+      value: '51.0'
+    - name: Rating
+      value: '6.16'
+    - name: Key Events
+      value: null
+  - name: Bruno Fernandes
+    age: 28
+    positions:
+    - AMC
+    incident: null
+    data:
+    - name: Shots
+      value: '2.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '85.2'
+    - name: AerialsWon
+      value: '0.0'
+    - name: Touches
+      value: '79.0'
+    - name: Rating
+      value: '6.71'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 123
+          second: 34
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Marcus Rashford
+    age: 25
+    positions:
+    - AML
+    incident: null
+    data:
+    - name: Shots
+      value: '4.0'
+    - name: ShotsOT
+      value: '1.0'
+    - name: KeyPasses
+      value: '3.0'
+    - name: PA%
+      value: '83.0'
+    - name: AerialsWon
+      value: '0.0'
+    - name: Touches
+      value: '84.0'
+    - name: Rating
+      value: '7.58'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 125
+          second: 1
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Edinson Cavani
+    age: 36
+    positions:
+    - FW
+    incident:
+    - incident_type: mom
+      incident_time:
+        minute: 0
+        second: 0
+      attributes: []
+    data:
+    - name: Shots
+      value: '2.0'
+    - name: ShotsOT
+      value: '1.0'
+    - name: KeyPasses
+      value: '1.0'
+    - name: PA%
+      value: '64.3'
+    - name: AerialsWon
+      value: '1.0'
+    - name: Touches
+      value: '35.0'
+    - name: Rating
+      value: '8.22'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 126
+          second: 28
+        attributes:
+        - touches
+        - penaltyshootoutscored
+      - incident_type: yellowcard
+        incident_time:
+          minute: 112
+          second: 49
+        attributes:
+        - yellowcard
+      - incident_type: goalnormal
+        incident_time:
+          minute: 54
+          second: 23
+        attributes:
+        - touches
+        - goalnormal
+        - shotontarget
+        - shotstotal
+        - bigchancescored
+        - shotpenaltyarea
+        - shotsetpiece
+        - shotrightfoot
+        - goalpenaltyarea
+        - goalsetpiece
+        - goalrightfoot
+  - name: Fred
+    age: 30
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 99
+        second: 47
+      attributes:
+      - subon
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '81.8'
+    - name: AerialsWon
+      value: '0.0'
+    - name: Touches
+      value: '18.0'
+    - name: Rating
+      value: '6.73'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 127
+          second: 49
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Alex Telles
+    age: 30
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 122
+        second: 21
+      attributes:
+      - subon
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: AerialsWon
+      value: '0.0'
+    - name: Touches
+      value: '1.0'
+    - name: Rating
+      value: '6.42'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 122
+          second: 8
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Juan Mata
+    age: 35
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 122
+        second: 38
+      attributes:
+      - subon
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: AerialsWon
+      value: '0.0'
+    - name: Touches
+      value: '2.0'
+    - name: Rating
+      value: '6.4'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 120
+          second: 41
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Axel Tuanzebe
+    age: 25
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 115
+        second: 25
+      attributes:
+      - subon
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '100.0'
+    - name: AerialsWon
+      value: '0.0'
+    - name: Touches
+      value: '3.0'
+    - name: Rating
+      value: '6.47'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 132
+          second: 2
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Dan James
+    age: 25
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 115
+        second: 4
+      attributes:
+      - subon
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: AerialsWon
+      value: '1.0'
+    - name: Touches
+      value: '2.0'
+    - name: Rating
+      value: '6.49'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 129
+          second: 6
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Donny van de Beek
+    age: 26
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: AerialsWon
+      value: '0.0'
+    - name: Touches
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Nemanja Matic
+    age: 34
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: AerialsWon
+      value: '0.0'
+    - name: Touches
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Lee Grant
+    age: 40
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: AerialsWon
+      value: '0.0'
+    - name: Touches
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Harry Maguire
+    age: 30
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: AerialsWon
+      value: '0.0'
+    - name: Touches
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Dean Henderson
+    age: 26
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: AerialsWon
+      value: '0.0'
+    - name: Touches
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Brandon Williams
+    age: 22
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: AerialsWon
+      value: '0.0'
+    - name: Touches
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Amad Diallo
+    age: 20
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: AerialsWon
+      value: '0.0'
+    - name: Touches
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  keymap:
+    Shots: Total shots
+    ShotsOT: Shots on target
+    KeyPasses: KeyPassTotal
+    PA%: Pass accuracy in %
+    AerialsWon: Aerial duels won
+Defensive:
+  headers:
+  - TotalTackles
+  - Interceptions
+  - Clearances
+  - BlockedShots
+  - Fouls
+  - Rating
+  - Key Events
+  player_data:
+  - name: David de Gea
+    age: 32
+    positions:
+    - GK
+    incident: null
+    data:
+    - name: TotalTackles
+      value: '0.0'
+    - name: Interceptions
+      value: '0.0'
+    - name: Clearances
+      value: '1.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '0.0'
+    - name: Rating
+      value: '3.58'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 134
+          second: 44
+        attributes:
+        - touches
+        - penaltyshootoutsaved
+  - name: Aaron Wan-Bissaka
+    age: 25
+    positions:
+    - DR
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 122
+        second: 38
+      attributes:
+      - suboff
+    data:
+    - name: TotalTackles
+      value: '2.0'
+    - name: Interceptions
+      value: '2.0'
+    - name: Clearances
+      value: '3.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '0.0'
+    - name: Rating
+      value: '6.68'
+    - name: Key Events
+      value: null
+  - name: Victor Lindelöf
+    age: 28
+    positions:
+    - DC
+    incident: null
+    data:
+    - name: TotalTackles
+      value: '0.0'
+    - name: Interceptions
+      value: '1.0'
+    - name: Clearances
+      value: '0.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '2.0'
+    - name: Rating
+      value: '6.88'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 133
+          second: 30
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Eric Bailly
+    age: 29
+    positions:
+    - DC
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 115
+        second: 25
+      attributes:
+      - suboff
+    data:
+    - name: TotalTackles
+      value: '0.0'
+    - name: Interceptions
+      value: '2.0'
+    - name: Clearances
+      value: '3.0'
+    - name: BlockedShots
+      value: '1.0'
+    - name: Fouls
+      value: '4.0'
+    - name: Rating
+      value: '6.74'
+    - name: Key Events
+      value:
+      - incident_type: yellowcard
+        incident_time:
+          minute: 81
+          second: 56
+        attributes:
+        - yellowcard
+  - name: Luke Shaw
+    age: 27
+    positions:
+    - DL
+    incident: null
+    data:
+    - name: TotalTackles
+      value: '3.0'
+    - name: Interceptions
+      value: '0.0'
+    - name: Clearances
+      value: '4.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '2.0'
+    - name: Rating
+      value: '7.9'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 130
+          second: 32
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Paul Pogba
+    age: 30
+    positions:
+    - DMC
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 115
+        second: 4
+      attributes:
+      - suboff
+    data:
+    - name: TotalTackles
+      value: '0.0'
+    - name: Interceptions
+      value: '5.0'
+    - name: Clearances
+      value: '1.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '1.0'
+    - name: Rating
+      value: '6.93'
+    - name: Key Events
+      value: null
+  - name: Scott McTominay
+    age: 26
+    positions:
+    - DMC
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 122
+        second: 21
+      attributes:
+      - suboff
+    data:
+    - name: TotalTackles
+      value: '5.0'
+    - name: Interceptions
+      value: '1.0'
+    - name: Clearances
+      value: '2.0'
+    - name: BlockedShots
+      value: '1.0'
+    - name: Fouls
+      value: '1.0'
+    - name: Rating
+      value: '8.18'
+    - name: Key Events
+      value:
+      - incident_type: assist
+        incident_time:
+          minute: 54
+          second: 22
+        attributes:
+        - touches
+        - assist
+        - passforwardzoneaccurate
+        - passaccurate
+        - shortpassaccurate
+        - passkey
+        - bigchancecreated
+        - successfulfinalthirdpasses
+        - keypassshort
+        - keypassother
+        - assistother
+        - passforward
+        - passleft
+        - finalthird
+        - pos
+  - name: Mason Greenwood
+    age: 21
+    positions:
+    - AMR
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 99
+        second: 47
+      attributes:
+      - suboff
+    data:
+    - name: TotalTackles
+      value: '1.0'
+    - name: Interceptions
+      value: '0.0'
+    - name: Clearances
+      value: '0.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '1.0'
+    - name: Rating
+      value: '6.16'
+    - name: Key Events
+      value: null
+  - name: Bruno Fernandes
+    age: 28
+    positions:
+    - AMC
+    incident: null
+    data:
+    - name: TotalTackles
+      value: '2.0'
+    - name: Interceptions
+      value: '1.0'
+    - name: Clearances
+      value: '3.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '1.0'
+    - name: Rating
+      value: '6.71'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 123
+          second: 34
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Marcus Rashford
+    age: 25
+    positions:
+    - AML
+    incident: null
+    data:
+    - name: TotalTackles
+      value: '3.0'
+    - name: Interceptions
+      value: '0.0'
+    - name: Clearances
+      value: '1.0'
+    - name: BlockedShots
+      value: '1.0'
+    - name: Fouls
+      value: '0.0'
+    - name: Rating
+      value: '7.58'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 125
+          second: 1
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Edinson Cavani
+    age: 36
+    positions:
+    - FW
+    incident:
+    - incident_type: mom
+      incident_time:
+        minute: 0
+        second: 0
+      attributes: []
+    data:
+    - name: TotalTackles
+      value: '4.0'
+    - name: Interceptions
+      value: '3.0'
+    - name: Clearances
+      value: '0.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '2.0'
+    - name: Rating
+      value: '8.22'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 126
+          second: 28
+        attributes:
+        - touches
+        - penaltyshootoutscored
+      - incident_type: yellowcard
+        incident_time:
+          minute: 112
+          second: 49
+        attributes:
+        - yellowcard
+      - incident_type: goalnormal
+        incident_time:
+          minute: 54
+          second: 23
+        attributes:
+        - touches
+        - goalnormal
+        - shotontarget
+        - shotstotal
+        - bigchancescored
+        - shotpenaltyarea
+        - shotsetpiece
+        - shotrightfoot
+        - goalpenaltyarea
+        - goalsetpiece
+        - goalrightfoot
+  - name: Fred
+    age: 30
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 99
+        second: 47
+      attributes:
+      - subon
+    data:
+    - name: TotalTackles
+      value: '0.0'
+    - name: Interceptions
+      value: '2.0'
+    - name: Clearances
+      value: '1.0'
+    - name: BlockedShots
+      value: '1.0'
+    - name: Fouls
+      value: '1.0'
+    - name: Rating
+      value: '6.73'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 127
+          second: 49
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Alex Telles
+    age: 30
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 122
+        second: 21
+      attributes:
+      - subon
+    data:
+    - name: TotalTackles
+      value: '0.0'
+    - name: Interceptions
+      value: '0.0'
+    - name: Clearances
+      value: '0.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '0.0'
+    - name: Rating
+      value: '6.42'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 122
+          second: 8
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Juan Mata
+    age: 35
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 122
+        second: 38
+      attributes:
+      - subon
+    data:
+    - name: TotalTackles
+      value: '0.0'
+    - name: Interceptions
+      value: '0.0'
+    - name: Clearances
+      value: '0.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '0.0'
+    - name: Rating
+      value: '6.4'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 120
+          second: 41
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Axel Tuanzebe
+    age: 25
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 115
+        second: 25
+      attributes:
+      - subon
+    data:
+    - name: TotalTackles
+      value: '0.0'
+    - name: Interceptions
+      value: '0.0'
+    - name: Clearances
+      value: '1.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '0.0'
+    - name: Rating
+      value: '6.47'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 132
+          second: 2
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Dan James
+    age: 25
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 115
+        second: 4
+      attributes:
+      - subon
+    data:
+    - name: TotalTackles
+      value: '0.0'
+    - name: Interceptions
+      value: '0.0'
+    - name: Clearances
+      value: '0.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '0.0'
+    - name: Rating
+      value: '6.49'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 129
+          second: 6
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Donny van de Beek
+    age: 26
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: TotalTackles
+      value: '0.0'
+    - name: Interceptions
+      value: '0.0'
+    - name: Clearances
+      value: '0.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Nemanja Matic
+    age: 34
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: TotalTackles
+      value: '0.0'
+    - name: Interceptions
+      value: '0.0'
+    - name: Clearances
+      value: '0.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Lee Grant
+    age: 40
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: TotalTackles
+      value: '0.0'
+    - name: Interceptions
+      value: '0.0'
+    - name: Clearances
+      value: '0.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Harry Maguire
+    age: 30
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: TotalTackles
+      value: '0.0'
+    - name: Interceptions
+      value: '0.0'
+    - name: Clearances
+      value: '0.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Dean Henderson
+    age: 26
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: TotalTackles
+      value: '0.0'
+    - name: Interceptions
+      value: '0.0'
+    - name: Clearances
+      value: '0.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Brandon Williams
+    age: 22
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: TotalTackles
+      value: '0.0'
+    - name: Interceptions
+      value: '0.0'
+    - name: Clearances
+      value: '0.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Amad Diallo
+    age: 20
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: TotalTackles
+      value: '0.0'
+    - name: Interceptions
+      value: '0.0'
+    - name: Clearances
+      value: '0.0'
+    - name: BlockedShots
+      value: '0.0'
+    - name: Fouls
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  keymap:
+    TotalTackles: Tackles won
+    BlockedShots: Shots blocked
+    Fouls: Fouls commited
+Offensive:
+  headers:
+  - Shots
+  - ShotsOT
+  - KeyPasses
+  - Dribbles
+  - Fouled
+  - Offsides
+  - Disp
+  - UnsTouches
+  - Rating
+  - Key Events
+  player_data:
+  - name: David de Gea
+    age: 32
+    positions:
+    - GK
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '0.0'
+    - name: UnsTouches
+      value: '0.0'
+    - name: Rating
+      value: '3.58'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 134
+          second: 44
+        attributes:
+        - touches
+        - penaltyshootoutsaved
+  - name: Aaron Wan-Bissaka
+    age: 25
+    positions:
+    - DR
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 122
+        second: 38
+      attributes:
+      - suboff
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '1.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '4.0'
+    - name: UnsTouches
+      value: '1.0'
+    - name: Rating
+      value: '6.68'
+    - name: Key Events
+      value: null
+  - name: Victor Lindelöf
+    age: 28
+    positions:
+    - DC
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '1.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '0.0'
+    - name: UnsTouches
+      value: '0.0'
+    - name: Rating
+      value: '6.88'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 133
+          second: 30
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Eric Bailly
+    age: 29
+    positions:
+    - DC
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 115
+        second: 25
+      attributes:
+      - suboff
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '2.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '0.0'
+    - name: UnsTouches
+      value: '0.0'
+    - name: Rating
+      value: '6.74'
+    - name: Key Events
+      value:
+      - incident_type: yellowcard
+        incident_time:
+          minute: 81
+          second: 56
+        attributes:
+        - yellowcard
+  - name: Luke Shaw
+    age: 27
+    positions:
+    - DL
+    incident: null
+    data:
+    - name: Shots
+      value: '2.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '3.0'
+    - name: Dribbles
+      value: '1.0'
+    - name: Fouled
+      value: '2.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '1.0'
+    - name: UnsTouches
+      value: '2.0'
+    - name: Rating
+      value: '7.9'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 130
+          second: 32
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Paul Pogba
+    age: 30
+    positions:
+    - DMC
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 115
+        second: 4
+      attributes:
+      - suboff
+    data:
+    - name: Shots
+      value: '1.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '1.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '1.0'
+    - name: Disp
+      value: '3.0'
+    - name: UnsTouches
+      value: '0.0'
+    - name: Rating
+      value: '6.93'
+    - name: Key Events
+      value: null
+  - name: Scott McTominay
+    age: 26
+    positions:
+    - DMC
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 122
+        second: 21
+      attributes:
+      - suboff
+    data:
+    - name: Shots
+      value: '3.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '1.0'
+    - name: Dribbles
+      value: '6.0'
+    - name: Fouled
+      value: '2.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '0.0'
+    - name: UnsTouches
+      value: '5.0'
+    - name: Rating
+      value: '8.18'
+    - name: Key Events
+      value:
+      - incident_type: assist
+        incident_time:
+          minute: 54
+          second: 22
+        attributes:
+        - touches
+        - assist
+        - passforwardzoneaccurate
+        - passaccurate
+        - shortpassaccurate
+        - passkey
+        - bigchancecreated
+        - successfulfinalthirdpasses
+        - keypassshort
+        - keypassother
+        - assistother
+        - passforward
+        - passleft
+        - finalthird
+        - pos
+  - name: Mason Greenwood
+    age: 21
+    positions:
+    - AMR
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 99
+        second: 47
+      attributes:
+      - suboff
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '1.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '2.0'
+    - name: UnsTouches
+      value: '2.0'
+    - name: Rating
+      value: '6.16'
+    - name: Key Events
+      value: null
+  - name: Bruno Fernandes
+    age: 28
+    positions:
+    - AMC
+    incident: null
+    data:
+    - name: Shots
+      value: '2.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '2.0'
+    - name: Offsides
+      value: '1.0'
+    - name: Disp
+      value: '1.0'
+    - name: UnsTouches
+      value: '1.0'
+    - name: Rating
+      value: '6.71'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 123
+          second: 34
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Marcus Rashford
+    age: 25
+    positions:
+    - AML
+    incident: null
+    data:
+    - name: Shots
+      value: '4.0'
+    - name: ShotsOT
+      value: '1.0'
+    - name: KeyPasses
+      value: '3.0'
+    - name: Dribbles
+      value: '3.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '2.0'
+    - name: Disp
+      value: '3.0'
+    - name: UnsTouches
+      value: '2.0'
+    - name: Rating
+      value: '7.58'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 125
+          second: 1
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Edinson Cavani
+    age: 36
+    positions:
+    - FW
+    incident:
+    - incident_type: mom
+      incident_time:
+        minute: 0
+        second: 0
+      attributes: []
+    data:
+    - name: Shots
+      value: '2.0'
+    - name: ShotsOT
+      value: '1.0'
+    - name: KeyPasses
+      value: '1.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '1.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '1.0'
+    - name: UnsTouches
+      value: '3.0'
+    - name: Rating
+      value: '8.22'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 126
+          second: 28
+        attributes:
+        - touches
+        - penaltyshootoutscored
+      - incident_type: yellowcard
+        incident_time:
+          minute: 112
+          second: 49
+        attributes:
+        - yellowcard
+      - incident_type: goalnormal
+        incident_time:
+          minute: 54
+          second: 23
+        attributes:
+        - touches
+        - goalnormal
+        - shotontarget
+        - shotstotal
+        - bigchancescored
+        - shotpenaltyarea
+        - shotsetpiece
+        - shotrightfoot
+        - goalpenaltyarea
+        - goalsetpiece
+        - goalrightfoot
+  - name: Fred
+    age: 30
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 99
+        second: 47
+      attributes:
+      - subon
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '0.0'
+    - name: UnsTouches
+      value: '0.0'
+    - name: Rating
+      value: '6.73'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 127
+          second: 49
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Alex Telles
+    age: 30
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 122
+        second: 21
+      attributes:
+      - subon
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '0.0'
+    - name: UnsTouches
+      value: '0.0'
+    - name: Rating
+      value: '6.42'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 122
+          second: 8
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Juan Mata
+    age: 35
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 122
+        second: 38
+      attributes:
+      - subon
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '0.0'
+    - name: UnsTouches
+      value: '0.0'
+    - name: Rating
+      value: '6.4'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 120
+          second: 41
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Axel Tuanzebe
+    age: 25
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 115
+        second: 25
+      attributes:
+      - subon
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '0.0'
+    - name: UnsTouches
+      value: '0.0'
+    - name: Rating
+      value: '6.47'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 132
+          second: 2
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Dan James
+    age: 25
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 115
+        second: 4
+      attributes:
+      - subon
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '0.0'
+    - name: UnsTouches
+      value: '0.0'
+    - name: Rating
+      value: '6.49'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 129
+          second: 6
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Donny van de Beek
+    age: 26
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '0.0'
+    - name: UnsTouches
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Nemanja Matic
+    age: 34
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '0.0'
+    - name: UnsTouches
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Lee Grant
+    age: 40
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '0.0'
+    - name: UnsTouches
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Harry Maguire
+    age: 30
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '0.0'
+    - name: UnsTouches
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Dean Henderson
+    age: 26
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '0.0'
+    - name: UnsTouches
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Brandon Williams
+    age: 22
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '0.0'
+    - name: UnsTouches
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Amad Diallo
+    age: 20
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: Shots
+      value: '0.0'
+    - name: ShotsOT
+      value: '0.0'
+    - name: KeyPasses
+      value: '0.0'
+    - name: Dribbles
+      value: '0.0'
+    - name: Fouled
+      value: '0.0'
+    - name: Offsides
+      value: '0.0'
+    - name: Disp
+      value: '0.0'
+    - name: UnsTouches
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  keymap:
+    Shots: Total shots
+    ShotsOT: Shots on target
+    KeyPasses: KeyPassTotal
+    Dribbles: Successful dribbles
+    Offsides: Caught offside
+    Disp: Player is dispossessed on the ball by an opponent – no dribble involved
+    UnsTouches: Bad control
+Passing:
+  headers:
+  - KeyPasses
+  - Passes
+  - PA%
+  - Crosses
+  - AccCrosses
+  - LB
+  - AccLB
+  - ThB
+  - AccThB
+  - Rating
+  - Key Events
+  player_data:
+  - name: David de Gea
+    age: 32
+    positions:
+    - GK
+    incident: null
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '24.0'
+    - name: PA%
+      value: '66.7'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '11.0'
+    - name: AccLB
+      value: '4.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: '3.58'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 134
+          second: 44
+        attributes:
+        - touches
+        - penaltyshootoutsaved
+  - name: Aaron Wan-Bissaka
+    age: 25
+    positions:
+    - DR
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 122
+        second: 38
+      attributes:
+      - suboff
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '59.0'
+    - name: PA%
+      value: '86.4'
+    - name: Crosses
+      value: '7.0'
+    - name: AccCrosses
+      value: '1.0'
+    - name: LB
+      value: '5.0'
+    - name: AccLB
+      value: '0.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: '6.68'
+    - name: Key Events
+      value: null
+  - name: Victor Lindelöf
+    age: 28
+    positions:
+    - DC
+    incident: null
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '124.0'
+    - name: PA%
+      value: '90.3'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '8.0'
+    - name: AccLB
+      value: '3.0'
+    - name: ThB
+      value: '1.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: '6.88'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 133
+          second: 30
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Eric Bailly
+    age: 29
+    positions:
+    - DC
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 115
+        second: 25
+      attributes:
+      - suboff
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '88.0'
+    - name: PA%
+      value: '94.3'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '4.0'
+    - name: AccLB
+      value: '3.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: '6.74'
+    - name: Key Events
+      value:
+      - incident_type: yellowcard
+        incident_time:
+          minute: 81
+          second: 56
+        attributes:
+        - yellowcard
+  - name: Luke Shaw
+    age: 27
+    positions:
+    - DL
+    incident: null
+    data:
+    - name: KeyPasses
+      value: '3.0'
+    - name: Passes
+      value: '85.0'
+    - name: PA%
+      value: '84.7'
+    - name: Crosses
+      value: '10.0'
+    - name: AccCrosses
+      value: '3.0'
+    - name: LB
+      value: '4.0'
+    - name: AccLB
+      value: '0.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: '7.9'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 130
+          second: 32
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Paul Pogba
+    age: 30
+    positions:
+    - DMC
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 115
+        second: 4
+      attributes:
+      - suboff
+    data:
+    - name: KeyPasses
+      value: '1.0'
+    - name: Passes
+      value: '87.0'
+    - name: PA%
+      value: '85.1'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '11.0'
+    - name: AccLB
+      value: '8.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: '6.93'
+    - name: Key Events
+      value: null
+  - name: Scott McTominay
+    age: 26
+    positions:
+    - DMC
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 122
+        second: 21
+      attributes:
+      - suboff
+    data:
+    - name: KeyPasses
+      value: '1.0'
+    - name: Passes
+      value: '58.0'
+    - name: PA%
+      value: '82.8'
+    - name: Crosses
+      value: '1.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '6.0'
+    - name: AccLB
+      value: '3.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: '8.18'
+    - name: Key Events
+      value:
+      - incident_type: assist
+        incident_time:
+          minute: 54
+          second: 22
+        attributes:
+        - touches
+        - assist
+        - passforwardzoneaccurate
+        - passaccurate
+        - shortpassaccurate
+        - passkey
+        - bigchancecreated
+        - successfulfinalthirdpasses
+        - keypassshort
+        - keypassother
+        - assistother
+        - passforward
+        - passleft
+        - finalthird
+        - pos
+  - name: Mason Greenwood
+    age: 21
+    positions:
+    - AMR
+    incident:
+    - incident_type: suboff
+      incident_time:
+        minute: 99
+        second: 47
+      attributes:
+      - suboff
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '32.0'
+    - name: PA%
+      value: '93.8'
+    - name: Crosses
+      value: '6.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '2.0'
+    - name: AccLB
+      value: '1.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: '6.16'
+    - name: Key Events
+      value: null
+  - name: Bruno Fernandes
+    age: 28
+    positions:
+    - AMC
+    incident: null
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '54.0'
+    - name: PA%
+      value: '85.2'
+    - name: Crosses
+      value: '5.0'
+    - name: AccCrosses
+      value: '1.0'
+    - name: LB
+      value: '4.0'
+    - name: AccLB
+      value: '1.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: '6.71'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 123
+          second: 34
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Marcus Rashford
+    age: 25
+    positions:
+    - AML
+    incident: null
+    data:
+    - name: KeyPasses
+      value: '3.0'
+    - name: Passes
+      value: '53.0'
+    - name: PA%
+      value: '83.0'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '3.0'
+    - name: AccLB
+      value: '2.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: '7.58'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 125
+          second: 1
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Edinson Cavani
+    age: 36
+    positions:
+    - FW
+    incident:
+    - incident_type: mom
+      incident_time:
+        minute: 0
+        second: 0
+      attributes: []
+    data:
+    - name: KeyPasses
+      value: '1.0'
+    - name: Passes
+      value: '14.0'
+    - name: PA%
+      value: '64.3'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '2.0'
+    - name: AccLB
+      value: '1.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: '8.22'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 126
+          second: 28
+        attributes:
+        - touches
+        - penaltyshootoutscored
+      - incident_type: yellowcard
+        incident_time:
+          minute: 112
+          second: 49
+        attributes:
+        - yellowcard
+      - incident_type: goalnormal
+        incident_time:
+          minute: 54
+          second: 23
+        attributes:
+        - touches
+        - goalnormal
+        - shotontarget
+        - shotstotal
+        - bigchancescored
+        - shotpenaltyarea
+        - shotsetpiece
+        - shotrightfoot
+        - goalpenaltyarea
+        - goalsetpiece
+        - goalrightfoot
+  - name: Fred
+    age: 30
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 99
+        second: 47
+      attributes:
+      - subon
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '11.0'
+    - name: PA%
+      value: '81.8'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '0.0'
+    - name: AccLB
+      value: '0.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: '6.73'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 127
+          second: 49
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Alex Telles
+    age: 30
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 122
+        second: 21
+      attributes:
+      - subon
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '0.0'
+    - name: AccLB
+      value: '0.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: '6.42'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 122
+          second: 8
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Juan Mata
+    age: 35
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 122
+        second: 38
+      attributes:
+      - subon
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '1.0'
+    - name: PA%
+      value: '0.0'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '0.0'
+    - name: AccLB
+      value: '0.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: '6.4'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 120
+          second: 41
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Axel Tuanzebe
+    age: 25
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 115
+        second: 25
+      attributes:
+      - subon
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '1.0'
+    - name: PA%
+      value: '100.0'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '0.0'
+    - name: AccLB
+      value: '0.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: '6.47'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 132
+          second: 2
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Dan James
+    age: 25
+    positions:
+    - Sub
+    incident:
+    - incident_type: subon
+      incident_time:
+        minute: 115
+        second: 4
+      attributes:
+      - subon
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '1.0'
+    - name: PA%
+      value: '0.0'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '0.0'
+    - name: AccLB
+      value: '0.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: '6.49'
+    - name: Key Events
+      value:
+      - incident_type: null
+        incident_time:
+          minute: 129
+          second: 6
+        attributes:
+        - touches
+        - penaltyshootoutscored
+  - name: Donny van de Beek
+    age: 26
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '0.0'
+    - name: AccLB
+      value: '0.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Nemanja Matic
+    age: 34
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '0.0'
+    - name: AccLB
+      value: '0.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Lee Grant
+    age: 40
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '0.0'
+    - name: AccLB
+      value: '0.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Harry Maguire
+    age: 30
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '0.0'
+    - name: AccLB
+      value: '0.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Dean Henderson
+    age: 26
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '0.0'
+    - name: AccLB
+      value: '0.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Brandon Williams
+    age: 22
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '0.0'
+    - name: AccLB
+      value: '0.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  - name: Amad Diallo
+    age: 20
+    positions:
+    - Sub
+    incident: null
+    data:
+    - name: KeyPasses
+      value: '0.0'
+    - name: Passes
+      value: '0.0'
+    - name: PA%
+      value: '0.0'
+    - name: Crosses
+      value: '0.0'
+    - name: AccCrosses
+      value: '0.0'
+    - name: LB
+      value: '0.0'
+    - name: AccLB
+      value: '0.0'
+    - name: ThB
+      value: '0.0'
+    - name: AccThB
+      value: '0.0'
+    - name: Rating
+      value: null
+    - name: Key Events
+      value: null
+  keymap:
+    KeyPasses: KeyPassTotal
+    Passes: TotalPasses
+    PA%: Pass accuracy in %
+    Crosses: Cross passes
+    AccCrosses: Accurate cross passes
+    LB: PassLongBallTotal
+    AccLB: Accurate long balls
+    ThB: Through balls
+    AccThB: Accurate through balls

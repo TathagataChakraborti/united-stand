@@ -1,0 +1,698 @@
+fixture_list:
+- match_id: 1375936
+  url: https://www.whoscored.com/Matches/1375936/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Chelsea
+  date: '2019-08-11'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Chelsea
+  score:
+  - team_name: Manchester United
+    score: 4
+  - team_name: Chelsea
+    score: 0
+- match_id: 1375946
+  url: https://www.whoscored.com/Matches/1375946/LiveStatistics/England-Premier-League-2019-2020-Wolverhampton-Wanderers-Manchester-United
+  date: '2019-08-19'
+  result: D
+  tournament: EPL
+  match_type: AWAY
+  opponent: Wolverhampton Wanderers
+  score:
+  - team_name: Wolverhampton Wanderers
+    score: 1
+  - team_name: Manchester United
+    score: 1
+- match_id: 1375968
+  url: https://www.whoscored.com/Matches/1375968/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Crystal-Palace
+  date: '2019-08-24'
+  result: L
+  tournament: EPL
+  match_type: HOME
+  opponent: Crystal Palace
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Crystal Palace
+    score: 2
+- match_id: 1375960
+  url: https://www.whoscored.com/Matches/1375960/LiveStatistics/England-Premier-League-2019-2020-Southampton-Manchester-United
+  date: '2019-08-31'
+  result: D
+  tournament: EPL
+  match_type: AWAY
+  opponent: Southampton
+  score:
+  - team_name: Southampton
+    score: 1
+  - team_name: Manchester United
+    score: 1
+- match_id: 1375967
+  url: https://www.whoscored.com/Matches/1375967/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Leicester
+  date: '2019-09-14'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Leicester
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Leicester
+    score: 0
+- match_id: 1427150
+  url: https://www.whoscored.com/Matches/1427150/LiveStatistics/Europe-Europa-League-2019-2020-Manchester-United-FC-Astana
+  date: '2019-09-19'
+  result: W
+  tournament: UEL
+  match_type: HOME
+  opponent: FC Astana
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: FC Astana
+    score: 0
+- match_id: 1376008
+  url: https://www.whoscored.com/Matches/1376008/LiveStatistics/England-Premier-League-2019-2020-West-Ham-Manchester-United
+  date: '2019-09-22'
+  result: L
+  tournament: EPL
+  match_type: AWAY
+  opponent: West Ham
+  score:
+  - team_name: West Ham
+    score: 2
+  - team_name: Manchester United
+    score: 0
+- match_id: 1426721
+  url: https://www.whoscored.com/Matches/1426721/LiveStatistics/England-League-Cup-2019-2020-Manchester-United-Rochdale
+  date: '2019-09-25'
+  result: D
+  tournament: EFLC
+  match_type: HOME
+  opponent: Rochdale
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Rochdale
+    score: 1
+- match_id: 1376022
+  url: https://www.whoscored.com/Matches/1376022/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Arsenal
+  date: '2019-09-30'
+  result: D
+  tournament: EPL
+  match_type: HOME
+  opponent: Arsenal
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Arsenal
+    score: 1
+- match_id: 1427149
+  url: https://www.whoscored.com/Matches/1427149/LiveStatistics/Europe-Europa-League-2019-2020-AZ-Alkmaar-Manchester-United
+  date: '2019-10-03'
+  result: D
+  tournament: UEL
+  match_type: AWAY
+  opponent: AZ Alkmaar
+  score:
+  - team_name: AZ Alkmaar
+    score: 0
+  - team_name: Manchester United
+    score: 0
+- match_id: 1376040
+  url: https://www.whoscored.com/Matches/1376040/LiveStatistics/England-Premier-League-2019-2020-Newcastle-United-Manchester-United
+  date: '2019-10-06'
+  result: L
+  tournament: EPL
+  match_type: AWAY
+  opponent: Newcastle United
+  score:
+  - team_name: Newcastle United
+    score: 1
+  - team_name: Manchester United
+    score: 0
+- match_id: 1376062
+  url: https://www.whoscored.com/Matches/1376062/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Liverpool
+  date: '2019-10-20'
+  result: D
+  tournament: EPL
+  match_type: HOME
+  opponent: Liverpool
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Liverpool
+    score: 1
+- match_id: 1427152
+  url: https://www.whoscored.com/Matches/1427152/LiveStatistics/Europe-Europa-League-2019-2020-Partizan-Belgrade-Manchester-United
+  date: '2019-10-24'
+  result: W
+  tournament: UEL
+  match_type: AWAY
+  opponent: Partizan Belgrade
+  score:
+  - team_name: Partizan Belgrade
+    score: 0
+  - team_name: Manchester United
+    score: 1
+- match_id: 1375976
+  url: https://www.whoscored.com/Matches/1375976/LiveStatistics/England-Premier-League-2019-2020-Norwich-Manchester-United
+  date: '2019-10-27'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Norwich
+  score:
+  - team_name: Norwich
+    score: 1
+  - team_name: Manchester United
+    score: 3
+- match_id: 1429963
+  url: https://www.whoscored.com/Matches/1429963/LiveStatistics/England-League-Cup-2019-2020-Chelsea-Manchester-United
+  date: '2019-10-30'
+  result: W
+  tournament: EFLC
+  match_type: AWAY
+  opponent: Chelsea
+  score:
+  - team_name: Chelsea
+    score: 1
+  - team_name: Manchester United
+    score: 2
+- match_id: 1375982
+  url: https://www.whoscored.com/Matches/1375982/LiveStatistics/England-Premier-League-2019-2020-Bournemouth-Manchester-United
+  date: '2019-11-02'
+  result: L
+  tournament: EPL
+  match_type: AWAY
+  opponent: Bournemouth
+  score:
+  - team_name: Bournemouth
+    score: 1
+  - team_name: Manchester United
+    score: 0
+- match_id: 1427154
+  url: https://www.whoscored.com/Matches/1427154/LiveStatistics/Europe-Europa-League-2019-2020-Manchester-United-Partizan-Belgrade
+  date: '2019-11-07'
+  result: W
+  tournament: UEL
+  match_type: HOME
+  opponent: Partizan Belgrade
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Partizan Belgrade
+    score: 0
+- match_id: 1376003
+  url: https://www.whoscored.com/Matches/1376003/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Brighton
+  date: '2019-11-10'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Brighton
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Brighton
+    score: 1
+- match_id: 1376029
+  url: https://www.whoscored.com/Matches/1376029/LiveStatistics/England-Premier-League-2019-2020-Sheffield-United-Manchester-United
+  date: '2019-11-24'
+  result: D
+  tournament: EPL
+  match_type: AWAY
+  opponent: Sheffield United
+  score:
+  - team_name: Sheffield United
+    score: 3
+  - team_name: Manchester United
+    score: 3
+- match_id: 1427158
+  url: https://www.whoscored.com/Matches/1427158/LiveStatistics/Europe-Europa-League-2019-2020-FC-Astana-Manchester-United
+  date: '2019-11-28'
+  result: L
+  tournament: UEL
+  match_type: AWAY
+  opponent: FC Astana
+  score:
+  - team_name: FC Astana
+    score: 2
+  - team_name: Manchester United
+    score: 1
+- match_id: 1376043
+  url: https://www.whoscored.com/Matches/1376043/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Aston-Villa
+  date: '2019-12-01'
+  result: D
+  tournament: EPL
+  match_type: HOME
+  opponent: Aston Villa
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Aston Villa
+    score: 2
+- match_id: 1376065
+  url: https://www.whoscored.com/Matches/1376065/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Tottenham
+  date: '2019-12-04'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Tottenham
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Tottenham
+    score: 1
+- match_id: 1376286
+  url: https://www.whoscored.com/Matches/1376286/LiveStatistics/England-Premier-League-2019-2020-Manchester-City-Manchester-United
+  date: '2019-12-07'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Manchester City
+  score:
+  - team_name: Manchester City
+    score: 1
+  - team_name: Manchester United
+    score: 2
+- match_id: 1427157
+  url: https://www.whoscored.com/Matches/1427157/LiveStatistics/Europe-Europa-League-2019-2020-Manchester-United-AZ-Alkmaar
+  date: '2019-12-12'
+  result: W
+  tournament: UEL
+  match_type: HOME
+  opponent: AZ Alkmaar
+  score:
+  - team_name: Manchester United
+    score: 4
+  - team_name: AZ Alkmaar
+    score: 0
+- match_id: 1376298
+  url: https://www.whoscored.com/Matches/1376298/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Everton
+  date: '2019-12-15'
+  result: D
+  tournament: EPL
+  match_type: HOME
+  opponent: Everton
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Everton
+    score: 1
+- match_id: 1432283
+  url: https://www.whoscored.com/Matches/1432283/LiveStatistics/England-League-Cup-2019-2020-Manchester-United-Colchester
+  date: '2019-12-18'
+  result: W
+  tournament: EFLC
+  match_type: HOME
+  opponent: Colchester
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Colchester
+    score: 0
+- match_id: 1376270
+  url: https://www.whoscored.com/Matches/1376270/LiveStatistics/England-Premier-League-2019-2020-Watford-Manchester-United
+  date: '2019-12-22'
+  result: L
+  tournament: EPL
+  match_type: AWAY
+  opponent: Watford
+  score:
+  - team_name: Watford
+    score: 2
+  - team_name: Manchester United
+    score: 0
+- match_id: 1376278
+  url: https://www.whoscored.com/Matches/1376278/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Newcastle-United
+  date: '2019-12-26'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Newcastle United
+  score:
+  - team_name: Manchester United
+    score: 4
+  - team_name: Newcastle United
+    score: 1
+- match_id: 1376284
+  url: https://www.whoscored.com/Matches/1376284/LiveStatistics/England-Premier-League-2019-2020-Burnley-Manchester-United
+  date: '2019-12-28'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Burnley
+  score:
+  - team_name: Burnley
+    score: 0
+  - team_name: Manchester United
+    score: 2
+- match_id: 1376110
+  url: https://www.whoscored.com/Matches/1376110/LiveStatistics/England-Premier-League-2019-2020-Arsenal-Manchester-United
+  date: '2020-01-01'
+  result: L
+  tournament: EPL
+  match_type: AWAY
+  opponent: Arsenal
+  score:
+  - team_name: Arsenal
+    score: 2
+  - team_name: Manchester United
+    score: 0
+- match_id: 1434404
+  url: https://www.whoscored.com/Matches/1434404/LiveStatistics/England-FA-Cup-2019-2020-Wolverhampton-Wanderers-Manchester-United
+  date: '2020-01-04'
+  result: D
+  tournament: FAC
+  match_type: AWAY
+  opponent: Wolverhampton Wanderers
+  score:
+  - team_name: Wolverhampton Wanderers
+    score: 0
+  - team_name: Manchester United
+    score: 0
+- match_id: 1436447
+  url: https://www.whoscored.com/Matches/1436447/LiveStatistics/England-League-Cup-2019-2020-Manchester-United-Manchester-City
+  date: '2020-01-07'
+  result: L
+  tournament: EFLC
+  match_type: HOME
+  opponent: Manchester City
+  score:
+  - team_name: Manchester United
+    score: 0
+  - team_name: Manchester City
+    score: 0
+- match_id: 1376108
+  url: https://www.whoscored.com/Matches/1376108/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Norwich
+  date: '2020-01-11'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Norwich
+  score:
+  - team_name: Manchester United
+    score: 4
+  - team_name: Norwich
+    score: 0
+- match_id: 1442812
+  url: https://www.whoscored.com/Matches/1442812/LiveStatistics/England-FA-Cup-2019-2020-Manchester-United-Wolverhampton-Wanderers
+  date: '2020-01-15'
+  result: W
+  tournament: FAC
+  match_type: HOME
+  opponent: Wolverhampton Wanderers
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Wolverhampton Wanderers
+    score: 0
+- match_id: 1376136
+  url: https://www.whoscored.com/Matches/1376136/LiveStatistics/England-Premier-League-2019-2020-Liverpool-Manchester-United
+  date: '2020-01-19'
+  result: L
+  tournament: EPL
+  match_type: AWAY
+  opponent: Liverpool
+  score:
+  - team_name: Liverpool
+    score: 2
+  - team_name: Manchester United
+    score: 0
+- match_id: 1376101
+  url: https://www.whoscored.com/Matches/1376101/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Burnley
+  date: '2020-01-22'
+  result: L
+  tournament: EPL
+  match_type: HOME
+  opponent: Burnley
+  score:
+  - team_name: Manchester United
+    score: 0
+  - team_name: Burnley
+    score: 2
+- match_id: 1451118
+  url: https://www.whoscored.com/Matches/1451118/LiveStatistics/England-FA-Cup-2019-2020-Tranmere-Manchester-United
+  date: '2020-01-26'
+  result: W
+  tournament: FAC
+  match_type: AWAY
+  opponent: Tranmere
+  score:
+  - team_name: Tranmere
+    score: 0
+  - team_name: Manchester United
+    score: 6
+- match_id: 1436449
+  url: https://www.whoscored.com/Matches/1436449/LiveStatistics/England-League-Cup-2019-2020-Manchester-City-Manchester-United
+  date: '2020-01-29'
+  result: W
+  tournament: EFLC
+  match_type: AWAY
+  opponent: Manchester City
+  score:
+  - team_name: Manchester City
+    score: 0
+  - team_name: Manchester United
+    score: 1
+- match_id: 1376137
+  url: https://www.whoscored.com/Matches/1376137/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Wolverhampton-Wanderers
+  date: '2020-02-01'
+  result: D
+  tournament: EPL
+  match_type: HOME
+  opponent: Wolverhampton Wanderers
+  score:
+  - team_name: Manchester United
+    score: 0
+  - team_name: Wolverhampton Wanderers
+    score: 0
+- match_id: 1376087
+  url: https://www.whoscored.com/Matches/1376087/LiveStatistics/England-Premier-League-2019-2020-Chelsea-Manchester-United
+  date: '2020-02-17'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Chelsea
+  score:
+  - team_name: Chelsea
+    score: 0
+  - team_name: Manchester United
+    score: 2
+- match_id: 1436017
+  url: https://www.whoscored.com/Matches/1436017/LiveStatistics/Europe-Europa-League-2019-2020-Club-Brugge-Manchester-United
+  date: '2020-02-20'
+  result: D
+  tournament: UEL
+  match_type: AWAY
+  opponent: Club Brugge
+  score:
+  - team_name: Club Brugge
+    score: 1
+  - team_name: Manchester United
+    score: 1
+- match_id: 1376139
+  url: https://www.whoscored.com/Matches/1376139/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Watford
+  date: '2020-02-23'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Watford
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Watford
+    score: 0
+- match_id: 1436018
+  url: https://www.whoscored.com/Matches/1436018/LiveStatistics/Europe-Europa-League-2019-2020-Manchester-United-Club-Brugge
+  date: '2020-02-27'
+  result: W
+  tournament: UEL
+  match_type: HOME
+  opponent: Club Brugge
+  score:
+  - team_name: Manchester United
+    score: 5
+  - team_name: Club Brugge
+    score: 0
+- match_id: 1376211
+  url: https://www.whoscored.com/Matches/1376211/LiveStatistics/England-Premier-League-2019-2020-Everton-Manchester-United
+  date: '2020-03-01'
+  result: D
+  tournament: EPL
+  match_type: AWAY
+  opponent: Everton
+  score:
+  - team_name: Everton
+    score: 1
+  - team_name: Manchester United
+    score: 1
+- match_id: 1453402
+  url: https://www.whoscored.com/Matches/1453402/LiveStatistics/England-FA-Cup-2019-2020-Derby-Manchester-United
+  date: '2020-03-05'
+  result: W
+  tournament: FAC
+  match_type: AWAY
+  opponent: Derby
+  score:
+  - team_name: Derby
+    score: 0
+  - team_name: Manchester United
+    score: 3
+- match_id: 1376244
+  url: https://www.whoscored.com/Matches/1376244/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Manchester-City
+  date: '2020-03-08'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Manchester City
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Manchester City
+    score: 0
+- match_id: 1456770
+  url: https://www.whoscored.com/Matches/1456770/LiveStatistics/Europe-Europa-League-2019-2020-LASK-Manchester-United
+  date: '2020-03-12'
+  result: W
+  tournament: UEL
+  match_type: AWAY
+  opponent: LASK
+  score:
+  - team_name: LASK
+    score: 0
+  - team_name: Manchester United
+    score: 5
+- match_id: 1376218
+  url: https://www.whoscored.com/Matches/1376218/LiveStatistics/England-Premier-League-2019-2020-Tottenham-Manchester-United
+  date: '2020-06-19'
+  result: D
+  tournament: EPL
+  match_type: AWAY
+  opponent: Tottenham
+  score:
+  - team_name: Tottenham
+    score: 1
+  - team_name: Manchester United
+    score: 1
+- match_id: 1376236
+  url: https://www.whoscored.com/Matches/1376236/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Sheffield-United
+  date: '2020-06-24'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Sheffield United
+  score:
+  - team_name: Manchester United
+    score: 3
+  - team_name: Sheffield United
+    score: 0
+- match_id: 1457409
+  url: https://www.whoscored.com/Matches/1457409/LiveStatistics/England-FA-Cup-2019-2020-Norwich-Manchester-United
+  date: '2020-06-27'
+  result: W
+  tournament: FAC
+  match_type: AWAY
+  opponent: Norwich
+  score:
+  - team_name: Norwich
+    score: 1
+  - team_name: Manchester United
+    score: 2
+- match_id: 1376240
+  url: https://www.whoscored.com/Matches/1376240/LiveStatistics/England-Premier-League-2019-2020-Brighton-Manchester-United
+  date: '2020-07-03'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Brighton
+  score:
+  - team_name: Brighton
+    score: 0
+  - team_name: Manchester United
+    score: 3
+- match_id: 1376259
+  url: https://www.whoscored.com/Matches/1376259/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Bournemouth
+  date: '2020-07-04'
+  result: W
+  tournament: EPL
+  match_type: HOME
+  opponent: Bournemouth
+  score:
+  - team_name: Manchester United
+    score: 5
+  - team_name: Bournemouth
+    score: 2
+- match_id: 1376161
+  url: https://www.whoscored.com/Matches/1376161/LiveStatistics/England-Premier-League-2019-2020-Aston-Villa-Manchester-United
+  date: '2020-07-09'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Aston Villa
+  score:
+  - team_name: Aston Villa
+    score: 0
+  - team_name: Manchester United
+    score: 3
+- match_id: 1376195
+  url: https://www.whoscored.com/Matches/1376195/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-Southampton
+  date: '2020-07-13'
+  result: D
+  tournament: EPL
+  match_type: HOME
+  opponent: Southampton
+  score:
+  - team_name: Manchester United
+    score: 2
+  - team_name: Southampton
+    score: 2
+- match_id: 1376166
+  url: https://www.whoscored.com/Matches/1376166/LiveStatistics/England-Premier-League-2019-2020-Crystal-Palace-Manchester-United
+  date: '2020-07-16'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Crystal Palace
+  score:
+  - team_name: Crystal Palace
+    score: 0
+  - team_name: Manchester United
+    score: 2
+- match_id: 1462620
+  url: https://www.whoscored.com/Matches/1462620/LiveStatistics/England-FA-Cup-2019-2020-Manchester-United-Chelsea
+  date: '2020-07-19'
+  result: L
+  tournament: FAC
+  match_type: HOME
+  opponent: Chelsea
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: Chelsea
+    score: 3
+- match_id: 1376194
+  url: https://www.whoscored.com/Matches/1376194/LiveStatistics/England-Premier-League-2019-2020-Manchester-United-West-Ham
+  date: '2020-07-22'
+  result: D
+  tournament: EPL
+  match_type: HOME
+  opponent: West Ham
+  score:
+  - team_name: Manchester United
+    score: 1
+  - team_name: West Ham
+    score: 1
+- match_id: 1376171
+  url: https://www.whoscored.com/Matches/1376171/LiveStatistics/England-Premier-League-2019-2020-Leicester-Manchester-United
+  date: '2020-07-26'
+  result: W
+  tournament: EPL
+  match_type: AWAY
+  opponent: Leicester
+  score:
+  - team_name: Leicester
+    score: 0
+  - team_name: Manchester United
+    score: 2
+season_data: null

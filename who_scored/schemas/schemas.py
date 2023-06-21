@@ -28,3 +28,4 @@ class Config(BaseModel):
     scraper: ScraperConfig
     cache: str = ""
     fixtures_only: bool = False
+    summary_only: bool = False
