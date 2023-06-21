@@ -1,6 +1,6 @@
 from who_scored.schemas.match_schemas import MatchData, DataTable
 from who_scored.schemas.fixture_schemas import FixtureData
-from united_stand.scraper.schemas import PlayerInfo, PlayerSeasonInfo, Season
+from united_stand.schemas.schemas import PlayerInfo, PlayerSeasonInfo, Season
 from typing import List
 
 import os
@@ -8,7 +8,7 @@ import yaml
 
 
 def process_k(raw_string: str) -> int:
-    if raw_string.endswith('k'):
+    if raw_string.endswith("k"):
         raw_string = raw_string[:-1]
         return int(1000 * float(raw_string))
     else:
@@ -18,13 +18,12 @@ def process_k(raw_string: str) -> int:
 def generate_player_info() -> None:
     player_infos: List[PlayerInfo] = list()
 
-    for (dirpath, dirnames, filenames) in os.walk("../../data/who_scored"):
+    for dirpath, dirnames, filenames in os.walk("../../data/who_scored"):
         for dirname in dirnames:
             filename = f"{dirpath}/{dirname}/{dirname}.yaml"
 
             with open(filename, "r") as stream:
                 try:
-
                     start = int(dirname.split("-")[0])
                     end = int(dirname.split("-")[1])
                     season = Season(start=start, end=end)
@@ -46,7 +45,9 @@ def generate_player_info() -> None:
                         )
 
                         if len(old_player_data) > 0:
-                            old_player_data[0].seasons.append(player_season_info)
+                            old_player_data[0].seasons.append(
+                                player_season_info
+                            )
 
                         else:
                             new_played_data = PlayerInfo(
@@ -60,7 +61,7 @@ def generate_player_info() -> None:
 
         break
 
-    player_info_file = f"../../data/player_info.yaml"
+    player_info_file = "../../data/player_info.yaml"
     os.makedirs(os.path.dirname(player_info_file), exist_ok=True)
 
     with open(player_info_file, "w") as f:

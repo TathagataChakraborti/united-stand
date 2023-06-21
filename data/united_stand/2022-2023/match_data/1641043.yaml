@@ -1,0 +1,111 @@
+match_id: 1641043
+meta_data:
+  views: 9600
+  likes: 73
+  shares: 11
+man_of_the_match:
+  name: LUKE SHAW
+  percentage: 55.0
+  votes: 6600
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 6500
+    rating: 2.8
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 6600
+    rating: 2.7
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 6600
+    rating: 4.7
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 6600
+    rating: 4.7
+- substitute: false
+  position: CB
+  rating:
+    name: LUKE SHAW
+    votes: 6600
+    rating: 5.2
+- substitute: false
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 6600
+    rating: 4.1
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 6600
+    rating: 4.2
+- substitute: false
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 6600
+    rating: 3.6
+- substitute: false
+  position: CM
+  rating:
+    name: WOUT WEGHORST
+    votes: 6600
+    rating: 2.5
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 6600
+    rating: 3.5
+- substitute: false
+  position: LW
+  rating:
+    name: BRUNO FERNANDES
+    votes: 6600
+    rating: 3.7
+- substitute: false
+  position: ST
+  rating:
+    name: MARCUS RASHFORD
+    votes: 6600
+    rating: 3.2
+- substitute: true
+  position: ST
+  rating:
+    name: ANTHONY MARTIAL
+    votes: 6600
+    rating: 3.8
+- substitute: true
+  position: CM
+  rating:
+    name: MARCEL SABITZER
+    votes: 6600
+    rating: 4.4
+- substitute: true
+  position: RW
+  rating:
+    name: JADON SANCHO
+    votes: 6600
+    rating: 4.0
+- substitute: true
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 6100
+    rating: 4.1
+- substitute: true
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 5900
+    rating: 4.0

@@ -9,29 +9,50 @@ from typing import Optional
 import os
 import yaml
 import json
+import time
+import random
 
 
-assert NotImplementedError, os.getenv("browser") == Browser.CHROME.value
+assert os.getenv("browser") == Browser.CHROME.value, "Support for Chrome only."
+
+
+def path_to_fixture_file(season: Season) -> str:
+    start = season.start
+    end = season.end
+    return f"../data/who_scored/{start}-{end}/{start}-{end}.yaml"
+
+
+def path_to_data(
+    mode: str, season: Season, match_id: int, allow_duplicate: bool = True
+) -> str:
+    start = season.start
+    end = season.end
+    path = f"../data/{mode}/{start}-{end}/match_data/{match_id}"
+
+    if allow_duplicate and os.path.isfile(path):
+        print("Duplicate detected!")
+        path = f"{path}_alt"
+
+    return f"{path}.yaml"
 
 
 def get_config() -> Config:
     return Config(
-        team_id=int(os.getenv("team_id")),
+        team_id=int(os.getenv("team_id", 0)),
         team_name=os.getenv("team_name"),
         country=os.getenv("country"),
         league=os.getenv("league"),
-        season=Season(start=os.getenv("season_start"), end=os.getenv("season_end")),
+        season=Season(
+            start=os.getenv("season_start"), end=os.getenv("season_end")
+        ),
         scraper=ScraperConfig(
-            browser=Browser.CHROME, timeout=int(os.getenv("timeout"))
+            browser=Browser.CHROME, timeout=int(os.getenv("timeout", 22))
         ),
     )
 
 
 def scrape_fixture(config: Config) -> Optional[FixtureData]:
-    start = config.season.start
-    end = config.season.end
-
-    fixture_file = f"../data/who_scored/{start}-{end}/{start}-{end}.yaml"
+    fixture_file = path_to_fixture_file(config.season)
 
     if os.path.isfile(fixture_file):
         with open(fixture_file, "r") as stream:
@@ -40,7 +61,7 @@ def scrape_fixture(config: Config) -> Optional[FixtureData]:
 
             except yaml.YAMLError as exc:
                 print(exc)
-                return
+                return None
 
     else:
         os.makedirs(os.path.dirname(fixture_file), exist_ok=True)
@@ -53,7 +74,10 @@ def scrape_fixture(config: Config) -> Optional[FixtureData]:
 
         with open(fixture_file, "w") as f:
             yaml.dump(
-                json.loads(fixture_data.json()), f, sort_keys=False, allow_unicode=True
+                json.loads(fixture_data.json()),
+                f,
+                sort_keys=False,
+                allow_unicode=True,
             )
             print(f"Wrote fixtures to {fixture_file}")
 
@@ -63,21 +87,23 @@ def scrape_fixture(config: Config) -> Optional[FixtureData]:
 def scrape_match_data(
     fixture_data: FixtureData, config: Config, bulk: bool = False
 ) -> None:
-    for index, fixture in enumerate(fixture_data.fixture_list):
-        print(
-            f"[{index+1}/{len(fixture_data.fixture_list)}] {Fixture.print_score(fixture)}"
-        )
+    fixture_list = fixture_data.fixture_list
+    for index, fixture in enumerate(fixture_list):
+        print(f"[{index+1}/{len(fixture_list)}] {Fixture.print_score(fixture)}")
 
-        match_type = fixture.match_type.lower()
+        mtype = fixture.match_type.lower()
         match_id = fixture.match_id
 
         season = config.season
-        path_to_data = (
-            f"../data/who_scored/{season.start}-{season.end}/match_data/{match_id}.yaml"
+        path = path_to_data(
+            mode="who_scored",
+            season=season,
+            match_id=match_id,
+            allow_duplicate=False,
         )
 
-        if os.path.isfile(path_to_data):
-            print(f"{path_to_data} already exists. Skipping.")
+        if os.path.isfile(path):
+            print(f"{path} already exists. Skipping.")
             continue
 
         else:
@@ -87,30 +113,30 @@ def scrape_match_data(
                 driver=None,
                 config=ReadConfig(
                     timeout=config.scraper.timeout,
-                    selector_link=f'//a[@href="#live-player-{match_type}-{{}}"]',
-                    table_link=f"statistics-table-{match_type}-{{}}",
+                    selector_link=f'//a[@href="#live-player-{mtype}-{{}}"]',
+                    table_link=f"statistics-table-{mtype}-{{}}",
                 ),
             )
 
-            os.makedirs(os.path.dirname(path_to_data), exist_ok=True)
-
-            with open(path_to_data, "w") as f:
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+            with open(path, "w") as f:
                 yaml.dump(
                     json.loads(match_data.json()),
                     f,
                     sort_keys=False,
                     allow_unicode=True,
                 )
-                print(f"Wrote match data to {path_to_data}")
+                print(f"Wrote match data to {path}")
 
             if not bulk:
                 return
+            else:
+                time.sleep(random.randint(1, 10))
 
 
 if __name__ == "__main__":
-
     config_object: Config = get_config()
-    fixtures: FixtureData = scrape_fixture(config_object)
+    fixtures: Optional[FixtureData] = scrape_fixture(config_object)
 
     if fixtures:
         scrape_match_data(fixtures, config_object)

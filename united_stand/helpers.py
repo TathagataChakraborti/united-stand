@@ -1,33 +1,40 @@
 from selenium.webdriver.common.by import By
+from selenium import webdriver
 from who_scored.schemas.fixture_schemas import FixtureData, Fixture
-from united_stand.scraper.processors import process_k
-from united_stand.scraper.schemas import MetaData, PlayerRating, ManagerRating, Rating, MoM
+from united_stand.processors import process_k
+from united_stand.schemas.schemas import (
+    MetaData,
+    PlayerRating,
+    ManagerRating,
+    Rating,
+    MoM,
+)
 
-from datetime import datetime
-from typing import List, Tuple, Optional
+from datetime import date, datetime
+from typing import List, Tuple, Optional, Any
 
 import time
 
 
-def get_date_of_match(driver) -> datetime.date:
+def get_date_of_match(driver: webdriver.Chrome) -> date:
     author_class = "article-main__info--author_text"
     author_object = driver.find_element(by=By.CLASS_NAME, value=author_class)
 
     date_object = author_object.find_elements(By.XPATH, "p")[1]
     date_string = date_object.get_attribute("innerText")
 
-    date = datetime.strptime(date_string, "%d/%m/%Y").date()
-    return date
+    date_object = datetime.strptime(date_string, "%d/%m/%Y").date()
+    return date_object
 
 
-def read_obj_by_classname(ref_obj, classname: str) -> str:
+def read_obj_by_classname(ref_obj: Any, classname: str) -> str:
     try:
         obj = ref_obj.find_element(by=By.CLASS_NAME, value=classname)
         splits = obj.find_elements(by=By.XPATH, value="span")
 
         if len(splits):
             splits = [s.get_attribute("innerText").strip() for s in splits]
-            return ' '.join(splits).strip()
+            return " ".join(splits).strip()
         else:
             return obj.get_attribute("innerText").strip()
 
@@ -37,21 +44,26 @@ def read_obj_by_classname(ref_obj, classname: str) -> str:
 
 
 def get_match_id_from_date(
-    date: datetime.date, fixture_data: FixtureData
+    date_object: date, fixture_data: Optional[FixtureData]
 ) -> Optional[int]:
+    if not fixture_data:
+        return None
 
-    date_string = date.strftime("%Y-%m-%d")
-    date = datetime.strptime(date_string, "%Y-%m-%d").date()
+    date_string = date_object.strftime("%Y-%m-%d")
+    new_date_obj = datetime.strptime(date_string, "%Y-%m-%d").date()
 
     fixture: List[Fixture] = list(
-        filter(lambda x: x.date == date, fixture_data.fixture_list)
+        filter(lambda x: x.date == new_date_obj, fixture_data.fixture_list)
     )
 
     if len(fixture):
         return fixture[0].match_id
 
+    else:
+        return None
 
-def click_agree_button(driver) -> None:
+
+def click_agree_button(driver: webdriver.Chrome) -> None:
     agree_button_selector = "//button[contains(@class, 'css-47sehv')]"
     agree_button = driver.find_element(by=By.XPATH, value=agree_button_selector)
 
@@ -59,7 +71,7 @@ def click_agree_button(driver) -> None:
         driver.execute_script("arguments[0].click();", agree_button)
 
 
-def get_page_read_ready(driver) -> None:
+def get_page_read_ready(driver: webdriver.Chrome) -> None:
     player_class = "article-main__content--players_card"
     player_cards = driver.find_elements(by=By.CLASS_NAME, value=player_class)
 
@@ -69,7 +81,9 @@ def get_page_read_ready(driver) -> None:
 
         score_options = score_area.find_elements(by=By.XPATH, value="div")
         set_score_option = score_options[-1]
-        set_score_button = set_score_option.find_element(by=By.XPATH, value="button")
+        set_score_button = set_score_option.find_element(
+            by=By.XPATH, value="button"
+        )
 
         driver.execute_script("arguments[0].click();", set_score_button)
 
@@ -79,13 +93,15 @@ def get_page_read_ready(driver) -> None:
         driver.execute_script("arguments[0].click();", mom_option)
 
     submit_button_class = "article-main__content--players_result"
-    submit_area = driver.find_element(by=By.CLASS_NAME, value=submit_button_class)
+    submit_area = driver.find_element(
+        by=By.CLASS_NAME, value=submit_button_class
+    )
 
     submit_button = submit_area.find_element(by=By.XPATH, value="button")
     driver.execute_script("arguments[0].click();", submit_button)
 
 
-def get_meta_data(driver) -> MetaData:
+def get_meta_data(driver: webdriver.Chrome) -> MetaData:
     stats_class = "article-main__content--stats"
     stats_object = driver.find_element(by=By.CLASS_NAME, value=stats_class)
 
@@ -100,20 +116,26 @@ def get_meta_data(driver) -> MetaData:
     return meta_data
 
 
-def read_ratings(driver) -> Tuple[ManagerRating, List[PlayerRating]]:
+def read_ratings(
+    driver: webdriver.Chrome,
+) -> Tuple[Optional[ManagerRating], List[PlayerRating]]:
     time.sleep(1.0)
 
     player_class = "article-main__content--players_card"
     player_cards = driver.find_elements(by=By.CLASS_NAME, value=player_class)
 
     list_of_ratings = list()
-    manager_rating: ManagerRating = None
+    manager_rating: Optional[ManagerRating] = None
 
     for card in player_cards:
         rating = Rating(
             name=read_obj_by_classname(card, "player-info__name"),
-            rating=float(read_obj_by_classname(card, "player-info__bottom--score")),
-            votes=process_k(read_obj_by_classname(card, "player-info__bottom--votes_number")),
+            rating=float(
+                read_obj_by_classname(card, "player-info__bottom--score")
+            ),
+            votes=process_k(
+                read_obj_by_classname(card, "player-info__bottom--votes_number")
+            ),
         )
 
         if "black" in card.get_attribute("class"):
@@ -123,18 +145,22 @@ def read_ratings(driver) -> Tuple[ManagerRating, List[PlayerRating]]:
 
         else:
             position = read_obj_by_classname(card, "profile-pic__position")
-            sub = read_obj_by_classname(card, "player-info__sub") == "SUBSTITUTE"
+            sub = (
+                read_obj_by_classname(card, "player-info__sub") == "SUBSTITUTE"
+            )
 
-            list_of_ratings.append(PlayerRating(
-                substitute=sub,
-                position=position,
-                rating=rating,
-            ))
+            list_of_ratings.append(
+                PlayerRating(
+                    substitute=sub,
+                    position=position,
+                    rating=rating,
+                )
+            )
 
     return manager_rating, list_of_ratings
 
 
-def read_mom(driver) -> MoM:
+def read_mom(driver: webdriver.Chrome) -> MoM:
     time.sleep(1.0)
 
     mom_class = "article-main__content--players_motm"

@@ -1,16 +1,15 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-
 from webdriver_manager.chrome import ChromeDriverManager
-
 from typing import List, Optional
+
 from who_scored.schemas.schemas import Season, Browser, Config
 from who_scored.schemas.fixture_schemas import FixtureData
-from who_scored.scraper import get_config
+from who_scored.ws_scraper import get_config, path_to_fixture_file, path_to_data
 
-from united_stand.scraper.schemas import MatchRating, MetaData, MoM
-from united_stand.scraper.helpers import (
+from united_stand.schemas.schemas import MatchRating, MetaData, MoM
+from united_stand.helpers import (
     click_agree_button,
     get_date_of_match,
     get_match_id_from_date,
@@ -23,22 +22,14 @@ from united_stand.scraper.helpers import (
 import os
 import yaml
 import json
+import time
+import random
 
 
-assert NotImplementedError, os.getenv("browser") == Browser.CHROME.value
+assert os.getenv("browser") == Browser.CHROME.value, "Support for Chrome only."
 
-path_to_urls = "../../data/united_stand/ratings_urls.yaml"
-path_to_cached_urls = "../../data/united_stand/cached_urls.yaml"
-
-
-def path_to_ratings_file(season: Season, match_id: int) -> str:
-    path = f"../../data/united_stand/{season.start}-{season.end}/{match_id}"
-
-    if os.path.isfile(path):
-        print('Duplicate detected!')
-        path = f'{path}_alt'
-
-    return f'{path}.yaml'
+path_to_urls = "../data/united_stand/ratings_urls.yaml"
+path_to_cached_urls = "../data/united_stand/cached_urls.yaml"
 
 
 def save_list_of_urls(list_of_urls: List[str], filename: str) -> None:
@@ -60,7 +51,9 @@ def scrape_ratings_urls(url: str) -> List[str]:
         driver.execute_script("arguments[0].click();", older_posts)
 
     ratings_link_selector = "//a[contains(@class, 'match-ratings')]"
-    ratings_links = driver.find_elements(by=By.XPATH, value=ratings_link_selector)
+    ratings_links = driver.find_elements(
+        by=By.XPATH, value=ratings_link_selector
+    )
 
     list_of_urls = [item.get_attribute("href") for item in ratings_links]
     save_list_of_urls(list_of_urls, path_to_urls)
@@ -68,9 +61,7 @@ def scrape_ratings_urls(url: str) -> List[str]:
     return list_of_urls
 
 
-def scrape_ratings(
-    list_of_urls: Optional[List[str]] = None, bulk: bool = False
-) -> None:
+def scrape_ratings(list_of_urls: List[str], bulk: bool = False) -> None:
     with open(path_to_cached_urls, "r") as stream:
         try:
             cached_urls = yaml.safe_load(stream)
@@ -81,8 +72,8 @@ def scrape_ratings(
     config: Config = get_config()
     season: Season = config.season
 
-    fixture_file = f"../../data/who_scored/{season.start}-{season.end}/{season.start}-{season.end}.yaml"
-    fixture_data = None
+    fixture_file = path_to_fixture_file(season)
+    fixture_data: Optional[FixtureData] = None
 
     if os.path.isfile(fixture_file):
         with open(fixture_file, "r") as stream:
@@ -92,13 +83,6 @@ def scrape_ratings(
             except yaml.YAMLError as exc:
                 raise exc
 
-    if not list_of_urls:
-        with open(path_to_urls, "r") as stream:
-            try:
-                list_of_urls = yaml.safe_load(stream)
-            except yaml.YAMLError as exc:
-                print(exc)
-
     for index, url in enumerate(list_of_urls):
         print(f"[{index + 1}/{len(list_of_urls)}] Reading {url}.")
 
@@ -106,8 +90,10 @@ def scrape_ratings(
             print("Already done. Skipping.")
 
         else:
+            driver = webdriver.Chrome(
+                service=Service(ChromeDriverManager().install())
+            )
 
-            driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
             driver.get(url)
             click_agree_button(driver)
 
@@ -115,7 +101,6 @@ def scrape_ratings(
             match_id = get_match_id_from_date(date, fixture_data)
 
             if match_id:
-
                 get_page_read_ready(driver)
                 meta_data: MetaData = get_meta_data(driver)
                 mom_data: MoM = read_mom(driver)
@@ -129,20 +114,40 @@ def scrape_ratings(
                     ratings=ratings,
                 )
 
-                path_to_data = path_to_ratings_file(season, match_id)
-                with open(path_to_data, "w") as f:
-                    yaml.dump(json.loads(match_ratings.json()), f, sort_keys=False, allow_unicode=True)
-                    print(f"Wrote ratings to {path_to_data}")
+                path = path_to_data(
+                    mode="united_stand",
+                    season=season,
+                    match_id=match_id,
+                    allow_duplicate=True,
+                )
+
+                os.makedirs(os.path.dirname(path), exist_ok=True)
+                with open(path, "w") as f:
+                    yaml.dump(
+                        json.loads(match_ratings.json()),
+                        f,
+                        sort_keys=False,
+                        allow_unicode=True,
+                    )
+                    print(f"Wrote ratings to {path}")
 
                 cached_urls.append(url)
                 save_list_of_urls(cached_urls, path_to_cached_urls)
 
                 if not bulk:
                     return
+                else:
+                    time.sleep(random.randint(1, 10))
 
 
 if __name__ == "__main__":
     # tus_ratings_url = "https://www.theunitedstand.com/articles/match-ratings"
     # ratings_urls = scrape_ratings_urls(url=tus_ratings_url)
     # scrape_ratings(ratings_urls)
-    scrape_ratings()
+
+    with open(path_to_urls, "r") as s:
+        try:
+            urls = yaml.safe_load(s)
+            scrape_ratings(urls)
+        except yaml.YAMLError as err:
+            print(err)

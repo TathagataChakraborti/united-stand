@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 from datetime import datetime
-from typing import List
+from typing import List, Optional
 
 from who_scored.schemas.fixture_schemas import Fixture, ScoreItem, MatchType
 from who_scored.schemas.match_schemas import MatchData, ReadConfig
@@ -15,7 +15,6 @@ from who_scored.read_data_table import read_data_table
 
 class FixtureManager(object):
     def __init__(self, config: Config):
-
         team_id = config.team_id
         country = config.country
 
@@ -23,10 +22,12 @@ class FixtureManager(object):
         self.url = f"https://www.whoscored.com/Teams/{team_id}/TYPE/{country}-{self.team_name.replace(' ', '-')}"
 
         self.config = config.scraper
-        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+        self.driver = webdriver.Chrome(
+            service=Service(ChromeDriverManager().install())
+        )
 
         self.fixture_list: List[Fixture] = list()
-        self.season_data: MatchData = dict()
+        self.season_data: Optional[MatchData] = None
 
     def read_season_data(self) -> MatchData:
         url = self.url.replace("TYPE", "Show")
@@ -43,7 +44,6 @@ class FixtureManager(object):
         return self.season_data
 
     def read_fixtures(self) -> List[Fixture]:
-
         url = self.url.replace("TYPE", "Fixtures")
 
         print(f"==> Attempting to read fixture list from {url}")
@@ -65,9 +65,7 @@ class FixtureManager(object):
                 result_link = form_fixture.find("a")
 
                 url = result_link["href"].split("/")[-1]
-                url = (
-                    f"https://www.whoscored.com/Matches/{match_id}/LiveStatistics/{url}"
-                )
+                url = f"https://www.whoscored.com/Matches/{match_id}/LiveStatistics/{url}"
 
                 new_date = fixture.find("div", attrs={"class": "date"}).text
                 new_date = datetime.strptime(new_date, "%d-%m-%y").date()
@@ -93,7 +91,8 @@ class FixtureManager(object):
                 score = [s.strip().replace("*", "") for s in score]
                 score = [
                     ScoreItem(
-                        team_name=away_team if bool(i) else home_team, score=int(s)
+                        team_name=away_team if bool(i) else home_team,
+                        score=int(s),
                     )
                     for i, s in enumerate(score)
                 ]
@@ -119,5 +118,5 @@ class FixtureManager(object):
         return self.fixture_list
 
     @property
-    def player_data(self) -> MatchData:
+    def player_data(self) -> Optional[MatchData]:
         return self.season_data

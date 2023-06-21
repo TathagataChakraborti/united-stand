@@ -22,12 +22,12 @@ from who_scored.schemas.match_schemas import (
 )
 
 
-def read_incident_data(html_objects: List[bs4.element.ResultSet]) -> List[Incident]:
-
+def read_incident_data(
+    html_objects: List[bs4.element.ResultSet],
+) -> List[Incident]:
     list_of_incidents = list()
 
     for html_object in html_objects:
-
         incident_type = IncidentType.parse_incident_type(html_object)
         incident_time = IncidentTime(
             minute=int(html_object.get("data-minute", 0)),
@@ -45,7 +45,9 @@ def read_incident_data(html_objects: List[bs4.element.ResultSet]) -> List[Incide
         )
 
         if new_incident.incident_type:
-            setattr(new_incident, "incident_type", new_incident.incident_type.value)
+            setattr(
+                new_incident, "incident_type", new_incident.incident_type.value
+            )
 
         list_of_incidents.append(new_incident)
 
@@ -53,10 +55,15 @@ def read_incident_data(html_objects: List[bs4.element.ResultSet]) -> List[Incide
 
 
 def read_data_table(
-    match_id: int, url: str, driver: Optional[webdriver.Chrome], config: ReadConfig
+    match_id: int,
+    url: str,
+    driver: Optional[webdriver.Chrome],
+    config: ReadConfig,
 ) -> MatchData:
     if not driver:
-        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+        driver = webdriver.Chrome(
+            service=Service(ChromeDriverManager().install())
+        )
 
     print(f"==> Attempting to read data from {url}")
     driver.get(url)
@@ -105,19 +112,21 @@ def read_data_table(
                 age = int(raw_player_info[0].text)
 
                 positions = raw_player_info[1].text.strip()
-                positions = [p.strip() for p in positions.split(",") if p.strip()]
+                positions = [
+                    p.strip() for p in positions.split(",") if p.strip()
+                ]
 
                 raw_incident_info = row_data[0].select("span.incident-icon")
                 incident_info = read_incident_data(raw_incident_info) or None
 
                 data = list()
                 for header_id, data_item in enumerate(row_data[2:]):
-
                     raw_incident_info = data_item.select("span.incident-icon")
                     if raw_incident_info:
-                        data_item = read_incident_data(raw_incident_info) or None
+                        data_item = (
+                            read_incident_data(raw_incident_info) or None
+                        )
                     else:
-
                         data_item = data_item.text.strip()
 
                         if data_item in ["-", ""]:
@@ -160,10 +169,14 @@ def read_data_table(
                 "div", attrs={"id": f"{table_id}-column-legend"}
             )
             if keymap:
-                keymap = keymap.find("div", attrs={"class": "table-column-legend"})
+                keymap = keymap.find(
+                    "div", attrs={"class": "table-column-legend"}
+                )
                 keymap = keymap.find_all("div")
                 keymap = [k.text.split(":") for k in keymap]
-                keymap = {k[0].strip(): k[1].strip() for k in keymap if len(k) == 2}
+                keymap = {
+                    k[0].strip(): k[1].strip() for k in keymap if len(k) == 2
+                }
 
             data_table = DataTable(
                 headers=headers,
@@ -173,5 +186,5 @@ def read_data_table(
 
             match_data[item] = data_table
 
-    match_data = MatchData.parse_obj(match_data)
+    match_data = MatchData(**match_data)
     return match_data

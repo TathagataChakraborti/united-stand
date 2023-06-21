@@ -18,11 +18,15 @@ class IncidentType(str, Enum):
         use_enum_values = True
 
     @classmethod
-    def parse_incident_type(cls, html_object: bs4.element.ResultSet):
+    def parse_incident_type(
+        cls, html_object: bs4.element.ResultSet
+    ) -> Optional[str]:
         object_attributes = list(html_object.attrs.keys())
 
         for item in cls:
-            if any([item.value in attr_name for attr_name in object_attributes]):
+            if any(
+                [item.value in attr_name for attr_name in object_attributes]
+            ):
                 return item
 
         return None
