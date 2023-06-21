@@ -20,10 +20,10 @@ from united_stand.helpers import (
 )
 
 import os
-import yaml
 import json
 import time
 import random
+import yaml  # type: ignore
 
 
 assert os.getenv("browser") == Browser.CHROME.value, "Support for Chrome only."

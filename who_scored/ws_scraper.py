@@ -7,10 +7,10 @@ from who_scored.schemas.schemas import Config, Season, ScraperConfig, Browser
 from typing import Optional
 
 import os
-import yaml
 import json
 import time
 import random
+import yaml  # type: ignore
 
 
 assert os.getenv("browser") == Browser.CHROME.value, "Support for Chrome only."

@@ -4,7 +4,7 @@ from united_stand.schemas.schemas import PlayerInfo, PlayerSeasonInfo, Season
 from typing import List
 
 import os
-import yaml
+import yaml  # type: ignore
 
 
 def process_k(raw_string: str) -> int:
