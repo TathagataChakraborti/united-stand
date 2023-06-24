@@ -1,0 +1,111 @@
+match_id: 1376259
+meta_data:
+  views: 55
+  likes: 0
+  shares: 0
+man_of_the_match:
+  name: MASON GREENWOOD
+  percentage: 67.0
+  votes: 6
+manager_rating:
+  rating:
+    name: OLE GUNNAR SOLSKJAER
+    votes: 5
+    rating: 7.8
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 5
+    rating: 7.4
+- substitute: false
+  position: RWB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 5
+    rating: 7.2
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 5
+    rating: 6.8
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 5
+    rating: 4.6
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 5
+    rating: 6.4
+- substitute: false
+  position: CDM
+  rating:
+    name: NEMANJA MATIC
+    votes: 5
+    rating: 7.6
+- substitute: false
+  position: LCM
+  rating:
+    name: PAUL POGBA
+    votes: 5
+    rating: 7.8
+- substitute: false
+  position: RCM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 5
+    rating: 8.6
+- substitute: false
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 5
+    rating: 8.2
+- substitute: false
+  position: RW
+  rating:
+    name: MASON GREENWOOD
+    votes: 5
+    rating: 7.6
+- substitute: false
+  position: ST
+  rating:
+    name: ANTHONY MARTIAL
+    votes: 5
+    rating: 8.4
+- substitute: true
+  position: CB
+  rating:
+    name: ERIC BAILLY
+    votes: 5
+    rating: 7.2
+- substitute: true
+  position: LW
+  rating:
+    name: DANIEL JAMES
+    votes: 5
+    rating: 6.6
+- substitute: true
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 5
+    rating: 6.6
+- substitute: true
+  position: CM
+  rating:
+    name: JUAN MATA
+    votes: 5
+    rating: 6.8
+- substitute: true
+  position: ST
+  rating:
+    name: ODION IGHALO
+    votes: 5
+    rating: 6.6

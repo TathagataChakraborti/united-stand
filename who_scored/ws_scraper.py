@@ -2,7 +2,7 @@ from who_scored.get_fixtures import FixtureManager
 from who_scored.read_data_table import read_data_table
 
 from who_scored.schemas.fixture_schemas import Fixture, FixtureData
-from who_scored.schemas.match_schemas import MatchData, ReadConfig
+from who_scored.schemas.match_schemas import MatchData, TableReadConfig
 from who_scored.schemas.schemas import Config, Season, ScraperConfig, Browser
 from typing import Optional
 
@@ -51,11 +51,12 @@ def get_config() -> Config:
             start=os.getenv("season_start"), end=os.getenv("season_end")
         ),
         scraper=ScraperConfig(
-            browser=Browser.CHROME, timeout=int(os.getenv("timeout", 22))
+            ws_cache_url=os.getenv("ws_cache_url"),
+            summary_only=determine_bool_value_of_env("summary_only"),
+            fixtures_only=determine_bool_value_of_env("fixtures_only"),
+            browser=Browser.CHROME,
+            timeout=int(os.getenv("timeout", 22)),
         ),
-        cache=os.getenv("cache"),
-        fixtures_only=determine_bool_value_of_env("fixtures_only"),
-        summary_only=determine_bool_value_of_env("summary_only"),
     )
 
 
@@ -78,7 +79,7 @@ def scrape_fixture(config: Config) -> Optional[FixtureData]:
         fixture_data = FixtureData(
             fixture_list=fixture_object.read_fixtures(),
             season_data=None
-            if config.fixtures_only
+            if config.scraper.fixtures_only
             else fixture_object.read_season_data(),
         )
 
@@ -127,7 +128,7 @@ def scrape_match_data(
                 match_id=match_id,
                 url=fixture.url,
                 driver=None,
-                config=ReadConfig(
+                config=TableReadConfig(
                     timeout=config.scraper.timeout,
                     selector_link=f'//a[@href="#live-player-{mtype}-{{}}"]',
                     table_link=f"statistics-table-{mtype}-{{}}",

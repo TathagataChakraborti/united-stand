@@ -15,6 +15,9 @@ class Season(BaseModel):
 
 
 class ScraperConfig(BaseModel):
+    ws_cache_url: str = ""
+    fixtures_only: bool = False
+    summary_only: bool = False
     browser: Browser
     timeout: int
 
@@ -26,6 +29,3 @@ class Config(BaseModel):
     league: str
     season: Season
     scraper: ScraperConfig
-    cache: str = ""
-    fixtures_only: bool = False
-    summary_only: bool = False

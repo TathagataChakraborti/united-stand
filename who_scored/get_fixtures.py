@@ -7,7 +7,7 @@ from datetime import datetime
 from typing import List, Optional
 
 from who_scored.schemas.fixture_schemas import Fixture, ScoreItem, MatchType
-from who_scored.schemas.match_schemas import MatchData, ReadConfig
+from who_scored.schemas.match_schemas import MatchData, TableReadConfig
 from who_scored.schemas.schemas import Config
 
 from who_scored.read_data_table import read_data_table
@@ -19,9 +19,10 @@ class FixtureManager(object):
         country = config.country
 
         self.team_name = config.team_name
-        self.url = f"{config.cache}https://www.whoscored.com/Teams/{team_id}/TYPE/{country}-{self.team_name.replace(' ', '-')}"
-
         self.config = config.scraper
+
+        self.url = f"{self.config.ws_cache_url}https://www.whoscored.com/Teams/{team_id}/TYPE/{country}-{self.team_name.replace(' ', '-')}"
+
         self.driver = webdriver.Chrome(
             service=Service(ChromeDriverManager().install())
         )
@@ -35,7 +36,7 @@ class FixtureManager(object):
             match_id=0,
             url=url,
             driver=self.driver,
-            config=ReadConfig(
+            config=TableReadConfig(
                 summary_only=self.config.summary_only,
                 timeout=self.config.timeout,
                 selector_link='//a[@href="#team-squad-stats-{}"]',

@@ -14,7 +14,7 @@ from who_scored.schemas.match_schemas import (
     Incident,
     IncidentTime,
     IncidentType,
-    ReadConfig,
+    TableReadConfig,
     MatchData,
     PlayerData,
     DataTable,
@@ -58,7 +58,7 @@ def read_data_table(
     match_id: int,
     url: str,
     driver: Optional[webdriver.Chrome],
-    config: ReadConfig,
+    config: TableReadConfig,
 ) -> MatchData:
     if not driver:
         driver = webdriver.Chrome(

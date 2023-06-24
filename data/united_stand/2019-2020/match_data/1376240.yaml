@@ -1,0 +1,81 @@
+match_id: 1376240
+meta_data:
+  views: 69
+  likes: 0
+  shares: 0
+man_of_the_match:
+  name: BRUNO FERNANDES
+  percentage: 33.0
+  votes: 6
+manager_rating:
+  rating:
+    name: OLE GUNNAR SOLSKJAER
+    votes: 5
+    rating: 7.2
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 5
+    rating: 7.8
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 5
+    rating: 7.0
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 5
+    rating: 7.8
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 5
+    rating: 5.6
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 5
+    rating: 7.6
+- substitute: false
+  position: CDM
+  rating:
+    name: NEMANJA MATIC
+    votes: 5
+    rating: 7.2
+- substitute: false
+  position: CM
+  rating:
+    name: PAUL POGBA
+    votes: 5
+    rating: 10.0
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 5
+    rating: 10.0
+- substitute: false
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 5
+    rating: 10.0
+- substitute: false
+  position: RW
+  rating:
+    name: MASON GREENWOOD
+    votes: 5
+    rating: 7.8
+- substitute: false
+  position: ST
+  rating:
+    name: ANTHONY MARTIAL
+    votes: 5
+    rating: 8.6

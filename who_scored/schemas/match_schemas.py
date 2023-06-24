@@ -70,7 +70,7 @@ class MatchData(BaseModel):
     Passing: Optional[DataTable] = None
 
 
-class ReadConfig(BaseModel):
+class TableReadConfig(BaseModel):
     timeout: int
     selector_link: str
     table_link: str

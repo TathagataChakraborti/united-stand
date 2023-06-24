@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
-from typing import List, Optional
+from typing import List, Tuple, Optional
 
 from who_scored.schemas.schemas import Season, Browser, Config
 from who_scored.schemas.fixture_schemas import FixtureData
@@ -33,8 +33,15 @@ import yaml  # type: ignore
 
 assert os.getenv("browser") == Browser.CHROME.value, "Support for Chrome only."
 
-path_to_urls = "../data/united_stand/ratings_urls.yaml"
-path_to_cached_urls = "../data/united_stand/cached_urls.yaml"
+
+def get_url_paths(season: Season) -> Tuple[str, str]:
+    start = season.start
+    end = season.end
+
+    path_to_urls = f"../data/united_stand/{start}-{end}/ratings_urls.yaml"
+    path_to_cached_urls = f"../data/united_stand/{start}-{end}/cached_urls.yaml"
+
+    return path_to_urls, path_to_cached_urls
 
 
 def save_list_of_urls(list_of_urls: List[str], filename: str) -> None:
@@ -43,7 +50,7 @@ def save_list_of_urls(list_of_urls: List[str], filename: str) -> None:
         print("Updated cached URLs")
 
 
-def scrape_ratings_urls(url: str) -> List[str]:
+def scrape_ratings_urls(config: Config, url: str) -> List[str]:
     print(f"==> Attempting to read data from {url}")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.get(url)
@@ -61,14 +68,19 @@ def scrape_ratings_urls(url: str) -> List[str]:
     )
 
     list_of_urls = [item.get_attribute("href") for item in ratings_links]
+    path_to_urls, _ = get_url_paths(config.season)
     save_list_of_urls(list_of_urls, path_to_urls)
 
     return list_of_urls
 
 
 def scrape_ratings(
-    list_of_urls: List[str], bulk: bool = False, reverse: bool = False
+    config: Config,
+    list_of_urls: List[str],
+    bulk: bool = False,
+    reverse: bool = False,
 ) -> None:
+    _, path_to_cached_urls = get_url_paths(config.season)
     with open(path_to_cached_urls, "r") as stream:
         try:
             cached_urls = yaml.safe_load(stream)
@@ -76,10 +88,7 @@ def scrape_ratings(
             print(e)
 
     cached_urls = cached_urls or list()
-    config: Config = get_config()
-    season: Season = config.season
-
-    fixture_file = path_to_fixture_file(season)
+    fixture_file = path_to_fixture_file(config.season)
     fixture_data: Optional[FixtureData] = None
 
     if os.path.isfile(fixture_file):
@@ -126,7 +135,7 @@ def scrape_ratings(
 
                 path = path_to_data(
                     mode="united_stand",
-                    season=season,
+                    season=config.season,
                     match_id=match_id,
                     allow_duplicate=True,
                 )
@@ -151,14 +160,20 @@ def scrape_ratings(
 
 
 if __name__ == "__main__":
-    # tus_ratings_url = "https://www.theunitedstand.com/articles/match-ratings"
-    # ratings_urls = scrape_ratings_urls(url=tus_ratings_url)
+    read_config: Config = get_config()
+    url_path, _ = get_url_paths(read_config.season)
+
+    tus_ratings_url = os.getenv("tus_ratings_url")
+
+    # TODO: Abstract to configuration
+    # ratings_urls = scrape_ratings_urls(read_config, tus_ratings_url)
     # scrape_ratings(ratings_urls)
 
-    with open(path_to_urls, "r") as s:
+    with open(url_path, "r") as s:
         try:
             urls = yaml.safe_load(s)
             scrape_ratings(
+                read_config,
                 urls,
                 bulk=determine_bool_value_of_env("read_in_bulk"),
                 reverse=determine_bool_value_of_env("read_in_reverse"),

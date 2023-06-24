@@ -1,0 +1,93 @@
+match_id: 1376194
+meta_data:
+  views: 28
+  likes: 0
+  shares: 0
+man_of_the_match:
+  name: MASON GREENWOOD
+  percentage: 50.0
+  votes: 2
+manager_rating:
+  rating:
+    name: OLE GUNNAR SOLSKJAER
+    votes: 1
+    rating: 7.0
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 1
+    rating: 6.0
+- substitute: false
+  position: RWB
+  rating:
+    name: TIMOTHY FOSU-MENSAH
+    votes: 1
+    rating: 6.0
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 1
+    rating: 7.0
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 1
+    rating: 6.0
+- substitute: false
+  position: LB
+  rating:
+    name: BRANDON WILLIAMS
+    votes: 1
+    rating: 6.0
+- substitute: false
+  position: CDM
+  rating:
+    name: NEMANJA MATIC
+    votes: 1
+    rating: 6.0
+- substitute: false
+  position: LCM
+  rating:
+    name: PAUL POGBA
+    votes: 1
+    rating: 5.0
+- substitute: false
+  position: RCM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 1
+    rating: 7.0
+- substitute: false
+  position: RW
+  rating:
+    name: MASON GREENWOOD
+    votes: 1
+    rating: 8.0
+- substitute: false
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 1
+    rating: 7.0
+- substitute: true
+  position: ST
+  rating:
+    name: ANTHONY MARTIAL
+    votes: 1
+    rating: 7.0
+- substitute: true
+  position: RWB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 1
+    rating: 6.0
+- substitute: true
+  position: ST
+  rating:
+    name: ODION IGHALO
+    votes: 1
+    rating: 6.0
