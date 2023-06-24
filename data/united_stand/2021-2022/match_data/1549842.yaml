@@ -1,0 +1,111 @@
+match_id: 1549842
+meta_data:
+  views: 2100
+  likes: 27
+  shares: 7
+man_of_the_match:
+  name: MARCUS RASHFORD
+  percentage: 44.0
+  votes: 780
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 722
+    rating: 8.6
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 781
+    rating: 8.2
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 781
+    rating: 6.8
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 777
+    rating: 7.0
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 777
+    rating: 7.2
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 781
+    rating: 7.2
+- substitute: false
+  position: CM
+  rating:
+    name: MARCEL SABITZER
+    votes: 777
+    rating: 6.9
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 781
+    rating: 6.4
+- substitute: false
+  position: CM
+  rating:
+    name: WOUT WEGHORST
+    votes: 777
+    rating: 6.0
+- substitute: false
+  position: RW
+  rating:
+    name: BRUNO FERNANDES
+    votes: 781
+    rating: 7.7
+- substitute: false
+  position: LW
+  rating:
+    name: ALEJANDRO GARNACHO
+    votes: 777
+    rating: 6.0
+- substitute: false
+  position: ST
+  rating:
+    name: MARCUS RASHFORD
+    votes: 781
+    rating: 8.3
+- substitute: true
+  position: CM
+  rating:
+    name: JADON SANCHO
+    votes: 777
+    rating: 7.3
+- substitute: true
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 777
+    rating: 6.0
+- substitute: true
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 777
+    rating: 6.3
+- substitute: true
+  position: LW
+  rating:
+    name: ANTHONY ELANGA
+    votes: 777
+    rating: 5.9
+- substitute: true
+  position: CM
+  rating:
+    name: KOBBIE MAINOO
+    votes: 576
+    rating: 6.9

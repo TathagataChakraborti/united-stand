@@ -1,0 +1,93 @@
+match_id: 1640826
+meta_data:
+  views: 11400
+  likes: 97
+  shares: 20
+man_of_the_match:
+  name: ALEJANDRO GARNACHO
+  percentage: 54.0
+  votes: 8000
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 8000
+    rating: 5.8
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 8000
+    rating: 7.3
+- substitute: false
+  position: RB
+  rating:
+    name: TYRELL MALACIA
+    votes: 8000
+    rating: 5.7
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 8000
+    rating: 6.1
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 8000
+    rating: 6.5
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 8000
+    rating: 6.1
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 8000
+    rating: 6.5
+- substitute: false
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 8000
+    rating: 6.9
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 8000
+    rating: 5.7
+- substitute: false
+  position: RW
+  rating:
+    name: ANTHONY ELANGA
+    votes: 8000
+    rating: 4.7
+- substitute: false
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 8000
+    rating: 5.2
+- substitute: false
+  position: ST
+  rating:
+    name: ANTHONY MARTIAL
+    votes: 8000
+    rating: 5.5
+- substitute: true
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 8000
+    rating: 4.8
+- substitute: true
+  position: LW
+  rating:
+    name: ALEJANDRO GARNACHO
+    votes: 8000
+    rating: 7.7

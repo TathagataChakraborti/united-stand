@@ -38,8 +38,7 @@ def read_obj_by_classname(ref_obj: Any, classname: str) -> str:
         else:
             return obj.get_attribute("innerText").strip()
 
-    except Exception as e:
-        print(e)
+    except (Exception,):
         return ""
 
 
@@ -119,6 +118,15 @@ def get_meta_data(driver: webdriver.Chrome) -> MetaData:
 def read_ratings(
     driver: webdriver.Chrome,
 ) -> Tuple[Optional[ManagerRating], List[PlayerRating]]:
+    def get_manager_id() -> int:
+        black_classes = [
+            "black" in c.get_attribute("class") for c in player_cards
+        ]
+        if any(black_classes):
+            return black_classes.index(True)
+        else:
+            return len(player_cards) - 1
+
     time.sleep(1.0)
 
     player_class = "article-main__content--players_card"
@@ -126,8 +134,9 @@ def read_ratings(
 
     list_of_ratings = list()
     manager_rating: Optional[ManagerRating] = None
+    manager_id = get_manager_id()
 
-    for card in player_cards:
+    for i, card in enumerate(player_cards):
         rating = Rating(
             name=read_obj_by_classname(card, "player-info__name"),
             rating=float(
@@ -138,7 +147,7 @@ def read_ratings(
             ),
         )
 
-        if "black" in card.get_attribute("class"):
+        if i == manager_id:
             manager_rating = ManagerRating(
                 rating=rating,
             )

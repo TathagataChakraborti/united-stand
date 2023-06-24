@@ -1,0 +1,99 @@
+match_id: 1640769
+meta_data:
+  views: 14800
+  likes: 170
+  shares: 19
+man_of_the_match:
+  name: CASEMIRO
+  percentage: 45.0
+  votes: 10600
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 10200
+    rating: 7.0
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 10600
+    rating: 6.9
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 10600
+    rating: 5.8
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 10600
+    rating: 6.2
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 10600
+    rating: 6.8
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 10600
+    rating: 6.9
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 10600
+    rating: 7.2
+- substitute: false
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 10600
+    rating: 6.3
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 10600
+    rating: 6.1
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 10600
+    rating: 7.0
+- substitute: false
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 10600
+    rating: 6.6
+- substitute: false
+  position: ST
+  rating:
+    name: ANTHONY MARTIAL
+    votes: 10600
+    rating: 5.9
+- substitute: true
+  position: ST
+  rating:
+    name: CRISTIANO RONALDO
+    votes: 10600
+    rating: 7.2
+- substitute: true
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 10400
+    rating: 5.3
+- substitute: true
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 9800
+    rating: 6.2

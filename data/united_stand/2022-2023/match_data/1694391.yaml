@@ -1,0 +1,105 @@
+match_id: 1694391
+meta_data:
+  views: 32500
+  likes: 203
+  shares: 25
+man_of_the_match:
+  name: ERIK TEN HAG
+  percentage: 36.0
+  votes: 15800
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 14600
+    rating: 9.1
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 15800
+    rating: 7.3
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 15800
+    rating: 6.7
+- substitute: false
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 15800
+    rating: 8.2
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 15800
+    rating: 8.3
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 15800
+    rating: 7.2
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 15800
+    rating: 8.1
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 15800
+    rating: 7.7
+- substitute: false
+  position: CM
+  rating:
+    name: JADON SANCHO
+    votes: 15800
+    rating: 6.1
+- substitute: false
+  position: RW
+  rating:
+    name: BRUNO FERNANDES
+    votes: 15800
+    rating: 7.2
+- substitute: false
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 15800
+    rating: 6.5
+- substitute: false
+  position: ST
+  rating:
+    name: WOUT WEGHORST
+    votes: 15800
+    rating: 5.6
+- substitute: true
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 15800
+    rating: 7.3
+- substitute: true
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 15800
+    rating: 6.5
+- substitute: true
+  position: LW
+  rating:
+    name: ALEJANDRO GARNACHO
+    votes: 15800
+    rating: 6.8
+- substitute: true
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 15200
+    rating: 6.4

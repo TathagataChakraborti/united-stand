@@ -1,0 +1,99 @@
+match_id: 1640793
+meta_data:
+  views: 16100
+  likes: 169
+  shares: 15
+man_of_the_match:
+  name: CASEMIRO
+  percentage: 32.0
+  votes: 11400
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 10700
+    rating: 8.1
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 11400
+    rating: 7.1
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 11400
+    rating: 7.3
+- substitute: false
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 11400
+    rating: 7.6
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 11400
+    rating: 7.8
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 11400
+    rating: 7.3
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 11400
+    rating: 8.0
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 11400
+    rating: 7.8
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 11400
+    rating: 7.8
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 11400
+    rating: 7.2
+- substitute: false
+  position: LW
+  rating:
+    name: JADON SANCHO
+    votes: 11400
+    rating: 6.1
+- substitute: false
+  position: ST
+  rating:
+    name: MARCUS RASHFORD
+    votes: 11400
+    rating: 6.3
+- substitute: true
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 11400
+    rating: 5.9
+- substitute: true
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 10700
+    rating: 6.2
+- substitute: true
+  position: LW
+  rating:
+    name: ANTHONY ELANGA
+    votes: 10000
+    rating: 5.9

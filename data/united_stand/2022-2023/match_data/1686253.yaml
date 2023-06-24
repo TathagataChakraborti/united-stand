@@ -1,0 +1,111 @@
+match_id: 1686253
+meta_data:
+  views: 7800
+  likes: 75
+  shares: 6
+man_of_the_match:
+  name: MARCUS RASHFORD
+  percentage: 79.0
+  votes: 5500
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 5300
+    rating: 6.0
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 5500
+    rating: 5.6
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 5500
+    rating: 5.9
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 5500
+    rating: 5.2
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 5500
+    rating: 6.2
+- substitute: false
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 5500
+    rating: 4.3
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 5500
+    rating: 6.1
+- substitute: false
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 5500
+    rating: 5.4
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 5500
+    rating: 4.8
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 5500
+    rating: 6.0
+- substitute: false
+  position: LW
+  rating:
+    name: JADON SANCHO
+    votes: 5500
+    rating: 4.2
+- substitute: false
+  position: ST
+  rating:
+    name: CRISTIANO RONALDO
+    votes: 5500
+    rating: 5.2
+- substitute: true
+  position: ''
+  rating:
+    name: LUKE SHAW
+    votes: 5500
+    rating: 5.8
+- substitute: true
+  position: ''
+  rating:
+    name: MARCUS RASHFORD
+    votes: 5500
+    rating: 7.6
+- substitute: true
+  position: ''
+  rating:
+    name: ANTHONY MARTIAL
+    votes: 5500
+    rating: 7.2
+- substitute: true
+  position: ''
+  rating:
+    name: FRED
+    votes: 5500
+    rating: 5.7
+- substitute: true
+  position: ''
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 5200
+    rating: 5.2

@@ -1,0 +1,105 @@
+match_id: 1549646
+meta_data:
+  views: 52
+  likes: 1
+  shares: 0
+man_of_the_match:
+  name: DAVID DE GEA
+  percentage: 64.0
+  votes: 14
+manager_rating:
+  rating:
+    name: OLE GUNNAR SOLSKJAER
+    votes: 13
+    rating: 3.2
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 13
+    rating: 8.8
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 13
+    rating: 3.8
+- substitute: false
+  position: CB
+  rating:
+    name: ERIC BAILLY
+    votes: 13
+    rating: 3.8
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 13
+    rating: 4.0
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 13
+    rating: 3.5
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 13
+    rating: 4.0
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 13
+    rating: 4.0
+- substitute: false
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 13
+    rating: 3.8
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 13
+    rating: 3.6
+- substitute: false
+  position: ST
+  rating:
+    name: MASON GREENWOOD
+    votes: 13
+    rating: 3.6
+- substitute: false
+  position: ST
+  rating:
+    name: CRISTIANO RONALDO
+    votes: 13
+    rating: 3.6
+- substitute: true
+  position: LW
+  rating:
+    name: JADON SANCHO
+    votes: 13
+    rating: 3.9
+- substitute: true
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 13
+    rating: 3.2
+- substitute: true
+  position: LB
+  rating:
+    name: ALEX TELLES
+    votes: 13
+    rating: 3.3
+- substitute: true
+  position: CM
+  rating:
+    name: DONNY VAN DE BEEK
+    votes: 13
+    rating: 5.2

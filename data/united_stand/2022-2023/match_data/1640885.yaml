@@ -1,0 +1,111 @@
+match_id: 1640885
+meta_data:
+  views: 17100
+  likes: 93
+  shares: 19
+man_of_the_match:
+  name: DAVID DE GEA
+  percentage: 19.0
+  votes: 10500
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 9800
+    rating: 2.1
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 10500
+    rating: 3.2
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 10500
+    rating: 2.6
+- substitute: false
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 10500
+    rating: 2.6
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 10500
+    rating: 2.5
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 10500
+    rating: 2.0
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 10500
+    rating: 2.6
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 10500
+    rating: 2.3
+- substitute: false
+  position: CM
+  rating:
+    name: WOUT WEGHORST
+    votes: 10500
+    rating: 2.1
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 10500
+    rating: 1.6
+- substitute: false
+  position: LW
+  rating:
+    name: BRUNO FERNANDES
+    votes: 10500
+    rating: 1.8
+- substitute: false
+  position: ST
+  rating:
+    name: MARCUS RASHFORD
+    votes: 10500
+    rating: 2.1
+- substitute: true
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 10500
+    rating: 1.8
+- substitute: true
+  position: LW
+  rating:
+    name: ALEJANDRO GARNACHO
+    votes: 10500
+    rating: 2.9
+- substitute: true
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 10300
+    rating: 2.8
+- substitute: true
+  position: CM
+  rating:
+    name: MARCEL SABITZER
+    votes: 9900
+    rating: 3.0
+- substitute: true
+  position: ST
+  rating:
+    name: ANTHONY ELANGA
+    votes: 8500
+    rating: 2.8

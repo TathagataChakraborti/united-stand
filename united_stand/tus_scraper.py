@@ -121,6 +121,8 @@ def scrape_ratings(
 
             if match_id:
                 get_page_read_ready(driver)
+                time.sleep(2.0)
+
                 meta_data: MetaData = get_meta_data(driver)
                 mom_data: MoM = read_mom(driver)
                 manager_rating, ratings = read_ratings(driver)
@@ -163,9 +165,8 @@ if __name__ == "__main__":
     read_config: Config = get_config()
     url_path, _ = get_url_paths(read_config.season)
 
-    tus_ratings_url = os.getenv("tus_ratings_url")
-
     # TODO: Abstract to configuration
+    # tus_ratings_url = os.getenv("tus_ratings_url")
     # ratings_urls = scrape_ratings_urls(read_config, tus_ratings_url)
     # scrape_ratings(ratings_urls)
 

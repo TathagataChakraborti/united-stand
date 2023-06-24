@@ -1,0 +1,99 @@
+match_id: 1501847
+meta_data:
+  views: 17
+  likes: 0
+  shares: 0
+man_of_the_match:
+  name: OLE GUNNAR SOLSKJAER
+  percentage: 100.0
+  votes: 1
+manager_rating:
+  rating:
+    name: OLE GUNNAR SOLSKJAER
+    votes: 0
+    rating: 0.0
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DEAN HENDERSON
+    votes: 0
+    rating: 0.0
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 0
+    rating: 0.0
+- substitute: false
+  position: CB
+  rating:
+    name: ERIC BAILLY
+    votes: 0
+    rating: 0.0
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 0
+    rating: 0.0
+- substitute: false
+  position: LB
+  rating:
+    name: BRANDON WILLIAMS
+    votes: 0
+    rating: 0.0
+- substitute: false
+  position: CDM
+  rating:
+    name: NEMANJA MATIC
+    votes: 0
+    rating: 0.0
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 0
+    rating: 0.0
+- substitute: false
+  position: CM
+  rating:
+    name: DONNY VAN DE BEEK
+    votes: 0
+    rating: 0.0
+- substitute: false
+  position: LW
+  rating:
+    name: JESSE LINGARD
+    votes: 0
+    rating: 0.0
+- substitute: false
+  position: RW
+  rating:
+    name: JUAN MATA
+    votes: 0
+    rating: 0.0
+- substitute: false
+  position: ST
+  rating:
+    name: ODION IGHALO
+    votes: 0
+    rating: 0.0
+- substitute: true
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 0
+    rating: 0.0
+- substitute: true
+  position: RW
+  rating:
+    name: MASON GREENWOOD
+    votes: 0
+    rating: 0.0
+- substitute: true
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 0
+    rating: 0.0

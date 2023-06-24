@@ -1,0 +1,111 @@
+match_id: 1704918
+meta_data:
+  views: 9800
+  likes: 110
+  shares: 5
+man_of_the_match:
+  name: CASEMIRO
+  percentage: 91.0
+  votes: 7200
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 7200
+    rating: 7.4
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 7200
+    rating: 6.2
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 7200
+    rating: 6.6
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 7200
+    rating: 6.1
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 7200
+    rating: 5.7
+- substitute: false
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 7200
+    rating: 6.2
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 7200
+    rating: 8.7
+- substitute: false
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 7200
+    rating: 6.4
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 7200
+    rating: 6.4
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 7200
+    rating: 7.0
+- substitute: false
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 7200
+    rating: 6.4
+- substitute: false
+  position: ST
+  rating:
+    name: WOUT WEGHORST
+    votes: 7200
+    rating: 6.2
+- substitute: true
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 7200
+    rating: 6.8
+- substitute: true
+  position: RW
+  rating:
+    name: FACUNDO PELLISTRI
+    votes: 7200
+    rating: 6.1
+- substitute: true
+  position: LW
+  rating:
+    name: ALEJANDRO GARNACHO
+    votes: 7200
+    rating: 6.2
+- substitute: true
+  position: CM
+  rating:
+    name: KOBBIE MAINOO
+    votes: 7200
+    rating: 6.2
+- substitute: true
+  position: ST
+  rating:
+    name: ANTHONY ELANGA
+    votes: 7200
+    rating: 5.9

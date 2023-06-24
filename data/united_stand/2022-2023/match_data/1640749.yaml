@@ -1,0 +1,105 @@
+match_id: 1640749
+meta_data:
+  views: 12600
+  likes: 107
+  shares: 14
+man_of_the_match:
+  name: JADON SANCHO
+  percentage: 59.0
+  votes: 8700
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 8700
+    rating: 6.0
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 8700
+    rating: 5.8
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 8700
+    rating: 5.5
+- substitute: false
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 8700
+    rating: 5.8
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 8700
+    rating: 6.8
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 8700
+    rating: 6.3
+- substitute: false
+  position: CM
+  rating:
+    name: MARCEL SABITZER
+    votes: 8700
+    rating: 6.0
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 8700
+    rating: 4.1
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 8700
+    rating: 5.6
+- substitute: false
+  position: RW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 8700
+    rating: 6.5
+- substitute: false
+  position: LW
+  rating:
+    name: ALEJANDRO GARNACHO
+    votes: 8700
+    rating: 5.1
+- substitute: false
+  position: ST
+  rating:
+    name: WOUT WEGHORST
+    votes: 8700
+    rating: 4.5
+- substitute: true
+  position: RW
+  rating:
+    name: FACUNDO PELLISTRI
+    votes: 8700
+    rating: 6.0
+- substitute: true
+  position: LW
+  rating:
+    name: JADON SANCHO
+    votes: 8700
+    rating: 7.2
+- substitute: true
+  position: RB
+  rating:
+    name: TYRELL MALACIA
+    votes: 8500
+    rating: 5.9
+- substitute: true
+  position: CM
+  rating:
+    name: VICTOR LINDELOF
+    votes: 8500
+    rating: 5.9

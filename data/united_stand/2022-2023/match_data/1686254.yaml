@@ -1,0 +1,105 @@
+match_id: 1686254
+meta_data:
+  views: 8700
+  likes: 74
+  shares: 4
+man_of_the_match:
+  name: CASEMIRO
+  percentage: 40.0
+  votes: 6200
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 6000
+    rating: 5.6
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 6200
+    rating: 6.1
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 6200
+    rating: 5.7
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 6200
+    rating: 5.8
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 6200
+    rating: 6.1
+- substitute: false
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 6200
+    rating: 5.5
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 6200
+    rating: 6.6
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 6200
+    rating: 4.8
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 6200
+    rating: 4.4
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 6200
+    rating: 5.3
+- substitute: false
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 6200
+    rating: 5.0
+- substitute: false
+  position: ST
+  rating:
+    name: CRISTIANO RONALDO
+    votes: 6200
+    rating: 5.3
+- substitute: true
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 6200
+    rating: 5.7
+- substitute: true
+  position: RW
+  rating:
+    name: JADON SANCHO
+    votes: 6200
+    rating: 6.0
+- substitute: true
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 6200
+    rating: 5.8
+- substitute: true
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 6100
+    rating: 6.4

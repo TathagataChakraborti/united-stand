@@ -1,0 +1,99 @@
+match_id: 1485250
+meta_data:
+  views: 32
+  likes: 0
+  shares: 0
+man_of_the_match:
+  name: OLE GUNNAR SOLSKJAER
+  percentage: 67.0
+  votes: 3
+manager_rating:
+  rating:
+    name: OLE GUNNAR SOLSKJAER
+    votes: 2
+    rating: 7.0
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 2
+    rating: 10.0
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 2
+    rating: 7.0
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 2
+    rating: 4.0
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 2
+    rating: 5.0
+- substitute: false
+  position: LB
+  rating:
+    name: ALEX TELLES
+    votes: 2
+    rating: 5.5
+- substitute: false
+  position: CDM
+  rating:
+    name: NEMANJA MATIC
+    votes: 2
+    rating: 3.0
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 2
+    rating: 4.5
+- substitute: false
+  position: CM
+  rating:
+    name: DONNY VAN DE BEEK
+    votes: 2
+    rating: 6.0
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 2
+    rating: 5.5
+- substitute: false
+  position: ST
+  rating:
+    name: MARCUS RASHFORD
+    votes: 2
+    rating: 8.0
+- substitute: false
+  position: ST
+  rating:
+    name: MASON GREENWOOD
+    votes: 2
+    rating: 6.5
+- substitute: true
+  position: GK
+  rating:
+    name: DEAN HENDERSON
+    votes: 2
+    rating: 7.0
+- substitute: true
+  position: ST
+  rating:
+    name: EDINSON CAVANI
+    votes: 2
+    rating: 5.0
+- substitute: true
+  position: LB
+  rating:
+    name: BRANDON WILLIAMS
+    votes: 2
+    rating: 7.0

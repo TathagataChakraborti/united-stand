@@ -1,0 +1,99 @@
+match_id: 1549914
+meta_data:
+  views: 105
+  likes: 0
+  shares: 0
+man_of_the_match:
+  name: RALF RANGNICK
+  percentage: 36.0
+  votes: 11
+manager_rating:
+  rating:
+    name: RALF RANGNICK
+    votes: 10
+    rating: 6.0
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 10
+    rating: 6.1
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 10
+    rating: 3.0
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 10
+    rating: 4.8
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 10
+    rating: 3.0
+- substitute: false
+  position: LB
+  rating:
+    name: ALEX TELLES
+    votes: 10
+    rating: 3.3
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 10
+    rating: 3.4
+- substitute: false
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 10
+    rating: 4.2
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 10
+    rating: 4.5
+- substitute: false
+  position: RW
+  rating:
+    name: ANTHONY ELANGA
+    votes: 10
+    rating: 4.7
+- substitute: false
+  position: LW
+  rating:
+    name: HANNIBAL MEJBRI
+    votes: 10
+    rating: 4.3
+- substitute: false
+  position: ST
+  rating:
+    name: EDINSON CAVANI
+    votes: 10
+    rating: 4.1
+- substitute: true
+  position: RW
+  rating:
+    name: JUAN MATA
+    votes: 10
+    rating: 3.6
+- substitute: true
+  position: CM
+  rating:
+    name: SHOLA SHORETIRE
+    votes: 10
+    rating: 4.7
+- substitute: true
+  position: RW
+  rating:
+    name: ALEJANDRO GARNACHO
+    votes: 10
+    rating: 6.4

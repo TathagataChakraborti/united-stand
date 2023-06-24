@@ -1,0 +1,99 @@
+match_id: 1640712
+meta_data:
+  views: 17800
+  likes: 180
+  shares: 33
+man_of_the_match:
+  name: LISANDRO MARTINEZ
+  percentage: 45.0
+  votes: 11900
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 11500
+    rating: 6.7
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 11900
+    rating: 6.9
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 11900
+    rating: 7.4
+- substitute: false
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 11900
+    rating: 7.3
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 11900
+    rating: 7.6
+- substitute: false
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 11900
+    rating: 7.0
+- substitute: false
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 11900
+    rating: 5.7
+- substitute: false
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 11900
+    rating: 6.1
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 11900
+    rating: 6.8
+- substitute: false
+  position: RW
+  rating:
+    name: ANTHONY ELANGA
+    votes: 11900
+    rating: 5.4
+- substitute: false
+  position: LW
+  rating:
+    name: JADON SANCHO
+    votes: 11900
+    rating: 6.0
+- substitute: false
+  position: ST
+  rating:
+    name: MARCUS RASHFORD
+    votes: 11900
+    rating: 5.0
+- substitute: true
+  position: ST
+  rating:
+    name: CRISTIANO RONALDO
+    votes: 11900
+    rating: 5.6
+- substitute: true
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 11600
+    rating: 6.4
+- substitute: true
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 11100
+    rating: 5.8

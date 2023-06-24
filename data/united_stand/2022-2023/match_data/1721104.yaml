@@ -1,0 +1,111 @@
+match_id: 1721104
+meta_data:
+  views: 10500
+  likes: 121
+  shares: 9
+man_of_the_match:
+  name: VICTOR LINDELOF
+  percentage: 81.0
+  votes: 9500
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 9400
+    rating: 6.8
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 9500
+    rating: 7.0
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 9500
+    rating: 7.5
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 9500
+    rating: 8.2
+- substitute: false
+  position: CB
+  rating:
+    name: LUKE SHAW
+    votes: 9500
+    rating: 7.1
+- substitute: false
+  position: LB
+  rating:
+    name: DIOGO DALOT
+    votes: 9500
+    rating: 6.9
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 9500
+    rating: 6.4
+- substitute: false
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 9500
+    rating: 5.7
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 9500
+    rating: 6.6
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 9500
+    rating: 6.5
+- substitute: false
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 9500
+    rating: 5.6
+- substitute: false
+  position: ST
+  rating:
+    name: ANTHONY MARTIAL
+    votes: 9500
+    rating: 5.7
+- substitute: true
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 9500
+    rating: 6.2
+- substitute: true
+  position: LW
+  rating:
+    name: JADON SANCHO
+    votes: 9400
+    rating: 6.1
+- substitute: true
+  position: CM
+  rating:
+    name: MARCEL SABITZER
+    votes: 9300
+    rating: 6.1
+- substitute: true
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 9200
+    rating: 6.0
+- substitute: true
+  position: ST
+  rating:
+    name: WOUT WEGHORST
+    votes: 9200
+    rating: 5.9

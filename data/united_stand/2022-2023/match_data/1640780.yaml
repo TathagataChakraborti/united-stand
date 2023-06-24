@@ -1,0 +1,87 @@
+match_id: 1640780
+meta_data:
+  views: 8500
+  likes: 68
+  shares: 5
+man_of_the_match:
+  name: CASEMIRO
+  percentage: 29.0
+  votes: 6100
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 6000
+    rating: 4.2
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 6100
+    rating: 5.9
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 6100
+    rating: 5.5
+- substitute: false
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 6100
+    rating: 6.1
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 6100
+    rating: 6.1
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 6100
+    rating: 5.9
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 6100
+    rating: 6.1
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 6100
+    rating: 2.9
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 6100
+    rating: 4.4
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 6100
+    rating: 5.5
+- substitute: false
+  position: LW
+  rating:
+    name: JADON SANCHO
+    votes: 6100
+    rating: 5.3
+- substitute: false
+  position: ST
+  rating:
+    name: CRISTIANO RONALDO
+    votes: 6100
+    rating: 5.4
+- substitute: true
+  position: ST
+  rating:
+    name: MARCUS RASHFORD
+    votes: 6100
+    rating: 4.7

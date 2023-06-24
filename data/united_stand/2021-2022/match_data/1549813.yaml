@@ -1,0 +1,93 @@
+match_id: 1549813
+meta_data:
+  views: 62
+  likes: 0
+  shares: 0
+man_of_the_match:
+  name: JADON SANCHO
+  percentage: 79.0
+  votes: 14
+manager_rating:
+  rating:
+    name: RALF RANGNICK
+    votes: 13
+    rating: 4.0
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 13
+    rating: 5.6
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 13
+    rating: 3.5
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 13
+    rating: 2.8
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 13
+    rating: 2.5
+- substitute: false
+  position: LB
+  rating:
+    name: ALEX TELLES
+    votes: 13
+    rating: 2.1
+- substitute: false
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 13
+    rating: 3.2
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 13
+    rating: 3.5
+- substitute: false
+  position: CM
+  rating:
+    name: PAUL POGBA
+    votes: 13
+    rating: 4.5
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 13
+    rating: 4.0
+- substitute: false
+  position: ST
+  rating:
+    name: JADON SANCHO
+    votes: 13
+    rating: 6.2
+- substitute: false
+  position: ST
+  rating:
+    name: ANTHONY ELANGA
+    votes: 13
+    rating: 4.1
+- substitute: true
+  position: RW
+  rating:
+    name: JESSE LINGARD
+    votes: 13
+    rating: 3.4
+- substitute: true
+  position: ST
+  rating:
+    name: MARCUS RASHFORD
+    votes: 13
+    rating: 4.2

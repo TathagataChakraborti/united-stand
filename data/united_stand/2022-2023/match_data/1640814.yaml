@@ -1,0 +1,99 @@
+match_id: 1640814
+meta_data:
+  views: 8600
+  likes: 77
+  shares: 9
+man_of_the_match:
+  name: CASEMIRO
+  percentage: 48.0
+  votes: 5900
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 5900
+    rating: 3.8
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 5900
+    rating: 4.8
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 5900
+    rating: 4.8
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 5900
+    rating: 4.0
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 5900
+    rating: 5.0
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 5900
+    rating: 4.6
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 5900
+    rating: 5.4
+- substitute: false
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 5900
+    rating: 4.0
+- substitute: false
+  position: CM
+  rating:
+    name: DONNY VAN DE BEEK
+    votes: 5900
+    rating: 3.5
+- substitute: false
+  position: RW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 5900
+    rating: 3.5
+- substitute: false
+  position: LW
+  rating:
+    name: ALEJANDRO GARNACHO
+    votes: 5900
+    rating: 4.6
+- substitute: false
+  position: ST
+  rating:
+    name: CRISTIANO RONALDO
+    votes: 5900
+    rating: 4.0
+- substitute: true
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 5900
+    rating: 4.8
+- substitute: true
+  position: RW
+  rating:
+    name: ANTHONY ELANGA
+    votes: 5900
+    rating: 4.3
+- substitute: true
+  position: ST
+  rating:
+    name: ANTHONY MARTIAL
+    votes: 5900
+    rating: 4.7

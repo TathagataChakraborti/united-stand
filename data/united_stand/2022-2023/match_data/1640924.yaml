@@ -1,0 +1,105 @@
+match_id: 1640924
+meta_data:
+  views: 20800
+  likes: 169
+  shares: 21
+man_of_the_match:
+  name: ALEJANDRO GARNACHO
+  percentage: 53.0
+  votes: 21800
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 12500
+    rating: 7.2
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 21800
+    rating: 4.5
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 21800
+    rating: 3.9
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 21800
+    rating: 2.8
+- substitute: false
+  position: CB
+  rating:
+    name: LUKE SHAW
+    votes: 21800
+    rating: 4.2
+- substitute: false
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 21800
+    rating: 4.0
+- substitute: false
+  position: CM
+  rating:
+    name: MARCEL SABITZER
+    votes: 21800
+    rating: 4.2
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 21800
+    rating: 3.8
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 21800
+    rating: 3.9
+- substitute: false
+  position: RW
+  rating:
+    name: JADON SANCHO
+    votes: 21800
+    rating: 3.9
+- substitute: false
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 21800
+    rating: 4.6
+- substitute: false
+  position: ST
+  rating:
+    name: WOUT WEGHORST
+    votes: 21800
+    rating: 3.9
+- substitute: true
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 21800
+    rating: 4.4
+- substitute: true
+  position: LW
+  rating:
+    name: ALEJANDRO GARNACHO
+    votes: 21800
+    rating: 8.3
+- substitute: true
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 21800
+    rating: 4.1
+- substitute: true
+  position: ST
+  rating:
+    name: ANTHONY ELANGA
+    votes: 20800
+    rating: 3.8

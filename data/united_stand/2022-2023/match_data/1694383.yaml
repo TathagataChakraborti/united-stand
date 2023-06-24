@@ -1,0 +1,87 @@
+match_id: 1694383
+meta_data:
+  views: 11000
+  likes: 95
+  shares: 5
+man_of_the_match:
+  name: MARCUS RASHFORD
+  percentage: 58.0
+  votes: 7700
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 7500
+    rating: 7.5
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 7700
+    rating: 7.3
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 7700
+    rating: 6.0
+- substitute: false
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 7700
+    rating: 7.1
+- substitute: false
+  position: CB
+  rating:
+    name: LUKE SHAW
+    votes: 7700
+    rating: 6.7
+- substitute: false
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 7700
+    rating: 6.5
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 7700
+    rating: 7.0
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 7700
+    rating: 6.3
+- substitute: false
+  position: CM
+  rating:
+    name: WOUT WEGHORST
+    votes: 7700
+    rating: 5.4
+- substitute: false
+  position: RW
+  rating:
+    name: BRUNO FERNANDES
+    votes: 7700
+    rating: 6.2
+- substitute: false
+  position: LW
+  rating:
+    name: JADON SANCHO
+    votes: 7700
+    rating: 5.9
+- substitute: false
+  position: ST
+  rating:
+    name: MARCUS RASHFORD
+    votes: 7700
+    rating: 7.7
+- substitute: true
+  position: LW
+  rating:
+    name: ALEJANDRO GARANCHO
+    votes: 7600
+    rating: 6.1

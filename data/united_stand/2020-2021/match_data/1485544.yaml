@@ -1,0 +1,99 @@
+match_id: 1485544
+meta_data:
+  views: 88
+  likes: 0
+  shares: 0
+man_of_the_match:
+  name: OLE GUNNAR SOLSKJAER
+  percentage: 67.0
+  votes: 3
+manager_rating:
+  rating:
+    name: OLE GUNNAR SOLSKJAER
+    votes: 2
+    rating: 6.5
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DEAN HENDERSON
+    votes: 2
+    rating: 7.0
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 2
+    rating: 4.5
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 2
+    rating: 4.5
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 2
+    rating: 7.0
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 2
+    rating: 7.0
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 2
+    rating: 6.5
+- substitute: false
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 2
+    rating: 6.5
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 2
+    rating: 4.5
+- substitute: false
+  position: RW
+  rating:
+    name: DANIEL JAMES
+    votes: 2
+    rating: 6.5
+- substitute: false
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 2
+    rating: 4.5
+- substitute: false
+  position: ST
+  rating:
+    name: MASON GREENWOOD
+    votes: 2
+    rating: 4.5
+- substitute: true
+  position: LW
+  rating:
+    name: PAUL POGBA
+    votes: 2
+    rating: 7.0
+- substitute: true
+  position: ST
+  rating:
+    name: EDINSON CAVANI
+    votes: 2
+    rating: 7.0
+- substitute: true
+  position: CM
+  rating:
+    name: DONNY VAN DE BEEK
+    votes: 2
+    rating: 4.5

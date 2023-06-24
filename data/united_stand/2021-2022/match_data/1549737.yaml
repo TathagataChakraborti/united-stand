@@ -1,0 +1,93 @@
+match_id: 1549737
+meta_data:
+  views: 20
+  likes: 0
+  shares: 0
+man_of_the_match:
+  name: CRISTIANO RONALDO
+  percentage: 67.0
+  votes: 3
+manager_rating:
+  rating:
+    name: RALF RANGNICK
+    votes: 2
+    rating: 3.0
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 2
+    rating: 6.0
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 2
+    rating: 2.0
+- substitute: false
+  position: CB
+  rating:
+    name: ERIC BAILLY
+    votes: 2
+    rating: 4.5
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 2
+    rating: 2.0
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 2
+    rating: 4.5
+- substitute: false
+  position: CM
+  rating:
+    name: NEMANJA MATIC
+    votes: 2
+    rating: 5.0
+- substitute: false
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 2
+    rating: 6.5
+- substitute: false
+  position: RCM
+  rating:
+    name: MASON GREENWOOD
+    votes: 2
+    rating: 4.5
+- substitute: false
+  position: LCM
+  rating:
+    name: JADON SANCHO
+    votes: 2
+    rating: 6.5
+- substitute: false
+  position: ST
+  rating:
+    name: EDINSON CAVANI
+    votes: 2
+    rating: 5.0
+- substitute: false
+  position: ST
+  rating:
+    name: CRISTIANO RONALDO
+    votes: 2
+    rating: 9.0
+- substitute: true
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 2
+    rating: 5.0
+- substitute: true
+  position: RCM
+  rating:
+    name: DIOGO DALOT
+    votes: 2
+    rating: 5.5

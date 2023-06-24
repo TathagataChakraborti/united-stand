@@ -1,0 +1,99 @@
+match_id: 1549771
+meta_data:
+  views: 54
+  likes: 0
+  shares: 0
+man_of_the_match:
+  name: RAPHAEL VARANE
+  percentage: 50.0
+  votes: 4
+manager_rating:
+  rating:
+    name: RALF RANGNICK
+    votes: 3
+    rating: 4.0
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 3
+    rating: 6.3
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 3
+    rating: 6.0
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 3
+    rating: 5.3
+- substitute: false
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 3
+    rating: 6.0
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 3
+    rating: 6.3
+- substitute: false
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 3
+    rating: 6.3
+- substitute: false
+  position: CM
+  rating:
+    name: PAUL POGBA
+    votes: 3
+    rating: 6.0
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 3
+    rating: 6.3
+- substitute: false
+  position: RW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 3
+    rating: 5.3
+- substitute: false
+  position: LW
+  rating:
+    name: JADON SANCHO
+    votes: 3
+    rating: 5.3
+- substitute: false
+  position: ST
+  rating:
+    name: EDINSON CAVANI
+    votes: 3
+    rating: 6.0
+- substitute: true
+  position: ST
+  rating:
+    name: CRISTIANO RONALDO
+    votes: 3
+    rating: 5.3
+- substitute: true
+  position: CM
+  rating:
+    name: JESSE LINGARD
+    votes: 3
+    rating: 4.7
+- substitute: true
+  position: LW
+  rating:
+    name: ANTHONY ELANGA
+    votes: 3
+    rating: 6.0

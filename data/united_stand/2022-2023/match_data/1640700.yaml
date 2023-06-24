@@ -1,0 +1,111 @@
+match_id: 1640700
+meta_data:
+  views: 31400
+  likes: 310
+  shares: 31
+man_of_the_match:
+  name: CRISTIANO RONALDO
+  percentage: 41.0
+  votes: 27200
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 13200
+    rating: 8.5
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 13500
+    rating: 6.9
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 13500
+    rating: 6.8
+- substitute: false
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 13500
+    rating: 8.6
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 13500
+    rating: 8.5
+- substitute: false
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 13500
+    rating: 8.1
+- substitute: false
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 13500
+    rating: 6.1
+- substitute: false
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 13500
+    rating: 6.5
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 13500
+    rating: 6.3
+- substitute: false
+  position: RW
+  rating:
+    name: JADON SANCHO
+    votes: 13500
+    rating: 7.3
+- substitute: false
+  position: LW
+  rating:
+    name: ANTHONY ELANGA
+    votes: 13500
+    rating: 6.3
+- substitute: false
+  position: ST
+  rating:
+    name: MARCUS RASHFORD
+    votes: 13500
+    rating: 7.1
+- substitute: true
+  position: ST
+  rating:
+    name: ANTHONY MARTIAL
+    votes: 13500
+    rating: 7.1
+- substitute: true
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 13500
+    rating: 6.0
+- substitute: true
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 12500
+    rating: 6.0
+- substitute: true
+  position: CM
+  rating:
+    name: DONNY VAN DE BEEK
+    votes: 12300
+    rating: 6.1
+- substitute: true
+  position: ST
+  rating:
+    name: CRISTIANO RONALDO
+    votes: 12300
+    rating: 6.1

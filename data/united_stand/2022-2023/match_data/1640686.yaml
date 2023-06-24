@@ -1,0 +1,111 @@
+match_id: 1640686
+meta_data:
+  views: 19600
+  likes: 179
+  shares: 21
+man_of_the_match:
+  name: CRISITANO RONALDO
+  percentage: 38.0
+  votes: 12600
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 12200
+    rating: 2.3
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 12600
+    rating: 2.1
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 12600
+    rating: 2.5
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 12600
+    rating: 1.8
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 12600
+    rating: 2.4
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 12600
+    rating: 1.7
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 12600
+    rating: 1.9
+- substitute: false
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 12600
+    rating: 2.6
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 12600
+    rating: 1.8
+- substitute: false
+  position: RW
+  rating:
+    name: JADON SANCHO
+    votes: 12600
+    rating: 2.5
+- substitute: false
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 12600
+    rating: 2.0
+- substitute: false
+  position: ST
+  rating:
+    name: CRISITANO RONALDO
+    votes: 12600
+    rating: 4.2
+- substitute: true
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 12600
+    rating: 4.6
+- substitute: true
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 12600
+    rating: 5.1
+- substitute: true
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 12600
+    rating: 2.3
+- substitute: true
+  position: RW
+  rating:
+    name: ANTHONY ELANGA
+    votes: 12600
+    rating: 3.3
+- substitute: true
+  position: CM
+  rating:
+    name: DONNY VAN DE BEEK
+    votes: 9300
+    rating: 4.5

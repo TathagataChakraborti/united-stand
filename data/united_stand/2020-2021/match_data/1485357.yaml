@@ -1,0 +1,99 @@
+match_id: 1485357
+meta_data:
+  views: 84
+  likes: 0
+  shares: 0
+man_of_the_match:
+  name: OLE GUNNAR SOLSKJAER
+  percentage: 50.0
+  votes: 22
+manager_rating:
+  rating:
+    name: OLE GUNNAR SOLSKJAER
+    votes: 21
+    rating: 9.0
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 21
+    rating: 7.5
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 21
+    rating: 8.3
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 21
+    rating: 7.7
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 21
+    rating: 6.9
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 21
+    rating: 8.1
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 21
+    rating: 7.6
+- substitute: false
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 21
+    rating: 7.6
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 21
+    rating: 8.7
+- substitute: false
+  position: RW
+  rating:
+    name: MASON GREENWOOD
+    votes: 21
+    rating: 7.9
+- substitute: false
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 21
+    rating: 8.4
+- substitute: false
+  position: ST
+  rating:
+    name: EDINSON CAVANI
+    votes: 21
+    rating: 8.3
+- substitute: true
+  position: CM
+  rating:
+    name: DONNY VAN DE BEEK
+    votes: 21
+    rating: 7.9
+- substitute: true
+  position: ST
+  rating:
+    name: ANTHONY MARTIAL
+    votes: 21
+    rating: 8.4
+- substitute: true
+  position: LW
+  rating:
+    name: DANIEL JAMES
+    votes: 21
+    rating: 7.6

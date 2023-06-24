@@ -1,0 +1,111 @@
+match_id: 1705689
+meta_data:
+  views: 11600
+  likes: 156
+  shares: 15
+man_of_the_match:
+  name: BRUNO FERNANDES
+  percentage: 72.0
+  votes: 9100
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 8900
+    rating: 7.9
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: TOM HEATON
+    votes: 9100
+    rating: 6.6
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 9100
+    rating: 6.6
+- substitute: false
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 9100
+    rating: 7.0
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 9100
+    rating: 7.1
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 9100
+    rating: 6.7
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 9100
+    rating: 7.3
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 9100
+    rating: 7.0
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 9100
+    rating: 7.8
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 9100
+    rating: 6.3
+- substitute: false
+  position: LW
+  rating:
+    name: ALEJANDRO GARNACHO
+    votes: 9100
+    rating: 6.4
+- substitute: false
+  position: ST
+  rating:
+    name: WOUT WEGHORST
+    votes: 9100
+    rating: 6.1
+- substitute: true
+  position: RW
+  rating:
+    name: JADON SANCHO
+    votes: 9100
+    rating: 6.7
+- substitute: true
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 9100
+    rating: 6.8
+- substitute: true
+  position: ST
+  rating:
+    name: ANTHONY MARTIAL
+    votes: 9100
+    rating: 7.0
+- substitute: true
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 8700
+    rating: 6.2
+- substitute: true
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 8500
+    rating: 5.6

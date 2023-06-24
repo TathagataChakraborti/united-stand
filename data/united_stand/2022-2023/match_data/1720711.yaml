@@ -1,0 +1,111 @@
+match_id: 1720711
+meta_data:
+  views: 12700
+  likes: 91
+  shares: 16
+man_of_the_match:
+  name: ANTONY
+  percentage: 64.0
+  votes: 9000
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 8400
+    rating: 3.3
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 9000
+    rating: 2.7
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 9000
+    rating: 4.0
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 9000
+    rating: 1.7
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 9000
+    rating: 4.1
+- substitute: false
+  position: LB
+  rating:
+    name: DIOGO DALOT
+    votes: 9000
+    rating: 4.0
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 9000
+    rating: 4.1
+- substitute: false
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 9000
+    rating: 3.5
+- substitute: false
+  position: CM
+  rating:
+    name: MARCEL SABITZER
+    votes: 9000
+    rating: 3.6
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 9000
+    rating: 4.9
+- substitute: false
+  position: LW
+  rating:
+    name: JADON SANCHO
+    votes: 9000
+    rating: 2.7
+- substitute: false
+  position: ST
+  rating:
+    name: ANTHONY MARTIAL
+    votes: 9000
+    rating: 3.3
+- substitute: true
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 9000
+    rating: 3.7
+- substitute: true
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 9000
+    rating: 4.1
+- substitute: true
+  position: ST
+  rating:
+    name: WOUT WEGHORST
+    votes: 9000
+    rating: 3.1
+- substitute: true
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 9000
+    rating: 3.9
+- substitute: true
+  position: RW
+  rating:
+    name: ANTHONY ELANGA
+    votes: 6700
+    rating: 4.0

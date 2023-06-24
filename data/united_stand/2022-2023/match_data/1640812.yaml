@@ -1,0 +1,93 @@
+match_id: 1640812
+meta_data:
+  views: 15400
+  likes: 160
+  shares: 16
+man_of_the_match:
+  name: DAVID DE GEA
+  percentage: 57.0
+  votes: 11600
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 11600
+    rating: 6.8
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 11600
+    rating: 8.4
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 11600
+    rating: 8.0
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 11600
+    rating: 6.1
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 11600
+    rating: 7.5
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 11600
+    rating: 7.1
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 11600
+    rating: 6.8
+- substitute: false
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 11600
+    rating: 6.9
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 11600
+    rating: 6.0
+- substitute: false
+  position: RW
+  rating:
+    name: ANTHONY ELANGA
+    votes: 11600
+    rating: 4.9
+- substitute: false
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 11600
+    rating: 7.1
+- substitute: false
+  position: ST
+  rating:
+    name: CRISTIANO RONALDO
+    votes: 11600
+    rating: 6.1
+- substitute: true
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 11600
+    rating: 5.7
+- substitute: true
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 11500
+    rating: 5.7

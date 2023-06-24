@@ -1,0 +1,105 @@
+match_id: 1640967
+meta_data:
+  views: 10000
+  likes: 110
+  shares: 5
+man_of_the_match:
+  name: BRUNO FERNANDES
+  percentage: 80.0
+  votes: 7700
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 7600
+    rating: 7.4
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 7700
+    rating: 6.6
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 7700
+    rating: 6.9
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 7700
+    rating: 5.9
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 7700
+    rating: 6.9
+- substitute: false
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 7700
+    rating: 6.6
+- substitute: false
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 7700
+    rating: 6.7
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 7700
+    rating: 7.9
+- substitute: false
+  position: CM
+  rating:
+    name: MARCEL SABITZER
+    votes: 7700
+    rating: 7.0
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 7700
+    rating: 6.8
+- substitute: false
+  position: LW
+  rating:
+    name: JADON SANCHO
+    votes: 7700
+    rating: 6.9
+- substitute: false
+  position: ST
+  rating:
+    name: MARCUS RASHFORD
+    votes: 7700
+    rating: 6.2
+- substitute: true
+  position: ST
+  rating:
+    name: ANTHONY MARTIAL
+    votes: 7700
+    rating: 6.9
+- substitute: true
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 7700
+    rating: 6.1
+- substitute: true
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 7600
+    rating: 6.4
+- substitute: true
+  position: ST
+  rating:
+    name: WOUT WEGHORST
+    votes: 7600
+    rating: 5.9

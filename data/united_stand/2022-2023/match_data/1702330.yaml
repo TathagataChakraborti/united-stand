@@ -1,0 +1,111 @@
+match_id: 1702330
+meta_data:
+  views: 10500
+  likes: 127
+  shares: 17
+man_of_the_match:
+  name: ALEJANDRO GARNACHO
+  percentage: 39.0
+  votes: 6700
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 6600
+    rating: 7.3
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: TOM HEATON
+    votes: 6700
+    rating: 6.4
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 6700
+    rating: 6.0
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 6700
+    rating: 5.3
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 6700
+    rating: 6.3
+- substitute: false
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 6700
+    rating: 6.1
+- substitute: false
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 6700
+    rating: 4.6
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 6700
+    rating: 6.3
+- substitute: false
+  position: CM
+  rating:
+    name: KOBBIE MAINOO
+    votes: 6700
+    rating: 5.9
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 6700
+    rating: 6.5
+- substitute: false
+  position: LW
+  rating:
+    name: ALEJANDRO GARNACHO
+    votes: 6700
+    rating: 7.1
+- substitute: false
+  position: ST
+  rating:
+    name: ANTHONY ELANGA
+    votes: 6700
+    rating: 4.6
+- substitute: true
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 6700
+    rating: 6.1
+- substitute: true
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 6700
+    rating: 6.8
+- substitute: true
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 6700
+    rating: 6.3
+- substitute: true
+  position: ST
+  rating:
+    name: MARCUS RASHFORD
+    votes: 6700
+    rating: 7.4
+- substitute: true
+  position: RW
+  rating:
+    name: FACUNDO PELLISTRI
+    votes: 6200
+    rating: 7.1

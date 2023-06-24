@@ -1,0 +1,99 @@
+match_id: 1549826
+meta_data:
+  views: 187
+  likes: 0
+  shares: 0
+man_of_the_match:
+  name: CRISITANO RONALDO
+  percentage: 88.0
+  votes: 25
+manager_rating:
+  rating:
+    name: RALF RANGNICK
+    votes: 24
+    rating: 5.1
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 24
+    rating: 5.3
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 24
+    rating: 4.9
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 24
+    rating: 3.2
+- substitute: false
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 24
+    rating: 5.5
+- substitute: false
+  position: LB
+  rating:
+    name: ALEX TELLES
+    votes: 24
+    rating: 4.5
+- substitute: false
+  position: CM
+  rating:
+    name: NEMANJA MATIC
+    votes: 24
+    rating: 5.1
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 24
+    rating: 5.3
+- substitute: false
+  position: CM
+  rating:
+    name: PAUL POGBA
+    votes: 24
+    rating: 5.0
+- substitute: false
+  position: RW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 24
+    rating: 4.2
+- substitute: false
+  position: LW
+  rating:
+    name: JADON SANCHO
+    votes: 24
+    rating: 5.2
+- substitute: false
+  position: ST
+  rating:
+    name: CRISITANO RONALDO
+    votes: 24
+    rating: 9.5
+- substitute: true
+  position: RW
+  rating:
+    name: ANTHONY ELANGA
+    votes: 24
+    rating: 5.5
+- substitute: true
+  position: ST
+  rating:
+    name: EDINSON CAVANI
+    votes: 24
+    rating: 5.1
+- substitute: true
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 24
+    rating: 4.8

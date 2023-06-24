@@ -1,0 +1,105 @@
+match_id: 1686250
+meta_data:
+  views: 7700
+  likes: 76
+  shares: 5
+man_of_the_match:
+  name: JADON SANCHO
+  percentage: 26.0
+  votes: 5200
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 4300
+    rating: 7.0
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 5200
+    rating: 6.3
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 5200
+    rating: 6.5
+- substitute: false
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 5200
+    rating: 7.1
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 5200
+    rating: 7.2
+- substitute: false
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 5200
+    rating: 6.7
+- substitute: false
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 5200
+    rating: 6.2
+- substitute: false
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 5200
+    rating: 7.0
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 5200
+    rating: 6.2
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 5200
+    rating: 6.0
+- substitute: false
+  position: LW
+  rating:
+    name: JADON SANCHO
+    votes: 5200
+    rating: 7.0
+- substitute: false
+  position: ST
+  rating:
+    name: CRISTIANO RONALDO
+    votes: 5200
+    rating: 6.4
+- substitute: true
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 5200
+    rating: 6.3
+- substitute: true
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 5200
+    rating: 5.6
+- substitute: true
+  position: ST
+  rating:
+    name: ANTHONY ELANGA
+    votes: 5100
+    rating: 5.8
+- substitute: true
+  position: RW
+  rating:
+    name: ALEJANDRO GARNACHO
+    votes: 4100
+    rating: 6.2

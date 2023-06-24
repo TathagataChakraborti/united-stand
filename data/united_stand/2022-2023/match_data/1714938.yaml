@@ -1,0 +1,111 @@
+match_id: 1714938
+meta_data:
+  views: 14200
+  likes: 135
+  shares: 14
+man_of_the_match:
+  name: CASEMIRO
+  percentage: 54.0
+  votes: 10400
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 10100
+    rating: 9.6
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 10400
+    rating: 8.1
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 10400
+    rating: 6.9
+- substitute: false
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 10400
+    rating: 8.3
+- substitute: false
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 10400
+    rating: 8.5
+- substitute: false
+  position: LB
+  rating:
+    name: LUKE SHAW
+    votes: 10400
+    rating: 7.8
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 10400
+    rating: 9.1
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 10400
+    rating: 7.4
+- substitute: false
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 10400
+    rating: 7.4
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 10400
+    rating: 7.2
+- substitute: false
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 10400
+    rating: 7.6
+- substitute: false
+  position: ST
+  rating:
+    name: WOUT WEGHORST
+    votes: 10400
+    rating: 7.2
+- substitute: true
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 10400
+    rating: 8.2
+- substitute: true
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 10400
+    rating: 6.7
+- substitute: true
+  position: CM
+  rating:
+    name: MARCEL SABITZER
+    votes: 10400
+    rating: 7.2
+- substitute: true
+  position: LW
+  rating:
+    name: JADON SANCHO
+    votes: 10400
+    rating: 6.9
+- substitute: true
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 10100
+    rating: 6.3

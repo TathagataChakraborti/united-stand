@@ -1,0 +1,111 @@
+match_id: 1686248
+meta_data:
+  views: 10200
+  likes: 80
+  shares: 9
+man_of_the_match:
+  name: LIDANDRO MARTINEZ
+  percentage: 45.0
+  votes: 6800
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 6600
+    rating: 1.053740779768177e+23
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 6800
+    rating: 5.9
+- substitute: false
+  position: RB
+  rating:
+    name: DIOGO DALOT
+    votes: 6800
+    rating: 6.0
+- substitute: false
+  position: CB
+  rating:
+    name: VICTOR LINDELOF
+    votes: 6800
+    rating: 4.8
+- substitute: false
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 6800
+    rating: 4.2
+- substitute: false
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 6800
+    rating: 5.9
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 6800
+    rating: 5.4
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 6800
+    rating: 3.6
+- substitute: false
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 6800
+    rating: 6.3
+- substitute: false
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 6800
+    rating: 5.5
+- substitute: false
+  position: LW
+  rating:
+    name: ANTHONY ELANGA
+    votes: 6800
+    rating: 5.1
+- substitute: false
+  position: ST
+  rating:
+    name: CRISTIANO RONALDO
+    votes: 6800
+    rating: 4.8
+- substitute: true
+  position: CB
+  rating:
+    name: LIDANDRO MARTINEZ
+    votes: 6800
+    rating: 6.6
+- substitute: true
+  position: CM
+  rating:
+    name: BRUNO FERNANDES
+    votes: 6800
+    rating: 5.6
+- substitute: true
+  position: RW
+  rating:
+    name: JADON SANCHO
+    votes: 6800
+    rating: 5.1
+- substitute: true
+  position: LW
+  rating:
+    name: ALEJANDRO GARNACHO
+    votes: 6800
+    rating: 5.6
+- substitute: true
+  position: ST
+  rating:
+    name: CHARLIE MCNEILL
+    votes: 6600
+    rating: 5.6

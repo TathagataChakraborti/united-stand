@@ -1,0 +1,111 @@
+match_id: 1640869
+meta_data:
+  views: 20300
+  likes: 225
+  shares: 22
+man_of_the_match:
+  name: ERIK TEN HAG
+  percentage: 29.0
+  votes: 14100
+manager_rating:
+  rating:
+    name: ERIK TEN HAG
+    votes: 14000
+    rating: 8.3
+ratings:
+- substitute: false
+  position: GK
+  rating:
+    name: DAVID DE GEA
+    votes: 14100
+    rating: 6.5
+- substitute: false
+  position: RB
+  rating:
+    name: AARON WAN-BISSAKA
+    votes: 14100
+    rating: 6.6
+- substitute: false
+  position: CB
+  rating:
+    name: RAPHAEL VARANE
+    votes: 14100
+    rating: 7.3
+- substitute: false
+  position: CB
+  rating:
+    name: LUKE SHAW
+    votes: 14100
+    rating: 7.3
+- substitute: false
+  position: LB
+  rating:
+    name: TYRELL MALACIA
+    votes: 14100
+    rating: 7.2
+- substitute: false
+  position: CM
+  rating:
+    name: CASEMIRO
+    votes: 14100
+    rating: 7.5
+- substitute: false
+  position: CM
+  rating:
+    name: FRED RODRIGUES
+    votes: 14100
+    rating: 7.4
+- substitute: false
+  position: CM
+  rating:
+    name: CHRISTIAN ERIKSEN
+    votes: 14100
+    rating: 6.0
+- substitute: false
+  position: RW
+  rating:
+    name: BRUNO FERNANDES
+    votes: 14100
+    rating: 7.3
+- substitute: false
+  position: LW
+  rating:
+    name: MARCUS RASHFORD
+    votes: 14100
+    rating: 7.6
+- substitute: false
+  position: ST
+  rating:
+    name: ANTHONY MARTIAL
+    votes: 14100
+    rating: 5.9
+- substitute: true
+  position: RW
+  rating:
+    name: ANTONY
+    votes: 14100
+    rating: 6.0
+- substitute: true
+  position: LW
+  rating:
+    name: ALEJANDRO GARNACHO
+    votes: 14100
+    rating: 7.2
+- substitute: true
+  position: CB
+  rating:
+    name: LISANDRO MARTINEZ
+    votes: 13700
+    rating: 6.3
+- substitute: true
+  position: CB
+  rating:
+    name: HARRY MAGUIRE
+    votes: 13600
+    rating: 5.7
+- substitute: true
+  position: CM
+  rating:
+    name: SCOTT MCTOMINAY
+    votes: 13600
+    rating: 5.7
