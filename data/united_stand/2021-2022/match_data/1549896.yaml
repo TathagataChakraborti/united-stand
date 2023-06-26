@@ -1,99 +1,93 @@
 match_id: 1549896
-meta_data:
-  views: 234
-  likes: 0
-  shares: 0
-man_of_the_match:
-  name: HARRY MAGUIRE
-  percentage: 33.0
-  votes: 15
+meta_data: null
+man_of_the_match: null
 manager_rating:
   rating:
     name: RALF RANGNICK
-    votes: 14
-    rating: 4.9
+    votes: 16100
+    rating: 7.8
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DAVID DE GEA
-    votes: 14
-    rating: 5.4
+    votes: 16100
+    rating: 8.0
 - substitute: false
   position: RB
   rating:
     name: DIOGO DALOT
-    votes: 14
-    rating: 2.8
+    votes: 16100
+    rating: 7.1
 - substitute: false
   position: CB
   rating:
     name: RAPHAEL VARANE
-    votes: 14
-    rating: 3.5
+    votes: 16100
+    rating: 7.6
 - substitute: false
   position: CB
   rating:
     name: VICTOR LINDELOF
-    votes: 14
-    rating: 2.9
+    votes: 16100
+    rating: 7.0
 - substitute: false
   position: LB
   rating:
     name: ALEX TELLES
-    votes: 14
-    rating: 2.6
+    votes: 16100
+    rating: 7.9
 - substitute: false
   position: CM
   rating:
     name: NEMANJA MATIC
-    votes: 14
-    rating: 3.2
+    votes: 16100
+    rating: 7.3
 - substitute: false
   position: CM
   rating:
     name: SCOTT MCTOMINAY
-    votes: 14
-    rating: 2.1
+    votes: 16100
+    rating: 6.7
 - substitute: false
   position: CM
   rating:
     name: JUAN MATA
-    votes: 14
-    rating: 2.5
+    votes: 16100
+    rating: 8.1
 - substitute: false
   position: RW
   rating:
     name: ANTHONY ELANGA
-    votes: 14
-    rating: 2.4
+    votes: 16100
+    rating: 7.6
 - substitute: false
   position: LW
   rating:
     name: BRUNO FERNANDES
-    votes: 14
-    rating: 2.6
+    votes: 16100
+    rating: 7.5
 - substitute: false
   position: ST
   rating:
     name: CRISTIANO RONALDO
-    votes: 14
-    rating: 4.9
+    votes: 16100
+    rating: 7.7
 - substitute: true
   position: CM
   rating:
     name: FRED RODRIGUES
-    votes: 14
-    rating: 2.8
+    votes: 16100
+    rating: 8.0
 - substitute: true
   position: ST
   rating:
     name: EDINSON CAVANI
-    votes: 14
-    rating: 2.9
+    votes: 16100
+    rating: 7.1
 - substitute: true
   position: CB
   rating:
     name: HARRY MAGUIRE
-    votes: 14
-    rating: 6.0
+    votes: 16100
+    rating: 7.8

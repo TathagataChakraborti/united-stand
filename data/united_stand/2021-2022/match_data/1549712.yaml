@@ -1,99 +1,96 @@
 match_id: 1549712
-meta_data:
-  views: 40
-  likes: 0
-  shares: 0
+meta_data: null
 man_of_the_match:
   name: CRISTIANO RONALDO
-  percentage: 75.0
-  votes: 4
+  percentage: 48.0
+  votes: 7800
 manager_rating:
   rating:
     name: RALF RANGNICK
-    votes: 3
-    rating: 3.3
+    votes: 7000
+    rating: 5.8
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DAVID DE GEA
-    votes: 3
-    rating: 7.0
+    votes: 7100
+    rating: 7.6
 - substitute: false
   position: RB
   rating:
     name: DIOGO DALOT
-    votes: 3
-    rating: 6.3
+    votes: 7100
+    rating: 6.0
 - substitute: false
   position: CB
   rating:
     name: HARRY MAGUIRE
-    votes: 3
-    rating: 3.0
+    votes: 7100
+    rating: 4.7
 - substitute: false
   position: CB
   rating:
     name: VICTOR LINDELOF
-    votes: 3
-    rating: 5.3
+    votes: 7100
+    rating: 5.9
 - substitute: false
   position: LB
   rating:
     name: LUKE SHAW
-    votes: 3
+    votes: 7100
     rating: 5.3
 - substitute: false
   position: CM
   rating:
     name: FRED RODRIGUES
-    votes: 3
-    rating: 3.7
+    votes: 7100
+    rating: 4.2
 - substitute: false
   position: CM
   rating:
     name: SCOTT MCTOMINAY
-    votes: 3
-    rating: 4.0
+    votes: 7100
+    rating: 4.4
 - substitute: false
   position: CM
   rating:
     name: BRUNO FERNANDES
-    votes: 3
-    rating: 5.3
+    votes: 7100
+    rating: 6.2
 - substitute: false
   position: RW
   rating:
     name: ANTHONY ELANGA
-    votes: 3
-    rating: 5.3
+    votes: 7100
+    rating: 5.5
 - substitute: false
   position: LW
   rating:
     name: JADON SANCHO
-    votes: 3
-    rating: 7.7
+    votes: 7100
+    rating: 6.3
 - substitute: false
   position: ST
   rating:
     name: CRISTIANO RONALDO
-    votes: 3
-    rating: 9.3
+    votes: 7100
+    rating: 7.3
 - substitute: true
   position: CM
   rating:
     name: PAUL POGBA
-    votes: 3
-    rating: 1.7
+    votes: 7000
+    rating: 6.7
 - substitute: true
   position: RW
   rating:
     name: MARCUS RASHFORD
-    votes: 3
-    rating: 2.0
+    votes: 6900
+    rating: 4.8
 - substitute: true
   position: LW
   rating:
     name: ALEX TELLES
-    votes: 3
-    rating: 3.0
+    votes: 6800
+    rating: 5.8

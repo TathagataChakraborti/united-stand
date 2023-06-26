@@ -1,99 +1,96 @@
 match_id: 1549568
-meta_data:
-  views: 21
-  likes: 0
-  shares: 0
+meta_data: null
 man_of_the_match:
   name: OLE GUNNAR SOLSKJAER
-  percentage: 100.0
-  votes: 1
+  percentage: 74.0
+  votes: 14400
 manager_rating:
   rating:
     name: OLE GUNNAR SOLSKJAER
-    votes: 0
-    rating: 0.0
+    votes: 12600
+    rating: 3.8
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DAVID DE GEA
-    votes: 0
-    rating: 0.0
+    votes: 13000
+    rating: 8.7
 - substitute: false
   position: RB
   rating:
     name: AARON WAN-BISSAKA
-    votes: 0
-    rating: 0.0
+    votes: 13000
+    rating: 7.1
 - substitute: false
   position: CB
   rating:
     name: RAPHAEL VARANE
-    votes: 0
-    rating: 0.0
+    votes: 13000
+    rating: 7.6
 - substitute: false
   position: CB
   rating:
     name: HARRY MAGUIRE
-    votes: 0
-    rating: 0.0
+    votes: 13000
+    rating: 6.5
 - substitute: false
   position: LB
   rating:
     name: LUKE SHAW
-    votes: 0
-    rating: 0.0
+    votes: 13000
+    rating: 6.2
 - substitute: false
   position: CM
   rating:
     name: FRED RODRIGUES
-    votes: 0
-    rating: 0.0
+    votes: 13000
+    rating: 2.8
 - substitute: false
   position: CM
   rating:
     name: PAUL POGBA
-    votes: 0
-    rating: 0.0
+    votes: 13000
+    rating: 5.8
 - substitute: false
   position: CM
   rating:
     name: BRUNO FERNANDES
-    votes: 0
-    rating: 0.0
+    votes: 13000
+    rating: 5.7
 - substitute: false
   position: RW
   rating:
     name: DANIEL JAMES
-    votes: 0
-    rating: 0.0
+    votes: 13000
+    rating: 3.8
 - substitute: false
   position: LW
   rating:
     name: JADON SANCHO
-    votes: 0
-    rating: 0.0
+    votes: 13000
+    rating: 5.1
 - substitute: false
   position: ST
   rating:
     name: MASON GREENWOOD
-    votes: 0
-    rating: 0.0
+    votes: 13000
+    rating: 7.6
 - substitute: true
   position: ST
   rating:
     name: EDINSON CAVANI
-    votes: 0
-    rating: 0.0
+    votes: 13000
+    rating: 5.9
 - substitute: true
   position: LW
   rating:
     name: ANTHONY MARTIAL
-    votes: 0
-    rating: 0.0
+    votes: 13000
+    rating: 5.7
 - substitute: true
   position: RB
   rating:
     name: DIOGO DALOT
-    votes: 0
-    rating: 0.0
+    votes: 12100
+    rating: 5.5

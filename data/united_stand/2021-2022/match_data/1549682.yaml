@@ -1,99 +1,96 @@
 match_id: 1549682
-meta_data:
-  views: 24
-  likes: 0
-  shares: 0
+meta_data: null
 man_of_the_match:
-  name: RALF RANGNICK
-  percentage: 100.0
-  votes: 4
+  name: FRED RODRIGUES
+  percentage: 75.0
+  votes: 12700
 manager_rating:
   rating:
     name: RALF RANGNICK
-    votes: 3
-    rating: 7.0
+    votes: 11200
+    rating: 7.5
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DAVID DE GEA
-    votes: 3
-    rating: 5.7
+    votes: 11400
+    rating: 6.5
 - substitute: false
   position: RB
   rating:
     name: DIOGO DALOT
-    votes: 3
-    rating: 6.3
+    votes: 11400
+    rating: 7.1
 - substitute: false
   position: CB
   rating:
     name: VICTOR LINDELOF
-    votes: 3
-    rating: 6.7
+    votes: 11400
+    rating: 6.9
 - substitute: false
   position: CB
   rating:
     name: HARRY MAGUIRE
-    votes: 3
-    rating: 4.0
+    votes: 11400
+    rating: 6.1
 - substitute: false
   position: LB
   rating:
     name: ALEX TELLES
-    votes: 3
-    rating: 7.0
+    votes: 11400
+    rating: 6.8
 - substitute: false
   position: CM
   rating:
     name: SCOTT MCTOMINAY
-    votes: 3
-    rating: 5.7
+    votes: 11400
+    rating: 5.1
 - substitute: false
   position: CM
   rating:
     name: FRED RODRIGUES
-    votes: 3
-    rating: 6.3
+    votes: 11400
+    rating: 7.8
 - substitute: false
   position: RCM
   rating:
     name: BRUNO FERNANDES
-    votes: 3
-    rating: 6.0
+    votes: 11400
+    rating: 6.1
 - substitute: false
   position: LCM
   rating:
     name: JADON SANCHO
-    votes: 3
-    rating: 6.0
+    votes: 11400
+    rating: 6.5
 - substitute: false
   position: ST
   rating:
     name: MARCUS RASHFORD
-    votes: 3
-    rating: 4.3
+    votes: 11400
+    rating: 5.2
 - substitute: false
   position: ST
   rating:
     name: CRISTIANO RONALDO
-    votes: 3
-    rating: 4.0
+    votes: 11400
+    rating: 6.0
 - substitute: true
   position: RW
   rating:
     name: MASON GREENWOOD
-    votes: 3
-    rating: 2.3
+    votes: 11400
+    rating: 6.0
 - substitute: true
   position: ST
   rating:
     name: ANTHONY ELANGA
-    votes: 3
-    rating: 4.0
+    votes: 11400
+    rating: 6.0
 - substitute: true
   position: CM
   rating:
     name: DONNY VAN DE BEEK
-    votes: 3
-    rating: 4.0
+    votes: 11200
+    rating: 6.4

@@ -1,99 +1,96 @@
 match_id: 1549746
-meta_data:
-  views: 42
-  likes: 0
-  shares: 0
+meta_data: null
 man_of_the_match:
   name: PHIL JONES
-  percentage: 56.0
-  votes: 9
+  percentage: 70.0
+  votes: 26500
 manager_rating:
   rating:
     name: RALF RANGNICK
-    votes: 8
-    rating: 4.3
+    votes: 22300
+    rating: 3.0
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DAVID DE GEA
-    votes: 8
-    rating: 7.8
+    votes: 22700
+    rating: 6.8
 - substitute: false
   position: RB
   rating:
     name: AARON WAN-BISSAKA
-    votes: 8
-    rating: 6.0
+    votes: 22700
+    rating: 5.0
 - substitute: false
   position: CB
   rating:
     name: PHIL JONES
-    votes: 8
-    rating: 7.0
+    votes: 22700
+    rating: 7.4
 - substitute: false
   position: CB
   rating:
     name: RAPHAEL VARANE
-    votes: 8
-    rating: 6.3
+    votes: 22700
+    rating: 6.1
 - substitute: false
   position: LB
   rating:
     name: LUKE SHAW
-    votes: 8
-    rating: 4.8
+    votes: 22700
+    rating: 5.3
 - substitute: false
   position: CM
   rating:
     name: NEMANJA MATIC
-    votes: 8
-    rating: 4.4
+    votes: 22700
+    rating: 4.5
 - substitute: false
   position: CM
   rating:
     name: SCOTT MCTOMINAY
-    votes: 8
-    rating: 4.4
+    votes: 22700
+    rating: 3.1
 - substitute: false
   position: RCM
   rating:
     name: MASON GREENWOOD
-    votes: 8
-    rating: 4.6
+    votes: 22700
+    rating: 5.4
 - substitute: false
   position: LCM
   rating:
     name: JADON SANCHO
-    votes: 8
-    rating: 6.9
+    votes: 22700
+    rating: 4.7
 - substitute: false
   position: ST
   rating:
     name: EDINSON CAVANI
-    votes: 8
-    rating: 6.3
+    votes: 22700
+    rating: 4.4
 - substitute: false
   position: ST
   rating:
     name: CRISTIANO RONALDO
-    votes: 8
-    rating: 7.0
+    votes: 22700
+    rating: 4.7
 - substitute: true
   position: RCM
   rating:
     name: BRUNO FERNANDES
-    votes: 8
-    rating: 6.0
+    votes: 22700
+    rating: 5.7
 - substitute: true
   position: LCM
   rating:
     name: MARCUS RASHFORD
-    votes: 8
-    rating: 4.6
+    votes: 22600
+    rating: 3.3
 - substitute: true
   position: LM
   rating:
     name: ANTHONY ELANGA
-    votes: 8
-    rating: 5.3
+    votes: 22700
+    rating: 5.1

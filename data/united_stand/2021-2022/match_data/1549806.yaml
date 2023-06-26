@@ -1,99 +1,96 @@
 match_id: 1549806
-meta_data:
-  views: 20
-  likes: 0
-  shares: 0
+meta_data: null
 man_of_the_match:
-  name: DAVID DE GEA
-  percentage: 50.0
-  votes: 2
+  name: NEMANJA MATIC
+  percentage: 53.0
+  votes: 7900
 manager_rating:
   rating:
     name: RALF RANGNICK
-    votes: 1
-    rating: 3.0
+    votes: 7500
+    rating: 5.6
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DAVID DE GEA
-    votes: 1
-    rating: 8.0
+    votes: 7600
+    rating: 6.0
 - substitute: false
   position: RB
   rating:
     name: AARON WAN-BISSAKA
-    votes: 1
-    rating: 4.0
+    votes: 7600
+    rating: 5.9
 - substitute: false
   position: CB
   rating:
     name: VICTOR LINDELOF
-    votes: 1
-    rating: 3.0
+    votes: 7600
+    rating: 6.7
 - substitute: false
   position: CB
   rating:
     name: RAPHAEL VARANE
-    votes: 1
-    rating: 6.0
+    votes: 7600
+    rating: 6.6
 - substitute: false
   position: LB
   rating:
     name: ALEX TELLES
-    votes: 1
-    rating: 4.0
+    votes: 7600
+    rating: 5.8
 - substitute: false
   position: CM
   rating:
     name: NEMANJA MATIC
-    votes: 1
-    rating: 3.0
+    votes: 7600
+    rating: 6.9
 - substitute: false
   position: CM
   rating:
     name: FRED RODRIGUES
-    votes: 1
-    rating: 3.0
+    votes: 7600
+    rating: 5.5
 - substitute: false
   position: CM
   rating:
     name: BRUNO FERNANDES
-    votes: 1
-    rating: 3.0
+    votes: 7600
+    rating: 4.4
 - substitute: false
   position: RW
   rating:
     name: ANTHONY ELANGA
-    votes: 1
-    rating: 4.0
+    votes: 7600
+    rating: 6.1
 - substitute: false
   position: LW
   rating:
     name: PAUL POGBA
-    votes: 1
-    rating: 1.0
+    votes: 7600
+    rating: 5.5
 - substitute: false
   position: ST
   rating:
     name: CRISTIANO RONALDO
-    votes: 1
-    rating: 8.0
+    votes: 7600
+    rating: 4.1
 - substitute: true
   position: LW
   rating:
     name: JADON SANCHO
-    votes: 1
-    rating: 5.0
+    votes: 7600
+    rating: 5.8
 - substitute: true
   position: LB
   rating:
     name: LUKE SHAW
-    votes: 1
-    rating: 3.0
+    votes: 7500
+    rating: 5.1
 - substitute: true
   position: ST
   rating:
     name: MARCUS RASHFORD
-    votes: 1
-    rating: 1.0
+    votes: 7500
+    rating: 4.3

@@ -1,99 +1,93 @@
 match_id: 1549626
-meta_data:
-  views: 179
-  likes: 1
-  shares: 1
-man_of_the_match:
-  name: CRISTIANO RONALDO
-  percentage: 37.0
-  votes: 43
+meta_data: null
+man_of_the_match: null
 manager_rating:
   rating:
     name: OLE GUNNAR SOLSKJAER
-    votes: 42
-    rating: 2.7
+    votes: 10800
+    rating: 6.8
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DAVID DE GEA
-    votes: 42
-    rating: 5.5
+    votes: 32300
+    rating: 7.0
 - substitute: false
   position: RB
   rating:
     name: AARON WAN-BISSAKA
-    votes: 42
-    rating: 3.4
+    votes: 32300
+    rating: 6.1
 - substitute: false
   position: CB
   rating:
     name: VICTOR LINDELOF
-    votes: 42
-    rating: 3.2
+    votes: 32300
+    rating: 5.8
 - substitute: false
   position: CB
   rating:
     name: HARRY MAGUIRE
-    votes: 42
-    rating: 2.6
+    votes: 32300
+    rating: 5.5
 - substitute: false
   position: LB
   rating:
     name: LUKE SHAW
-    votes: 42
-    rating: 3.0
+    votes: 32300
+    rating: 5.8
 - substitute: false
   position: CM
   rating:
     name: FRED RODRIGUES
-    votes: 42
-    rating: 3.0
+    votes: 32300
+    rating: 5.7
 - substitute: false
   position: CM
   rating:
     name: SCOTT MCTOMINAY
-    votes: 42
-    rating: 2.9
+    votes: 32300
+    rating: 5.6
 - substitute: false
   position: CM
   rating:
     name: BRUNO FERNANDES
-    votes: 42
-    rating: 3.3
+    votes: 32300
+    rating: 6.1
 - substitute: false
   position: RW
   rating:
     name: MASON GREENWOOD
-    votes: 42
-    rating: 3.1
+    votes: 32300
+    rating: 6.0
 - substitute: false
   position: LW
   rating:
     name: MARCUS RASHFORD
-    votes: 42
-    rating: 3.5
+    votes: 32300
+    rating: 6.0
 - substitute: false
   position: ST
   rating:
     name: CRISTIANO RONALDO
-    votes: 42
-    rating: 5.3
+    votes: 32300
+    rating: 6.3
 - substitute: true
   position: CM
   rating:
     name: PAUL POGBA
-    votes: 42
-    rating: 3.5
+    votes: 32300
+    rating: 5.7
 - substitute: true
   position: ST
   rating:
     name: EDINSON CAVANI
-    votes: 42
-    rating: 3.5
+    votes: 32300
+    rating: 6.3
 - substitute: true
   position: LB
   rating:
     name: DIOGO DALOT
-    votes: 42
-    rating: 3.5
+    votes: 32300
+    rating: 6.2
