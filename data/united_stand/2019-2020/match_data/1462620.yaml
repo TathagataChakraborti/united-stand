@@ -1,99 +1,96 @@
 match_id: 1462620
-meta_data:
-  views: 18
-  likes: 0
-  shares: 0
+meta_data: null
 man_of_the_match:
-  name: OLE GUNNAR SOLSKJAER
-  percentage: 100.0
-  votes: 5
+  name: BRUNO FERNANDES
+  percentage: 46.0
+  votes: 12400
 manager_rating:
   rating:
     name: OLE GUNNAR SOLSKJAER
-    votes: 4
-    rating: 6.3
+    votes: 10100
+    rating: 2.2
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DAVID DE GEA
-    votes: 4
-    rating: 5.0
+    votes: 10100
+    rating: 2.0
 - substitute: false
   position: RWB
   rating:
     name: AARON WAN-BISSAKA
-    votes: 4
-    rating: 1.0
+    votes: 10100
+    rating: 3.1
 - substitute: false
   position: CB
   rating:
     name: VICTOR LINDELOF
-    votes: 4
-    rating: 1.0
+    votes: 10100
+    rating: 3.0
 - substitute: false
   position: CB
   rating:
     name: ERIC BAILLY
-    votes: 4
-    rating: 1.0
+    votes: 10100
+    rating: 3.6
 - substitute: false
   position: CB
   rating:
     name: HARRY MAGUIRE
-    votes: 4
-    rating: 1.0
+    votes: 10100
+    rating: 2.4
 - substitute: false
   position: LB
   rating:
     name: BRANDON WILLIAMS
-    votes: 4
-    rating: 1.0
+    votes: 10100
+    rating: 2.5
 - substitute: false
   position: CDM
   rating:
     name: NEMANJA MATIC
-    votes: 4
-    rating: 1.0
+    votes: 10100
+    rating: 3.8
 - substitute: false
   position: LCM
   rating:
     name: FRED RODRIGUES
-    votes: 4
-    rating: 1.0
+    votes: 10100
+    rating: 2.9
 - substitute: false
   position: RCM
   rating:
     name: BRUNO FERNANDES
-    votes: 4
-    rating: 4.0
+    votes: 10100
+    rating: 4.6
 - substitute: false
   position: LW
   rating:
     name: DANIEL JAMES
-    votes: 4
-    rating: 1.8
+    votes: 10100
+    rating: 2.6
 - substitute: false
   position: ST
   rating:
     name: MARCUS RASHFORD
-    votes: 4
-    rating: 4.8
+    votes: 10100
+    rating: 3.5
 - substitute: true
   position: ST
   rating:
     name: ANTHONY MARTIAL
-    votes: 4
-    rating: 1.0
+    votes: 10100
+    rating: 4.2
 - substitute: true
   position: LCM
   rating:
     name: PAUL POGBA
-    votes: 4
-    rating: 1.0
+    votes: 10100
+    rating: 4.3
 - substitute: true
   position: RW
   rating:
     name: MASON GREENWOOD
-    votes: 4
-    rating: 1.0
+    votes: 10100
+    rating: 3.8
