@@ -1,99 +1,96 @@
 match_id: 1485279
-meta_data:
-  views: 11
-  likes: 0
-  shares: 0
+meta_data: null
 man_of_the_match:
-  name: OLE GUNNAR SOLSKJAER
-  percentage: 100.0
-  votes: 1
+  name: BRUNO FERNANDES
+  percentage: 88.0
+  votes: 11100
 manager_rating:
   rating:
     name: OLE GUNNAR SOLSKJAER
-    votes: 0
-    rating: 0.0
+    votes: 10300
+    rating: 6.2
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DAVID DE GEA
-    votes: 0
-    rating: 0.0
+    votes: 10400
+    rating: 6.3
 - substitute: false
   position: RB
   rating:
     name: AARON WAN-BISSAKA
-    votes: 0
-    rating: 0.0
+    votes: 10400
+    rating: 6.1
 - substitute: false
   position: CB
   rating:
     name: VICTOR LINDELOF
-    votes: 0
-    rating: 0.0
+    votes: 10400
+    rating: 6.4
 - substitute: false
   position: CB
   rating:
     name: HARRY MAGUIRE
-    votes: 0
-    rating: 0.0
+    votes: 10400
+    rating: 6.5
 - substitute: false
   position: LB
   rating:
     name: LUKE SHAW
-    votes: 0
-    rating: 0.0
+    votes: 10400
+    rating: 7.2
 - substitute: false
   position: CM
   rating:
     name: SCOTT MCTOMINAY
-    votes: 0
-    rating: 0.0
+    votes: 10400
+    rating: 6.0
 - substitute: false
   position: CM
   rating:
     name: FRED RODRIGUES
-    votes: 0
-    rating: 0.0
+    votes: 10400
+    rating: 7.4
 - substitute: false
   position: CM
   rating:
     name: BRUNO FERNANDES
-    votes: 0
-    rating: 0.0
+    votes: 10400
+    rating: 8.7
 - substitute: false
   position: RW
   rating:
     name: JUAN MATA
-    votes: 0
-    rating: 0.0
+    votes: 10400
+    rating: 5.4
 - substitute: false
   position: LW
   rating:
     name: MARCUS RASHFORD
-    votes: 0
-    rating: 0.0
+    votes: 10400
+    rating: 5.7
 - substitute: false
   position: ST
   rating:
     name: ANTHONY MARTIAL
-    votes: 0
-    rating: 0.0
+    votes: 10400
+    rating: 5.3
 - substitute: true
   position: CB
   rating:
     name: AXEL TUANZEBE
-    votes: 0
-    rating: 0.0
+    votes: 10400
+    rating: 6.0
 - substitute: true
   position: CM
   rating:
     name: PAUL POGBA
-    votes: 0
-    rating: 0.0
+    votes: 9900
+    rating: 5.8
 - substitute: true
   position: ST
   rating:
     name: EDINSON CAVANI
-    votes: 0
-    rating: 0.0
+    votes: 9800
+    rating: 6.7

@@ -1,105 +1,102 @@
 match_id: 1516660
-meta_data:
-  views: 57
-  likes: 0
-  shares: 0
+meta_data: null
 man_of_the_match:
-  name: OLE GUNNAR SOLSKJAER
-  percentage: 100.0
-  votes: 1
+  name: BRUNO FERNANDES
+  percentage: 73.0
+  votes: 20700
 manager_rating:
   rating:
     name: OLE GUNNAR SOLSKJAER
-    votes: 0
-    rating: 0.0
+    votes: 18500
+    rating: 7.6
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DEAN HENDERSON
-    votes: 0
-    rating: 0.0
+    votes: 18700
+    rating: 6.6
 - substitute: false
   position: RB
   rating:
     name: AARON WAN-BISSAKA
-    votes: 0
-    rating: 0.0
+    votes: 18700
+    rating: 6.6
 - substitute: false
   position: CB
   rating:
     name: ERIC BAILLY
-    votes: 0
-    rating: 0.0
+    votes: 18700
+    rating: 7.0
 - substitute: false
   position: CB
   rating:
     name: HARRY MAGUIRE
-    votes: 0
-    rating: 0.0
+    votes: 18700
+    rating: 6.9
 - substitute: false
   position: LB
   rating:
     name: ALEX TELLES
-    votes: 0
-    rating: 0.0
+    votes: 18700
+    rating: 6.6
 - substitute: false
   position: CM
   rating:
     name: FRED RODRIGUES
-    votes: 0
-    rating: 0.0
+    votes: 18700
+    rating: 7.0
 - substitute: false
   position: CM
   rating:
     name: SCOTT MCTOMINAY
-    votes: 0
-    rating: 0.0
+    votes: 18700
+    rating: 6.6
 - substitute: false
   position: CM
   rating:
     name: BRUNO FERNANDES
-    votes: 0
-    rating: 0.0
+    votes: 18700
+    rating: 8.6
 - substitute: false
   position: RW
   rating:
     name: MASON GREENWOOD
-    votes: 0
-    rating: 0.0
+    votes: 18700
+    rating: 6.9
 - substitute: false
   position: LW
   rating:
     name: DANIEL JAMES
-    votes: 0
-    rating: 0.0
+    votes: 18700
+    rating: 7.0
 - substitute: false
   position: ST
   rating:
     name: MARCUS RASHFORD
-    votes: 0
-    rating: 0.0
+    votes: 18700
+    rating: 6.9
 - substitute: true
   position: CM
   rating:
     name: NEMANJA MATIC
-    votes: 0
-    rating: 0.0
+    votes: 18700
+    rating: 6.0
 - substitute: true
   position: ST
   rating:
     name: ANTHONY MARTIAL
-    votes: 0
-    rating: 0.0
+    votes: 18700
+    rating: 6.1
 - substitute: true
   position: CM
   rating:
     name: JUAN MATA
-    votes: 0
-    rating: 0.0
+    votes: 17900
+    rating: 5.9
 - substitute: true
   position: LW
   rating:
     name: AMAD DIALLO
-    votes: 0
-    rating: 0.0
+    votes: 17700
+    rating: 7.9

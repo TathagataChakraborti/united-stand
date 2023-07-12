@@ -1,99 +1,96 @@
 match_id: 1508922
-meta_data:
-  views: 64
-  likes: 0
-  shares: 0
+meta_data: null
 man_of_the_match:
-  name: OLE GUNNAR SOLSKJAER
-  percentage: 50.0
-  votes: 4
+  name: AARON WAN-BISSAKA
+  percentage: 34.0
+  votes: 10800
 manager_rating:
   rating:
     name: OLE GUNNAR SOLSKJAER
-    votes: 3
-    rating: 8.3
+    votes: 8600
+    rating: 8.7
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DAVID DE GEA
-    votes: 3
-    rating: 8.7
+    votes: 9800
+    rating: 8.3
 - substitute: false
   position: RB
   rating:
     name: AARON WAN-BISSAKA
-    votes: 3
-    rating: 8.7
+    votes: 9800
+    rating: 8.6
 - substitute: false
   position: CB
   rating:
     name: AXEL TUANZEBE
-    votes: 3
-    rating: 9.0
+    votes: 9800
+    rating: 8.3
 - substitute: false
   position: CB
   rating:
     name: VICTOR LINDELOF
-    votes: 3
-    rating: 7.7
+    votes: 9800
+    rating: 7.5
 - substitute: false
   position: CB
   rating:
     name: LUKE SHAW
-    votes: 3
-    rating: 7.3
+    votes: 9800
+    rating: 7.6
 - substitute: false
   position: LB
   rating:
     name: ALEX TELLES
-    votes: 3
-    rating: 7.3
+    votes: 9800
+    rating: 7.5
 - substitute: false
   position: CDM
   rating:
     name: SCOTT MCTOMINAY
-    votes: 3
+    votes: 9800
     rating: 6.7
 - substitute: false
   position: CDM
   rating:
     name: FRED RODRIGUES
-    votes: 3
-    rating: 7.3
+    votes: 9800
+    rating: 8.0
 - substitute: false
   position: CM
   rating:
     name: BRUNO FERNANDES
-    votes: 3
-    rating: 8.3
+    votes: 9800
+    rating: 8.0
 - substitute: false
   position: ST
   rating:
     name: MARCUS RASHFORD
-    votes: 3
-    rating: 8.3
+    votes: 9800
+    rating: 7.3
 - substitute: false
   position: ST
   rating:
     name: ANTHONY MARTIAL
-    votes: 3
-    rating: 7.3
+    votes: 9800
+    rating: 6.2
 - substitute: true
   position: CM
   rating:
     name: PAUL POGBA
-    votes: 3
-    rating: 7.3
+    votes: 9800
+    rating: 6.7
 - substitute: true
   position: CM
   rating:
     name: DONNY VAN DE BEEK
-    votes: 3
-    rating: 7.3
+    votes: 8800
+    rating: 6.4
 - substitute: true
   position: RW
   rating:
     name: DANIEL JAMES
-    votes: 3
-    rating: 7.3
+    votes: 8300
+    rating: 6.4

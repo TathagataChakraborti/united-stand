@@ -1,99 +1,96 @@
 match_id: 1485220
-meta_data:
-  views: 37
-  likes: 1
-  shares: 0
+meta_data: null
 man_of_the_match:
   name: BRUNO FERNANDES
-  percentage: 33.0
-  votes: 6
+  percentage: 43.0
+  votes: 11300
 manager_rating:
   rating:
     name: OLE GUNNAR SOLSKJAER
-    votes: 5
-    rating: 4.8
+    votes: 11000
+    rating: 2.0
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DAVID DE GEA
-    votes: 5
-    rating: 6.2
+    votes: 11000
+    rating: 4.2
 - substitute: false
   position: RB
   rating:
     name: AARON WAN-BISSAKA
-    votes: 5
-    rating: 6.2
+    votes: 11000
+    rating: 2.4
 - substitute: false
   position: CB
   rating:
     name: ERIC BAILLY
-    votes: 5
-    rating: 6.0
+    votes: 11000
+    rating: 2.7
 - substitute: false
   position: CB
   rating:
     name: HARRY MAGUIRE
-    votes: 5
-    rating: 4.2
+    votes: 11000
+    rating: 1.2
 - substitute: false
   position: LB
   rating:
     name: LUKE SHAW
-    votes: 5
-    rating: 6.0
+    votes: 11000
+    rating: 2.4
 - substitute: false
   position: CDM
   rating:
     name: NEMANJA MATIC
-    votes: 5
-    rating: 5.8
+    votes: 11000
+    rating: 2.8
 - substitute: false
   position: CM
   rating:
     name: PAUL POGBA
-    votes: 5
-    rating: 4.4
+    votes: 11000
+    rating: 2.0
 - substitute: false
   position: CM
   rating:
     name: BRUNO FERNANDES
-    votes: 5
-    rating: 7.2
+    votes: 11000
+    rating: 4.3
 - substitute: false
   position: LW
   rating:
     name: MARCUS RASHFORD
-    votes: 5
-    rating: 7.0
+    votes: 11000
+    rating: 3.8
 - substitute: false
   position: RW
   rating:
     name: MASON GREENWOOD
-    votes: 5
-    rating: 6.4
+    votes: 11000
+    rating: 3.7
 - substitute: false
   position: ST
   rating:
     name: ANTHONY MARTIAL
-    votes: 5
-    rating: 6.8
+    votes: 11000
+    rating: 2.6
 - substitute: true
   position: CM
   rating:
     name: FRED RODRIGUES
-    votes: 5
-    rating: 6.4
+    votes: 11000
+    rating: 3.1
 - substitute: true
   position: CM
   rating:
     name: SCOTT MCTOMINAY
-    votes: 5
-    rating: 5.0
+    votes: 11000
+    rating: 2.7
 - substitute: true
   position: CM
   rating:
     name: DONNY VAN DE BEEK
-    votes: 5
-    rating: 7.0
+    votes: 11000
+    rating: 4.3

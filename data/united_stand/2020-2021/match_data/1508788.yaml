@@ -1,99 +1,96 @@
 match_id: 1508788
-meta_data:
-  views: 40
-  likes: 0
-  shares: 0
+meta_data: null
 man_of_the_match:
-  name: OLE GUNNAR SOLSKJAER
-  percentage: 100.0
-  votes: 1
+  name: EDINSON CAVANI
+  percentage: 48.0
+  votes: 10100
 manager_rating:
   rating:
     name: OLE GUNNAR SOLSKJAER
-    votes: 0
-    rating: 0.0
+    votes: 8500
+    rating: 7.1
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DEAN HENDERSON
-    votes: 0
-    rating: 0.0
+    votes: 8700
+    rating: 6.5
 - substitute: false
   position: RB
   rating:
     name: AXEL TUANZEBE
-    votes: 0
-    rating: 0.0
+    votes: 8700
+    rating: 6.6
 - substitute: false
   position: CB
   rating:
     name: ERIC BAILLY
-    votes: 0
-    rating: 0.0
+    votes: 8700
+    rating: 7.0
 - substitute: false
   position: CB
   rating:
     name: HARRY MAGUIRE
-    votes: 0
-    rating: 0.0
+    votes: 8700
+    rating: 6.2
 - substitute: false
   position: LB
   rating:
     name: ALEX TELLES
-    votes: 0
-    rating: 0.0
+    votes: 8700
+    rating: 6.4
 - substitute: false
   position: CDM
   rating:
     name: NEMANJA MATIC
-    votes: 0
-    rating: 0.0
+    votes: 8700
+    rating: 6.3
 - substitute: false
   position: CM
   rating:
     name: PAUL POGBA
-    votes: 0
-    rating: 0.0
+    votes: 8700
+    rating: 6.9
 - substitute: false
   position: CM
   rating:
     name: DONNY VAN DE BEEK
-    votes: 0
-    rating: 0.0
+    votes: 8700
+    rating: 6.3
 - substitute: false
   position: CM
   rating:
     name: BRUNO FERNANDES
-    votes: 0
-    rating: 0.0
+    votes: 8700
+    rating: 6.8
 - substitute: false
   position: ST
   rating:
     name: MASON GREENWOOD
-    votes: 0
-    rating: 0.0
+    votes: 8700
+    rating: 6.0
 - substitute: false
   position: ST
   rating:
     name: EDINSON CAVANI
-    votes: 0
-    rating: 0.0
+    votes: 8700
+    rating: 7.4
 - substitute: true
   position: LW
   rating:
     name: ANTHONY MARTIAL
-    votes: 0
-    rating: 0.0
+    votes: 8500
+    rating: 7.3
 - substitute: true
   position: RW
   rating:
     name: MARCUS RASHFORD
-    votes: 0
-    rating: 0.0
+    votes: 8400
+    rating: 6.3
 - substitute: true
   position: LB
   rating:
     name: LUKE SHAW
-    votes: 0
-    rating: 0.0
+    votes: 8200
+    rating: 6.0

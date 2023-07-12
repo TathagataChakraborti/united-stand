@@ -1,105 +1,102 @@
 match_id: 1508932
-meta_data:
-  views: 61
-  likes: 1
-  shares: 0
+meta_data: null
 man_of_the_match:
-  name: OLE GUNNAR SOLSKJAER
-  percentage: 38.0
-  votes: 13
+  name: BRUNO FERNANDES
+  percentage: 48.0
+  votes: 15600
 manager_rating:
   rating:
     name: OLE GUNNAR SOLSKJAER
-    votes: 12
-    rating: 1.4
+    votes: 14800
+    rating: 1.5
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DAVID DE GEA
-    votes: 12
-    rating: 3.2
+    votes: 15300
+    rating: 4.3
 - substitute: false
   position: RWB
   rating:
     name: AARON WAN-BISSAKA
-    votes: 12
-    rating: 1.8
+    votes: 15300
+    rating: 2.5
 - substitute: false
   position: CB
   rating:
     name: VICTOR LINDELOF
-    votes: 12
-    rating: 1.5
+    votes: 15300
+    rating: 3.0
 - substitute: false
   position: CB
   rating:
     name: HARRY MAGUIRE
-    votes: 12
-    rating: 1.3
+    votes: 15300
+    rating: 1.8
 - substitute: false
   position: CB
   rating:
     name: LUKE SHAW
-    votes: 12
-    rating: 1.8
+    votes: 15300
+    rating: 3.6
 - substitute: false
   position: LWB
   rating:
     name: ALEX TELLES
-    votes: 12
-    rating: 1.6
+    votes: 15300
+    rating: 3.6
 - substitute: false
   position: CM
   rating:
     name: SCOTT MCTOMINAY
-    votes: 12
-    rating: 1.3
+    votes: 15300
+    rating: 2.8
 - substitute: false
   position: CM
   rating:
     name: NEMANJA MATIC
-    votes: 12
-    rating: 2.2
+    votes: 15300
+    rating: 3.4
 - substitute: false
   position: CM
   rating:
     name: BRUNO FERNANDES
-    votes: 12
-    rating: 2.7
+    votes: 15300
+    rating: 5.3
 - substitute: false
   position: ST
   rating:
     name: MASON GREENWOOD
-    votes: 12
-    rating: 1.8
+    votes: 15300
+    rating: 4.6
 - substitute: false
   position: ST
   rating:
     name: MARCUS RASHFORD
-    votes: 12
-    rating: 1.8
+    votes: 15300
+    rating: 3.7
 - substitute: true
   position: CM
   rating:
     name: DONNY VAN DE BEEK
-    votes: 12
-    rating: 3.8
+    votes: 15300
+    rating: 5.0
 - substitute: true
   position: LB
   rating:
     name: BRANDON WILLIAMS
-    votes: 12
-    rating: 2.3
+    votes: 15300
+    rating: 3.6
 - substitute: true
   position: CM
   rating:
     name: PAUL POGBA
-    votes: 12
-    rating: 2.5
+    votes: 15300
+    rating: 4.2
 - substitute: true
   position: CB
   rating:
     name: AXEL TUANZEBE
-    votes: 12
-    rating: 2.2
+    votes: 14800
+    rating: 3.9

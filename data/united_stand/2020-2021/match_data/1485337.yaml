@@ -1,87 +1,84 @@
 match_id: 1485337
-meta_data:
-  views: 17
-  likes: 0
-  shares: 0
+meta_data: null
 man_of_the_match:
-  name: OLE GUNNAR SOLSKJAER
-  percentage: 100.0
-  votes: 1
+  name: DAVID DE GEA
+  percentage: 61.0
+  votes: 10100
 manager_rating:
   rating:
     name: OLE GUNNAR SOLSKJAER
-    votes: 0
-    rating: 0.0
+    votes: 9200
+    rating: 3.8
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DAVID DE GEA
-    votes: 0
-    rating: 0.0
+    votes: 9300
+    rating: 7.0
 - substitute: false
   position: RB
   rating:
     name: AARON WAN-BISSAKA
-    votes: 0
-    rating: 0.0
+    votes: 9300
+    rating: 5.9
 - substitute: false
   position: CB
   rating:
     name: VICTOR LINDELOF
-    votes: 0
-    rating: 0.0
+    votes: 9300
+    rating: 6.1
 - substitute: false
   position: CB
   rating:
     name: HARRY MAGUIRE
-    votes: 0
-    rating: 0.0
+    votes: 9300
+    rating: 5.6
 - substitute: false
   position: LB
   rating:
     name: LUKE SHAW
-    votes: 0
-    rating: 0.0
+    votes: 9300
+    rating: 6.1
 - substitute: false
   position: CM
   rating:
     name: FRED RODRIGUES
-    votes: 0
-    rating: 0.0
+    votes: 9300
+    rating: 5.6
 - substitute: false
   position: CM
   rating:
     name: SCOTT MCTOMINAY
-    votes: 0
-    rating: 0.0
+    votes: 9300
+    rating: 5.0
 - substitute: false
   position: CM
   rating:
     name: BRUNO FERNANDES
-    votes: 0
-    rating: 0.0
+    votes: 9300
+    rating: 5.6
 - substitute: false
   position: RW
   rating:
     name: DANIEL JAMES
-    votes: 0
-    rating: 0.0
+    votes: 9300
+    rating: 5.7
 - substitute: false
   position: LW
   rating:
     name: MARCUS RASHFORD
-    votes: 0
-    rating: 0.0
+    votes: 9300
+    rating: 4.9
 - substitute: false
   position: ST
   rating:
     name: MASON GREENWOOD
-    votes: 0
-    rating: 0.0
+    votes: 9300
+    rating: 5.4
 - substitute: true
   position: ST
   rating:
     name: ANTHONY MARTIAL
-    votes: 0
-    rating: 0.0
+    votes: 9100
+    rating: 5.3

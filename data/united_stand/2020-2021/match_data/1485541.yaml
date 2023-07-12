@@ -1,99 +1,90 @@
 match_id: 1485541
-meta_data:
-  views: 10
-  likes: 0
-  shares: 0
+meta_data: null
 man_of_the_match:
-  name: BRUNO FERNANDES
-  percentage: 50.0
-  votes: 2
+  name: EDINSON CAVANI
+  percentage: 71.0
+  votes: 5200
 manager_rating:
   rating:
     name: OLE GUNNAR SOLSKJAER
-    votes: 1
-    rating: 10.0
+    votes: 4400
+    rating: 4.7
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DAVID DE GEA
-    votes: 1
-    rating: 7.0
+    votes: 4400
+    rating: 6.9
 - substitute: false
   position: RB
   rating:
     name: AARON WAN-BISSAKA
-    votes: 1
-    rating: 7.0
+    votes: 4400
+    rating: 5.2
 - substitute: false
   position: CB
   rating:
     name: VICTOR LINDELOF
-    votes: 1
-    rating: 8.0
+    votes: 4400
+    rating: 4.7
 - substitute: false
   position: CB
   rating:
     name: AXEL TUANZEBE
-    votes: 1
-    rating: 8.0
+    votes: 4400
+    rating: 5.9
 - substitute: false
   position: LB
   rating:
     name: LUKE SHAW
-    votes: 1
-    rating: 10.0
+    votes: 4400
+    rating: 5.2
 - substitute: false
   position: CM
   rating:
     name: SCOTT MCTOMINAY
-    votes: 1
-    rating: 10.0
+    votes: 4400
+    rating: 5.7
 - substitute: false
   position: CM
   rating:
     name: FRED RODRIGUES
-    votes: 1
-    rating: 10.0
+    votes: 4400
+    rating: 5.1
 - substitute: false
   position: CM
   rating:
     name: BRUNO FERNANDES
-    votes: 1
-    rating: 10.0
+    votes: 4400
+    rating: 6.4
 - substitute: false
   position: RW
   rating:
     name: MASON GREENWOOD
-    votes: 1
-    rating: 10.0
+    votes: 4400
+    rating: 5.5
 - substitute: false
   position: LW
   rating:
     name: PAUL POGBA
-    votes: 1
-    rating: 10.0
+    votes: 4400
+    rating: 5.7
 - substitute: false
   position: ST
   rating:
     name: EDINSON CAVANI
-    votes: 1
-    rating: 10.0
+    votes: 4400
+    rating: 7.4
 - substitute: true
   position: LW
   rating:
     name: MARCUS RASHFORD
-    votes: 1
-    rating: 10.0
+    votes: 4400
+    rating: 5.3
 - substitute: true
   position: RW
   rating:
     name: AMAD DIALLO
-    votes: 1
-    rating: 4.0
-- substitute: true
-  position: CM
-  rating:
-    name: DONNY VAN DE BEEK
-    votes: 1
-    rating: 10.0
+    votes: 4200
+    rating: 6.0

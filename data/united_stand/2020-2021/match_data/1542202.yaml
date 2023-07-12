@@ -1,99 +1,96 @@
 match_id: 1542202
-meta_data:
-  views: 70
-  likes: 0
-  shares: 0
+meta_data: null
 man_of_the_match:
   name: EDINSON CAVANI
-  percentage: 50.0
-  votes: 6
+  percentage: 69.0
+  votes: 16000
 manager_rating:
   rating:
     name: OLE GUNNAR SOLSKJAER
-    votes: 5
-    rating: 7.8
+    votes: 13800
+    rating: 7.2
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DAVID DE GEA
-    votes: 5
-    rating: 6.8
+    votes: 15200
+    rating: 6.1
 - substitute: false
   position: RB
   rating:
     name: AARON WAN-BISSAKA
-    votes: 5
-    rating: 6.8
+    votes: 15200
+    rating: 6.3
 - substitute: false
   position: CB
   rating:
     name: VICTOR LINDELOF
-    votes: 5
-    rating: 6.4
+    votes: 15200
+    rating: 5.4
 - substitute: false
   position: CB
   rating:
     name: HARRY MAGUIRE
-    votes: 5
-    rating: 4.0
+    votes: 15200
+    rating: 5.3
 - substitute: false
   position: LB
   rating:
     name: LUKE SHAW
-    votes: 5
-    rating: 6.4
+    votes: 15200
+    rating: 6.7
 - substitute: false
   position: CM
   rating:
     name: SCOTT MCTOMINAY
-    votes: 5
-    rating: 6.0
+    votes: 15200
+    rating: 4.9
 - substitute: false
   position: CM
   rating:
     name: FRED RODRIGUES
-    votes: 5
-    rating: 6.4
+    votes: 15200
+    rating: 5.3
 - substitute: false
   position: CM
   rating:
     name: BRUNO FERNANDES
-    votes: 5
-    rating: 9.2
+    votes: 15200
+    rating: 8.7
 - substitute: false
   position: RW
   rating:
     name: MARCUS RASHFORD
-    votes: 5
-    rating: 7.0
+    votes: 15200
+    rating: 5.7
 - substitute: false
   position: LW
   rating:
     name: PAUL POGBA
-    votes: 5
-    rating: 9.4
+    votes: 15200
+    rating: 8.2
 - substitute: false
   position: ST
   rating:
     name: EDINSON CAVANI
-    votes: 5
-    rating: 9.4
+    votes: 15200
+    rating: 9.2
 - substitute: true
   position: RW
   rating:
     name: MASON GREENWOOD
-    votes: 5
-    rating: 8.2
+    votes: 15200
+    rating: 7.3
 - substitute: true
   position: CM
   rating:
     name: NEMANJA MATIC
-    votes: 5
-    rating: 8.0
+    votes: 14600
+    rating: 6.0
 - substitute: true
   position: CM
   rating:
     name: JUAN MATA
-    votes: 5
-    rating: 7.4
+    votes: 13200
+    rating: 6.1

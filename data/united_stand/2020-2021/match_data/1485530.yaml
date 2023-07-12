@@ -1,93 +1,90 @@
 match_id: 1485530
-meta_data:
-  views: 29
-  likes: 0
-  shares: 0
+meta_data: null
 man_of_the_match:
-  name: OLE GUNNAR SOLSKJAER
-  percentage: 67.0
-  votes: 3
+  name: MASON GREENWOOD
+  percentage: 85.0
+  votes: 11500
 manager_rating:
   rating:
     name: OLE GUNNAR SOLSKJAER
-    votes: 1
-    rating: 8.0
+    votes: 10300
+    rating: 5.9
 ratings:
 - substitute: false
   position: GK
   rating:
     name: DEAN HENDERSON
-    votes: 1
-    rating: 7.0
+    votes: 10400
+    rating: 4.9
 - substitute: false
   position: RB
   rating:
     name: AARON WAN-BISSAKA
-    votes: 1
-    rating: 5.0
+    votes: 10400
+    rating: 6.1
 - substitute: false
   position: CB
   rating:
     name: VICTOR LINDELOF
-    votes: 1
-    rating: 5.0
+    votes: 10400
+    rating: 5.4
 - substitute: false
   position: CB
   rating:
     name: HARRY MAGUIRE
-    votes: 1
-    rating: 5.0
+    votes: 10400
+    rating: 4.5
 - substitute: false
   position: LB
   rating:
     name: LUKE SHAW
-    votes: 1
-    rating: 4.0
+    votes: 10400
+    rating: 6.4
 - substitute: false
   position: CM
   rating:
     name: SCOTT MCTOMINAY
-    votes: 1
-    rating: 6.0
+    votes: 10400
+    rating: 5.2
 - substitute: false
   position: CM
   rating:
     name: FRED RODRIGUES
-    votes: 1
-    rating: 4.0
+    votes: 10400
+    rating: 4.6
 - substitute: false
   position: CM
   rating:
     name: BRUNO FERNANDES
-    votes: 1
-    rating: 7.0
+    votes: 10400
+    rating: 6.2
 - substitute: false
   position: RW
   rating:
     name: MASON GREENWOOD
-    votes: 1
-    rating: 6.0
+    votes: 10400
+    rating: 8.0
 - substitute: false
   position: LW
   rating:
     name: PAUL POGBA
-    votes: 1
-    rating: 7.0
+    votes: 10400
+    rating: 6.6
 - substitute: false
   position: ST
   rating:
     name: MARCUS RASHFORD
-    votes: 1
-    rating: 6.0
+    votes: 10400
+    rating: 6.5
 - substitute: true
   position: ST
   rating:
     name: EDINSON CAVANI
-    votes: 1
-    rating: 5.0
+    votes: 10400
+    rating: 6.8
 - substitute: true
   position: CM
   rating:
     name: DONNY VAN DE BEEK
-    votes: 1
-    rating: 4.0
+    votes: 10100
+    rating: 7.4
