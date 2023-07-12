@@ -1,38 +1,43 @@
 .activate-red .cds--side-nav__items {
-  background-color: #fff8f8;
+    background-color: #fff8f8;
 }
 
 a.cds--side-nav__link[aria-current='page']::before,
 a.cds--side-nav__link--current::before {
-  background-color: red;
+    background-color: red;
 }
 
 a.cds--side-nav__link:focus,
 .cds--side-nav a.cds--header__menu-item:focus,
 .cds--side-nav__submenu:focus {
-  outline: 2px solid red;
+    outline: 2px solid red;
 }
 
-.activate-red .cds--side-nav__item:not(.cds--side-nav__item--active):hover
-  .cds--side-nav__item:not(.cds--side-nav__item--active)
-  > .cds--side-nav__submenu:hover,
-.activate-red .cds--side-nav__item:not(.cds--side-nav__item--active)
-  > .cds--side-nav__link:hover,
-.activate-red .cds--side-nav__menu
-  a.cds--side-nav__link:not(.cds--side-nav__link--current):not([aria-current='page']):hover,
+.activate-red
+    .cds--side-nav__item:not(.cds--side-nav__item--active):hover
+    .cds--side-nav__item:not(.cds--side-nav__item--active)
+    > .cds--side-nav__submenu:hover,
+.activate-red
+    .cds--side-nav__item:not(.cds--side-nav__item--active)
+    > .cds--side-nav__link:hover,
+.activate-red
+    .cds--side-nav__menu
+    a.cds--side-nav__link:not(.cds--side-nav__link--current):not([aria-current='page']):hover,
 .activate-red .cds--side-nav a.cds--header__menu-item:hover,
-.activate-red .cds--side-nav .cds--header__menu-title[aria-expanded='true']:hover,
+.activate-red
+    .cds--side-nav
+    .cds--header__menu-title[aria-expanded='true']:hover,
 .activate-red .cds--side-nav__menu a.cds--side-nav__link--current,
 .activate-red .cds--side-nav__menu a.cds--side-nav__link[aria-current='page'],
 .activate-red a.cds--side-nav__link--current {
-  background-color: #ffcaca;
+    background-color: #ffcaca;
 }
 
 .cds--side-nav__item--active
-  .cds--side-nav__submenu[aria-expanded='false']::before {
-  background-color: red;
+    .cds--side-nav__submenu[aria-expanded='false']::before {
+    background-color: red;
 }
 
 .cds--side-nav__items {
-  padding-top: 0;
+    padding-top: 0;
 }

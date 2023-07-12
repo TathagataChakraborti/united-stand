@@ -1,104 +1,129 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-   Theme,
-  Header,
-  HeaderContainer,
-  HeaderMenuButton,
-  HeaderName,
-  HeaderNavigation,
-  HeaderMenuItem,
-  SkipToContent,
-  SideNav,
-  SideNavItems,
-  SideNavLink,
-  SideNavDivider,
+    Theme,
+    Header,
+    HeaderContainer,
+    HeaderMenuButton,
+    HeaderName,
+    HeaderNavigation,
+    HeaderMenuItem,
+    SkipToContent,
+    SideNav,
+    SideNavItems,
+    SideNavLink,
+    SideNavDivider,
 } from '@carbon/react';
 
 class PageHeader extends React.Component {
-  constructor(props) {
-    super();
+    constructor(props) {
+        super();
 
-    const local_url_split = window.location.href.split('/');
-    const endpoint = local_url_split[local_url_split.length-1];
-    const label = endpoint === '' ? 'home' : endpoint;
+        const local_url_split = window.location.href.split('/');
+        const endpoint = local_url_split[local_url_split.length - 1];
+        const label = endpoint === '' ? 'home' : endpoint;
 
-    this.state = {
-      current: label,
-      [label]: true,
+        this.state = {
+            current: label,
+            [label]: true,
+        };
+    }
+
+    onClickTab = ({ name }) => {
+        this.setState({
+            ...this.state,
+            current: name,
+            [this.state.current]: false,
+            [name]: true,
+        });
     };
-  }
 
-  onClickTab = ({name}) => {
-    this.setState({
-      ...this.state,
-      current: name,
-      [this.state.current]: false,
-      [name]: true,
-    });
-  };
+    render() {
+        return (
+            <HeaderContainer
+                render={({ isSideNavExpanded, onClickSideNavExpand }) => (
+                    <Theme
+                        theme={this.state.current === 'home' ? 'g100' : 'g10'}>
+                        <Header aria-label="Header">
+                            <SkipToContent />
+                            <HeaderMenuButton
+                                onClick={onClickSideNavExpand}
+                                isActive={isSideNavExpanded}
+                                aria-label="Toggle Contents"
+                            />
+                            <HeaderName
+                                as={Link}
+                                to="/"
+                                prefix="Fun with data from"
+                                onClick={this.onClickTab.bind(this, {
+                                    name: 'home',
+                                })}>
+                                United Stand
+                            </HeaderName>
+                            <HeaderNavigation aria-label="Navigate out">
+                                <HeaderMenuItem
+                                    as={Link}
+                                    to="/manutd"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    Manchester United
+                                </HeaderMenuItem>
+                                <HeaderMenuItem
+                                    as={Link}
+                                    to="/united-stand"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    United Stand
+                                </HeaderMenuItem>
+                            </HeaderNavigation>
 
-  render() {
-    return (
-      <HeaderContainer
-        render={({ isSideNavExpanded, onClickSideNavExpand }) => (
-          <Theme theme={this.state.current === 'home' ? 'g100' : 'g10'}>
-            <Header aria-label="Header">
-              <SkipToContent />
-              <HeaderMenuButton
-                onClick={onClickSideNavExpand}
-                isActive={isSideNavExpanded}
-                aria-label="Toggle Contents"
-              />
-              <HeaderName as={Link} to="/" prefix="Fun with data from" onClick={this.onClickTab.bind(this, {name:'home'})}>
-                United Stand
-              </HeaderName>
-              <HeaderNavigation aria-label="Navigate out">
-                <HeaderMenuItem as={Link} to="/manutd" target="_blank" rel="noopener noreferrer">
-                  Manchester United
-                </HeaderMenuItem>
-                <HeaderMenuItem as={Link} to="/united-stand" target="_blank" rel="noopener noreferrer">
-                  United Stand
-                </HeaderMenuItem>
-              </HeaderNavigation>
-
-              <SideNav
-                className={this.state.current !== 'home' ? 'activate-red' : ''}
-                isChildOfHeader
-                expanded={isSideNavExpanded}
-                isPersistent={true}
-                aria-label="Side navigation">
-                <SideNavItems>
-                  <SideNavLink
-                    as={Link}
-                    to="/"
-                    children="Home"
-                    onClick={this.onClickTab.bind(this, {name:'home'})}
-                    isActive={this.state.home}
-                  />
-                  <SideNavLink
-                    as={Link}
-                    to="/about"
-                    children="About"
-                    onClick={this.onClickTab.bind(this, {name: 'about'})}
-                    isActive={this.state.about}
-                  />
-                  <SideNavLink
-                    as={Link}
-                    to="/"
-                    children="Get Involved"
-                    onClick={this.onClickTab.bind(this, {name: 'getInvolved'})}
-                    isActive={this.state.getInvolved}
-                  />
-                  <SideNavDivider />
-                </SideNavItems>
-              </SideNav>
-            </Header>
-        </Theme>
-        )}
-      />
-    );
-  }
+                            <SideNav
+                                className={
+                                    this.state.current !== 'home'
+                                        ? 'activate-red'
+                                        : ''
+                                }
+                                isChildOfHeader
+                                expanded={isSideNavExpanded}
+                                isPersistent={true}
+                                aria-label="Side navigation">
+                                <SideNavItems>
+                                    <SideNavLink
+                                        as={Link}
+                                        to="/"
+                                        children="Home"
+                                        onClick={this.onClickTab.bind(this, {
+                                            name: 'home',
+                                        })}
+                                        isActive={this.state.home}
+                                    />
+                                    <SideNavLink
+                                        as={Link}
+                                        to="/about"
+                                        children="About"
+                                        onClick={this.onClickTab.bind(this, {
+                                            name: 'about',
+                                        })}
+                                        isActive={this.state.about}
+                                    />
+                                    <SideNavLink
+                                        as={Link}
+                                        to="/"
+                                        children="Get Involved"
+                                        onClick={this.onClickTab.bind(this, {
+                                            name: 'getInvolved',
+                                        })}
+                                        isActive={this.state.getInvolved}
+                                    />
+                                    <SideNavDivider />
+                                </SideNavItems>
+                            </SideNav>
+                        </Header>
+                    </Theme>
+                )}
+            />
+        );
+    }
 }
 
 export default PageHeader;
