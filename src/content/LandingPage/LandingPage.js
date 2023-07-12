@@ -1,5 +1,6 @@
 import React from 'react';
-import {} from 'carbon-components-react';
+import {generateImageUrl} from '../../components/Info';
+import {Grid, Column, Button} from '@carbon/react';
 
 class LandingPage extends React.Component {
   constructor(props) {
@@ -10,21 +11,39 @@ class LandingPage extends React.Component {
   render() {
     return (
       <div
-        className="bx--grid bx--grid--full-width container"
         style={{
           width: '100%',
           minHeight: '100vh',
-          backgroundImage: `url(${process.env.PUBLIC_URL}/images/dazzle-camo.png)`,
+          backgroundImage: generateImageUrl('dazzle-camo'),
           backgroundPosition: 'right',
-          backgroundRepeat: 'no-repeat',
+          backgroundRepeat: 'repeat-y',
           backgroundSize: 'cover',
         }}>
-        <div className="bx--col-lg-8">
-          <h1 className="title">
-            Some Fun with <span style={{ color: 'red' }}>United</span> Stand
-            Data
-          </h1>
-        </div>
+        <Grid>
+          <Column  sm={{
+    start: 1,
+    end: 4
+  }} md={{
+    start: 1,
+    end: 4
+  }} lg={{
+    start: 4,
+    end: 10
+  }}>
+          <div className="container">
+              <h1 className="title">
+            Fun with <span style={{ color: 'red' }}>United</span> Stand Data
+              </h1>
+            <Button
+              href="/about"
+              className="no-decoration-enforce lets-go"
+              size="lg"
+              kind="danger">
+              Let's go!
+            </Button>
+          </div>
+          </Column>
+        </Grid>
       </div>
     );
   }
