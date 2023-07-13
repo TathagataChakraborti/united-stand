@@ -6,7 +6,7 @@ import { Route, Switch } from 'react-router-dom';
 
 import PageHeader from './components/PageHeader';
 import LandingPage from './content/LandingPage';
-import AboutPage from './content/AboutPage';
+import { AboutPage, LegalPage } from './content/AboutPage';
 
 class App extends Component {
     render() {
@@ -18,6 +18,7 @@ class App extends Component {
                         <Route exact path="/" component={LandingPage} />
                         <Route exact path="/home" component={LandingPage} />
                         <Route exact path="/about" component={AboutPage} />
+                        <Route exact path="/legal" component={LegalPage} />
                         <Route
                             path="/manutd"
                             component={() => {

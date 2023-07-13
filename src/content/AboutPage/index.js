@@ -1,2 +1,4 @@
 import AboutPage from './AboutPage';
-export default AboutPage;
+import LegalPage from './LegalPage';
+
+export { AboutPage, LegalPage };

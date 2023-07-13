@@ -31,11 +31,11 @@ class LandingPage extends React.Component {
                         }}
                         lg={{
                             start: 4,
-                            end: 10,
+                            end: 12,
                         }}>
                         <div className="container">
                             <h1 className="title">
-                                Fun with{' '}
+                                Some fun with{' '}
                                 <span style={{ color: 'red' }}>United</span>{' '}
                                 Stand Data
                             </h1>

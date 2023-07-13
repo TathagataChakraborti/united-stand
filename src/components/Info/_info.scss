@@ -1,7 +1,18 @@
 .no-decoration-enforce {
+    font-size: inherit;
     text-decoration: none !important;
 }
 
 .no-decoration-enforce:hover {
+    font-size: inherit;
+    cursor: pointer;
     text-decoration: none !important;
+}
+
+.text-red {
+    color: red !important;
+}
+
+.border-red {
+    border-color: red !important;
 }

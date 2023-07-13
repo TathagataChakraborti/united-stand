@@ -26,7 +26,8 @@
     "string-similarity-js": "^2.1.4",
     "@carbon/charts-react": "^1.11.8",
     "@carbon/styles": "^1.33.1",
-    "d3": "^7.8.5"
+    "d3": "^7.8.5",
+    "react-github-btn": "1.2.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",

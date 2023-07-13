@@ -23,6 +23,6 @@ our favorite source of football statistics.
 
 ### Got suggestions?
 
-Suggestions, feedback and contriburions, including code contributions,
+Suggestions, feedback and contributions, including code contributions,
 are very welcome. Start by opening an
 issue [here](https://github.com/TathagataChakraborti/united-stand/issues).

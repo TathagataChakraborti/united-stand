@@ -1,5 +1,6 @@
+.red-background,
 .activate-red .cds--side-nav__items {
-    background-color: #fff8f8;
+    background-color: #ffeaea;
 }
 
 a.cds--side-nav__link[aria-current='page']::before,
@@ -40,4 +41,10 @@ a.cds--side-nav__link:focus,
 
 .cds--side-nav__items {
     padding-top: 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    font-size: smaller;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import GitHubButton from 'react-github-btn';
 import { Link } from 'react-router-dom';
 import {
     Theme,
@@ -108,15 +109,24 @@ class PageHeader extends React.Component {
                                     />
                                     <SideNavLink
                                         as={Link}
-                                        to="/"
-                                        children="Get Involved"
+                                        to="/legal"
+                                        children="Legal"
                                         onClick={this.onClickTab.bind(this, {
-                                            name: 'getInvolved',
+                                            name: 'legal',
                                         })}
-                                        isActive={this.state.getInvolved}
+                                        isActive={this.state.legal}
                                     />
                                     <SideNavDivider />
                                 </SideNavItems>
+                                <div className="footer">
+                                    <GitHubButton
+                                        href="https://github.com/TathagataChakraborti/survey-visualizer"
+                                        data-size="small"
+                                        data-show-count="true"
+                                        aria-label="Stars on GitHub">
+                                        Star
+                                    </GitHubButton>
+                                </div>
                             </SideNav>
                         </Header>
                     </Theme>
