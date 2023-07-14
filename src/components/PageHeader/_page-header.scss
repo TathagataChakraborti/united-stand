@@ -9,7 +9,6 @@ a.cds--side-nav__link--current::before {
 }
 
 a.cds--side-nav__link:focus,
-.cds--side-nav a.cds--header__menu-item:focus,
 .cds--side-nav__submenu:focus {
     outline: 2px solid red;
 }
@@ -39,12 +38,29 @@ a.cds--side-nav__link:focus,
     background-color: red;
 }
 
+.activate-red.cds--header {
+    background-color: #ffeaea;
+}
+
+.activate-red .cds--header__menu-item {
+    background-color: #ffeaea;
+}
+
+.activate-red .cds--header__menu-item:hover {
+    background-color: #ffcaca;
+}
+
+.activate-red .cds--header__menu-item:focus,
+.activate-red .cds--header__name:focus {
+    border: 2px solid red;
+}
+
 .cds--side-nav__items {
     padding-top: 0;
 }
 
 .footer {
-    position: fixed;
+    margin: 10px;
     bottom: 0;
     font-size: smaller;
 }

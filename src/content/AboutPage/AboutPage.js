@@ -1,4 +1,5 @@
 import React from 'react';
+import GitHubButton from 'react-github-btn';
 import { Grid, Column, Button, Link } from '@carbon/react';
 
 class AboutPage extends React.Component {
@@ -104,11 +105,20 @@ class AboutPage extends React.Component {
                                 visibility and attract more open source
                                 contributors. Suggestions, feedback and
                                 contributions, including code contributions, are
-                                very welcome. Your love keeps us going.{' '}
+                                very welcome. Your love keeps me going.{' '}
                                 <span role="img" aria-label="hugging face">
                                     &#129303;
                                 </span>
                             </p>
+                            <div style={{ paddingTop: '30px' }}>
+                                <GitHubButton
+                                    href="https://github.com/TathagataChakraborti/united-stand"
+                                    data-size="large"
+                                    data-show-count="true"
+                                    aria-label="Stars on GitHub">
+                                    Star
+                                </GitHubButton>
+                            </div>
                         </div>
                     </div>
                 </Column>

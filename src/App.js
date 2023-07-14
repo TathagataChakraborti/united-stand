@@ -7,6 +7,10 @@ import { Route, Switch } from 'react-router-dom';
 import PageHeader from './components/PageHeader';
 import LandingPage from './content/LandingPage';
 import { AboutPage, LegalPage } from './content/AboutPage';
+import MetaDataPage from './content/MetaDataPage';
+import TeamPage from './content/TeamPage';
+import DugoutPage from './content/DugoutPage';
+import Head2HeadPage from './content/Head2HeadPage';
 
 class App extends Component {
     render() {
@@ -20,19 +24,20 @@ class App extends Component {
                         <Route exact path="/about" component={AboutPage} />
                         <Route exact path="/legal" component={LegalPage} />
                         <Route
-                            path="/manutd"
-                            component={() => {
-                                window.location.href = 'https://www.manutd.com';
-                                return null;
-                            }}
+                            exact
+                            path="/metadata"
+                            component={MetaDataPage}
+                        />
+                        <Route exact path="/the-team" component={TeamPage} />
+                        <Route
+                            exact
+                            path="/the-dugout"
+                            component={DugoutPage}
                         />
                         <Route
-                            path="/united-stand"
-                            component={() => {
-                                window.location.href =
-                                    'https://www.theunitedstand.com';
-                                return null;
-                            }}
+                            exact
+                            path="/ratings-head2head"
+                            component={Head2HeadPage}
                         />
                     </Switch>
                 </Content>

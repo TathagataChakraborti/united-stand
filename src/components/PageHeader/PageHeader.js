@@ -1,6 +1,7 @@
 import React from 'react';
 import GitHubButton from 'react-github-btn';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import {
     Theme,
     Header,
@@ -14,6 +15,8 @@ import {
     SideNavItems,
     SideNavLink,
     SideNavDivider,
+    SideNavMenu,
+    SideNavMenuItem,
 } from '@carbon/react';
 
 class PageHeader extends React.Component {
@@ -45,7 +48,13 @@ class PageHeader extends React.Component {
                 render={({ isSideNavExpanded, onClickSideNavExpand }) => (
                     <Theme
                         theme={this.state.current === 'home' ? 'g100' : 'g10'}>
-                        <Header aria-label="Header">
+                        <Header
+                            aria-label="Header"
+                            className={
+                                this.state.current !== 'home'
+                                    ? 'activate-red'
+                                    : ''
+                            }>
                             <SkipToContent />
                             <HeaderMenuButton
                                 onClick={onClickSideNavExpand}
@@ -63,15 +72,13 @@ class PageHeader extends React.Component {
                             </HeaderName>
                             <HeaderNavigation aria-label="Navigate out">
                                 <HeaderMenuItem
-                                    as={Link}
-                                    to="/manutd"
+                                    href="https://www.manutd.com"
                                     target="_blank"
                                     rel="noopener noreferrer">
                                     Manchester United
                                 </HeaderMenuItem>
                                 <HeaderMenuItem
-                                    as={Link}
-                                    to="/united-stand"
+                                    href="https://theunitedstand.com"
                                     target="_blank"
                                     rel="noopener noreferrer">
                                     United Stand
@@ -84,7 +91,6 @@ class PageHeader extends React.Component {
                                         ? 'activate-red'
                                         : ''
                                 }
-                                isChildOfHeader
                                 expanded={isSideNavExpanded}
                                 isPersistent={true}
                                 aria-label="Side navigation">
@@ -117,16 +123,202 @@ class PageHeader extends React.Component {
                                         isActive={this.state.legal}
                                     />
                                     <SideNavDivider />
+
+                                    <SideNavMenu
+                                        title="MetaData"
+                                        defaultExpanded>
+                                        <HashLink
+                                            className="no-decoration-enforce"
+                                            to="/metadata#tus-by-the-numbers">
+                                            <SideNavMenuItem
+                                                onClick={this.onClickTab.bind(
+                                                    this,
+                                                    {
+                                                        name: 'metadata_1',
+                                                    }
+                                                )}
+                                                isActive={
+                                                    this.state.metadata_1
+                                                }>
+                                                TUS by the numbers
+                                            </SideNavMenuItem>
+                                        </HashLink>
+                                        <HashLink
+                                            className="no-decoration-enforce"
+                                            to="/metadata#the-myth-of-negativity">
+                                            <SideNavMenuItem
+                                                onClick={this.onClickTab.bind(
+                                                    this,
+                                                    {
+                                                        name: 'metadata_2',
+                                                    }
+                                                )}
+                                                isActive={
+                                                    this.state.metadata_2
+                                                }>
+                                                The Myth of Negativity
+                                            </SideNavMenuItem>
+                                        </HashLink>
+                                    </SideNavMenu>
+
+                                    <SideNavMenu
+                                        title="The Team"
+                                        defaultExpanded>
+                                        <HashLink
+                                            className="no-decoration-enforce"
+                                            to="/the-team#raw-player-ratings">
+                                            <SideNavMenuItem
+                                                onClick={this.onClickTab.bind(
+                                                    this,
+                                                    {
+                                                        name: 'the_team_1',
+                                                    }
+                                                )}
+                                                isActive={
+                                                    this.state.the_team_1
+                                                }>
+                                                Raw Player Ratings
+                                            </SideNavMenuItem>
+                                        </HashLink>
+                                        <HashLink
+                                            className="no-decoration-enforce"
+                                            to="/the-team#fan-favorites">
+                                            <SideNavMenuItem
+                                                onClick={this.onClickTab.bind(
+                                                    this,
+                                                    {
+                                                        name: 'the_team_2',
+                                                    }
+                                                )}
+                                                isActive={
+                                                    this.state.the_team_2
+                                                }>
+                                                Fan Favourites
+                                            </SideNavMenuItem>
+                                        </HashLink>
+                                        <HashLink
+                                            className="no-decoration-enforce"
+                                            to="/the-team#the-a-word">
+                                            <SideNavMenuItem
+                                                onClick={this.onClickTab.bind(
+                                                    this,
+                                                    {
+                                                        name: 'the_team_3',
+                                                    }
+                                                )}
+                                                isActive={
+                                                    this.state.the_team_3
+                                                }>
+                                                The A Word
+                                            </SideNavMenuItem>
+                                        </HashLink>
+                                    </SideNavMenu>
+
+                                    <SideNavMenu
+                                        title="The Dugout"
+                                        defaultExpanded>
+                                        <HashLink
+                                            className="no-decoration-enforce"
+                                            to="/the-dugout#raw-manager-ratings">
+                                            <SideNavMenuItem
+                                                onClick={this.onClickTab.bind(
+                                                    this,
+                                                    {
+                                                        name: 'the_dugout_1',
+                                                    }
+                                                )}
+                                                isActive={
+                                                    this.state.the_dugout_1
+                                                }>
+                                                Raw Manager Ratings
+                                            </SideNavMenuItem>
+                                        </HashLink>
+                                        <HashLink
+                                            className="no-decoration-enforce"
+                                            to="/the-dugout#contrasting-fortunes">
+                                            <SideNavMenuItem
+                                                onClick={this.onClickTab.bind(
+                                                    this,
+                                                    {
+                                                        name: 'the_dugout_2',
+                                                    }
+                                                )}
+                                                isActive={
+                                                    this.state.the_dugout_2
+                                                }>
+                                                Contrasting Fortunes
+                                            </SideNavMenuItem>
+                                        </HashLink>
+                                        <HashLink
+                                            className="no-decoration-enforce"
+                                            to="/the-dugout#dead-man-walking">
+                                            <SideNavMenuItem
+                                                onClick={this.onClickTab.bind(
+                                                    this,
+                                                    {
+                                                        name: 'the_dugout_3',
+                                                    }
+                                                )}
+                                                isActive={
+                                                    this.state.the_dugout_3
+                                                }>
+                                                Dead Man Walking
+                                            </SideNavMenuItem>
+                                        </HashLink>
+                                    </SideNavMenu>
+
+                                    <SideNavMenu
+                                        title="Ratings Head2Head"
+                                        defaultExpanded>
+                                        <HashLink
+                                            className="no-decoration-enforce"
+                                            to="/ratings-head2head#whoscored">
+                                            <SideNavMenuItem
+                                                onClick={this.onClickTab.bind(
+                                                    this,
+                                                    {
+                                                        name:
+                                                            'ratings_head2head_1',
+                                                    }
+                                                )}
+                                                isActive={
+                                                    this.state
+                                                        .ratings_head2head_1
+                                                }>
+                                                WhoScored
+                                            </SideNavMenuItem>
+                                        </HashLink>
+                                        <HashLink
+                                            className="no-decoration-enforce"
+                                            to="/ratings-head2head#the-media">
+                                            <SideNavMenuItem
+                                                onClick={this.onClickTab.bind(
+                                                    this,
+                                                    {
+                                                        name:
+                                                            'ratings_head2head_2',
+                                                    }
+                                                )}
+                                                isActive={
+                                                    this.state
+                                                        .ratings_head2head_2
+                                                }>
+                                                The Media
+                                            </SideNavMenuItem>
+                                        </HashLink>
+                                    </SideNavMenu>
                                 </SideNavItems>
-                                <div className="footer">
-                                    <GitHubButton
-                                        href="https://github.com/TathagataChakraborti/survey-visualizer"
-                                        data-size="small"
-                                        data-show-count="true"
-                                        aria-label="Stars on GitHub">
-                                        Star
-                                    </GitHubButton>
-                                </div>
+                                {!this.state.about && (
+                                    <div className="footer">
+                                        <GitHubButton
+                                            href="https://github.com/TathagataChakraborti/united-stand"
+                                            data-size="small"
+                                            data-show-count="true"
+                                            aria-label="Stars on GitHub">
+                                            Star
+                                        </GitHubButton>
+                                    </div>
+                                )}
                             </SideNav>
                         </Header>
                     </Theme>
