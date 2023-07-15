@@ -23,3 +23,18 @@ html {
 .blue-background {
     background-color: #e4f0ff;
 }
+
+.danger-x-tertiary {
+    color: red;
+    border-color: red;
+}
+
+.danger-x-tertiary:hover {
+    color: red;
+    background-color: #ffeaea;
+}
+
+.danger-x-tertiary:focus {
+    color: white;
+    background-color: red;
+}

@@ -8,7 +8,8 @@ a.cds--side-nav__link--current::before {
     background-color: red;
 }
 
-a.cds--side-nav__link:focus,
+.cds--side-nav__link:focus,
+.cds--side-nav__menu-item:focus,
 .cds--side-nav__submenu:focus {
     outline: 2px solid red;
 }

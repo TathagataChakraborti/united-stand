@@ -117,10 +117,17 @@ class AboutPage extends React.Component {
                             <br />
                             <br />
                             <Button
-                                href="/about"
-                                className="no-decoration-enforce text-red border-red"
+                                    href={`data:text/json;charset=utf-8,${encodeURIComponent(
+                                        JSON.stringify(
+                                            data,
+                                            0,
+                                            4
+                                        )
+                                    )}`}
+                                download={'the-united-stand-data.json'}
+                                className="no-decoration-enforce danger-x-tertiary"
                                 size="md"
-                                kind="tertiary">
+                                kind="ghost">
                                 Export Data
                             </Button>
                         </div>
