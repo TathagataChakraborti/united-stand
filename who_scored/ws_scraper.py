@@ -4,7 +4,7 @@ from who_scored.read_data_table import read_data_table
 from who_scored.schemas.fixture_schemas import Fixture, FixtureData
 from who_scored.schemas.match_schemas import MatchData, TableReadConfig
 from who_scored.schemas.schemas import Config, Season, ScraperConfig, Browser
-from typing import Optional
+from typing import Optional, Any
 
 import os
 import json
@@ -13,7 +13,16 @@ import random
 import yaml  # type: ignore
 
 
-assert os.getenv("browser") == Browser.CHROME.value, "Support for Chrome only."
+def read_yaml(path: str) -> Optional[Any]:
+    if not os.path.isfile(path):
+        return None
+
+    with open(path, "r") as stream:
+        try:
+            return yaml.safe_load(stream)
+        except yaml.YAMLError as exc:
+            print(exc)
+            return None
 
 
 def determine_bool_value_of_env(name: str) -> bool:
@@ -64,13 +73,7 @@ def scrape_fixture(config: Config) -> Optional[FixtureData]:
     fixture_file = path_to_fixture_file(config.season)
 
     if os.path.isfile(fixture_file):
-        with open(fixture_file, "r") as stream:
-            try:
-                return FixtureData.parse_obj(yaml.safe_load(stream))
-
-            except yaml.YAMLError as exc:
-                print(exc)
-                return None
+        return FixtureData.parse_obj(read_yaml(fixture_file))
 
     else:
         os.makedirs(os.path.dirname(fixture_file), exist_ok=True)

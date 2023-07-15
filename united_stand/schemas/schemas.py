@@ -29,7 +29,7 @@ class Rating(BaseModel):
 
 class PlayerRating(BaseModel):
     substitute: Optional[bool]
-    position: str
+    position: Optional[str]
     rating: Rating
 
 
@@ -45,7 +45,7 @@ class MoM(BaseModel):
 
 class MatchRating(BaseModel):
     match_id: int
-    meta_data: MetaData
-    man_of_the_match: MoM
-    manager_rating: ManagerRating
-    ratings: List[PlayerRating]
+    meta_data: Optional[MetaData]
+    man_of_the_match: Optional[MoM]
+    manager_rating: Optional[ManagerRating]
+    ratings: Optional[List[PlayerRating]]

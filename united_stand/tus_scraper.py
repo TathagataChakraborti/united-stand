@@ -4,13 +4,14 @@ from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from typing import List, Tuple, Optional
 
-from who_scored.schemas.schemas import Season, Browser, Config
+from who_scored.schemas.schemas import Season, Config
 from who_scored.schemas.fixture_schemas import FixtureData
 from who_scored.ws_scraper import (
     get_config,
     path_to_fixture_file,
     path_to_data,
     determine_bool_value_of_env,
+    read_yaml,
 )
 
 from united_stand.schemas.schemas import MatchRating, MetaData, MoM
@@ -29,9 +30,6 @@ import json
 import time
 import random
 import yaml  # type: ignore
-
-
-assert os.getenv("browser") == Browser.CHROME.value, "Support for Chrome only."
 
 
 def get_url_paths(season: Season) -> Tuple[str, str]:
@@ -81,23 +79,13 @@ def scrape_ratings(
     reverse: bool = False,
 ) -> None:
     _, path_to_cached_urls = get_url_paths(config.season)
-    with open(path_to_cached_urls, "r") as stream:
-        try:
-            cached_urls = yaml.safe_load(stream)
-        except Exception as e:
-            print(e)
+    cached_urls = read_yaml(path_to_cached_urls) or list()
 
-    cached_urls = cached_urls or list()
     fixture_file = path_to_fixture_file(config.season)
     fixture_data: Optional[FixtureData] = None
 
     if os.path.isfile(fixture_file):
-        with open(fixture_file, "r") as stream:
-            try:
-                fixture_data = FixtureData.parse_obj(yaml.safe_load(stream))
-
-            except yaml.YAMLError as exc:
-                raise exc
+        fixture_data = FixtureData.parse_obj(read_yaml(fixture_file))
 
     if reverse:
         list_of_urls.reverse()
@@ -170,14 +158,11 @@ if __name__ == "__main__":
     # ratings_urls = scrape_ratings_urls(read_config, tus_ratings_url)
     # scrape_ratings(ratings_urls)
 
-    with open(url_path, "r") as s:
-        try:
-            urls = yaml.safe_load(s)
-            scrape_ratings(
-                read_config,
-                urls,
-                bulk=determine_bool_value_of_env("read_in_bulk"),
-                reverse=determine_bool_value_of_env("read_in_reverse"),
-            )
-        except yaml.YAMLError as err:
-            print(err)
+    urls = read_yaml(url_path)
+    if urls and isinstance(urls, List):
+        scrape_ratings(
+            read_config,
+            urls,
+            bulk=determine_bool_value_of_env("read_in_bulk"),
+            reverse=determine_bool_value_of_env("read_in_reverse"),
+        )
