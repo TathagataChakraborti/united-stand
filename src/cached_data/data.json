@@ -42526,11 +42526,7 @@
                             "likes": 197,
                             "shares": 18
                         },
-                        "man_of_the_match": {
-                            "name": "HARRY MAGUIRE",
-                            "percentage": 92.0,
-                            "votes": 188800
-                        },
+                        "man_of_the_match": null,
                         "manager_rating": {
                             "rating": {
                                 "name": "ERIK TEN HAG",
