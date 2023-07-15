@@ -7,8 +7,7 @@ import {
     getAllFixtures,
 } from '../../components/Info';
 
-let data = require('../../cached_data/data.json');
-
+const data = require('../../cached_data/data.json');
 const allDates = data => {
     const all_votes = getAllFixtures(data);
     return all_votes
@@ -117,13 +116,9 @@ class AboutPage extends React.Component {
                             <br />
                             <br />
                             <Button
-                                    href={`data:text/json;charset=utf-8,${encodeURIComponent(
-                                        JSON.stringify(
-                                            data,
-                                            0,
-                                            4
-                                        )
-                                    )}`}
+                                href={`data:text/json;charset=utf-8,${encodeURIComponent(
+                                    JSON.stringify(data, 0, 4)
+                                )}`}
                                 download={'the-united-stand-data.json'}
                                 className="no-decoration-enforce danger-x-tertiary"
                                 size="md"

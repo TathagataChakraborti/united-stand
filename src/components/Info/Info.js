@@ -2,6 +2,11 @@ function generateImageUrl(imageUrl) {
     return `url(${process.env.PUBLIC_URL}/images/${imageUrl}.png)`;
 }
 
+function fixDate(date) {
+    date.setDate(date.getDate() + 1);
+    return date;
+}
+
 function getAllRatings(data) {
     return data.season_data
         .map(item => item.match_data.map(item => item.united_stand))
@@ -19,4 +24,10 @@ function tournamentNames(data) {
     return new Set(all_fixtures.map(item => item.tournament));
 }
 
-export { generateImageUrl, getAllRatings, getAllFixtures, tournamentNames };
+export {
+    generateImageUrl,
+    getAllRatings,
+    getAllFixtures,
+    tournamentNames,
+    fixDate,
+};

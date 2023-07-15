@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Column, ToastNotification } from '@carbon/react';
+import { Grid, Column, InlineNotification } from '@carbon/react';
 
 class Head2HeadPage extends React.Component {
     constructor(props) {
@@ -33,8 +33,7 @@ class Head2HeadPage extends React.Component {
                         <div className="section-start">
                             <h3 id="the-media">The Media</h3>
                             <hr className="red-line" />
-                            <ToastNotification
-                                caption="Stay tuned!"
+                            <InlineNotification
                                 lowContrast
                                 hideCloseButton
                                 subtitle={

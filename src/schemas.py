@@ -2,12 +2,13 @@ from pydantic import BaseModel
 from typing import List, Optional
 
 from who_scored.schemas.schemas import Season
-from who_scored.schemas.fixture_schemas import FixtureData
+from who_scored.schemas.fixture_schemas import FixtureData, Fixture
 from who_scored.schemas.match_schemas import MatchData as WhoScoredMatchData
 from united_stand.schemas.schemas import MatchRating, PlayerInfo
 
 
 class MatchData(BaseModel):
+    meta_data: Fixture
     united_stand: Optional[MatchRating]
     who_scored: Optional[WhoScoredMatchData]
 

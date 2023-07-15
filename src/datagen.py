@@ -40,7 +40,7 @@ def regenerate_data(path_to_all_data: str = ".") -> Data:
         season_data = SeasonData(season=season, fixture_data=fixture_data)
 
         for fixture in fixture_data.fixture_list:
-            match_data = MatchData()
+            match_data = MatchData(meta_data=fixture)
             match_id = fixture.match_id
 
             path_to_ws_data = path_to_data(

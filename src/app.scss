@@ -1,9 +1,12 @@
 @use '@carbon/react/scss/themes';
 @use '@carbon/react/scss/theme';
 @use '@carbon/react/scss/zone';
+@use '@carbon/styles';
 
 @use './components/Info/info';
 @use './components/PageHeader/page-header';
 
 @use './content/LandingPage/landing-page';
 @use './content/AboutPage/about-page';
+
+@use './content/MetaDataPage/meta-data-page';
