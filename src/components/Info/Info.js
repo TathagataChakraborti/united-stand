@@ -22,15 +22,11 @@ function fixDate(date_string) {
 }
 
 function getAllRatings(data) {
-    return data.season_data
-        .map(item => item.match_data.map(item => item.united_stand))
-        .reduce((tournaments, item) => tournaments.concat(item), []);
+    return data.season_data.map(item => item.match_data.map(item => item.united_stand)).reduce((tournaments, item) => tournaments.concat(item), []);
 }
 
 function getAllFixtures(data) {
-    return data.season_data
-        .map(item => item.fixture_data.fixture_list)
-        .reduce((bag, item) => bag.concat(item), []);
+    return data.season_data.map(item => item.fixture_data.fixture_list).reduce((bag, item) => bag.concat(item), []);
 }
 
 function tournamentNames(data) {
@@ -38,12 +34,4 @@ function tournamentNames(data) {
     return new Set(all_fixtures.map(item => item.tournament));
 }
 
-export {
-    generateImageUrl,
-    getAverage,
-    prettyScore,
-    fixDate,
-    getAllRatings,
-    getAllFixtures,
-    tournamentNames,
-};
+export { generateImageUrl, getAverage, prettyScore, fixDate, getAllRatings, getAllFixtures, tournamentNames };

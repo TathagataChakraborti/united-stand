@@ -25,9 +25,7 @@ class TeamPage extends React.Component {
                     }}>
                     <div className="container">
                         <div className="section-start">
-                            <h3 id="contrasting-fortunes">
-                                Raw Player Ratings
-                            </h3>
+                            <h3 id="contrasting-fortunes">Raw Player Ratings</h3>
                             <hr className="red-line" />
                             <p></p>
                         </div>

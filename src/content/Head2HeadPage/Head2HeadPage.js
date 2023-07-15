@@ -38,19 +38,13 @@ class Head2HeadPage extends React.Component {
                                 hideCloseButton
                                 subtitle={
                                     <div style={{ marginTop: '10px' }}>
-                                        We look forward to analyzing differences
-                                        between how the global TUS community
-                                        rates players versus the traditional
+                                        We look forward to analyzing differences between how the global TUS community rates players versus the traditional
                                         media, local or otherwise. Pogba{' '}
-                                        <span
-                                            role="img"
-                                            aria-label="hugging face">
+                                        <span role="img" aria-label="hugging face">
                                             &#128064;
                                         </span>{' '}
                                         Henderson{' '}
-                                        <span
-                                            role="img"
-                                            aria-label="hugging face">
+                                        <span role="img" aria-label="hugging face">
                                             &#128064;
                                         </span>{' '}
                                     </div>

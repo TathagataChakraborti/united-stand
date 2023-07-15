@@ -25,17 +25,13 @@ class DugoutPage extends React.Component {
                     }}>
                     <div className="container">
                         <div className="section-start">
-                            <h3 id="raw-manager-ratings">
-                                Raw Manager Ratings
-                            </h3>
+                            <h3 id="raw-manager-ratings">Raw Manager Ratings</h3>
                             <hr className="red-line" />
                             <p></p>
                         </div>
 
                         <div className="section-start">
-                            <h3 id="contrasting-fortunes">
-                                Contrasting Fortunes
-                            </h3>
+                            <h3 id="contrasting-fortunes">Contrasting Fortunes</h3>
                             <hr className="red-line" />
                             <p></p>
                         </div>

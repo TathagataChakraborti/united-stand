@@ -1,11 +1,6 @@
 import React from 'react';
 import { LineChart, SimpleBarChart } from '@carbon/charts-react';
-import {
-    tournamentNames,
-    fixDate,
-    getAverage,
-    prettyScore,
-} from '../../components/Info';
+import { tournamentNames, fixDate, getAverage, prettyScore } from '../../components/Info';
 import {
     Grid,
     Column,
@@ -100,9 +95,7 @@ class MetaDataPage extends React.Component {
     }
 
     inTournamentSelections(match_data) {
-        const current_selections = this.state.current_selections.map(
-            item => item.id
-        );
+        const current_selections = this.state.current_selections.map(item => item.id);
 
         return current_selections.indexOf(match_data.meta_data.tournament) > -1;
     }
@@ -111,25 +104,20 @@ class MetaDataPage extends React.Component {
         return data.season_data.map(season_data => {
             return {
                 ...season_data,
-                match_data: season_data.match_data.filter(match_data =>
-                    this.inTournamentSelections(match_data)
-                ),
+                match_data: season_data.match_data.filter(match_data => this.inTournamentSelections(match_data)),
             };
         });
     }
 
     getEngagementData({ engagementType }) {
         const data_valid_tournaments = this.filterDataByValidTournaments(data);
-        const data2023 = data_valid_tournaments.find(
-            item => item.season.end === 2023
-        );
+        const data2023 = data_valid_tournaments.find(item => item.season.end === 2023);
 
         const filter_by_engagement_type = data2023.match_data.map(item => {
             return {
                 group: engagementType,
                 date: fixDate(item.meta_data.date),
-                value:
-                    item.united_stand.meta_data[engagementType.toLowerCase()],
+                value: item.united_stand.meta_data[engagementType.toLowerCase()],
             };
         });
 
@@ -142,9 +130,7 @@ class MetaDataPage extends React.Component {
         const votes_data = data_valid_tournaments
             .map(item => item.match_data)
             .reduce((bag, item) => bag.concat(item), [])
-            .filter(
-                item => item.united_stand && item.united_stand.man_of_the_match
-            )
+            .filter(item => item.united_stand && item.united_stand.man_of_the_match)
             .map(item => {
                 const date = fixDate(item.meta_data.date);
                 const result = item.meta_data.result.split('.')[1];
@@ -167,11 +153,7 @@ class MetaDataPage extends React.Component {
         return categories.map(result => {
             return {
                 group: result,
-                value: getAverage(
-                    all_votes_data
-                        .filter(v => v.group === result)
-                        .map(v => v.value)
-                ),
+                value: getAverage(all_votes_data.filter(v => v.group === result).map(v => v.value)),
             };
         });
     }
@@ -207,9 +189,7 @@ class MetaDataPage extends React.Component {
                             <h3 id="tus-by-the-numbers">TUS by the Numbers</h3>
                             <hr className="red-line" />
                             <MultiSelect
-                                label={this.state.current_selections
-                                    .map(item => item.id)
-                                    .join(', ')}
+                                label={this.state.current_selections.map(item => item.id).join(', ')}
                                 id="tournament-multiselect"
                                 helperText="Select one or more tournaments"
                                 items={selection_items}
@@ -223,20 +203,13 @@ class MetaDataPage extends React.Component {
                                     marginTop: '20px',
                                     marginBottom: '20px',
                                 }}>
-                                Post-match TUS engagement peaked with the most
-                                memorable games of the season: win at home
-                                against Barcelona, and wins against Liverpol and
-                                Arsenal after a terrible start to the season.
-                                Explore the graphs below to find out more.
+                                Post-match TUS engagement peaked with the most memorable games of the season: win at home against Barcelona, and wins against
+                                Liverpol and Arsenal after a terrible start to the season. Explore the graphs below to find out more.
                             </p>
 
                             <Accordion align="start">
                                 {engagement_metrics.map((item, id) => (
-                                    <AccordionItem
-                                        className="flush-accordion"
-                                        key={id}
-                                        title={item}
-                                        open={id === 0}>
+                                    <AccordionItem className="flush-accordion" key={id} title={item} open={id === 0}>
                                         <br />
                                         <br />
                                         <LineChart
@@ -244,9 +217,7 @@ class MetaDataPage extends React.Component {
                                             data={this.getEngagementData({
                                                 engagementType: item,
                                             })}
-                                            options={getEngagementOptions(
-                                                item
-                                            )}></LineChart>
+                                            options={getEngagementOptions(item)}></LineChart>
                                         <br />
                                         <br />
                                     </AccordionItem>
@@ -255,66 +226,38 @@ class MetaDataPage extends React.Component {
                         </div>
 
                         <div className="section-start">
-                            <h3 id="the-myth-of-negativity">
-                                The Myth of Negativity
-                            </h3>
+                            <h3 id="the-myth-of-negativity">The Myth of Negativity</h3>
                             <hr className="red-line" />
                             <p>
-                                The traditional media has always accused
-                                football fan channels of thriving on
-                                "negativity". Ironically, this argument played
-                                out most famously and publicly in a conversation
-                                with{' '}
-                                <Link
-                                    className="no-decoration-enforce text-red"
-                                    href="https://www.youtube.com/watch?v=bp3pGkSvs1k"
-                                    target="_blank">
+                                The traditional media has always accused football fan channels of thriving on "negativity". Ironically, this argument played out
+                                most famously and publicly in a conversation with{' '}
+                                <Link className="no-decoration-enforce text-red" href="https://www.youtube.com/watch?v=bp3pGkSvs1k" target="_blank">
                                     Don Robbie of AFTV
                                 </Link>
-                                , and formerly failed football club chairman of
-                                Crystal Palace, Simon Jordan on the latter's
-                                programme on TalkSport, a radio station whose
-                                own sole business model is predicated on
-                                generating outrageous contents to drive
-                                engagement. Over time, the traditional media has
-                                give up on their smear campaign against fan
-                                channels and instead tried to include many of
-                                the aforeaccused content creators into their own
-                                programmes.
+                                , and formerly failed football club chairman of Crystal Palace, Simon Jordan on the latter's programme on TalkSport, a radio
+                                station whose own sole business model is predicated on generating outrageous contents to drive engagement. Over time, the
+                                traditional media has give up on their smear campaign against fan channels and instead tried to include many of the aforeaccused
+                                content creators into their own programmes.
                                 <br />
                                 <br />
-                                Be that as it may, fans of football and
-                                consumers of fan content always knew this
-                                narrative to be untrue. Fan engagement
-                                positively correlates with the team doing well,
-                                and vastly overshadows reach to rival fans when
-                                the team does poorly. Here below, we can observe
-                                this phenomenon in numbers.
+                                Be that as it may, fans of football and consumers of fan content always knew this narrative to be untrue. Fan engagement
+                                positively correlates with the team doing well, and vastly overshadows reach to rival fans when the team does poorly. Here
+                                below, we can observe this phenomenon in numbers.
                                 <br />
                                 <br />
-                                Note that, we chose the number of votes cast for
-                                the Man of the Match as the proxy to the number
-                                of votes reported below since this is recorded
-                                at the end of the live match review (unless
-                                scraped automatically after the fact from the
-                                page). Hover or click on the graph legends
-                                (W/D/L) below, and select one or more
-                                tournaments from the tournament selector above,
-                                to explore the data.
+                                Note that, we chose the number of votes cast for the Man of the Match as the proxy to the number of votes reported below since
+                                this is recorded at the end of the live match review (unless scraped automatically after the fact from the page). Hover or click
+                                on the graph legends (W/D/L) below, and select one or more tournaments from the tournament selector above, to explore the data.
                                 <br />
                                 <br />
-                                <SimpleBarChart
-                                    data={this.getVotesData()}
-                                    options={getVotesOptions()}></SimpleBarChart>
+                                <SimpleBarChart data={this.getVotesData()} options={getVotesOptions()}></SimpleBarChart>
                             </p>
 
                             <br />
                             <br />
                             <Grid>
                                 <Column sm={4} md={6} lg={8}>
-                                    <SimpleBarChart
-                                        data={this.getAggregateVotesData()}
-                                        options={getAggregateVotesOptions()}></SimpleBarChart>
+                                    <SimpleBarChart data={this.getAggregateVotesData()} options={getAggregateVotesOptions()}></SimpleBarChart>
 
                                     <br />
                                     <br />
@@ -325,12 +268,8 @@ class MetaDataPage extends React.Component {
                                         hideCloseButton
                                         subtitle={
                                             <div style={{ marginTop: '10px' }}>
-                                                We hope to add to this data with
-                                                further analysis of what factors
-                                                drive engagement and to what
-                                                degree (e.g. which tournament,
-                                                how many goals and when, and so
-                                                on).
+                                                We hope to add to this data with further analysis of what factors drive engagement and to what degree (e.g.
+                                                which tournament, how many goals and when, and so on).
                                             </div>
                                         }
                                         timeout={0}
@@ -345,24 +284,13 @@ class MetaDataPage extends React.Component {
                                         hideCloseButton
                                         subtitle={
                                             <div style={{ marginTop: '10px' }}>
-                                                Ideally, we would have liked to
-                                                draw these numbers with the
-                                                metrics of views, likes, and
-                                                shares (as seen above in the
-                                                first section) and not the
-                                                number of votes (cast for the
-                                                Man of the Match). However, the
-                                                TUS articles from previous
-                                                seasons no longer contain this
-                                                data.{' '}
-                                                <span
-                                                    role="img"
-                                                    aria-label="cry face">
+                                                Ideally, we would have liked to draw these numbers with the metrics of views, likes, and shares (as seen above
+                                                in the first section) and not the number of votes (cast for the Man of the Match). However, the TUS articles
+                                                from previous seasons no longer contain this data.{' '}
+                                                <span role="img" aria-label="cry face">
                                                     &#128557;
                                                 </span>{' '}
-                                                <span
-                                                    role="img"
-                                                    aria-label="cry face">
+                                                <span role="img" aria-label="cry face">
                                                     &#128557;
                                                 </span>
                                             </div>
@@ -374,57 +302,26 @@ class MetaDataPage extends React.Component {
                                 <Column sm={4} md={6} lg={8}>
                                     <StructuredListWrapper ariaLabel="Structured list">
                                         <StructuredListHead>
-                                            <StructuredListRow
-                                                head
-                                                tabIndex={0}>
-                                                <StructuredListCell head>
-                                                    Top 10 Results by Engagement
-                                                </StructuredListCell>
-                                                <StructuredListCell head>
-                                                    Tournament
-                                                </StructuredListCell>
-                                                <StructuredListCell head>
-                                                    Result
-                                                </StructuredListCell>
-                                                <StructuredListCell head>
-                                                    Votes
-                                                </StructuredListCell>
+                                            <StructuredListRow head tabIndex={0}>
+                                                <StructuredListCell head>Top 10 Results by Engagement</StructuredListCell>
+                                                <StructuredListCell head>Tournament</StructuredListCell>
+                                                <StructuredListCell head>Result</StructuredListCell>
+                                                <StructuredListCell head>Votes</StructuredListCell>
                                             </StructuredListRow>
                                         </StructuredListHead>
                                         <StructuredListBody>
-                                            {this.getTopVotesData().map(
-                                                item => (
-                                                    <StructuredListRow
-                                                        tabIndex={0}>
-                                                        <StructuredListCell>
-                                                            {prettyScore(
-                                                                item.meta_data
-                                                                    .score
-                                                            )}
-                                                            <br />
-                                                            <span className="feedback">
-                                                                {fixDate(
-                                                                    item
-                                                                        .meta_data
-                                                                        .date
-                                                                ).toDateString()}
-                                                            </span>
-                                                        </StructuredListCell>
-                                                        <StructuredListCell>
-                                                            {
-                                                                item.meta_data
-                                                                    .tournament
-                                                            }
-                                                        </StructuredListCell>
-                                                        <StructuredListCell>
-                                                            {item.group}
-                                                        </StructuredListCell>
-                                                        <StructuredListCell>
-                                                            {item.value}
-                                                        </StructuredListCell>
-                                                    </StructuredListRow>
-                                                )
-                                            )}
+                                            {this.getTopVotesData().map(item => (
+                                                <StructuredListRow tabIndex={0}>
+                                                    <StructuredListCell>
+                                                        {prettyScore(item.meta_data.score)}
+                                                        <br />
+                                                        <span className="feedback">{fixDate(item.meta_data.date).toDateString()}</span>
+                                                    </StructuredListCell>
+                                                    <StructuredListCell>{item.meta_data.tournament}</StructuredListCell>
+                                                    <StructuredListCell>{item.group}</StructuredListCell>
+                                                    <StructuredListCell>{item.value}</StructuredListCell>
+                                                </StructuredListRow>
+                                            ))}
                                         </StructuredListBody>
                                     </StructuredListWrapper>
                                 </Column>

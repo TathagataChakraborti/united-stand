@@ -1,11 +1,7 @@
 import React from 'react';
 import GitHubButton from 'react-github-btn';
 import { Grid, Column, Button, Link } from '@carbon/react';
-import {
-    tournamentNames,
-    getAllRatings,
-    getAllFixtures,
-} from '../../components/Info';
+import { tournamentNames, getAllRatings, getAllFixtures } from '../../components/Info';
 
 const data = require('../../cached_data/data.json');
 const allDates = data => {
@@ -52,43 +48,16 @@ class AboutPage extends React.Component {
                             <h3>About United Stand Data</h3>
                             <hr className="red-line" />
                             <p>
-                                This website hosts aggregated data on fan
-                                opinion (ratings) of the performances of
-                                football players and managers at Manchester
+                                This website hosts aggregated data on fan opinion (ratings) of the performances of football players and managers at Manchester
                                 United Football Club [
-                                <Link
-                                    className="text-red no-decoration-enforce"
-                                    href="https://www.manutd.com"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
+                                <Link className="text-red no-decoration-enforce" href="https://www.manutd.com" target="_blank" rel="noopener noreferrer">
                                     MUFC
                                 </Link>
-                                ]. The data contains over{' '}
-                                <span className="text-red">
-                                    {totalVotes(data)}
-                                </span>{' '}
-                                votes from{' '}
-                                <span className="text-red">
-                                    {' '}
-                                    {getAllFixtures(data).length}
-                                </span>{' '}
-                                competitive football matches across the{' '}
-                                <span className="text-red">
-                                    {' '}
-                                    {tournamentNames(data).size}
-                                </span>{' '}
-                                tournaments that Manchester United has
-                                participated in from{' '}
-                                <span className="text-red">
-                                    {allDates(data)[0].toDateString()}
-                                </span>{' '}
-                                to{' '}
-                                <span className="text-red">
-                                    {allDates(data)[
-                                        allDates(data).length - 1
-                                    ].toDateString()}
-                                </span>
-                                .
+                                ]. The data contains over <span className="text-red">{totalVotes(data)}</span> votes from{' '}
+                                <span className="text-red"> {getAllFixtures(data).length}</span> competitive football matches across the{' '}
+                                <span className="text-red"> {tournamentNames(data).size}</span> tournaments that Manchester United has participated in from{' '}
+                                <span className="text-red">{allDates(data)[0].toDateString()}</span> to{' '}
+                                <span className="text-red">{allDates(data)[allDates(data).length - 1].toDateString()}</span>.
                             </p>
                             <br />
                             <p>
@@ -100,15 +69,9 @@ class AboutPage extends React.Component {
                                     rel="noopener noreferrer">
                                     The United Stand
                                 </Link>
-                                , the biggest sports fan channel on the planet
-                                with over 1.68M followers on YouTube. The
-                                associated match data on in-game player
+                                , the biggest sports fan channel on the planet with over 1.68M followers on YouTube. The associated match data on in-game player
                                 performance is collected as is from{' '}
-                                <Link
-                                    className="text-red no-decoration-enforce"
-                                    href="https://www.whoscored.com"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
+                                <Link className="text-red no-decoration-enforce" href="https://www.whoscored.com" target="_blank" rel="noopener noreferrer">
                                     WhoScored
                                 </Link>
                                 , our favorite source of football statistics.
@@ -116,9 +79,7 @@ class AboutPage extends React.Component {
                             <br />
                             <br />
                             <Button
-                                href={`data:text/json;charset=utf-8,${encodeURIComponent(
-                                    JSON.stringify(data, 0, 4)
-                                )}`}
+                                href={`data:text/json;charset=utf-8,${encodeURIComponent(JSON.stringify(data, 0, 4))}`}
                                 download={'the-united-stand-data.json'}
                                 className="no-decoration-enforce danger-x-tertiary"
                                 size="md"
@@ -131,17 +92,11 @@ class AboutPage extends React.Component {
                             <h3>Supporting Us</h3>
                             <hr className="red-line" />
                             <p>
-                                If you would like to support this work, please
-                                give{' '}
-                                <Link
-                                    className="text-red no-decoration-enforce"
-                                    href="https://twitter.com/tchakra2"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
+                                If you would like to support this work, please give{' '}
+                                <Link className="text-red no-decoration-enforce" href="https://twitter.com/tchakra2" target="_blank" rel="noopener noreferrer">
                                     me
                                 </Link>{' '}
-                                a follow at on Twitter, or star the source code
-                                for this project on GitHub{' '}
+                                a follow at on Twitter, or star the source code for this project on GitHub{' '}
                                 <Link
                                     className="text-red no-decoration-enforce"
                                     href="https://github.com/TathagataChakraborti/united-stand"
@@ -149,11 +104,8 @@ class AboutPage extends React.Component {
                                     rel="noopener noreferrer">
                                     here
                                 </Link>
-                                . Starring the code repository helps it to gain
-                                visibility and attract more open source
-                                contributors. Suggestions, feedback and
-                                contributions, including code contributions, are
-                                very welcome. Your love keeps me going.{' '}
+                                . Starring the code repository helps it to gain visibility and attract more open source contributors. Suggestions, feedback and
+                                contributions, including code contributions, are very welcome. Your love keeps me going.{' '}
                                 <span role="img" aria-label="hugging face">
                                     &#129303;
                                 </span>

@@ -46,21 +46,10 @@ class PageHeader extends React.Component {
         return (
             <HeaderContainer
                 render={({ isSideNavExpanded, onClickSideNavExpand }) => (
-                    <Theme
-                        theme={this.state.current === 'home' ? 'g100' : 'g10'}>
-                        <Header
-                            aria-label="Header"
-                            className={
-                                this.state.current !== 'home'
-                                    ? 'activate-red'
-                                    : ''
-                            }>
+                    <Theme theme={this.state.current === 'home' ? 'g100' : 'g10'}>
+                        <Header aria-label="Header" className={this.state.current !== 'home' ? 'activate-red' : ''}>
                             <SkipToContent />
-                            <HeaderMenuButton
-                                onClick={onClickSideNavExpand}
-                                isActive={isSideNavExpanded}
-                                aria-label="Toggle Contents"
-                            />
+                            <HeaderMenuButton onClick={onClickSideNavExpand} isActive={isSideNavExpanded} aria-label="Toggle Contents" />
                             <HeaderName
                                 as={Link}
                                 to="/"
@@ -71,26 +60,16 @@ class PageHeader extends React.Component {
                                 United Stand
                             </HeaderName>
                             <HeaderNavigation aria-label="Navigate out">
-                                <HeaderMenuItem
-                                    href="https://www.manutd.com"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
+                                <HeaderMenuItem href="https://www.manutd.com" target="_blank" rel="noopener noreferrer">
                                     Manchester United
                                 </HeaderMenuItem>
-                                <HeaderMenuItem
-                                    href="https://theunitedstand.com"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
+                                <HeaderMenuItem href="https://theunitedstand.com" target="_blank" rel="noopener noreferrer">
                                     United Stand
                                 </HeaderMenuItem>
                             </HeaderNavigation>
 
                             <SideNav
-                                className={
-                                    this.state.current !== 'home'
-                                        ? 'activate-red'
-                                        : ''
-                                }
+                                className={this.state.current !== 'home' ? 'activate-red' : ''}
                                 expanded={isSideNavExpanded}
                                 isPersistent={true}
                                 aria-label="Side navigation">
@@ -124,185 +103,103 @@ class PageHeader extends React.Component {
                                     />
                                     <SideNavDivider />
 
-                                    <SideNavMenu
-                                        title="MetaData"
-                                        defaultExpanded>
-                                        <HashLink
-                                            className="no-decoration-enforce"
-                                            to="/metadata#tus-by-the-numbers">
+                                    <SideNavMenu title="MetaData" defaultExpanded>
+                                        <HashLink className="no-decoration-enforce" to="/metadata#tus-by-the-numbers">
                                             <SideNavMenuItem
-                                                onClick={this.onClickTab.bind(
-                                                    this,
-                                                    {
-                                                        name: 'metadata_1',
-                                                    }
-                                                )}
-                                                isActive={
-                                                    this.state.metadata_1
-                                                }>
+                                                onClick={this.onClickTab.bind(this, {
+                                                    name: 'metadata_1',
+                                                })}
+                                                isActive={this.state.metadata_1}>
                                                 TUS by the numbers
                                             </SideNavMenuItem>
                                         </HashLink>
-                                        <HashLink
-                                            className="no-decoration-enforce"
-                                            to="/metadata#the-myth-of-negativity">
+                                        <HashLink className="no-decoration-enforce" to="/metadata#the-myth-of-negativity">
                                             <SideNavMenuItem
-                                                onClick={this.onClickTab.bind(
-                                                    this,
-                                                    {
-                                                        name: 'metadata_2',
-                                                    }
-                                                )}
-                                                isActive={
-                                                    this.state.metadata_2
-                                                }>
+                                                onClick={this.onClickTab.bind(this, {
+                                                    name: 'metadata_2',
+                                                })}
+                                                isActive={this.state.metadata_2}>
                                                 The Myth of Negativity
                                             </SideNavMenuItem>
                                         </HashLink>
                                     </SideNavMenu>
 
-                                    <SideNavMenu
-                                        title="The Team"
-                                        defaultExpanded>
-                                        <HashLink
-                                            className="no-decoration-enforce"
-                                            to="/the-team#raw-player-ratings">
+                                    <SideNavMenu title="The Team" defaultExpanded>
+                                        <HashLink className="no-decoration-enforce" to="/the-team#raw-player-ratings">
                                             <SideNavMenuItem
-                                                onClick={this.onClickTab.bind(
-                                                    this,
-                                                    {
-                                                        name: 'the_team_1',
-                                                    }
-                                                )}
-                                                isActive={
-                                                    this.state.the_team_1
-                                                }>
+                                                onClick={this.onClickTab.bind(this, {
+                                                    name: 'the_team_1',
+                                                })}
+                                                isActive={this.state.the_team_1}>
                                                 Raw Player Ratings
                                             </SideNavMenuItem>
                                         </HashLink>
-                                        <HashLink
-                                            className="no-decoration-enforce"
-                                            to="/the-team#fan-favorites">
+                                        <HashLink className="no-decoration-enforce" to="/the-team#fan-favorites">
                                             <SideNavMenuItem
-                                                onClick={this.onClickTab.bind(
-                                                    this,
-                                                    {
-                                                        name: 'the_team_2',
-                                                    }
-                                                )}
-                                                isActive={
-                                                    this.state.the_team_2
-                                                }>
+                                                onClick={this.onClickTab.bind(this, {
+                                                    name: 'the_team_2',
+                                                })}
+                                                isActive={this.state.the_team_2}>
                                                 Fan Favourites
                                             </SideNavMenuItem>
                                         </HashLink>
-                                        <HashLink
-                                            className="no-decoration-enforce"
-                                            to="/the-team#the-a-word">
+                                        <HashLink className="no-decoration-enforce" to="/the-team#the-a-word">
                                             <SideNavMenuItem
-                                                onClick={this.onClickTab.bind(
-                                                    this,
-                                                    {
-                                                        name: 'the_team_3',
-                                                    }
-                                                )}
-                                                isActive={
-                                                    this.state.the_team_3
-                                                }>
+                                                onClick={this.onClickTab.bind(this, {
+                                                    name: 'the_team_3',
+                                                })}
+                                                isActive={this.state.the_team_3}>
                                                 The A Word
                                             </SideNavMenuItem>
                                         </HashLink>
                                     </SideNavMenu>
 
-                                    <SideNavMenu
-                                        title="The Dugout"
-                                        defaultExpanded>
-                                        <HashLink
-                                            className="no-decoration-enforce"
-                                            to="/the-dugout#raw-manager-ratings">
+                                    <SideNavMenu title="The Dugout" defaultExpanded>
+                                        <HashLink className="no-decoration-enforce" to="/the-dugout#raw-manager-ratings">
                                             <SideNavMenuItem
-                                                onClick={this.onClickTab.bind(
-                                                    this,
-                                                    {
-                                                        name: 'the_dugout_1',
-                                                    }
-                                                )}
-                                                isActive={
-                                                    this.state.the_dugout_1
-                                                }>
+                                                onClick={this.onClickTab.bind(this, {
+                                                    name: 'the_dugout_1',
+                                                })}
+                                                isActive={this.state.the_dugout_1}>
                                                 Raw Manager Ratings
                                             </SideNavMenuItem>
                                         </HashLink>
-                                        <HashLink
-                                            className="no-decoration-enforce"
-                                            to="/the-dugout#contrasting-fortunes">
+                                        <HashLink className="no-decoration-enforce" to="/the-dugout#contrasting-fortunes">
                                             <SideNavMenuItem
-                                                onClick={this.onClickTab.bind(
-                                                    this,
-                                                    {
-                                                        name: 'the_dugout_2',
-                                                    }
-                                                )}
-                                                isActive={
-                                                    this.state.the_dugout_2
-                                                }>
+                                                onClick={this.onClickTab.bind(this, {
+                                                    name: 'the_dugout_2',
+                                                })}
+                                                isActive={this.state.the_dugout_2}>
                                                 Contrasting Fortunes
                                             </SideNavMenuItem>
                                         </HashLink>
-                                        <HashLink
-                                            className="no-decoration-enforce"
-                                            to="/the-dugout#dead-man-walking">
+                                        <HashLink className="no-decoration-enforce" to="/the-dugout#dead-man-walking">
                                             <SideNavMenuItem
-                                                onClick={this.onClickTab.bind(
-                                                    this,
-                                                    {
-                                                        name: 'the_dugout_3',
-                                                    }
-                                                )}
-                                                isActive={
-                                                    this.state.the_dugout_3
-                                                }>
+                                                onClick={this.onClickTab.bind(this, {
+                                                    name: 'the_dugout_3',
+                                                })}
+                                                isActive={this.state.the_dugout_3}>
                                                 Dead Man Walking
                                             </SideNavMenuItem>
                                         </HashLink>
                                     </SideNavMenu>
 
-                                    <SideNavMenu
-                                        title="Ratings Head2Head"
-                                        defaultExpanded>
-                                        <HashLink
-                                            className="no-decoration-enforce"
-                                            to="/ratings-head2head#whoscored">
+                                    <SideNavMenu title="Ratings Head2Head" defaultExpanded>
+                                        <HashLink className="no-decoration-enforce" to="/ratings-head2head#whoscored">
                                             <SideNavMenuItem
-                                                onClick={this.onClickTab.bind(
-                                                    this,
-                                                    {
-                                                        name:
-                                                            'ratings_head2head_1',
-                                                    }
-                                                )}
-                                                isActive={
-                                                    this.state
-                                                        .ratings_head2head_1
-                                                }>
+                                                onClick={this.onClickTab.bind(this, {
+                                                    name: 'ratings_head2head_1',
+                                                })}
+                                                isActive={this.state.ratings_head2head_1}>
                                                 WhoScored
                                             </SideNavMenuItem>
                                         </HashLink>
-                                        <HashLink
-                                            className="no-decoration-enforce"
-                                            to="/ratings-head2head#the-media">
+                                        <HashLink className="no-decoration-enforce" to="/ratings-head2head#the-media">
                                             <SideNavMenuItem
-                                                onClick={this.onClickTab.bind(
-                                                    this,
-                                                    {
-                                                        name:
-                                                            'ratings_head2head_2',
-                                                    }
-                                                )}
-                                                isActive={
-                                                    this.state
-                                                        .ratings_head2head_2
-                                                }>
+                                                onClick={this.onClickTab.bind(this, {
+                                                    name: 'ratings_head2head_2',
+                                                })}
+                                                isActive={this.state.ratings_head2head_2}>
                                                 The Media
                                             </SideNavMenuItem>
                                         </HashLink>

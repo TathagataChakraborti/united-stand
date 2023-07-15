@@ -23,22 +23,10 @@ class App extends Component {
                         <Route exact path="/home" component={LandingPage} />
                         <Route exact path="/about" component={AboutPage} />
                         <Route exact path="/legal" component={LegalPage} />
-                        <Route
-                            exact
-                            path="/metadata"
-                            component={MetaDataPage}
-                        />
+                        <Route exact path="/metadata" component={MetaDataPage} />
                         <Route exact path="/the-team" component={TeamPage} />
-                        <Route
-                            exact
-                            path="/the-dugout"
-                            component={DugoutPage}
-                        />
-                        <Route
-                            exact
-                            path="/ratings-head2head"
-                            component={Head2HeadPage}
-                        />
+                        <Route exact path="/the-dugout" component={DugoutPage} />
+                        <Route exact path="/ratings-head2head" component={Head2HeadPage} />
                     </Switch>
                 </Content>
             </>
