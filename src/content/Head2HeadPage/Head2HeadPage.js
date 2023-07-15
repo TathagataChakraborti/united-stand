@@ -1,5 +1,8 @@
 import React from 'react';
+import { OUTLINE, transformRouteString } from '../../components/PageHeader/Outline';
 import { Grid, Column, InlineNotification } from '@carbon/react';
+
+const children = OUTLINE.find(item => item.name === 'Ratings Head2Head').children;
 
 class Head2HeadPage extends React.Component {
     constructor(props) {
@@ -25,13 +28,13 @@ class Head2HeadPage extends React.Component {
                     }}>
                     <div className="container">
                         <div className="section-start">
-                            <h3 id="whoscored">WhoScored</h3>
+                            <h3 id={transformRouteString(children[0])}>{children[0]}</h3>
                             <hr className="red-line" />
                             <p></p>
                         </div>
 
                         <div className="section-start">
-                            <h3 id="the-media">The Media</h3>
+                            <h3 id={transformRouteString(children[1])}>{children[1]}</h3>
                             <hr className="red-line" />
                             <InlineNotification
                                 lowContrast

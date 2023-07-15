@@ -1,5 +1,8 @@
 import React from 'react';
+import { OUTLINE, transformRouteString } from '../../components/PageHeader/Outline';
 import { Grid, Column } from '@carbon/react';
+
+const children = OUTLINE.find(item => item.name === 'The Dugout').children;
 
 class DugoutPage extends React.Component {
     constructor(props) {
@@ -25,18 +28,18 @@ class DugoutPage extends React.Component {
                     }}>
                     <div className="container">
                         <div className="section-start">
-                            <h3 id="raw-manager-ratings">Raw Manager Ratings</h3>
+                            <h3 id={transformRouteString(children[0])}>{children[0]}</h3>
                             <hr className="red-line" />
                             <p></p>
                         </div>
 
                         <div className="section-start">
-                            <h3 id="contrasting-fortunes">Contrasting Fortunes</h3>
+                            <h3 id={transformRouteString(children[1])}>{children[1]}</h3>
                             <hr className="red-line" />
                             <p></p>
                         </div>
                         <div className="section-start">
-                            <h3 id="dead-man-walking">Dead Man Walking</h3>
+                            <h3 id={transformRouteString(children[2])}>{children[2]}</h3>
                             <hr className="red-line" />
                             <p></p>
                         </div>

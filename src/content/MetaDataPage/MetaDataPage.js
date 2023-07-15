@@ -1,5 +1,6 @@
 import React from 'react';
 import { LineChart, SimpleBarChart } from '@carbon/charts-react';
+import { OUTLINE, transformRouteString } from '../../components/PageHeader/Outline';
 import { tournamentNames, fixDate, getAverage, prettyScore } from '../../components/Info';
 import {
     Grid,
@@ -19,6 +20,7 @@ import {
 import '@carbon/charts-react/styles.css';
 
 const data = require('../../cached_data/data.json');
+const children = OUTLINE.find(item => item.name === 'MetaData').children;
 const tournaments = Array.from(tournamentNames(data));
 const selection_items = tournaments.map(item => {
     return { id: item };
@@ -186,7 +188,7 @@ class MetaDataPage extends React.Component {
                     }}>
                     <div className="container">
                         <div className="section-start">
-                            <h3 id="tus-by-the-numbers">TUS by the Numbers</h3>
+                            <h3 id={transformRouteString(children[0])}>{children[0]}</h3>
                             <hr className="red-line" />
                             <MultiSelect
                                 label={this.state.current_selections.map(item => item.id).join(', ')}
@@ -226,7 +228,7 @@ class MetaDataPage extends React.Component {
                         </div>
 
                         <div className="section-start">
-                            <h3 id="the-myth-of-negativity">The Myth of Negativity</h3>
+                            <h3 id={transformRouteString(children[1])}>{children[1]}</h3>
                             <hr className="red-line" />
                             <p>
                                 The traditional media has always accused football fan channels of thriving on "negativity". Ironically, this argument played out
@@ -268,8 +270,9 @@ class MetaDataPage extends React.Component {
                                         hideCloseButton
                                         subtitle={
                                             <div style={{ marginTop: '10px' }}>
-                                                We hope to add to this data with further analysis of what factors drive engagement and to what degree (e.g.
-                                                which tournament, how many goals and when, and so on).
+                                                As you might have noticed, not all the entries here are intuitive as to why they ended up on top. We hope to add
+                                                to this data with further analysis of what factors drive engagement and to what degree (e.g. which tournament,
+                                                how many goals and when, and so on).
                                             </div>
                                         }
                                         timeout={0}
@@ -296,14 +299,27 @@ class MetaDataPage extends React.Component {
                                             </div>
                                         }
                                         timeout={0}
-                                        title="OLDER DATA WANTED"
+                                        title={
+                                            <>
+                                                OLDER DATA WANTED{' '}
+                                                <span role="img" aria-label="cry face">
+                                                    &#128680;
+                                                </span>{' '}
+                                                <span role="img" aria-label="cry face">
+                                                    &#128680;
+                                                </span>{' '}
+                                                <span role="img" aria-label="cry face">
+                                                    &#128680;
+                                                </span>
+                                            </>
+                                        }
                                     />
                                 </Column>
                                 <Column sm={4} md={6} lg={8}>
                                     <StructuredListWrapper ariaLabel="Structured list">
                                         <StructuredListHead>
                                             <StructuredListRow head tabIndex={0}>
-                                                <StructuredListCell head>Top 10 Results by Engagement</StructuredListCell>
+                                                <StructuredListCell head>Top 7 Results by Engagement</StructuredListCell>
                                                 <StructuredListCell head>Tournament</StructuredListCell>
                                                 <StructuredListCell head>Result</StructuredListCell>
                                                 <StructuredListCell head>Votes</StructuredListCell>

@@ -1,5 +1,8 @@
 import React from 'react';
+import { OUTLINE, transformRouteString } from '../../components/PageHeader/Outline';
 import { Grid, Column } from '@carbon/react';
+
+const children = OUTLINE.find(item => item.name === 'The Team').children;
 
 class TeamPage extends React.Component {
     constructor(props) {
@@ -25,19 +28,19 @@ class TeamPage extends React.Component {
                     }}>
                     <div className="container">
                         <div className="section-start">
-                            <h3 id="contrasting-fortunes">Raw Player Ratings</h3>
+                            <h3 id={transformRouteString(children[0])}>{children[0]}</h3>
                             <hr className="red-line" />
                             <p></p>
                         </div>
 
                         <div className="section-start">
-                            <h3 id="fan-favorites">Fan Favorites</h3>
+                            <h3 id={transformRouteString(children[1])}>{children[1]}</h3>
                             <hr className="red-line" />
                             <p></p>
                         </div>
 
                         <div className="section-start">
-                            <h3 id="the-a-word">The A Word</h3>
+                            <h3 id={transformRouteString(children[2])}>{children[2]}</h3>
                             <hr className="red-line" />
                             <p></p>
                         </div>
