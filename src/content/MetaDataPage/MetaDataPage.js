@@ -85,33 +85,28 @@ class MetaDataPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            current_selections: selection_items,
+            current_selections: tournaments,
         };
     }
 
-    onChange(selections) {
+    onChange = selections => {
         this.setState({
             ...this.state,
             current_selections: selections.selectedItems,
         });
-    }
+    };
 
-    inTournamentSelections(match_data) {
-        const current_selections = this.state.current_selections.map(item => item.id);
+    inTournamentSelections = match_data => this.state.current_selections.indexOf(match_data.meta_data.tournament) > -1;
 
-        return current_selections.indexOf(match_data.meta_data.tournament) > -1;
-    }
-
-    filterDataByValidTournaments() {
-        return data.season_data.map(season_data => {
+    filterDataByValidTournaments = e =>
+        data.season_data.map(season_data => {
             return {
                 ...season_data,
                 match_data: season_data.match_data.filter(match_data => this.inTournamentSelections(match_data)),
             };
         });
-    }
 
-    getEngagementData({ engagementType }) {
+    getEngagementData = engagementType => {
         const data_valid_tournaments = this.filterDataByValidTournaments(data);
         const data2023 = data_valid_tournaments.find(item => item.season.end === 2023);
 
@@ -124,11 +119,10 @@ class MetaDataPage extends React.Component {
         });
 
         return filter_by_engagement_type;
-    }
+    };
 
-    getVotesData() {
+    getVotesData = e => {
         const data_valid_tournaments = this.filterDataByValidTournaments(data);
-
         const votes_data = data_valid_tournaments
             .map(item => item.match_data)
             .reduce((bag, item) => bag.concat(item), [])
@@ -146,9 +140,9 @@ class MetaDataPage extends React.Component {
             });
 
         return votes_data;
-    }
+    };
 
-    getAggregateVotesData() {
+    getAggregateVotesData = e => {
         const all_votes_data = this.getVotesData();
         const categories = ['LOSS', 'DRAW', 'WIN'];
 
@@ -158,17 +152,16 @@ class MetaDataPage extends React.Component {
                 value: getAverage(all_votes_data.filter(v => v.group === result).map(v => v.value)),
             };
         });
-    }
+    };
 
-    getTopVotesData() {
+    getTopVotesData = e => {
         var all_votes_data = this.getVotesData();
-
         all_votes_data.sort(function(a, b) {
             return b.value - a.value;
         });
 
         return all_votes_data.slice(0, 7);
-    }
+    };
 
     render() {
         return (
@@ -191,12 +184,12 @@ class MetaDataPage extends React.Component {
                             <h3 id={transformRouteString(children[0])}>{children[0]}</h3>
                             <hr className="red-line" />
                             <MultiSelect
-                                label={this.state.current_selections.map(item => item.id).join(', ')}
+                                hideLabel
+                                label={this.state.current_selections.join(', ')}
                                 id="tournament-multiselect"
                                 helperText="Select one or more tournaments"
-                                items={selection_items}
-                                itemToString={item => item.id}
-                                initialSelectedItems={selection_items}
+                                items={tournaments}
+                                initialSelectedItems={tournaments}
                                 selectionFeedback="top-after-reopen"
                                 onChange={this.onChange.bind(this)}
                             />
@@ -214,12 +207,7 @@ class MetaDataPage extends React.Component {
                                     <AccordionItem className="flush-accordion" key={id} title={item} open={id === 0}>
                                         <br />
                                         <br />
-                                        <LineChart
-                                            key={item}
-                                            data={this.getEngagementData({
-                                                engagementType: item,
-                                            })}
-                                            options={getEngagementOptions(item)}></LineChart>
+                                        <LineChart key={item} data={this.getEngagementData(item)} options={getEngagementOptions(item)}></LineChart>
                                         <br />
                                         <br />
                                     </AccordionItem>
