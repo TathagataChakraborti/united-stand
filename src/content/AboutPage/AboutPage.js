@@ -1,6 +1,30 @@
 import React from 'react';
 import GitHubButton from 'react-github-btn';
 import { Grid, Column, Button, Link } from '@carbon/react';
+import {
+    tournamentNames,
+    getAllRatings,
+    getAllFixtures,
+} from '../../components/Info';
+
+let data = require('../../cached_data/data.json');
+
+const allDates = data => {
+    const all_votes = getAllFixtures(data);
+    return all_votes
+        .sort(function(a, b) {
+            return new Date(a.date) - new Date(b.date);
+        })
+        .map(item => new Date(item.date));
+};
+
+const totalVotes = data => {
+    const all_votes = getAllRatings(data);
+    return all_votes
+        .filter(item => item !== null)
+        .filter(item => item.man_of_the_match)
+        .reduce((total, item) => (total += item.man_of_the_match.votes), 0);
+};
 
 class AboutPage extends React.Component {
     constructor(props) {
@@ -22,7 +46,7 @@ class AboutPage extends React.Component {
                     }}
                     lg={{
                         start: 4,
-                        end: 15,
+                        end: 14,
                     }}>
                     <div className="container">
                         <div className="section-start">
@@ -40,10 +64,32 @@ class AboutPage extends React.Component {
                                     rel="noopener noreferrer">
                                     MUFC
                                 </Link>
-                                ]. The data contains over XXX votes from XXX
-                                competitive football matches across the XXX
+                                ]. The data contains over{' '}
+                                <span className="text-red">
+                                    {totalVotes(data)}
+                                </span>{' '}
+                                votes from{' '}
+                                <span className="text-red">
+                                    {' '}
+                                    {getAllFixtures(data).length}
+                                </span>{' '}
+                                competitive football matches across the{' '}
+                                <span className="text-red">
+                                    {' '}
+                                    {tournamentNames(data).size}
+                                </span>{' '}
                                 tournaments that Manchester United has
-                                participated in from XXX to XXX.
+                                participated in from{' '}
+                                <span className="text-red">
+                                    {allDates(data)[0].toDateString()}
+                                </span>{' '}
+                                to{' '}
+                                <span className="text-red">
+                                    {allDates(data)[
+                                        allDates(data).length - 1
+                                    ].toDateString()}
+                                </span>
+                                .
                             </p>
                             <br />
                             <p>
