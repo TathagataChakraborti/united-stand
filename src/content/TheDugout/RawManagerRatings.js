@@ -4,7 +4,7 @@ import { Grid, Column } from '@carbon/react';
 
 const children = OUTLINE.find(item => item.name === 'The Dugout').children;
 
-class DugoutPage extends React.Component {
+class RawManagerRatings extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -32,17 +32,6 @@ class DugoutPage extends React.Component {
                             <hr className="red-line" />
                             <p></p>
                         </div>
-
-                        <div className="section-start">
-                            <h3 id={transformRouteString(children[1])}>{children[1]}</h3>
-                            <hr className="red-line" />
-                            <p></p>
-                        </div>
-                        <div className="section-start">
-                            <h3 id={transformRouteString(children[2])}>{children[2]}</h3>
-                            <hr className="red-line" />
-                            <p></p>
-                        </div>
                     </div>
                 </Column>
             </Grid>
@@ -50,4 +39,4 @@ class DugoutPage extends React.Component {
     }
 }
 
-export default DugoutPage;
+export default RawManagerRatings;

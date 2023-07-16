@@ -4,7 +4,7 @@ import { Grid, Column, InlineNotification } from '@carbon/react';
 
 const children = OUTLINE.find(item => item.name === 'Ratings Head2Head').children;
 
-class Head2HeadPage extends React.Component {
+class WhoScored extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -30,26 +30,13 @@ class Head2HeadPage extends React.Component {
                         <div className="section-start">
                             <h3 id={transformRouteString(children[0])}>{children[0]}</h3>
                             <hr className="red-line" />
-                            <p></p>
-                        </div>
-
-                        <div className="section-start">
-                            <h3 id={transformRouteString(children[1])}>{children[1]}</h3>
-                            <hr className="red-line" />
                             <InlineNotification
                                 lowContrast
                                 hideCloseButton
                                 subtitle={
                                     <div style={{ marginTop: '10px' }}>
-                                        We look forward to analyzing differences between how the global TUS community rates players versus the traditional
-                                        media, local or otherwise. Pogba{' '}
-                                        <span role="img" aria-label="hugging face">
-                                            &#128064;
-                                        </span>{' '}
-                                        Henderson{' '}
-                                        <span role="img" aria-label="hugging face">
-                                            &#128064;
-                                        </span>{' '}
+                                        This section is currently under construction. Once finished, you will be able to compare and contrast TUS fan ratings
+                                        with objective player performances, uncover community biases and agendas, and discover key fan ratings indicators.
                                     </div>
                                 }
                                 timeout={0}
@@ -63,4 +50,4 @@ class Head2HeadPage extends React.Component {
     }
 }
 
-export default Head2HeadPage;
+export default WhoScored;

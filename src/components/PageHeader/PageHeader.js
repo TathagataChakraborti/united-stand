@@ -71,6 +71,7 @@ class PageHeader extends React.Component {
                                 <SideNavItems>
                                     {OUTLINE.filter(item => !item.children).map(item => (
                                         <SideNavLink
+                                            key={item.name}
                                             as={Link}
                                             to={'/' + item.name}
                                             children={item.name}
@@ -81,9 +82,9 @@ class PageHeader extends React.Component {
                                     <SideNavDivider />
 
                                     {OUTLINE.filter(item => item.children).map(item => (
-                                        <SideNavMenu title={item.name} defaultExpanded>
+                                        <SideNavMenu key={item.name} title={item.name} defaultExpanded>
                                             {item.children.map(child => (
-                                                <HashLink className="no-decoration-enforce" to={'/' + createRoute(item, child)}>
+                                                <HashLink key={child} className="no-decoration-enforce" to={'/' + createRoute(item, child, item.hashit)}>
                                                     <SideNavMenuItem
                                                         onClick={this.onClickTab.bind(this, createRoute(item, child))}
                                                         isActive={this.state[createRoute(item, child)]}>

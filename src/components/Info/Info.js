@@ -1,5 +1,16 @@
 const data = require('../../cached_data/data.json');
 
+function sortHelper({ data, key, reverse }) {
+    console.log(data, key, reverse);
+    return data.slice().sort(function(a, b) {
+        if (!reverse) {
+            return a[key] - b[key];
+        } else {
+            return b[key] - a[key];
+        }
+    });
+}
+
 function generateImageUrl(imageUrl) {
     return `url(${process.env.PUBLIC_URL}/images/${imageUrl}.png)`;
 }
@@ -44,4 +55,4 @@ function tournamentNames(data) {
     return new Set(all_fixtures.map(item => item.tournament));
 }
 
-export { data, generateImageUrl, getAverage, getStandardDeviation, prettyScore, fixDate, getAllRatings, getAllFixtures, tournamentNames };
+export { data, sortHelper, generateImageUrl, getAverage, getStandardDeviation, prettyScore, fixDate, getAllRatings, getAllFixtures, tournamentNames };

@@ -1,7 +1,7 @@
 import React from 'react';
 import { LineChart, SimpleBarChart } from '@carbon/charts-react';
 import { OUTLINE, transformRouteString } from '../../components/PageHeader/Outline';
-import { data, tournamentNames, fixDate, getAverage, prettyScore } from '../../components/Info';
+import { data, sortHelper, tournamentNames, fixDate, getAverage, prettyScore } from '../../components/Info';
 import {
     Grid,
     Column,
@@ -76,7 +76,7 @@ const getAggregateVotesOptions = e => {
     };
 };
 
-class MetaDataPage extends React.Component {
+class MetaData extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -151,10 +151,7 @@ class MetaDataPage extends React.Component {
 
     getTopVotesData = e => {
         var all_votes_data = this.getVotesData();
-        all_votes_data.sort(function(a, b) {
-            return b.value - a.value;
-        });
-
+        all_votes_data = sortHelper({ data: all_votes_data, key: 'value', reverse: true });
         return all_votes_data.slice(0, 7);
     };
 
@@ -333,4 +330,4 @@ class MetaDataPage extends React.Component {
     }
 }
 
-export default MetaDataPage;
+export default MetaData;

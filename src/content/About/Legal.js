@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Column, Tile, Link } from '@carbon/react';
 
-class LegalPage extends React.Component {
+class Legal extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -64,4 +64,4 @@ class LegalPage extends React.Component {
     }
 }
 
-export default LegalPage;
+export default Legal;

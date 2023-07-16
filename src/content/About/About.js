@@ -20,7 +20,7 @@ const totalVotes = data => {
         .reduce((total, item) => (total += item.man_of_the_match.votes), 0);
 };
 
-class AboutPage extends React.Component {
+class About extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -126,4 +126,4 @@ class AboutPage extends React.Component {
     }
 }
 
-export default AboutPage;
+export default About;

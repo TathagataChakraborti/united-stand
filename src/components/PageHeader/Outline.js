@@ -14,7 +14,8 @@ const OUTLINE = [
     },
     {
         name: 'MetaData',
-        children: ['TUS by the numbers', 'The Myth of Negativity'],
+        children: ['TUS by the Numbers', 'The Myth of Negativity'],
+        hashit: true,
     },
     {
         name: 'The Team',
@@ -42,8 +43,9 @@ function transformRouteString(string) {
     return string.toLowerCase().replaceAll(' ', '-');
 }
 
-function createRoute(item, child) {
-    return 'head#child'.replace('head', transformRouteString(item.name)).replace('child', transformRouteString(child));
+function createRoute(item, child, hashit) {
+    const connector_string = hashit ? '#' : '-';
+    return transformRouteString(item.name) + connector_string + transformRouteString(child);
 }
 
 export { OUTLINE, getHomeName, isHome, transformRouteString, createRoute };
