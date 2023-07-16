@@ -3,11 +3,12 @@ import { OUTLINE, transformRouteString } from '../../components/PageHeader/Outli
 import { data, fixDate, getAverage, getStandardDeviation } from '../../components/Info';
 import { SimpleBarChart, GroupedBarChart } from '@carbon/charts-react';
 import { Grid, Column, Toggle, NumberInput, FilterableMultiSelect, Link } from '@carbon/react';
+import { stringSimilarity } from "string-similarity-js";
 
 const children = OUTLINE.find(item => item.name === 'The Team').children;
 const player_names = data.player_info.map(item => item.name);
 
-const DEFAULTS = ['Bruno Fernandes', 'Marcus Rashford'];
+const DEFAULTS = [];
 const plotOptions = {
     axes: {
         bottom: {
@@ -22,17 +23,40 @@ const plotOptions = {
     height: '600px',
 };
 
+function getCanonicalPlayerName(name) {
+    var temp = player_names.map(item => {
+
+    var name_split = item.split(" ");
+    var new_name = name;
+
+    if (name_split.length === 1) {
+    new_name = name.split(" ")[0]
+    }
+
+    return{
+            name: item,
+            similarity: stringSimilarity(item, new_name, 1),
+        }
+    }).filter(item => item.similarity > 0.4)
+
+    temp.sort(function(a, b) {
+        return b.similarity - a.similarity;
+    });
+
+    return temp[0].name;
+}
+
 function getRatingObject(name, ratings) {
     if (!ratings) return null;
+    return ratings.find(item => name === getCanonicalPlayerName(item.rating.name));
+}
 
-    var rating_object = ratings.find(item => name.toLowerCase() === item.rating.name.toLowerCase());
-    if (!rating_object) rating_object = ratings.find(item => name.split(' ')[0].toLowerCase() === item.rating.name.split(' ')[0].toLowerCase());
-
-    return rating_object;
+function getAllMatchData(data) {
+    return data.season_data.reduce((bag, item) => bag.concat(item.match_data), []);
 }
 
 function getPlayerData(name) {
-    const all_season_data = data.season_data.reduce((bag, item) => bag.concat(item.match_data), []);
+    const all_season_data = getAllMatchData(data);
 
     all_season_data.sort(function(a, b) {
         return fixDate(a.meta_data.date) - fixDate(b.meta_data.date);
@@ -59,6 +83,7 @@ class TeamPage extends React.Component {
         this.state = {
             current_selections: DEFAULTS,
             include_subs: false,
+            normalize: false,
             min_apps: 3,
         };
     }
@@ -74,11 +99,43 @@ class TeamPage extends React.Component {
         return this.state.current_selections.map(name => getPlayerData(name)).reduce((bag, item) => bag.concat(item), []);
     };
 
+    getMoMData = e => {
+        const all_match_data = getAllMatchData(data);
+        const mapping = {};
+
+        all_match_data
+            .filter(item => item.united_stand && item.united_stand.man_of_the_match)
+            .forEach(item => {
+                const name = getCanonicalPlayerName(item.united_stand.man_of_the_match.name);
+
+                if (Object.keys(mapping).indexOf(name) > -1) {
+                    mapping[name] += 1;
+                } else {
+                    mapping[name] = 1;
+                }
+            });
+
+        return Object.keys(mapping).map(item => {
+            return {
+                group: item,
+                value: mapping[item],
+            };
+        });
+    };
+
     setIncludeSubs = e => {
         this.setState({
             ...this.state,
             current_selections: [],
             include_subs: !this.state.include_subs,
+        });
+    };
+
+    setNormalize = e => {
+        this.setState({
+            ...this.state,
+            current_selections: [],
+            normalize: !this.state.normalize,
         });
     };
 
@@ -191,7 +248,7 @@ class TeamPage extends React.Component {
                                     &#128583;
                                 </span>{' '}
                                 with comfortably the highest mean rating as well as a relatively high ranking on the low standard deviation front. Alexandro
-                                Garnacho also fares well along with Lisandro Martinez and David de Gea, while Marcus Rashford with the highest standard
+                                Garnacho also fares well along with Lisandro Martinez, Raphaël Varane, and David de Gea, while Marcus Rashford with the highest standard
                                 deviation remains a source of frustration among fans. Not to mention,{' '}
                                 <Link className="no-decoration-enforce" target="_blank" href="https://twitter.com/Ankaman616/status/1665015182035243009">
                                     good Fred bad Fred.
@@ -269,15 +326,68 @@ class TeamPage extends React.Component {
                             <hr className="red-line" />
                             <p>
                                 While raw ratings are a direct evaluation of player performances, the highest rated player does not always become the man of the
-                                match. Fans, and fan favorites, have their favorites. Hats off to Bruno Fernandes and David de Gea for keeping smiles on our
-                                faces through difficult times.
+                                match (MoM). Fans, and fan favorites, have their favorites. Hats off to Bruno Fernandes and David de Gea for keeping smiles on
+                                the faces of MUFC fans through difficult times.
                                 <br />
                                 <br />
                                 Note that while the rankings are relatively robust over multiple years and larger numbers, we might have off-by-few errors,
                                 especially due to the voting mechanism being compromised due to a few incursions from opposition fans and/or the Cristiano
                                 Ronaldo fan cavarly.{' '}
-                                <span role="img" aria-label="cry face">
+                                <span role="img" aria-label="unamused">
                                     &#128530;
+                                </span>
+                            </p>
+                            <br />
+                            <br />
+                            <Toggle
+                                aria-label="normalize"
+                                id="normalize"
+                                size="sm"
+                                labelText="Percentage MoM awards by number of matches played"
+                                labelA="Normalize OFF"
+                                labelB="Normalize ON"
+                                toggled={this.state.normalize}
+                                onClick={this.setNormalize.bind(this)}
+                            />
+                            <br />
+                            <br />
+                                        <Toggle
+                                            aria-label="toggle subs"
+                                            id="toggle_subs_again"
+                                            size="sm"
+                                            labelText=""
+                                            labelA="Subs EXCLUDED"
+                                            labelB="Subs INCLUDED"
+                                            toggled={this.state.include_subs}
+                                            onClick={this.setIncludeSubs.bind(this)}
+                                        />
+                            <br />
+                            <br />
+
+                            <SimpleBarChart
+                                data={this.getMoMData().sort(function(a, b) {
+                                    return a.value - b.value;
+                                })}
+                                options={{
+                                    title: 'Number of TUS Man of the Match Awards',
+                                    axes: {
+                                        left: {
+                                            mapsTo: 'group',
+                                            scaleType: 'labels',
+                                        },
+                                        bottom: {
+                                            mapsTo: 'value',
+                                        },
+                                    },
+                                    height: '1000px',
+                                }}
+                            />
+                            <br />
+                            <br />
+                            <p>
+                                David de Gea leaves a legend of MUFC and the TUS community.{' '}
+                                <span role="img" aria-label="heart">
+                                    &#10084;&#65039;
                                 </span>
                             </p>
                         </div>
