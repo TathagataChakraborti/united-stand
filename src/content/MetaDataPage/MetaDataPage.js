@@ -22,10 +22,6 @@ import '@carbon/charts-react/styles.css';
 const data = require('../../cached_data/data.json');
 const children = OUTLINE.find(item => item.name === 'MetaData').children;
 const tournaments = Array.from(tournamentNames(data));
-const selection_items = tournaments.map(item => {
-    return { id: item };
-});
-
 const engagement_metrics = ['Views', 'Likes', 'Shares'];
 const plotOptions = {
     axes: {
@@ -240,14 +236,14 @@ class MetaDataPage extends React.Component {
                                 on the graph legends (W/D/L) below, and select one or more tournaments from the tournament selector above, to explore the data.
                                 <br />
                                 <br />
-                                <SimpleBarChart data={this.getVotesData()} options={getVotesOptions()}></SimpleBarChart>
+                                <SimpleBarChart data={this.getVotesData()} options={getVotesOptions()} />
                             </p>
 
                             <br />
                             <br />
                             <Grid>
                                 <Column sm={4} md={6} lg={8}>
-                                    <SimpleBarChart data={this.getAggregateVotesData()} options={getAggregateVotesOptions()}></SimpleBarChart>
+                                    <SimpleBarChart data={this.getAggregateVotesData()} options={getAggregateVotesOptions()} />
 
                                     <br />
                                     <br />

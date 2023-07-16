@@ -8,7 +8,7 @@
   "scripts": {
     "clean": "yarn cache clean && yarn install",
     "format": "prettier --write \"**/*.{js,md,scss}\"",
-    "start": "react-scripts start",
+    "start": "GENERATE_SOURCEMAP=false react-scripts start",
     "build": "react-scripts build",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
