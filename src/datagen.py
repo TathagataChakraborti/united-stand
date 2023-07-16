@@ -1,4 +1,5 @@
 from who_scored.ws_scraper import path_to_fixture_file, path_to_data, read_yaml
+from united_stand.processors import refresh_player_infos
 from src.schemas import (
     Data,
     SeasonData,
@@ -10,7 +11,7 @@ from src.schemas import (
     FixtureData,
 )
 
-from typing import Dict, List
+from typing import Dict
 
 import glob
 import json
@@ -19,11 +20,10 @@ import json
 def regenerate_data(path_to_all_data: str = ".") -> Data:
     data = Data()
     list_of_player_info = read_yaml(f"{path_to_all_data}/player_info.yaml")
-
-    if list_of_player_info and isinstance(list_of_player_info, List):
-        data.player_info = [
-            PlayerInfo.parse_obj(item) for item in list_of_player_info
-        ]
+    list_of_player_info = list_of_player_info or []
+    list_of_player_info = [
+        PlayerInfo.parse_obj(item) for item in list_of_player_info
+    ]
 
     for path in glob.glob(f"{path_to_all_data}/who_scored/*/"):
         season_string = path.split("/")[-2]
@@ -54,6 +54,13 @@ def regenerate_data(path_to_all_data: str = ".") -> Data:
             if temp and isinstance(temp, Dict):
                 match_data.who_scored = WhoScoredMatchData.parse_obj(temp)
 
+                if match_data.who_scored:
+                    list_of_player_info = refresh_player_infos(
+                        match_data.who_scored.Summary,
+                        list_of_player_info,
+                        season,
+                    )
+
             path_to_tus_data = path_to_data(
                 mode="united_stand",
                 season=season,
@@ -69,6 +76,7 @@ def regenerate_data(path_to_all_data: str = ".") -> Data:
 
         data.season_data.append(season_data)
 
+    data.player_info = list_of_player_info
     return data
 
 

@@ -7,7 +7,7 @@ from who_scored.schemas.schemas import Season
 class PlayerSeasonInfo(BaseModel):
     season: Season
     positions: List[str]
-    age: int
+    age: List[int]
 
 
 class PlayerInfo(BaseModel):

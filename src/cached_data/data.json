@@ -73741,7 +73741,9 @@
                         "M(L)",
                         "FW"
                     ],
-                    "age": 37
+                    "age": [
+                        37
+                    ]
                 },
                 {
                     "season": {
@@ -73749,10 +73751,13 @@
                         "end": 2023
                     },
                     "positions": [
+                        "Sub",
                         "M(L)",
                         "FW"
                     ],
-                    "age": 38
+                    "age": [
+                        38
+                    ]
                 }
             ]
         },
@@ -73767,7 +73772,9 @@
                     "positions": [
                         "M(CLR)"
                     ],
-                    "age": 27
+                    "age": [
+                        27
+                    ]
                 },
                 {
                     "season": {
@@ -73775,9 +73782,37 @@
                         "end": 2023
                     },
                     "positions": [
-                        "M(CLR)"
+                        "M(CLR)",
+                        "AMC",
+                        "MC"
                     ],
-                    "age": 28
+                    "age": [
+                        28
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "AMC"
+                    ],
+                    "age": [
+                        28
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "AMC"
+                    ],
+                    "age": [
+                        28
+                    ]
                 }
             ]
         },
@@ -73792,7 +73827,33 @@
                     "positions": [
                         "M(CL)"
                     ],
-                    "age": 29
+                    "age": [
+                        29
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "DMC"
+                    ],
+                    "age": [
+                        30
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "DMC"
+                    ],
+                    "age": [
+                        30
+                    ]
                 }
             ]
         },
@@ -73808,7 +73869,34 @@
                         "AM(R)",
                         "FW"
                     ],
-                    "age": 20
+                    "age": [
+                        20
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "AMR"
+                    ],
+                    "age": [
+                        21
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub",
+                        "AMR"
+                    ],
+                    "age": [
+                        21
+                    ]
                 }
             ]
         },
@@ -73824,7 +73912,9 @@
                         "D(R)",
                         "M(R)"
                     ],
-                    "age": 24
+                    "age": [
+                        24
+                    ]
                 },
                 {
                     "season": {
@@ -73832,10 +73922,38 @@
                         "end": 2023
                     },
                     "positions": [
+                        "Sub",
                         "D(R)",
                         "M(R)"
                     ],
-                    "age": 25
+                    "age": [
+                        25
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "DR"
+                    ],
+                    "age": [
+                        25
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub",
+                        "DR"
+                    ],
+                    "age": [
+                        25
+                    ]
                 }
             ]
         },
@@ -73851,7 +73969,9 @@
                         "D(C)",
                         "DMC"
                     ],
-                    "age": 25
+                    "age": [
+                        25
+                    ]
                 },
                 {
                     "season": {
@@ -73860,9 +73980,38 @@
                     },
                     "positions": [
                         "D(C)",
+                        "Sub",
+                        "MC",
                         "DMC"
                     ],
-                    "age": 26
+                    "age": [
+                        26
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        26
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub",
+                        "DMC"
+                    ],
+                    "age": [
+                        26
+                    ]
                 }
             ]
         },
@@ -73878,7 +74027,22 @@
                         "D(L)",
                         "M(L)"
                     ],
-                    "age": 29
+                    "age": [
+                        29
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub",
+                        "DL"
+                    ],
+                    "age": [
+                        30
+                    ]
                 }
             ]
         },
@@ -73893,7 +74057,9 @@
                     "positions": [
                         "M(C)"
                     ],
-                    "age": 29
+                    "age": [
+                        29
+                    ]
                 },
                 {
                     "season": {
@@ -73901,9 +74067,37 @@
                         "end": 2023
                     },
                     "positions": [
-                        "M(C)"
+                        "M(C)",
+                        "MC",
+                        "DMC"
                     ],
-                    "age": 30
+                    "age": [
+                        30
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        30
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        30
+                    ]
                 }
             ]
         },
@@ -73919,7 +74113,9 @@
                         "D(LR)",
                         "M(R)"
                     ],
-                    "age": 23
+                    "age": [
+                        23
+                    ]
                 },
                 {
                     "season": {
@@ -73928,9 +74124,12 @@
                     },
                     "positions": [
                         "D(LR)",
-                        "M(R)"
+                        "M(R)",
+                        "DR"
                     ],
-                    "age": 24
+                    "age": [
+                        24
+                    ]
                 }
             ]
         },
@@ -73945,7 +74144,9 @@
                     "positions": [
                         "D(C)"
                     ],
-                    "age": 29
+                    "age": [
+                        29
+                    ]
                 },
                 {
                     "season": {
@@ -73953,9 +74154,12 @@
                         "end": 2023
                     },
                     "positions": [
-                        "D(C)"
+                        "D(C)",
+                        "Sub"
                     ],
-                    "age": 30
+                    "age": [
+                        30
+                    ]
                 }
             ]
         },
@@ -73970,7 +74174,9 @@
                     "positions": [
                         "AM(CLR)"
                     ],
-                    "age": 22
+                    "age": [
+                        22
+                    ]
                 },
                 {
                     "season": {
@@ -73978,9 +74184,13 @@
                         "end": 2023
                     },
                     "positions": [
+                        "AMR",
+                        "FWR",
                         "AM(CLR)"
                     ],
-                    "age": 23
+                    "age": [
+                        23
+                    ]
                 }
             ]
         },
@@ -73995,7 +74205,9 @@
                     "positions": [
                         "D(C)"
                     ],
-                    "age": 29
+                    "age": [
+                        29
+                    ]
                 },
                 {
                     "season": {
@@ -74003,9 +74215,36 @@
                         "end": 2023
                     },
                     "positions": [
-                        "D(C)"
+                        "D(C)",
+                        "DC"
                     ],
-                    "age": 30
+                    "age": [
+                        30
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "DC"
+                    ],
+                    "age": [
+                        30
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        30
+                    ]
                 }
             ]
         },
@@ -74020,7 +74259,9 @@
                     "positions": [
                         "GK"
                     ],
-                    "age": 31
+                    "age": [
+                        31
+                    ]
                 },
                 {
                     "season": {
@@ -74030,7 +74271,33 @@
                     "positions": [
                         "GK"
                     ],
-                    "age": 32
+                    "age": [
+                        32
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "GK"
+                    ],
+                    "age": [
+                        32
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "GK"
+                    ],
+                    "age": [
+                        32
+                    ]
                 }
             ]
         },
@@ -74046,7 +74313,9 @@
                         "D(CL)",
                         "M(L)"
                     ],
-                    "age": 26
+                    "age": [
+                        26
+                    ]
                 },
                 {
                     "season": {
@@ -74055,9 +74324,24 @@
                     },
                     "positions": [
                         "D(CL)",
+                        "DL",
                         "M(L)"
                     ],
-                    "age": 27
+                    "age": [
+                        27
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "DL"
+                    ],
+                    "age": [
+                        27
+                    ]
                 }
             ]
         },
@@ -74072,7 +74356,34 @@
                     "positions": [
                         "DMC"
                     ],
-                    "age": 33
+                    "age": [
+                        33
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "DMC"
+                    ],
+                    "age": [
+                        34
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub",
+                        "DMC"
+                    ],
+                    "age": [
+                        34
+                    ]
                 }
             ]
         },
@@ -74087,7 +74398,9 @@
                     "positions": [
                         "AM(LR)"
                     ],
-                    "age": 20
+                    "age": [
+                        20
+                    ]
                 },
                 {
                     "season": {
@@ -74095,9 +74408,24 @@
                         "end": 2023
                     },
                     "positions": [
+                        "Sub",
                         "AM(LR)"
                     ],
-                    "age": 21
+                    "age": [
+                        21
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "AMR"
+                    ],
+                    "age": [
+                        21
+                    ]
                 }
             ]
         },
@@ -74113,7 +74441,9 @@
                         "AM(LR)",
                         "FW"
                     ],
-                    "age": 24
+                    "age": [
+                        24
+                    ]
                 }
             ]
         },
@@ -74128,7 +74458,9 @@
                     "positions": [
                         "D(CR)"
                     ],
-                    "age": 27
+                    "age": [
+                        27
+                    ]
                 },
                 {
                     "season": {
@@ -74138,7 +74470,34 @@
                     "positions": [
                         "D(CR)"
                     ],
-                    "age": 28
+                    "age": [
+                        28
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "DC"
+                    ],
+                    "age": [
+                        28
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub",
+                        "DC"
+                    ],
+                    "age": [
+                        28
+                    ]
                 }
             ]
         },
@@ -74154,7 +74513,9 @@
                         "D(CR)",
                         "DMC"
                     ],
-                    "age": 30
+                    "age": [
+                        30
+                    ]
                 }
             ]
         },
@@ -74170,7 +74531,21 @@
                         "AM(LR)",
                         "FW"
                     ],
-                    "age": 35
+                    "age": [
+                        35
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "FW"
+                    ],
+                    "age": [
+                        36
+                    ]
                 }
             ]
         },
@@ -74186,7 +74561,9 @@
                         "AM(CLR)",
                         "FW"
                     ],
-                    "age": 24
+                    "age": [
+                        24
+                    ]
                 },
                 {
                     "season": {
@@ -74194,10 +74571,39 @@
                         "end": 2023
                     },
                     "positions": [
+                        "FW",
+                        "AML",
                         "AM(CLR)",
-                        "FW"
+                        "FWL"
                     ],
-                    "age": 25
+                    "age": [
+                        25
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "AML"
+                    ],
+                    "age": [
+                        25
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub",
+                        "AML"
+                    ],
+                    "age": [
+                        25
+                    ]
                 }
             ]
         },
@@ -74212,7 +74618,34 @@
                     "positions": [
                         "AM(CLR)"
                     ],
-                    "age": 34
+                    "age": [
+                        34
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        35
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub",
+                        "AMC"
+                    ],
+                    "age": [
+                        35
+                    ]
                 }
             ]
         },
@@ -74228,7 +74661,9 @@
                         "AM(LR)",
                         "FW"
                     ],
-                    "age": 26
+                    "age": [
+                        26
+                    ]
                 },
                 {
                     "season": {
@@ -74239,7 +74674,21 @@
                         "AM(LR)",
                         "FW"
                     ],
-                    "age": 27
+                    "age": [
+                        27
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "FW"
+                    ],
+                    "age": [
+                        27
+                    ]
                 }
             ]
         },
@@ -74254,7 +74703,9 @@
                     "positions": [
                         "M(C)"
                     ],
-                    "age": 25
+                    "age": [
+                        25
+                    ]
                 },
                 {
                     "season": {
@@ -74262,9 +74713,25 @@
                         "end": 2023
                     },
                     "positions": [
+                        "Sub",
                         "M(C)"
                     ],
-                    "age": 26
+                    "age": [
+                        26
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub",
+                        "DMC"
+                    ],
+                    "age": [
+                        26
+                    ]
                 }
             ]
         },
@@ -74279,7 +74746,33 @@
                     "positions": [
                         "D(CR)"
                     ],
-                    "age": 28
+                    "age": [
+                        28
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        29
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "DC"
+                    ],
+                    "age": [
+                        29
+                    ]
                 }
             ]
         },
@@ -74295,7 +74788,21 @@
                         "AM(CLR)",
                         "FW"
                     ],
-                    "age": 29
+                    "age": [
+                        29
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        30
+                    ]
                 }
             ]
         },
@@ -74310,7 +74817,21 @@
                     "positions": [
                         "Forward"
                     ],
-                    "age": 18
+                    "age": [
+                        18
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        19
+                    ]
                 }
             ]
         },
@@ -74325,7 +74846,9 @@
                     "positions": [
                         "Midfielder"
                     ],
-                    "age": 17
+                    "age": [
+                        17
+                    ]
                 },
                 {
                     "season": {
@@ -74333,9 +74856,12 @@
                         "end": 2023
                     },
                     "positions": [
+                        "Sub",
                         "AM(L)"
                     ],
-                    "age": 18
+                    "age": [
+                        18
+                    ]
                 }
             ]
         },
@@ -74350,7 +74876,21 @@
                     "positions": [
                         "Midfielder"
                     ],
-                    "age": 19
+                    "age": [
+                        19
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        20
+                    ]
                 }
             ]
         },
@@ -74365,7 +74905,9 @@
                     "positions": [
                         "DMC"
                     ],
-                    "age": 31
+                    "age": [
+                        31
+                    ]
                 }
             ]
         },
@@ -74379,9 +74921,12 @@
                     },
                     "positions": [
                         "D(CL)",
+                        "DC",
                         "DMC"
                     ],
-                    "age": 25
+                    "age": [
+                        25
+                    ]
                 }
             ]
         },
@@ -74396,7 +74941,9 @@
                     "positions": [
                         "AM(R)"
                     ],
-                    "age": 23
+                    "age": [
+                        23
+                    ]
                 }
             ]
         },
@@ -74410,9 +74957,12 @@
                     },
                     "positions": [
                         "M(CLR)",
-                        "FW"
+                        "FW",
+                        "DMC"
                     ],
-                    "age": 31
+                    "age": [
+                        31
+                    ]
                 }
             ]
         },
@@ -74428,7 +74978,9 @@
                         "M(CLR)",
                         "FW"
                     ],
-                    "age": 29
+                    "age": [
+                        29
+                    ]
                 }
             ]
         },
@@ -74441,9 +74993,12 @@
                         "end": 2023
                     },
                     "positions": [
+                        "Sub",
                         "D(L)"
                     ],
-                    "age": 23
+                    "age": [
+                        23
+                    ]
                 }
             ]
         },
@@ -74458,7 +75013,9 @@
                     "positions": [
                         "FW"
                     ],
-                    "age": 30
+                    "age": [
+                        30
+                    ]
                 }
             ]
         },
@@ -74473,7 +75030,9 @@
                     "positions": [
                         "AM(R)"
                     ],
-                    "age": 21
+                    "age": [
+                        21
+                    ]
                 }
             ]
         },
@@ -74488,7 +75047,242 @@
                     "positions": [
                         "Midfielder"
                     ],
-                    "age": 18
+                    "age": [
+                        18
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Brandon Williams",
+            "seasons": [
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "DL"
+                    ],
+                    "age": [
+                        22
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub",
+                        "DR"
+                    ],
+                    "age": [
+                        22
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Timothy Fosu-Mensah",
+            "seasons": [
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        25
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Odion Ighalo",
+            "seasons": [
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        34
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sergio Romero",
+            "seasons": [
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        36
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dan James",
+            "seasons": [
+                {
+                    "season": {
+                        "start": 2019,
+                        "end": 2020
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        25
+                    ]
+                },
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub",
+                        "AML"
+                    ],
+                    "age": [
+                        25
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tom Heaton",
+            "seasons": [
+                {
+                    "season": {
+                        "start": 2022,
+                        "end": 2023
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        37
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "James Garner",
+            "seasons": [
+                {
+                    "season": {
+                        "start": 2022,
+                        "end": 2023
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        22
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dean Henderson",
+            "seasons": [
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "GK",
+                        "Sub"
+                    ],
+                    "age": [
+                        26
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Axel Tuanzebe",
+            "seasons": [
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub",
+                        "DC"
+                    ],
+                    "age": [
+                        25
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Amad Diallo",
+            "seasons": [
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub",
+                        "FW"
+                    ],
+                    "age": [
+                        20
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "William Fish",
+            "seasons": [
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        20
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lee Grant",
+            "seasons": [
+                {
+                    "season": {
+                        "start": 2020,
+                        "end": 2021
+                    },
+                    "positions": [
+                        "Sub"
+                    ],
+                    "age": [
+                        40
+                    ]
                 }
             ]
         }

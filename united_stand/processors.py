@@ -2,7 +2,7 @@ from who_scored.schemas.match_schemas import MatchData, DataTable
 from who_scored.schemas.fixture_schemas import FixtureData
 from who_scored.ws_scraper import read_yaml
 from united_stand.schemas.schemas import PlayerInfo, PlayerSeasonInfo, Season
-from typing import List
+from typing import List, Optional
 
 import os
 import yaml  # type: ignore
@@ -14,6 +14,53 @@ def process_k(raw_string: str) -> int:
         return int(1000 * float(raw_string))
     else:
         return int(raw_string)
+
+
+def refresh_player_infos(
+    data_table: DataTable,
+    player_infos: Optional[List[PlayerInfo]],
+    season: Season,
+) -> List[PlayerInfo]:
+    player_infos = player_infos or []
+
+    for player_data in data_table.player_data:
+        name = player_data.name
+        player_season_info = PlayerSeasonInfo(
+            season=season,
+            age=[int(player_data.age)],
+            positions=player_data.positions,
+        )
+
+        old_player_data = list(filter(lambda x: x.name == name, player_infos))
+
+        if len(old_player_data) > 0:
+            old_player_data = old_player_data[0]
+
+            old_season_data = list(
+                filter(
+                    lambda x: x.season.end == season.end,
+                    old_player_data.seasons,
+                )
+            )
+
+            if len(old_season_data) > 0:
+                old_season_data = old_season_data[0]
+                old_season_data.age.extend(player_season_info.age)
+                old_season_data.positions.extend(player_season_info.positions)
+
+                old_season_data.age = list(set(old_season_data.age))
+                old_season_data.positions = list(set(old_season_data.positions))
+            else:
+                old_player_data.seasons.append(player_season_info)
+
+        else:
+            new_played_data = PlayerInfo(
+                name=name, seasons=[player_season_info]
+            )
+
+            player_infos.append(new_played_data)
+
+    return player_infos
 
 
 def generate_player_info() -> None:
@@ -30,28 +77,11 @@ def generate_player_info() -> None:
             fixture_data = FixtureData.parse_obj(read_yaml(filename))
             season_data: MatchData = fixture_data.season_data
 
-            data_table: DataTable = season_data.Summary
-            for player_data in data_table.player_data:
-                name = player_data.name
-                player_season_info = PlayerSeasonInfo(
-                    season=season,
-                    age=int(player_data.age),
-                    positions=player_data.positions,
+            if season_data:
+                data_table: DataTable = season_data.Summary
+                player_infos = refresh_player_infos(
+                    data_table, player_infos, season
                 )
-
-                old_player_data = list(
-                    filter(lambda x: x.name == name, player_infos)
-                )
-
-                if len(old_player_data) > 0:
-                    old_player_data[0].seasons.append(player_season_info)
-
-                else:
-                    new_played_data = PlayerInfo(
-                        name=name, seasons=[player_season_info]
-                    )
-
-                    player_infos.append(new_played_data)
 
         break
 
