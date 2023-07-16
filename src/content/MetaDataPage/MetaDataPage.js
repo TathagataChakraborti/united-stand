@@ -1,7 +1,7 @@
 import React from 'react';
 import { LineChart, SimpleBarChart } from '@carbon/charts-react';
 import { OUTLINE, transformRouteString } from '../../components/PageHeader/Outline';
-import { tournamentNames, fixDate, getAverage, prettyScore } from '../../components/Info';
+import { data, tournamentNames, fixDate, getAverage, prettyScore } from '../../components/Info';
 import {
     Grid,
     Column,
@@ -19,7 +19,6 @@ import {
 
 import '@carbon/charts-react/styles.css';
 
-const data = require('../../cached_data/data.json');
 const children = OUTLINE.find(item => item.name === 'MetaData').children;
 const tournaments = Array.from(tournamentNames(data));
 const engagement_metrics = ['Views', 'Likes', 'Shares'];
@@ -286,13 +285,13 @@ class MetaDataPage extends React.Component {
                                         title={
                                             <>
                                                 OLDER DATA WANTED{' '}
-                                                <span role="img" aria-label="cry face">
+                                                <span role="img" aria-label="red alert">
                                                     &#128680;
                                                 </span>{' '}
-                                                <span role="img" aria-label="cry face">
+                                                <span role="img" aria-label="red alert">
                                                     &#128680;
                                                 </span>{' '}
-                                                <span role="img" aria-label="cry face">
+                                                <span role="img" aria-label="red alert">
                                                     &#128680;
                                                 </span>
                                             </>

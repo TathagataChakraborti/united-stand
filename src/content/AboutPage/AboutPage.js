@@ -1,9 +1,8 @@
 import React from 'react';
 import GitHubButton from 'react-github-btn';
 import { Grid, Column, Button, Link } from '@carbon/react';
-import { tournamentNames, getAllRatings, getAllFixtures } from '../../components/Info';
+import { data, tournamentNames, getAllRatings, getAllFixtures } from '../../components/Info';
 
-const data = require('../../cached_data/data.json');
 const allDates = data => {
     const all_votes = getAllFixtures(data);
     return all_votes

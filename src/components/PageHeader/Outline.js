@@ -18,11 +18,11 @@ const OUTLINE = [
     },
     {
         name: 'The Team',
-        children: ['Raw Player Ratings', 'Fan Favorites', 'The A Word'],
+        children: ['Raw Player Ratings', 'The Dependables', 'TUS Fan Favorites'],
     },
     {
         name: 'The Dugout',
-        children: ['Raw Manager Ratings', 'Contrasting Fortunes', 'Dead Man Walking'],
+        children: ['Raw Manager Ratings', 'Dead Man Walking'],
     },
     {
         name: 'Ratings Head2Head',

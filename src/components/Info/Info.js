@@ -1,3 +1,5 @@
+const data = require('../../cached_data/data.json');
+
 function generateImageUrl(imageUrl) {
     return `url(${process.env.PUBLIC_URL}/images/${imageUrl}.png)`;
 }
@@ -5,6 +7,14 @@ function generateImageUrl(imageUrl) {
 function getAverage(array) {
     const sum = array.reduce((total, item) => total + item, 0);
     return sum / array.length;
+}
+
+function getStandardDeviation(array) {
+    if (!array || array.length === 0) return 0;
+
+    const n = array.length;
+    const mean = getAverage(array);
+    return Math.sqrt(array.map(x => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / n);
 }
 
 function prettyScore(score) {
@@ -34,4 +44,4 @@ function tournamentNames(data) {
     return new Set(all_fixtures.map(item => item.tournament));
 }
 
-export { generateImageUrl, getAverage, prettyScore, fixDate, getAllRatings, getAllFixtures, tournamentNames };
+export { data, generateImageUrl, getAverage, getStandardDeviation, prettyScore, fixDate, getAllRatings, getAllFixtures, tournamentNames };
