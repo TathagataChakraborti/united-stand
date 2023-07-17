@@ -15,8 +15,10 @@ class RawManagerRatings extends React.Component {
 
     getManagerData = e => {
         const manager_data = getManagerData();
-        return Object.keys(manager_data).map(item => manager_data[item]).reduce((bag, item) => bag.concat(item), []);
-    }
+        return Object.keys(manager_data)
+            .map(item => manager_data[item])
+            .reduce((bag, item) => bag.concat(item), []);
+    };
 
     getManagerAggregateData = e => {
         const manager_data = getManagerData();
@@ -24,12 +26,11 @@ class RawManagerRatings extends React.Component {
             return {
                 group: item,
                 rating: getAverage(manager_data[item].map(item => item.rating)),
-            }
+            };
         });
 
-        return sortHelper({data: temp, key: 'rating', reverse: false})
-    }
-
+        return sortHelper({ data: temp, key: 'rating', reverse: false });
+    };
 
     render() {
         return (
@@ -51,25 +52,27 @@ class RawManagerRatings extends React.Component {
                         <div className="section-start">
                             <h3 id={transformRouteString(children[0])}>{children[0]}</h3>
                             <hr className="red-line" />
-                            <AreaChart data={this.getManagerData()} options={{
-    axes: {
-        bottom: {
-            mapsTo: 'date',
-            scaleType: 'time',
-        },
-        left: {
-            mapsTo: 'rating',
-            scaleType: 'linear',
-        },
-    },
-    curve: 'curveNatural',
-    height: '600px',
-}} />
+                            <AreaChart
+                                data={this.getManagerData()}
+                                options={{
+                                    axes: {
+                                        bottom: {
+                                            mapsTo: 'date',
+                                            scaleType: 'time',
+                                        },
+                                        left: {
+                                            mapsTo: 'rating',
+                                            scaleType: 'linear',
+                                        },
+                                    },
+                                    curve: 'curveNatural',
+                                    height: '600px',
+                                }}
+                            />
                         </div>
                         <div className="section-start">
-                               <Grid>
-                               <Column sm={4} md={8} lg={8}>
-
+                            <Grid>
+                                <Column sm={4} md={8} lg={8}>
                                     <SimpleBarChart
                                         data={this.getManagerAggregateData()}
                                         options={{
@@ -87,26 +90,26 @@ class RawManagerRatings extends React.Component {
                                         }}
                                     />
                                 </Column>
-                               <Column sm={4} md={8} lg={8}>
-                                <h3>A New Hope</h3>
-                                <hr className="red-line" />
-                               <p>
-                                    Erik Ten Hag comfortably leads the way among his fellow managerial appointments
-                                    of late in terms of their average ratings (since recoridng of TUS ratings began). Despite reaching low points at the start of his tenure, and then again
-                                    against Liverpool in the latter part of the season, most of Erik's reign at MUFC has
-                                    been marked with optimism, reaching its peaks with a rally against
-                                    Liverpool after the disappointing start to the season, as well as a glorious at home victory
-                                    againt European giants Barcelona, followed by the Carabao Cup victory.
-                                    The latter is MUFC's first and only trophy point on this curve, and is appropriately
-                                    marked by its highest point.
-                                    <br/>
-                                    <br/>
-                                    Ole Gunnar's tenure is, however, marked with much more turbulance and eventual decay in ratings.
-                                    In the <Link className="text-red no-decoration-enforce" href="/the-dugout-dead-man-walking">next section</Link>, we will explore in a bit more detail how these trend lines compare to the
-                                    ratings of the team itself.
-                               </p>
+                                <Column sm={4} md={8} lg={8}>
+                                    <h3>A New Hope</h3>
+                                    <hr className="red-line" />
+                                    <p>
+                                        Erik Ten Hag comfortably leads the way among his fellow managerial appointments of late in terms of their average
+                                        ratings (since recoridng of TUS ratings began). Despite reaching low points at the start of his tenure, and then again
+                                        against Liverpool in the latter part of the season, most of Erik's reign at MUFC has been marked with optimism, reaching
+                                        its peaks with a rally against Liverpool after the disappointing start to the season, as well as a glorious at home
+                                        victory againt European giants Barcelona, followed by the Carabao Cup victory. The latter is MUFC's first and only
+                                        trophy point on this curve, and is appropriately marked by its highest point.
+                                        <br />
+                                        <br />
+                                        Ole Gunnar's tenure is, however, marked with much more turbulance and eventual decay in ratings. In the{' '}
+                                        <Link className="text-red no-decoration-enforce" href="/the-dugout-dead-man-walking">
+                                            next section
+                                        </Link>
+                                        , we will explore in a bit more detail how these trend lines compare to the ratings of the team itself.
+                                    </p>
                                 </Column>
-                               </Grid>
+                            </Grid>
                         </div>
                     </div>
                 </Column>

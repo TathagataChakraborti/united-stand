@@ -2,7 +2,7 @@ import React from 'react';
 import GitHubButton from 'react-github-btn';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import { OUTLINE, getHomeName, isHome, createRoute } from './Outline';
+import { OUTLINE, getHomeName, isHome, transformRouteString, createRoute } from './Outline';
 import {
     Theme,
     Header,
@@ -73,7 +73,7 @@ class PageHeader extends React.Component {
                                         <SideNavLink
                                             key={item.name}
                                             as={Link}
-                                            to={'/' + item.name}
+                                            to={'/' + transformRouteString(item.name)}
                                             children={item.name}
                                             onClick={this.onClickTab.bind(this, item.name)}
                                             isActive={this.state[item.name]}
