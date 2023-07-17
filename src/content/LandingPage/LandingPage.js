@@ -37,7 +37,7 @@ class LandingPage extends React.Component {
                             <h1 className="title">
                                 Some fun with <span style={{ color: 'red' }}>United</span> Stand Data
                             </h1>
-                            <Button href="/about" className="no-decoration-enforce lets-go" size="lg" kind="danger">
+                            <Button href='/#/about' className="no-decoration-enforce lets-go" size="lg" kind="danger">
                                 Let's go!
                             </Button>
                         </div>

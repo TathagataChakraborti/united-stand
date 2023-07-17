@@ -294,6 +294,9 @@ class MetaData extends React.Component {
                                             </>
                                         }
                                     />
+
+                                    <br/>
+                                    <br/>
                                 </Column>
                                 <Column sm={4} md={6} lg={8}>
                                     <StructuredListWrapper ariaLabel="Structured list">

@@ -24,7 +24,7 @@ class PageHeader extends React.Component {
     constructor(props) {
         super();
 
-        const local_url_split = window.location.href.split('/');
+        const local_url_split = window.location.href.split('/#/');
         const endpoint = local_url_split[local_url_split.length - 1];
         const label = endpoint === '' ? getHomeName() : endpoint;
 

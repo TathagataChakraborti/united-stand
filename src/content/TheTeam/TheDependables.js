@@ -137,7 +137,7 @@ class TeamPage extends React.Component {
                                 <span role="img" aria-label="cry face">
                                     &#128073;
                                 </span>{' '}
-                                <Link href="/ratings-head2head#whoscored" className="no-decoration-enforce text-red">
+                                <Link href="/#/ratings-head2head-whoscored" className="no-decoration-enforce text-red">
                                     later section
                                 </Link>{' '}
                                 as a head to head with data from{' '}
@@ -166,6 +166,8 @@ class TeamPage extends React.Component {
                                             height: '1000px',
                                         }}
                                     />
+                                    <br/>
+                                    <br/>
                                 </Column>
                                 <Column sm={4} md={6} lg={8}>
                                     <SimpleBarChart

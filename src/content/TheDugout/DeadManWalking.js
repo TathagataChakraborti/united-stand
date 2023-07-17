@@ -92,6 +92,8 @@ class DeadManWalking extends React.Component {
                                         the end, but makes a late rally. This is consistent with Ralf's no holds barred pressers towards the end of his reign,
                                         as the fans increasingly turned their frustrations to the players who had, for the most part, downed tools and refused
                                         to put in a shift.
+                                    <br/>
+                                    <br/>
                                     </p>
                                 </Column>
                                 <Column

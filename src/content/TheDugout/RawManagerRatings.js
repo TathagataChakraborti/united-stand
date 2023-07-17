@@ -89,6 +89,8 @@ class RawManagerRatings extends React.Component {
                                             height: '400px',
                                         }}
                                     />
+                                    <br/>
+                                    <br/>
                                 </Column>
                                 <Column sm={4} md={8} lg={8}>
                                     <h3>A New Hope</h3>
@@ -103,7 +105,7 @@ class RawManagerRatings extends React.Component {
                                         <br />
                                         <br />
                                         Ole Gunnar's tenure is, however, marked with much more turbulance and eventual decay in ratings. In the{' '}
-                                        <Link className="text-red no-decoration-enforce" href="/the-dugout-dead-man-walking">
+                                        <Link className="text-red no-decoration-enforce" href="/#/the-dugout-dead-man-walking">
                                             next section
                                         </Link>
                                         , we will explore in a bit more detail how these trend lines compare to the ratings of the team itself.
