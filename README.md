@@ -1,6 +1,6 @@
 ## The United Stand Data
 
-![](public/images/cover.png)
+![](https://user-images.githubusercontent.com/4764242/255219641-260d3fe1-f1ab-4b56-b301-c5cf660d59b3.png)
 
 ![](https://img.shields.io/badge/The%20United%20Stand-red)
 ![](https://img.shields.io/badge/WhoScored-green)
